@@ -17,7 +17,12 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.parcel-cache
+
+# python
+.vercel
+*.log
+*.pyc
+__pycache__
 
 npm-debug.log*
 yarn-debug.log*

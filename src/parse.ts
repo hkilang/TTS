@@ -43,3 +43,46 @@ function segment(text: string) {
 export default function parse(language: Language, text: string): [string, PronNoteArray][] {
 	return resources[language].get(segment(text)).map(([char, pronToNoteMap]) => [char, Array.from(pronToNoteMap)]);
 }
+
+const normalizedPunctuations: Record<string, string | undefined> = {
+	"!": "!",
+	'"': "'",
+	"$": ".",
+	"'": "'",
+	"(": "'",
+	")": "'",
+	",": ",",
+	"-": "-",
+	".": ".",
+	"...": "…",
+	"......": "…",
+	":": ",",
+	";": ",",
+	"?": "?",
+	"[": "'",
+	"]": "'",
+	"~": "-",
+	"·": ",",
+	"—": "-",
+	"——": "-",
+	"‘": "'",
+	"’": "'",
+	"“": "'",
+	"”": "'",
+	"…": "…",
+	"……": "…",
+	"⋯": "…",
+	"⋯⋯": "…",
+	"、": ",",
+	"。": ".",
+	"《": "'",
+	"》": "'",
+	"「": "'",
+	"」": "'",
+	"【": "'",
+	"】": "'",
+};
+
+export function normalizePauses(char: string) {
+	return normalizedPunctuations[char.normalize("NFKC")] || ".";
+}

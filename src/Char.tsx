@@ -15,7 +15,7 @@ export default function Char({
 
 	const resolved = selected !== -1;
 	const currIndex = +resolved && selected;
-	const [pron, note] = pronNoteArray[currIndex] || ["-", ""];
+	const [pron, note] = pronNoteArray[currIndex] || ["", ""];
 
 	return pronNoteArray.length > 1
 		? <div className="dropdown dropdown-hover">

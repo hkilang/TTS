@@ -1,0 +1,9 @@
+{
+	"version": 2,
+	"builds": [
+		{ "src": "api/inference.py", "use": "@vercel/python" }
+	],
+	"routes": [
+		{ "src": "/(waitau|hakka)/[^/]+/?", "methods": ["GET"], "dest": "/api/inference.py" }
+	]
+}

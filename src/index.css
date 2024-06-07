@@ -39,7 +39,7 @@
 		@apply link link-primary no-underline;
 	}
 	ruby {
-		@apply inline-flex flex-col-reverse items-center gap-0.5 mr-2.5 sm:mr-4;
+		@apply inline-flex flex-col-reverse items-center gap-0.5 mr-2.5 sm:mr-4 align-bottom;
 	}
 }
 

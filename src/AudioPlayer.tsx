@@ -1,70 +1,59 @@
 import { useEffect, useRef, useState } from "react";
 
-import getAudio from "./audio";
 import { NO_AUTO_FILL } from "./consts";
 
 import type { Language } from "./types";
 import type { ChangeEvent } from "react";
 
 export default function AudioPlayer({ syllables, language }: { syllables: string[]; language: Language }) {
-	const [context] = useState(() => new AudioContext());
-	const [buffer, setBuffer] = useState<AudioBuffer | undefined>();
-	const [shouldUpdate, setshouldUpdate] = useState<boolean | null>(true);
-	const [sourceNode, setSourceNode] = useState<AudioBufferSourceNode | undefined>();
+	const [isReady, setIsReady] = useState(false);
 	const [isPlaying, setIsPlaying] = useState<boolean | null>(false);
 	const [startTime, setStartTime] = useState(0);
 	const [progress, setProgress] = useState(0);
 	const animationId = useRef(0);
+	const audio = useRef(new Audio());
 
-	useEffect(() => setshouldUpdate(true), [syllables]);
 	useEffect(() => {
-		if (!isPlaying || !buffer) return;
+		async function fetchAudio() {
+			const response = await fetch(`./${language}/${encodeURIComponent(syllables.join("+"))}`);
+			if (response.ok) {
+				audio.current.src = URL.createObjectURL(await response.blob());
+				setIsReady(true);
+			}
+		}
+		pauseAudio();
+		setIsReady(false);
+		void fetchAudio();
+	}, [syllables, language]);
+
+	useEffect(() => {
 		function updateSeekBar() {
-			if (isPlaying && buffer) {
-				const _progress = (context.currentTime - startTime) / buffer.duration;
+			if (isReady && isPlaying) {
+				const _progress = (audio.current.currentTime - startTime) / audio.current.duration;
 				setProgress(_progress);
 				if (_progress >= 1) stopAudio();
 			}
 			animationId.current = requestAnimationFrame(updateSeekBar);
 		}
-		updateSeekBar();
+		if (isReady && isPlaying) updateSeekBar();
 		return () => cancelAnimationFrame(animationId.current);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [isPlaying, buffer]);
+	}, [isReady, isPlaying]);
 
 	async function playAudio() {
-		if (isPlaying || shouldUpdate === null) return;
-		let _buffer = buffer;
-		if (!_buffer || shouldUpdate) {
-			setshouldUpdate(null);
-			const context = new AudioContext();
-			_buffer = await getAudio(context, syllables, language);
-			context.addEventListener("statechange", pauseAudio);
-			setBuffer(_buffer);
-			setshouldUpdate(false);
-		}
-		const sourceNode = context.createBufferSource();
-		sourceNode.buffer = _buffer;
-		sourceNode.playbackRate.value = 1.15;
-
-		const _progress = progress * _buffer.duration;
-		sourceNode.connect(context.destination);
-		sourceNode.start(0, _progress);
-		setSourceNode(sourceNode);
+		if (isPlaying || !isReady) return;
+		await audio.current.play();
 		setIsPlaying(true);
-		setStartTime(context.currentTime - _progress);
+		setStartTime(audio.current.currentTime - progress * audio.current.duration);
 	}
 	function pauseAudio() {
 		setIsPlaying(false);
-		if (!sourceNode) return;
-		sourceNode.stop();
-		sourceNode.disconnect();
-		setSourceNode(undefined);
+		audio.current.pause();
 	}
 	function stopAudio() {
 		pauseAudio();
 		setProgress(0);
-		setStartTime(context.currentTime);
+		setStartTime(audio.current.currentTime);
 	}
 	function seekBarDown() {
 		if (!isPlaying) return;
@@ -74,12 +63,12 @@ export default function AudioPlayer({ syllables, language }: { syllables: string
 	function seekBarMove(event: ChangeEvent<HTMLInputElement>) {
 		const _progress = +event.target.value;
 		setProgress(_progress);
-		if (buffer) setStartTime(context.currentTime - _progress * buffer.duration);
+		if (isReady) setStartTime(audio.current.currentTime - _progress * audio.current.duration);
 	}
 	function seekBarUp() {
 		if (isPlaying === null) void playAudio();
 	}
-	return <div className="flex items-center mt-2">
+	return <div className="flex items-center mt-2 relative">
 		<button
 			type="button"
 			className="btn btn-warning btn-square text-xl font-symbol"
@@ -108,5 +97,8 @@ export default function AudioPlayer({ syllables, language }: { syllables: string
 			aria-label="停止">
 			⏹︎
 		</button>
+		{!isReady && <div className="absolute inset-0 flex items-center justify-center bg-base-content bg-opacity-10 rounded-lg">
+			<span className="loading loading-spinner loading-lg" />
+		</div>}
 	</div>;
 }
