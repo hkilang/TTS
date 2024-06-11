@@ -14,15 +14,15 @@ waitau = None
 hakka = None
 device = "cpu"
 
-class handler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        language, text = self.path.strip("/").split("/")
-        buffer = BytesIO()
-        sf.write(buffer, generate_audio(language, unquote_plus(text)), 44100, format="WAV", subtype="PCM_16")
-        self.send_response(200)
-        self.send_header("Content-type", "audio/wav")
-        self.end_headers()
-        self.wfile.write(buffer.getvalue())
+def application(environ, start_response):
+    language, text = environ.get("PATH_INFO").strip("/").split("/")
+    buffer = BytesIO()
+    sf.write(buffer, generate_audio(language, unquote_plus(text)), 44100, format="WAV", subtype="PCM_16")
+    value = buffer.getvalue()
+    status = "200 OK"
+    response_headers = [("Content-Type", "audio/wav"), ("Content-Length", len(value))]
+    start_response(status, response_headers)
+    yield value
 
 def generate_audio(language, text):
     global waitau, hakka
