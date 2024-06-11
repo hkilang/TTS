@@ -20,7 +20,7 @@ def application(environ, start_response):
     sf.write(buffer, generate_audio(language, unquote_plus(text)), 44100, format="WAV", subtype="PCM_16")
     value = buffer.getvalue()
     status = "200 OK"
-    response_headers = [("Content-Type", "audio/wav"), ("Content-Length", len(value))]
+    response_headers = [("Content-Type", "audio/wav"), ("Content-Length", str(len(value)))]
     start_response(status, response_headers)
     yield value
 
