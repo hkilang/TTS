@@ -92,11 +92,10 @@ class HParams:
         return self.__dict__.__repr__()
 
 
-def load_model(model_path, config_path):
+def load_model(model_path, config_path, n_vocab):
     hps = get_hparams_from_file(config_path)
     net = SynthesizerTrn(
-        # len(symbols),
-        108,
+        n_vocab,
         hps.data.filter_length // 2 + 1,
         hps.train.segment_size // hps.data.hop_length,
         n_speakers=hps.data.n_speakers,

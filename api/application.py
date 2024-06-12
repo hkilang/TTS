@@ -6,7 +6,7 @@ import torch
 import soundfile as sf
 
 from commons import intersperse
-from symbols import pad, waitau_symbol_to_id, hakka_symbol_to_id
+from symbols import pad, waitau_symbols, hakka_symbols, waitau_symbol_to_id, hakka_symbol_to_id
 from utils import load_model
 
 class ToneError(Exception): pass
@@ -51,9 +51,9 @@ device = "cpu"
 def generate_audio(language, text):
     global waitau, hakka
     if language == "waitau":
-        if waitau is None: waitau = load_model("data/waitau.pth", "data/config.json")
+        if waitau is None: waitau = load_model("data/waitau.pth", "data/config.json", len(waitau_symbols))
     else:
-        if hakka is None: hakka = load_model("data/hakka.pth", "data/config.json")
+        if hakka is None: hakka = load_model("data/hakka.pth", "data/config.json", len(hakka_symbols))
 
     phones, tones, word2ph = [pad], [0], [1]
     for syllable in text.split():
