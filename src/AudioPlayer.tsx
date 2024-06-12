@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { NO_AUTO_FILL } from "./consts";
-import { useTTS } from "./hooks";
 
 import type { Language } from "./types";
 import type { SyntheticEvent } from "react";
@@ -28,13 +27,12 @@ export default function AudioPlayer({ syllables, language }: { syllables: string
 		setProgress(0);
 	}, [pauseAudio]);
 
-	const url = useTTS(language, syllables.join(" "));
-
 	useEffect(() => {
 		const _isPlaying = isPlaying;
-		async function setAudio() {
-			if (url) {
-				audio.current.src = url;
+		async function fetchAudio() {
+			const response = await fetch(`https://Chaak2.pythonanywhere.com/TTS/${language}/${encodeURIComponent(syllables.join("+"))}`);
+			if (response.ok) {
+				audio.current.src = URL.createObjectURL(await response.blob());
 				await audio.current.play();
 				audio.current.pause();
 				audio.current.currentTime = progress * audio.current.duration;
@@ -42,14 +40,12 @@ export default function AudioPlayer({ syllables, language }: { syllables: string
 				if (_isPlaying) await audio.current.play();
 				setIsPlaying(_isPlaying);
 			}
-			else {
-				audio.current.pause();
-				setIsReady(false);
-			}
 		}
-		void setAudio();
+		audio.current.pause();
+		setIsReady(false);
+		void fetchAudio();
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [url, pauseAudio]);
+	}, [language, syllables, pauseAudio]);
 
 	useEffect(() => {
 		if (!isReady || !isPlaying) return;
