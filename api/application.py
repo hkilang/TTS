@@ -1,6 +1,6 @@
 import gc
+import json
 from io import BytesIO
-from urllib.parse import unquote_plus
 
 import torch
 import soundfile as sf
@@ -9,19 +9,44 @@ from commons import intersperse
 from symbols import pad, waitau_symbol_to_id, hakka_symbol_to_id
 from utils import load_model
 
+class ToneError(Exception): pass
+class SymbolError(Exception): pass
+
+def application(environ, start_response):
+    code, content = app(environ.get("PATH_INFO"))
+    if code == 200:
+        type = "audio/mpeg"
+    else:
+        type = "application/json"
+        content = json.dumps(content).encode()
+    start_response(str(code), [("Content-Type", type), ("Content-Length", str(len(content)))])
+    yield content
+
+def app(path):
+    try:
+        function, language, text = path.encode("latin_1").decode().lower().strip("/").split("/")
+        if function != "tts" or language not in {"waitau", "hakka"}: raise ValueError("Invalid URI segment")
+    except UnicodeError as err:
+        codec, content, start, end, reason = err.args
+        content = content[start:end]
+        if isinstance(content, bytes): content = content.decode("latin_1")
+        return (500, {"error": "Error while decoding URI: invalid characters", "message": content})
+    except ValueError:
+        return (404, {"error": "Page not found"})
+    try:
+        buffer = BytesIO()
+        sf.write(buffer, generate_audio(language, text.replace("+", " ")), 44100, format="MP3")
+        return (200, buffer.getvalue())
+    except ToneError as err:
+        return (500, {"error": "Invalid syllable", "message": str(err)})
+    except SymbolError as err:
+        return (500, {"error": "Unrecognized symbol", "message": str(err.__cause__)})
+    except Exception as err:
+        return (500, {"error": "Unexpected error", "message": type(err).__name__ + ": " + str(err)})
+
 waitau = None
 hakka = None
 device = "cpu"
-
-def application(environ, start_response):
-    language, text = environ.get("PATH_INFO").strip("/").split("/")
-    buffer = BytesIO()
-    sf.write(buffer, generate_audio(language, unquote_plus(text)), 44100, format="WAV", subtype="PCM_16")
-    value = buffer.getvalue()
-    status = "200 OK"
-    response_headers = [("Content-Type", "audio/wav"), ("Content-Length", str(len(value)))]
-    start_response(status, response_headers)
-    yield value
 
 def generate_audio(language, text):
     global waitau, hakka
@@ -37,7 +62,10 @@ def generate_audio(language, text):
             tones.append(0)
             word2ph.append(1)
             continue
-        tone = int(syllable[-1])
+        try:
+            tone = int(syllable[-1], base=7)
+        except ValueError as err:
+            raise ToneError(f"'{syllable}' does not end with tone 0~6") from err
         it = (i for i, c in enumerate(syllable) if c in "aeiouäöüæ")
         index = next(it, 0)
         initial = syllable[:index] or syllable[index]
@@ -61,7 +89,11 @@ def generate_audio(language, text):
     phones.append(pad)
     tones.append(0)
     word2ph.append(1)
-    phones = [(waitau_symbol_to_id if language == "waitau" else hakka_symbol_to_id)[symbol] for symbol in phones]
+    symbol_to_id = waitau_symbol_to_id if language == "waitau" else hakka_symbol_to_id
+    try:
+        phones = [symbol_to_id[symbol] for symbol in phones]
+    except KeyError as err:
+        raise SymbolError() from err
     lang_ids = [0] * len(phones)
 
     phones = intersperse(phones, 0)
