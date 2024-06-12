@@ -1,14 +1,8 @@
 import os
-import glob
-import argparse
-import logging
 import json
 import torch
-import re
 
 from models import SynthesizerTrn
-
-logger = logging.getLogger(__name__)
 
 
 def load_checkpoint(checkpoint_path, model, optimizer=None, skip_optimizer=False):
@@ -46,15 +40,6 @@ def load_checkpoint(checkpoint_path, model, optimizer=None, skip_optimizer=False
                 v.shape,
             )
         except:
-            # For upgrading from the old version
-            if "ja_bert_proj" in k:
-                v = torch.zeros_like(v)
-                logger.warn(
-                    f"Seems you are using the old version of the model, the {k} is automatically set to zero for backward compatibility"
-                )
-            else:
-                logger.error(f"{k} is not in the checkpoint")
-
             new_state_dict[k] = v
 
     if hasattr(model, "module"):
@@ -62,158 +47,7 @@ def load_checkpoint(checkpoint_path, model, optimizer=None, skip_optimizer=False
     else:
         model.load_state_dict(new_state_dict, strict=False)
 
-    logger.info(
-        "Loaded checkpoint '{}' (iteration {})".format(
-            checkpoint_path, iteration)
-    )
-
     return model, optimizer, learning_rate, iteration
-
-
-def save_checkpoint(model, optimizer, learning_rate, iteration, checkpoint_path):
-    logger.info(
-        "Saving model and optimizer state at iteration {} to {}".format(
-            iteration, checkpoint_path
-        )
-    )
-    if hasattr(model, "module"):
-        state_dict = model.module.state_dict()
-    else:
-        state_dict = model.state_dict()
-    torch.save(
-        {
-            "model": state_dict,
-            "iteration": iteration,
-            "optimizer": optimizer.state_dict(),
-            "learning_rate": learning_rate,
-        },
-        checkpoint_path,
-    )
-
-
-def summarize(
-    writer,
-    global_step,
-    scalars={},
-    histograms={},
-    images={},
-    audios={},
-    audio_sampling_rate=22050,
-):
-    for k, v in scalars.items():
-        writer.add_scalar(k, v, global_step)
-    for k, v in histograms.items():
-        writer.add_histogram(k, v, global_step)
-    for k, v in images.items():
-        writer.add_image(k, v, global_step, dataformats="HWC")
-    for k, v in audios.items():
-        writer.add_audio(k, v, global_step, audio_sampling_rate)
-
-
-def latest_checkpoint_path(dir_path, regex="G_*.pth"):
-    f_list = glob.glob(os.path.join(dir_path, regex))
-    f_list.sort(key=lambda f: int("".join(filter(str.isdigit, f))))
-    x = f_list[-1]
-    return x
-
-
-def load_filepaths_and_text(filename, split="|"):
-    with open(filename, encoding="utf-8") as f:
-        filepaths_and_text = [line.strip().split(split) for line in f]
-    return filepaths_and_text
-
-
-def get_hparams(init=True):
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-c",
-        "--config",
-        type=str,
-        default="./configs/base.json",
-        help="JSON file for configuration",
-    )
-    parser.add_argument("-m", "--model", type=str,
-                        required=True, help="Model name")
-
-    args = parser.parse_args()
-    model_dir = os.path.join("./logs", args.model)
-
-    if not os.path.exists(model_dir):
-        os.makedirs(model_dir)
-
-    config_path = args.config
-    config_save_path = os.path.join(model_dir, "config.json")
-    if init:
-        with open(config_path, "r", encoding="utf-8") as f:
-            data = f.read()
-        with open(config_save_path, "w", encoding="utf-8") as f:
-            f.write(data)
-    else:
-        with open(config_save_path, "r", vencoding="utf-8") as f:
-            data = f.read()
-    config = json.loads(data)
-    hparams = HParams(**config)
-    hparams.model_dir = model_dir
-    return hparams
-
-
-def clean_checkpoints(path_to_models="logs/44k/", n_ckpts_to_keep=2, sort_by_time=True):
-    """Freeing up space by deleting saved ckpts
-
-    Arguments:
-    path_to_models    --  Path to the model directory
-    n_ckpts_to_keep   --  Number of ckpts to keep, excluding G_0.pth and D_0.pth
-    sort_by_time      --  True -> chronologically delete ckpts
-                          False -> lexicographically delete ckpts
-    """
-    ckpts_files = [
-        f
-        for f in os.listdir(path_to_models)
-        if os.path.isfile(os.path.join(path_to_models, f))
-    ]
-
-    def name_key(_f):
-        return int(re.compile("._(\\d+)\\.pth").match(_f).group(1))
-
-    def time_key(_f):
-        return os.path.getmtime(os.path.join(path_to_models, _f))
-
-    sort_key = time_key if sort_by_time else name_key
-
-    def x_sorted(_x):
-        return sorted(
-            [f for f in ckpts_files if f.startswith(
-                _x) and not f.endswith("_0.pth")],
-            key=sort_key,
-        )
-
-    to_del = [
-        os.path.join(path_to_models, fn)
-        for fn in (
-            x_sorted("G")[:-n_ckpts_to_keep]
-            + x_sorted("D")[:-n_ckpts_to_keep]
-            + x_sorted("WD")[:-n_ckpts_to_keep]
-        )
-    ]
-
-    def del_info(fn):
-        return logger.info(f".. Free up space by deleting ckpt {fn}")
-
-    def del_routine(x):
-        return [os.remove(x), del_info(x)]
-
-    [del_routine(fn) for fn in to_del]
-
-
-def get_hparams_from_dir(model_dir):
-    config_save_path = os.path.join(model_dir, "config.json")
-    with open(config_save_path, "r", encoding="utf-8") as f:
-        data = f.read()
-    config = json.loads(data)
-
-    hparams = HParams(**config)
-    hparams.model_dir = model_dir
-    return hparams
 
 
 def get_hparams_from_file(config_path):
@@ -224,22 +58,6 @@ def get_hparams_from_file(config_path):
 
     hparams = HParams(**config)
     return hparams
-
-
-def get_logger(model_dir, filename="train.log"):
-    global logger
-    logger = logging.getLogger(os.path.basename(model_dir))
-    logger.setLevel(logging.DEBUG)
-
-    formatter = logging.Formatter(
-        "%(asctime)s\t%(name)s\t%(levelname)s\t%(message)s")
-    if not os.path.exists(model_dir):
-        os.makedirs(model_dir)
-    h = logging.FileHandler(os.path.join(model_dir, filename))
-    h.setLevel(logging.DEBUG)
-    h.setFormatter(formatter)
-    logger.addHandler(h)
-    return logger
 
 
 class HParams:
@@ -288,39 +106,3 @@ def load_model(model_path, config_path):
     _ = load_checkpoint(model_path, net, None, skip_optimizer=True)
     return net
 
-
-def mix_model(
-    network1, network2, output_path, voice_ratio=(0.5, 0.5), tone_ratio=(0.5, 0.5)
-):
-    if hasattr(network1, "module"):
-        state_dict1 = network1.module.state_dict()
-        state_dict2 = network2.module.state_dict()
-    else:
-        state_dict1 = network1.state_dict()
-        state_dict2 = network2.state_dict()
-    for k in state_dict1.keys():
-        if k not in state_dict2.keys():
-            continue
-        if "enc_p" in k:
-            state_dict1[k] = (
-                state_dict1[k].clone() * tone_ratio[0]
-                + state_dict2[k].clone() * tone_ratio[1]
-            )
-        else:
-            state_dict1[k] = (
-                state_dict1[k].clone() * voice_ratio[0]
-                + state_dict2[k].clone() * voice_ratio[1]
-            )
-    for k in state_dict2.keys():
-        if k not in state_dict1.keys():
-            state_dict1[k] = state_dict2[k].clone()
-    torch.save(
-        {"model": state_dict1, "iteration": 0,
-            "optimizer": None, "learning_rate": 0},
-        output_path,
-    )
-
-
-def get_steps(model_path):
-    matches = re.findall(r"\d+", model_path)
-    return matches[-1] if matches else None

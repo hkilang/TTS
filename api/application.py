@@ -1,5 +1,4 @@
 import gc
-from http.server import BaseHTTPRequestHandler
 from io import BytesIO
 from urllib.parse import unquote_plus
 
@@ -7,7 +6,7 @@ import torch
 import soundfile as sf
 
 from commons import intersperse
-from text.symbols import pad, waitau_symbol_to_id, hakka_symbol_to_id
+from symbols import pad, waitau_symbol_to_id, hakka_symbol_to_id
 from utils import load_model
 
 waitau = None
