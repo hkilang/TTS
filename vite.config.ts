@@ -1,6 +1,8 @@
-import dsv from "@rollup/plugin-dsv";
+import { extname } from "path";
+
 import react from "@vitejs/plugin-react-swc";
 import autoprefixer from "autoprefixer";
+import { csvParse, tsvParse } from "d3-dsv";
 import postCSSNesting from "postcss-nesting";
 import tailwindcss from "tailwindcss";
 import tailwindcssNesting from "tailwindcss/nesting";
@@ -9,11 +11,22 @@ import { ViteMinifyPlugin } from "vite-plugin-minify";
 
 import type { UserConfig } from "vite";
 
+const dsvParsers: Record<string, ((input: string) => unknown) | undefined> = { ".csv": csvParse, ".tsv": tsvParse };
+
 export default {
 	base: "./",
 	plugins: [
 		react(),
-		dsv(),
+		{
+			name: "dsv-transform",
+			transform(code, id) {
+				const parser = dsvParsers[extname(id)];
+				return parser && {
+					code: `export default JSON.parse(${JSON.stringify(JSON.stringify(parser(code)))});`,
+					map: { mappings: "" },
+				};
+			},
+		},
 		ViteMinifyPlugin(),
 		ViteImageOptimizer(),
 	],

@@ -19,14 +19,16 @@ export default function Char({
 
 	return pronNoteArray.length > 1
 		? <div className="dropdown dropdown-hover">
-			<label className={resolved ? "text-success" : "text-error"}>
+			{/* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */}
+			<label className={resolved ? "text-success" : "text-error"} tabIndex={0}>
 				<ruby>
 					{char}
 					<rt>{pron}</rt>
 					<span className="-order-1 text-xs sm:text-sm text-slate-500">{note || "\xa0"}</span>
 				</ruby>
 			</label>
-			<ul className="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box [display:table]">
+			{/* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */}
+			<ul className="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box [display:table]" tabIndex={0}>
 				{pronNoteArray.map(([pron, note], i) => (
 					<button
 						key={i}

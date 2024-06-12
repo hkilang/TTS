@@ -47,13 +47,21 @@
 	.dropdown-content:not(:hover):focus-within {
 		@apply invisible opacity-0;
 	}
-	.modal :where(p, ul, ol) {
-		@apply text-lg mx-6 my-3;
-		&:first-child,
-		hr + &,
-		& + hr {
-			/* must be transformed by transpiler conforming the web standard (postcss-nesting, not postcss-nested) for this to work */
-			@apply mt-[1.125rem];
+	.modal {
+		display: none;
+		transition-property: transform, opacity, visibility, display;
+		transition-behavior: allow-discrete;
+		&[open] {
+			display: grid;
+		}
+		:where(p, ul, ol) {
+			@apply text-lg mx-6 my-3;
+			&:first-child,
+			hr + &,
+			& + hr {
+				/* must be transformed by transpiler conforming the web standard (postcss-nesting, not postcss-nested) for this to work */
+				@apply mt-[1.125rem];
+			}
 		}
 	}
 }
