@@ -3,12 +3,12 @@ import seedrandom from "seedrandom";
 import { setRandom, sampleNormal } from "vega-statistics";
 
 import NDArray from "./NDArray";
-import { fromLength } from "./utils";
+import { fromLength } from "../utils";
 
 import type { ModelComponent, ModelComponentToFile } from "../types";
 import type { TypedTensor } from "onnxruntime-web";
 
-export const ALL_MODEL_COMPONENTS: readonly ModelComponent[] = ["enc_p", "emb", "sdp", "flow", "dec"];
+export const ALL_MODEL_COMPONENTS: readonly ModelComponent[] = ["enc", "emb", "sdp", "flow", "dec"];
 
 type FloatTensor = TypedTensor<"float32">;
 

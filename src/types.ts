@@ -15,20 +15,22 @@ export interface Sentence {
 	sentence: [string, PronNoteArray][];
 }
 
+export type ModelComponent = "enc" | "emb" | "sdp" | "flow" | "dec";
+
 export type ModelComponentToFile = Record<ModelComponent, ModelFile>;
 
 export interface Actions {
 	infer(language: Language, model: ModelComponentToFile, syllables: string[]): Promise<Float32Array>;
 }
 
-export type ModelComponent = "enc_p" | "emb" | "sdp" | "flow" | "dec";
+export type Version = string & { readonly brand: unique symbol };
 
 export interface ModelFile {
-	path: `${Language}/${Voice}/${ModelComponent}.onnx`;
+	path: `${Language}/${Voice}/${ModelComponent}`;
 	language: Language;
 	voice: Voice;
 	component: ModelComponent;
-	version: number;
+	version: Version;
 	file: ArrayBuffer;
 }
 

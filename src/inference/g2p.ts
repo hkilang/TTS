@@ -1,37 +1,39 @@
 // dprint-ignore
 const waitauSymbolToID: Record<string, number> = {
-    "b": 10, "p": 49, "m": 38, "f": 23, "d": 12, "t": 51, "n": 39, "l": 37,
-    "z": 60, "c": 11, "s": 50, "y": 59, "g": 24, "k": 35, "ng": 40, "h": 26,
-    "gw": 25, "kw": 36, "w": 58,
+    "b": 11, "p": 50, "m": 39, "f": 24, "d": 13, "t": 52, "n": 40, "l": 38,
+    "z": 61, "c": 12, "s": 51, "y": 60, "g": 25, "k": 36, "ng": 41, "h": 27,
+    "gw": 26, "kw": 37, "w": 59, "": 1, // zero initial
 
-    "a": 1, "ai": 2, "au": 9, "am": 4, "an": 5, "ang": 6, "ap": 7, "at": 8, "ak": 3,
-    "ä": 61, "äi": 62, "äu": 70, "äm": 65, "än": 66, "äng": 67, "äp": 68, "ät": 69, "äk": 64, 
-    "äing": 63,
-    "æ": 71, "æng": 74, "æk": 73,
-    "æing": 72,
-    "e": 13, "ei": 14, "eu": 22, "em": 16, "en": 17, "eng": 18, "ep": 20, "et": 21, "ek": 15, 
-    "i": 27, "iu": 34, "im": 29, "in": 30, "ing": 31, "ip": 32, "it": 33, "ik": 28, 
-    "o": 41, "oi": 42, "ou": 48, "on": 45, "ong": 46, "ot": 47, "ok": 44, 
-    "oing": 43,
-    "ö": 75, "öi": 76, "ön": 78, "öng": 79, "öt": 80, "ök": 77,
-    "u": 52, "ui": 53, "un": 55, "ung": 56, "ut": 57, "uk": 54,
-    "ü": 81, "ün": 83, "üng": 84, "üt": 85, "ük": 82,
+    "a": 2, "ai": 3, "au": 10, "am": 5, "an": 6, "ang": 7, "ap": 8, "at": 9, "ak": 4,
+    "ä": 62, "äi": 63, "äu": 71, "äm": 66, "än": 67, "äng": 68, "äp": 69, "ät": 70, "äk": 65, 
+    "äing": 64, // final specific to Ping Shan
+    "æ": 72, "æng": 75, "æk": 74,
+    "æing": 73, // final specific to Ping Shan
+    "e": 14, "ei": 15, "eu": 23, "em": 17, "en": 18, "eng": 19, "ep": 21, "et": 22, "ek": 16, 
+    "i": 28, "iu": 35, "im": 30, "in": 31, "ing": 32, "ip": 33, "it": 34, "ik": 29, 
+    "o": 42, "oi": 43, "ou": 49, "on": 46, "ong": 47, "ot": 48, "ok": 45, 
+    "oing": 44, // final specific to Ping Shan
+    "ö": 76, "öi": 77, "ön": 79, "öng": 80, "öt": 81, "ök": 78,
+    "u": 53, "ui": 54, "un": 56, "ung": 57, "ut": 58, "uk": 55,
+    "ü": 82, "ün": 84, "üng": 85, "üt": 86, "ük": 83,
 
-    ".": 90, ",": 89, "!": 86, "?": 87, "…": 88, "'": 91, "-": 92,
+    ".": 91, ",": 90, "!": 87, "?": 88, "…": 89, "'": 92, "-": 93,
 };
 
 // dprint-ignore
 const hakkaSymbolToID: Record<string, number> = {
-    "b": 19, "p": 62, "m": 49, "f": 34, "v": 74, "d": 21, "t": 67, "l": 48,
-    "z": 80, "c": 20, "s": 63, "y": 76, "g": 35, "k": 46, "ng": 51, "h": 37, "#": 90,
+    "b": 20, "p": 63, "m": 50, "f": 35, "v": 75, "d": 22, "t": 68, "l": 49,
+    "z": 81, "c": 21, "s": 64, "y": 77, "g": 36, "k": 47, "ng": 52, "h": 38, "": 1, // zero initial
 
-    "a": 1, "ai": 11, "au": 18, "am": 13, "an": 14, "ang": 15, "ap": 16, "at": 17, "ak": 12,
-    "e": 22, "ei": 23, "eu": 33, "em": 25, "en": 26, "eng": 27, "ep": 31, "et": 32, "ek": 24,
-    "i": 38, "iu": 45, "im": 40, "in": 41, "ing": 42, "ip": 43, "it": 44, "ik": 39,
-    "o": 52, "oi": 56, "ou": 61, "on": 58, "ong": 59, "ot": 60, "ok": 57,
-    "u": 68, "ui": 69, "un": 71, "ung": 72, "ut": 73, "uk": 70,
+	"∅": 91, // zero medial
 
-    ".": 85, ",": 84, "!": 81, "?": 82, "…": 83, "'": 86, "-": 87,
+    "a": 2, "ai": 12, "au": 19, "am": 14, "an": 15, "ang": 16, "ap": 17, "at": 18, "ak": 13,
+    "e": 23, "ei": 24, "eu": 34, "em": 26, "en": 27, "eng": 28, "ep": 32, "et": 33, "ek": 25,
+    "i": 39, "iu": 46, "im": 41, "in": 42, "ing": 43, "ip": 44, "it": 45, "ik": 40,
+    "o": 53, "oi": 57, "ou": 62, "on": 59, "ong": 60, "ot": 61, "ok": 58,
+    "u": 69, "ui": 70, "un": 72, "ung": 73, "ut": 74, "uk": 71,
+
+    ".": 86, ",": 85, "!": 82, "?": 83, "…": 84, "'": 87, "-": 88,
 };
 
 export function waitau(syllables: readonly string[]) {
@@ -46,7 +48,7 @@ export function waitau(syllables: readonly string[]) {
 		}
 
 		const index = /[aeiouäöüæ]/.exec(syllable)?.index ?? 0;
-		const initial = syllable.slice(0, index) || syllable[index];
+		const initial = syllable.slice(0, index);
 		const final = syllable.slice(index, -1);
 		phones.push(waitauSymbolToID[initial], 0, waitauSymbolToID[final], 0);
 
@@ -72,8 +74,8 @@ export function hakka(syllables: readonly string[]) {
 		}
 
 		let index = /[aeiou]/.exec(syllable)?.index ?? 0;
-		const initial = syllable.slice(0, index) || syllable[index];
-		const medial = syllable[index] === "i" && /[aeou]/.test(syllable[index + 1]) ? syllable[index++] : "#";
+		const initial = syllable.slice(0, index);
+		const medial = syllable[index] === "i" && /[aeou]/.test(syllable[index + 1]) ? syllable[index++] : initial === "y" ? "i" : "∅";
 		const final = syllable.slice(index, -1);
 		phones.push(hakkaSymbolToID[initial], 0, hakkaSymbolToID[medial], 0, hakkaSymbolToID[final], 0);
 

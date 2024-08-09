@@ -1,8 +1,10 @@
 import { useState, useRef, useReducer, useEffect } from "react";
 
-import { ALL_MODEL_COMPONENTS, CURRENT_MODEL_VERSION, DatabaseError, MODEL_STATUS_LABEL, MODEL_STATUS_ACTION_LABEL, MODEL_STATUS_CLASS, MODEL_STATUS_ICON, TERMINOLOGY, VOICE_TO_ICON } from "../consts";
+import { CURRENT_MODEL_VERSION } from "./version";
+import { ALL_MODEL_COMPONENTS, DatabaseError, MODEL_STATUS_LABEL, MODEL_STATUS_ACTION_LABEL, MODEL_STATUS_CLASS, MODEL_STATUS_ICON, TERMINOLOGY, VOICE_TO_ICON, MODEL_PATH_PREFIX, MODEL_COMPONENT_TO_N_CHUNKS } from "../consts";
+import { fromLength } from "../utils";
 
-import type { ModelStatus, TTSDB, Language, ModelComponent, ModelFile, Voice, ModelComponentToFile } from "../types";
+import type { ModelStatus, TTSDB, Language, ModelComponent, Voice, ModelComponentToFile, Version } from "../types";
 import type { IDBPDatabase } from "idb";
 
 // This method is bounded per the spec
@@ -22,7 +24,7 @@ export default function ModelRow({ db, language, voice }: { db: IDBPDatabase<TTS
 			try {
 				const availableFiles = await db.getAllFromIndex("models", "language_voice", [language, voice]);
 				const components: Partial<ModelComponentToFile> = {};
-				const versions = new Set<number>();
+				const versions = new Set<Version>();
 				for (const file of availableFiles) {
 					components[file.component] = file;
 					versions.add(file.version);
@@ -35,7 +37,7 @@ export default function ModelRow({ db, language, voice }: { db: IDBPDatabase<TTS
 						isIncomplete = true;
 						newMissingComponents.push(component);
 					}
-					else if (components[component].version < CURRENT_MODEL_VERSION) {
+					else if (components[component].version !== CURRENT_MODEL_VERSION) {
 						hasNewVersion = true;
 						newMissingComponents.push(component);
 					}
@@ -62,36 +64,35 @@ export default function ModelRow({ db, language, voice }: { db: IDBPDatabase<TTS
 		setError(undefined);
 		setStatus("downloading");
 		setProgress(0);
+
 		const { signal } = abortController.current = new AbortController();
-
-		interface FetchResult {
-			component: ModelComponent;
-			path: ModelFile["path"];
-			reader: ReadableStreamDefaultReader<Uint8Array>;
-			contentLength: number;
-		}
-
-		const fetchResults = await Promise.allSettled(missingComponents.map(async (component): Promise<FetchResult> => {
-			// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
-			const path = `models/${language}/${voice}/${component}.onnx` as ModelFile["path"];
-			const { ok, headers, body } = await fetch(path, { signal });
+		const fetchFiles = missingComponents.flatMap(component =>
+			MODEL_COMPONENT_TO_N_CHUNKS[component] === 1
+				? [[component, component] as [ModelComponent, string]]
+				: fromLength(MODEL_COMPONENT_TO_N_CHUNKS[component], i => [component, `${component}_chunk_${i}`] as [ModelComponent, string])
+		);
+		const fetchResults = await Promise.allSettled(fetchFiles.map(async ([component, file]) => {
+			const { ok, headers, body } = await fetch(`${MODEL_PATH_PREFIX}@${CURRENT_MODEL_VERSION}/${language}/${voice}/${file}.onnx`, { signal });
 			if (!ok || !body) throw new Error("Network response was not OK");
 			const reader = body.getReader();
 			const length = headers.get("Content-Length");
 			if (!length) throw new Error("Content-Length header is missing");
 			const contentLength = +length;
 			if (!contentLength || contentLength !== ~~contentLength) throw new Error("Content-Length header is invalid or zero");
-			return { component, path, reader, contentLength };
+			return { component, file, reader, contentLength };
 		}));
 
 		let totalLength = 0;
-		const successFetches: FetchResult[] = [];
+		const successFetches = new Map<ModelComponent, ReadableStreamDefaultReader<Uint8Array>[]>();
 		const errors: Error[] = [];
 
 		for (const fetchResult of fetchResults) {
 			if (fetchResult.status === "fulfilled") {
-				successFetches.push(fetchResult.value);
-				totalLength += fetchResult.value.contentLength;
+				const { component, reader, contentLength } = fetchResult.value;
+				let readers = successFetches.get(component);
+				if (!readers) successFetches.set(component, readers = []);
+				readers.push(reader);
+				totalLength += contentLength;
 			}
 			else {
 				errors.push(fetchResult.reason as Error);
@@ -99,16 +100,22 @@ export default function ModelRow({ db, language, voice }: { db: IDBPDatabase<TTS
 		}
 
 		let totalReceivedLength = 0;
-		const saveResults = await Promise.allSettled(successFetches.map(async ({ component, path, reader }) => {
+		const saveResults = await Promise.allSettled(Array.from(successFetches, async ([component, readers]) => {
+			if (readers.length !== MODEL_COMPONENT_TO_N_CHUNKS[component]) {
+				throw new Error(`Some chunks of "${component}" are missing`);
+			}
 			let receivedLength = 0;
 			const chunks: Uint8Array[] = [];
-			for (;;) {
-				const { done, value } = await reader.read();
-				if (done) break;
-				chunks.push(value);
-				totalReceivedLength += value.length;
-				receivedLength += value.length;
-				setProgress(totalReceivedLength / totalLength);
+			// Guaranteed to be in the same order as `fetchFiles`
+			for (const reader of readers) {
+				for (;;) {
+					const { done, value } = await reader.read();
+					if (done) break;
+					chunks.push(value);
+					totalReceivedLength += value.length;
+					receivedLength += value.length;
+					setProgress(totalReceivedLength / totalLength);
+				}
 			}
 			const fileData = new Uint8Array(receivedLength);
 			let position = 0;
@@ -118,7 +125,7 @@ export default function ModelRow({ db, language, voice }: { db: IDBPDatabase<TTS
 			}
 			try {
 				await db.put("models", {
-					path,
+					path: `${language}/${voice}/${component}`,
 					language,
 					voice,
 					component,
@@ -128,7 +135,7 @@ export default function ModelRow({ db, language, voice }: { db: IDBPDatabase<TTS
 				return component;
 			}
 			catch (error) {
-				throw new DatabaseError("Failed to save", { cause: error });
+				throw new DatabaseError(`Failed to save "${component}"`, { cause: error });
 			}
 		}));
 

@@ -1,6 +1,6 @@
 import { MdCancel, MdEject, MdFileDownload, MdFileDownloadDone, MdHourglassBottom, MdMan, MdRefresh, MdWoman } from "react-icons/md";
 
-import type { Language, ModelStatus, Terminology, Voice } from "./types";
+import type { Language, ModelComponent, ModelStatus, Terminology, Voice } from "./types";
 
 export const TERMINOLOGY: Record<Terminology, string> = {
 	waitau: "圍頭話",
@@ -18,7 +18,15 @@ export const ALL_LANGUAGES: readonly Language[] = ["waitau", "hakka"];
 export const ALL_VOICES: readonly Voice[] = ["male", "female"];
 export { ALL_MODEL_COMPONENTS } from "./inference/infer";
 
-export const CURRENT_MODEL_VERSION = 20240801;
+export const MODEL_COMPONENT_TO_N_CHUNKS: Record<ModelComponent, number> = {
+	enc: 2,
+	emb: 1,
+	sdp: 1,
+	flow: 7,
+	dec: 3,
+};
+
+export const MODEL_PATH_PREFIX = "https://cdn.jsdelivr.net/gh/hkilang/TTS-models";
 
 export const MODEL_STATUS_LABEL: Record<ModelStatus, string> = {
 	gathering_info: "正在取得模型檔案狀態……",

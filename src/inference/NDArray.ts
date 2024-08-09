@@ -1,4 +1,4 @@
-import { fromLength } from "./utils";
+import { fromLength } from "../utils";
 
 import type { Tensor, TypedTensor } from "onnxruntime-web";
 

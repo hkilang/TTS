@@ -7,7 +7,7 @@ import { ALL_MODEL_COMPONENTS, DatabaseError, ModelNotDownloadedError, NO_AUTO_F
 import { useDB } from "./db/DBContext";
 import API from "./inference/api";
 
-import type { Language, ModelComponentToFile, Voice } from "./types";
+import type { Language, ModelComponentToFile, Version, Voice } from "./types";
 import type { SyntheticEvent } from "react";
 
 const audioCache = new Map<string, Map<string, string>>();
@@ -49,7 +49,7 @@ export default function AudioPlayer({ language, voice, syllables, openModelManag
 					return;
 				}
 				const components = {} as ModelComponentToFile;
-				const versions = new Set<number>();
+				const versions = new Set<Version>();
 				for (const file of availableFiles) {
 					components[file.component] = file;
 					versions.add(file.version);
@@ -76,7 +76,7 @@ export default function AudioPlayer({ language, voice, syllables, openModelManag
 		if (!model) return;
 		const _isPlaying = isPlaying;
 		async function generateAudio() {
-			const key = `${language}/${voice}/${Object.entries(model!)[0][1].version}`;
+			const key = `${Object.entries(model!)[0][1].version}/${language}/${voice}`;
 			let textToURL = audioCache.get(key);
 			if (!textToURL) audioCache.set(key, textToURL = new Map<string, string>());
 			let url = textToURL.get(text);
