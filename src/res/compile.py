@@ -53,7 +53,7 @@ ROM_MAPPING = {
 def rom_map(jyutping):
 	return re.sub("(g|k)u(?!ng|k)", "\\1wu", reduce(lambda pron, rule: pron.replace(*rule), ROM_MAPPING.items(), jyutping))
 
-df_canto = pd.read_csv("public.csv", header=0, usecols=[0, 1, 8], names=["char", "pron", "freq"], dtype={"char": "str", "pron": "str", "freq": "int64"}, na_filter=False)
+df_canto: pd.DataFrame = pd.read_csv("public.csv", header=0, usecols=[0, 1], **str_columns(["char", "pron"]), na_filter=False)
 df_canto["pron"] = df_canto["pron"].apply(rom_map)
 df_canto["order"] = df_canto.index
 df_canto_charpron = df_canto.set_index(["char", "pron"])
@@ -137,9 +137,7 @@ def generate_words(language):
 			return True
 		return False
 
-	collocations = set()
 	for collocation, df_collocation_chars in df_collocations.groupby(level=0):
-		collocations.add(collocation)
 		if any(len(get_prons(df_chars, char)) > 1 for char in collocation):
 			prons = []
 			if all(append_prons(df_collocation_chars, (collocation, char))
@@ -150,7 +148,7 @@ def generate_words(language):
 	for row in df_canto.itertuples(index=False):
 		chars = row.char
 		roms = row.pron.split()
-		if len(chars) > 1 and (row.freq >= 10 or chars in collocations) and any(len(get_prons(df_chars, char)) > 1 for char in chars):
+		if len(chars) > 1 and any(len(get_prons(df_chars, char)) > 1 for char in chars):
 			prons = []
 			if all(append_prons(df_charpron, charpron) for charpron in zip(chars, roms)) \
 					and len(prons) == len(chars):
