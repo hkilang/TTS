@@ -22,15 +22,15 @@ export const VOICE_TO_ICON: Record<Voice, JSX.Element> = {
 };
 
 export const INFERENCE_MODE_TO_LABEL: Record<InferenceMode, string> = {
-	online: "線上模式",
-	offline: "離線模式",
-	lightweight: "輕巧模式",
+	online: "inferenceModes.online",
+	offline: "inferenceModes.offline",
+	lightweight: "inferenceModes.lightweight",
 };
 
 export const INFERENCE_MODE_TO_DESCRIPTION: Record<InferenceMode, string> = {
-	online: "在伺服器產生音訊。請注意，每次產生音訊時皆需要網絡連線，並可能會產生相關網絡費用。",
-	offline: "毋須網絡連線，直接於裝置進行運算並產生音訊。請注意，下載或更新模型時仍須網絡連線，且裝置需要有足夠空間儲存模型。",
-	lightweight: "以輕巧方式快速於裝置產生音訊，質素較其餘兩個模式遜色。適用於記憶體容量較少的裝置。僅於多次嘗試離線模式亦失敗時方建議使用此模式。請注意，此模式仍需空間儲存數據。",
+	online: "inferenceModes.onlineDescription",
+	offline: "inferenceModes.offlineDescription",
+	lightweight: "inferenceModes.lightweightDescription",
 };
 
 export const INFERENCE_MODE_TO_ICON: Record<InferenceMode, JSX.Element> = {
@@ -59,8 +59,8 @@ export const MODEL_COMPONENT_TO_N_CHUNKS: Record<ModelComponent, number> = {
 export const MODEL_PATH_PREFIX = "https://cdn.jsdelivr.net/gh/hkilang/TTS-models";
 
 export const DOWNLOAD_TYPE_LABEL: Record<OfflineInferenceMode, string> = {
-	offline: "模型",
-	lightweight: "數據",
+	offline: "downloadType.model",
+	lightweight: "downloadType.data",
 };
 
 export const DOWNLOAD_STATUS_LABEL: Record<DownloadStatus, string> = {

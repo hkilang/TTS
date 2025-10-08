@@ -54,7 +54,7 @@ export default {
 						},
 					},
 				],
-				maximumFileSizeToCacheInBytes: 4194304,
+				maximumFileSizeToCacheInBytes: 31457280,
 			},
 		}),
 	],
@@ -69,7 +69,7 @@ export default {
 	},
 	build: {
 		outDir: "build",
-		target: "ES2017",
+		target: "ES2020",
 		rollupOptions: {
 			output: {
 				assetFileNames: "[name].[hash].[ext]",

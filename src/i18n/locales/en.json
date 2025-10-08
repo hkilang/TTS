@@ -1,0 +1,96 @@
+{
+  "language": "Language",
+  "voice": "Voice",
+  "settings": "Settings",
+  "changeLanguage": "Change Language",
+  "selectLanguage": "Select Language",
+  "unselected": "Unselected",
+  "addSentence": "Enter",
+  "inputPlaceholder": "Enter Chinese text...",
+  "male": "Male",
+  "female": "Female",
+  "uiLanguage": "Language",
+  "inferenceMode": "Inference Mode",
+  "onlineMode": "Online Mode",
+  "offlineMode": "Offline Mode",
+  "voiceSpeed": "Voice Speed",
+  "download": "Download",
+  "downloading": "Downloading",
+  "downloaded": "Downloaded",
+  "delete": "Delete",
+  "hakkaToneMode": "Hakka Tone Mode",
+  "options": "Options",
+  "copyURLRow": {
+    "title": "Copy link with the current settings"
+  },
+  "terminology": {
+    "waitau": "Wai Tau Waa",
+    "hakka": "Hakka",
+    "male": "Male",
+    "female": "Female",
+    "diacritics": "Diacritics",
+    "digits": "Digits"
+  },
+  "inferenceModes": {
+    "online": "Online Mode",
+    "offline": "Offline Mode",
+    "lightweight": "Lightweight Mode",
+    "onlineDescription": "Generate audio on the server. Please note that each audio generation requires an internet connection and may incur related network charges.",
+    "offlineDescription": "No internet connection required. Compute and generate audio directly on the device. Please note that downloading or updating models still requires an internet connection, and the device needs sufficient storage space.",
+    "lightweightDescription": "Quickly generate audio on the device in a lightweight manner, with quality inferior to the other two modes. Suitable for devices with less memory. Only recommended when offline mode fails multiple times. Please note that this mode still requires storage space."
+  },
+  "downloadType": {
+    "model": "Model ",
+    "data": "Data "
+  },
+  "downloadStatus": {
+    "gatheringInfo": "Gathering __ status...",
+    "gatherFailed": "Unable to get __ status: Database error",
+    "availableForDownload": "Available for download",
+    "newVersionAvailable": "New version available for download",
+    "incomplete": "__ incomplete",
+    "downloading": "Downloading...",
+    "downloadFailed": "Download failed: Network or server error",
+    "downloadIncomplete": "Download incomplete: Network or server error",
+    "cancelledNotDownloaded": "Download cancelled; __ not yet downloaded",
+    "cancelledIncomplete": "Download cancelled; __ incomplete",
+    "saveFailed": "Download failed: Error occurred while saving to database",
+    "saveIncomplete": "Download incomplete: Error occurred while saving to database",
+    "latest": "Already latest version"
+  },
+  "downloadAction": {
+    "retry": "Retry",
+    "download": "Download",
+    "continueDownload": "Continue Download",
+    "cancelDownload": "Cancel Download"
+  },
+  "app": {
+    "title": "Hong Kong Wai Tau Waa & Hakka Text-to-Speech",
+    "logoAlt": "Application logo",
+    "hkilangLogoAlt": "Hong Kong Indigenous Language Preservation Association logo",
+    "hkilangTitle": "Hong Kong <span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">Indigenous Language</span> Preservation Association"
+  },
+  "about": {
+    "buttonText": "About",
+    "title": "About",
+    "close": "Close",
+    "intro": "Welcome to the <b>Hong Kong Wai Tau Waa and Hakka Text-to-Speech (TTS)</b> reader!",
+    "heritage": "<b>Wai Tau Waa</b> and <b>Hakka</b> are both intangible cultural heritage of Hong Kong. However, the transmission of these indigenous languages has been disrupted due to urbanization. The new generation in walled villages has little opportunity to encounter Wai Tau Waa and Hakka, or they \"can understand but cannot speak.\"",
+    "purpose": "Using this Text-to-Speech (<abbr>TTS</abbr>) reader can serve as a resource for learning Wai Tau Waa and Hakka, and can also become a tool for communicating with village elders, continuing the language transmission within families and communities.",
+    "instructions": {
+      "intro": "Simply enter text in the program, and it will generate natural and fluent Wai Tau Waa or Hakka speech. Instructions:",
+      "step1": "Select language: Wai Tau Waa / Hakka",
+      "step2": "Select voice: Male / Female",
+      "step3": "Enter text in the input box",
+      "step4": "<span class=\"inline-flex items-center gap-1\">Click <span class=\"btn btn-accent btn-xs text-lg/none pointer-events-none\">Enter</span></span>",
+      "step5": "<span class=\"inline-flex items-center gap-1\">Press play button <span class=\"btn btn-warning btn-square btn-xs text-2xl pointer-events-none icon-play\"></span></span>"
+    },
+    "credits": "This program is developed by <a href=\"https://hkilang.org\" target=\"_blank\">Hong Kong Indigenous Language Preservation Association</a>. We would like to thank the Leisure and Cultural Services Department's <a href=\"https://www.icho.hk/en/web/icho/ich_funding_scheme_introduction.html\" target=\"_blank\">Intangible Cultural Heritage Funding Scheme</a> for funding this project, and the <a href=\"https://crlls.eduhk.hk\" target=\"_blank\">Centre for Research in Linguistics and Language Sciences, The Education University of Hong Kong</a> for providing venue rental assistance.",
+    "technical": "The frontend of this program is developed using <a href=\"https://typescriptlang.org\" target=\"_blank\">TypeScript</a> and <a href=\"https://react.dev\" target=\"_blank\">React</a> framework, utilizing the VITS2 language model <sup><a href=\"#vits2\">[1]</a></sup> provided by <a href=\"https://hon9kon9ize.com\" target=\"_blank\">hon9kon9ize</a>. For details, please refer to the <a href=\"https://github.com/hkilang/TTS\" target=\"_blank\">source code</a>.",
+    "contact": "For any inquiries, please email <a href=\"mailto:info@hkilang.org\" target=\"_blank\">info@hkilang.org</a> or <a href=\"mailto:lchaakming@eduhk.hk\" target=\"_blank\">lchaakming@eduhk.hk</a>.",
+    "fundingTitle": "Funded by:",
+    "creditLogosAlt": "LCSD logo, Open Door Government Funding Scheme logo, Intangible Cultural Heritage Funding Scheme logo",
+    "creditLogosTitle": "LCSD logo, Open Door Government Funding Scheme logo, Intangible Cultural Heritage Funding Scheme logo",
+    "citation": "Jungil Kong, Jihoon Park, Beomjeong Kim, Jeongmin Kim, Dohee Kong, and Sangjin Kim. 2023. VITS2: Improving quality and efficiency of single-stage text-to-speech with adversarial learning and architecture design. In <cite>Proc. INTERSPEECH 2023</cite>, pp. 4374–4378. Available: <a href=\"https://www.isca-archive.org/interspeech_2023/kong23_interspeech.html\" target=\"_blank\" class=\"whitespace-nowrap\">https://www.isca-archive.org/<wbr />interspeech_2023/<wbr />kong23_interspeech.html</a>"
+  }
+}

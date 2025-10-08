@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import AudioPlayer from "./AudioPlayer";
 import { INFERENCE_MODE_TO_LABEL, TERMINOLOGY } from "./consts";
@@ -141,6 +142,7 @@ export default function SentenceCard({
 	currSettingsDialogPage,
 	setCurrSettingsDialogPage,
 }: SentenceCardProps) {
+	const { t } = useTranslation();
 	const [enabledEdges, setEnabledEdges] = useState(new Set<Edge>());
 	const edges = useMemo(() => {
 		const edges = parse(language, syllables);
@@ -235,7 +237,7 @@ export default function SentenceCard({
 			<div className="join">
 				<span className="badge badge-primary join-item">{TERMINOLOGY[language]}</span>
 				<span className="badge badge-secondary join-item">{TERMINOLOGY[voice]}</span>
-				<span className="badge badge-accent join-item">{INFERENCE_MODE_TO_LABEL[inferenceMode]}</span>
+				<span className="badge badge-accent join-item">{t(INFERENCE_MODE_TO_LABEL[inferenceMode])}</span>
 				<span className="badge badge-info join-item">{voiceSpeed}×</span>
 			</div>
 			<SentenceCopy syllables={syllables} prons={flattenedProns} />
