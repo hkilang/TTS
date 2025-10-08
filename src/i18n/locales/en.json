@@ -82,8 +82,8 @@
       "step1": "Select language: Wai Tau Waa / Hakka",
       "step2": "Select voice: Male / Female",
       "step3": "Enter text in the input box",
-      "step4": "<span class=\"inline-flex items-center gap-1\">Click <span class=\"btn btn-accent btn-xs text-lg/none pointer-events-none\">Enter</span></span>",
-      "step5": "<span class=\"inline-flex items-center gap-1\">Press play button <span class=\"btn btn-warning btn-square btn-xs text-2xl pointer-events-none icon-play\"></span></span>"
+      "step4": "Click",
+      "step5": "Press play button"
     },
     "credits": "This program is developed by <a href=\"https://hkilang.org\" target=\"_blank\">Hong Kong Indigenous Language Preservation Association</a>. We would like to thank the Leisure and Cultural Services Department's <a href=\"https://www.icho.hk/en/web/icho/ich_funding_scheme_introduction.html\" target=\"_blank\">Intangible Cultural Heritage Funding Scheme</a> for funding this project, and the <a href=\"https://crlls.eduhk.hk\" target=\"_blank\">Centre for Research in Linguistics and Language Sciences, The Education University of Hong Kong</a> for providing venue rental assistance.",
     "technical": "The frontend of this program is developed using <a href=\"https://typescriptlang.org\" target=\"_blank\">TypeScript</a> and <a href=\"https://react.dev\" target=\"_blank\">React</a> framework, utilizing the VITS2 language model <sup><a href=\"#vits2\">[1]</a></sup> provided by <a href=\"https://hon9kon9ize.com\" target=\"_blank\">hon9kon9ize</a>. For details, please refer to the <a href=\"https://github.com/hkilang/TTS\" target=\"_blank\">source code</a>.",

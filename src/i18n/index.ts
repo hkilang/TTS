@@ -5,7 +5,9 @@ import en from './locales/en.json';
 import zh from './locales/zh.json';
 
 // Get language from localStorage or default to 'zh'
-const savedLanguage = localStorage.getItem('uiLanguage') || 'zh';
+const savedLanguage = typeof localStorage !== 'undefined' 
+  ? localStorage.getItem('uiLanguage') || 'zh'
+  : 'zh';
 
 i18n
   .use(initReactI18next)
@@ -19,6 +21,12 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    react: {
+      useSuspense: false, // Prevent blank screen while loading
+    },
+  })
+  .catch((error) => {
+    console.error('i18n initialization error:', error);
   });
 
 export default i18n;

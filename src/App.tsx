@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 import { useTranslation } from "react-i18next";
 
 import { Converter } from "opencc-js";
-import { MdError, MdLanguage, MdRecordVoiceOver, MdSettings, MdSwapHoriz } from "react-icons/md";
+import { MdClose, MdError, MdInfoOutline, MdLanguage, MdPlayArrow, MdRecordVoiceOver, MdSettings, MdSwapHoriz } from "react-icons/md";
 
 import { DOWNLOAD_STATUS_INDICATOR_CLASS, LANGUAGE_TO_TEXT_COLOR_CLASS, NO_AUTO_FILL, TERMINOLOGY } from "./consts";
 import { DBProvider } from "./db/DBContext";
@@ -243,12 +243,12 @@ export default function App() {
             <dialog ref={aboutDialog} className="modal modal-bottom sm:modal-middle">
                 <div className="modal-box p-0 flex flex-col sm:max-w-3xl h-[calc(100%-5rem)] overflow-hidden">
                     <form method="dialog">
-                        <button type="submit" className="btn btn-ghost w-14 h-14 min-h-14 text-4.5xl absolute right-3 top-3 text-slate-500 hover:bg-opacity-10" aria-label={t('about.close')}>
-                            <span className="icon-close"></span>
+                        <button type="submit" className="btn btn-ghost w-14 h-14 min-h-14 text-4.5xl absolute right-3 top-3 hover:bg-opacity-10" aria-label={t('about.close')}>
+                            <MdClose className="text-slate-500" />
                         </button>
                     </form>
                     <h3 className="flex items-center gap-2 mx-6 mt-5.5 mb-5">
-                        <span className="icon-info mt-1"></span>{t('about.title')}
+                        <MdInfoOutline size="1.125em" className="mt-1" />{t('about.title')}
                     </h3>
                     <hr />
                     <div className="flex-1 overflow-x-hidden overflow-y-auto">
@@ -261,8 +261,20 @@ export default function App() {
                             <li>{t('about.instructions.step1')}</li>
                             <li>{t('about.instructions.step2')}</li>
                             <li>{t('about.instructions.step3')}</li>
-                            <li dangerouslySetInnerHTML={{ __html: t('about.instructions.step4') }} />
-                            <li dangerouslySetInnerHTML={{ __html: t('about.instructions.step5') }} />
+                            <li>
+                                <span className="inline-flex items-center gap-1">
+                                    {t('about.instructions.step4')}
+                                    <span className="btn btn-accent btn-xs text-lg/none pointer-events-none">{t('addSentence')}</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span className="inline-flex items-center gap-1">
+                                    {t('about.instructions.step5')}
+                                    <span className="btn btn-warning btn-square btn-xs pointer-events-none flex items-center justify-center">
+                                        <MdPlayArrow size="1.5em" />
+                                    </span>
+                                </span>
+                            </li>
                         </ol>
                         <hr />
                         <p dangerouslySetInnerHTML={{ __html: t('about.credits') }} />
