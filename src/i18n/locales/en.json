@@ -9,7 +9,7 @@
   "inputPlaceholder": "Enter Chinese text...",
   "male": "Male",
   "female": "Female",
-  "uiLanguage": "Language",
+  "uiLanguage": "Menu Language",
   "inferenceMode": "Inference Mode",
   "onlineMode": "Online Mode",
   "offlineMode": "Offline Mode",
