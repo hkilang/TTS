@@ -3,6 +3,7 @@ on:
     push:
         branches:
             - main
+    workflow_dispatch:  # Add this line to enable manual trigger
 permissions:
     contents: read
     pages: write
