@@ -3,7 +3,6 @@ on:
     push:
         branches:
             - main
-    workflow_dispatch:  # Add this line to enable manual trigger
 permissions:
     contents: read
     pages: write
@@ -31,5 +30,4 @@ jobs:
               with:
                   path: "./build"
             - name: Deploy to GitHub Pages
-              id: deployment
               uses: actions/deploy-pages@v4
