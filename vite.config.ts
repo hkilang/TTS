@@ -15,7 +15,7 @@ import type { UserConfig } from "vite";
 const dsvParsers: Record<string, ((input: string) => unknown) | undefined> = { ".csv": csvParse, ".tsv": tsvParse };
 
 export default {
-	base: "/Hakka-TTS/",
+	base: "./",
 	plugins: [
 		react(),
 		{
