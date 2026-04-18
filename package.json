@@ -7,10 +7,9 @@
     "start": "vite --host",
     "build": "NODE_ENV=production bun run worker && vite build",
     "preview": "vite preview --host",
-    "worker": "bun build src/inference/worker.ts --outfile=public/worker.js --target=browser --format=iife --minify"
+    "worker": "rollup -c rollup.config.ts --configPlugin @rollup/plugin-typescript"
   },
   "dependencies": {
-    "bun": "^1.2.23",
     "eastasianwidth": "^0.3.0",
     "i18next": "^25.6.0",
     "idb": "^8.0.3",
@@ -21,10 +20,12 @@
     "react-i18next": "^16.0.0",
     "react-icons": "^5.5.0",
     "seedrandom": "^3.0.5",
-    "vega-statistics": "^1.9.0",
-    "web-vitals": "^5.1.0"
+    "vega-statistics": "^1.9.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/d3-dsv": "^3.0.7",
     "@types/opencc-js": "^1.0.3",
     "@types/react": "^18.3.26",
@@ -48,6 +49,8 @@
     "sharp": "^0.33.5",
     "svgo": "^3.3.2",
     "tailwindcss": "^3.4.18",
+    "rollup": "^4.19.2",
+    "rollup-plugin-esbuild": "^6.1.1",
     "typescript": "^5.9.3",
     "vite": "^5.4.20",
     "vite-plugin-image-optimizer": "^1.1.9",

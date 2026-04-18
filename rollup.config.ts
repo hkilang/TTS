@@ -19,7 +19,7 @@ export default {
 			requireReturnsDefault: "auto",
 		}),
 		esbuild({
-			target: "es2020",
+			target: "es2017",
 			sourceMap: !isProduction,
 			minify: isProduction,
 		}),

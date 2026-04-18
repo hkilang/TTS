@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { MdErrorOutline, MdFileDownload, MdPause, MdPlayArrow, MdRefresh, MdStop } from "react-icons/md";
 
@@ -12,14 +13,30 @@ import API from "./inference/api";
 
 import type { DownloadVersion, AudioComponentToFile, OfflineInferenceMode, AudioVersion, SentenceComponentState, Language, Voice } from "./types";
 import type { SyntheticEvent } from "react";
+import type { TFunction } from "i18next";
 
 const context = new AudioContext({ sampleRate: 44100 });
 const audioCache = new Map<string, Map<string, AudioBuffer>>();
 
 export class FileNotDownloadedError extends Error {
 	override name = "FileNotDownloadedError";
+	inferenceMode: OfflineInferenceMode;
+	language: Language;
+	voice: Voice;
+	isComplete: boolean | undefined;
 	constructor(inferenceMode: OfflineInferenceMode, language: Language, voice: Voice, isComplete?: boolean, options?: ErrorOptions) {
-		super(`${TERMINOLOGY[language]}（${TERMINOLOGY[voice]}）${DOWNLOAD_TYPE_LABEL[inferenceMode]}尚未下載${isComplete ? "" : "完成"}`, options);
+		super("FileNotDownloadedError", options);
+		this.inferenceMode = inferenceMode;
+		this.language = language;
+		this.voice = voice;
+		this.isComplete = isComplete ?? undefined;
+	}
+	getLocalizedMessage(t: TFunction): string {
+		return t(this.isComplete ? 'audio.fileNotDownloaded' : 'audio.fileNotDownloadedIncomplete', {
+			language: t(TERMINOLOGY[this.language]),
+			voice: t(TERMINOLOGY[this.voice]),
+			type: t(DOWNLOAD_TYPE_LABEL[this.inferenceMode]),
+		});
 	}
 }
 
@@ -35,6 +52,7 @@ export default function AudioPlayer({
 	currSettingsDialogPage,
 	setCurrSettingsDialogPage,
 }: SentenceComponentState) {
+	const { t } = useTranslation();
 	useEffect(() => void context.resume(), []);
 	const [buffer, setBuffer] = useState<AudioBuffer | undefined>();
 	const [sourceNode, setSourceNode] = useState<AudioBufferSourceNode | undefined>();
@@ -96,7 +114,7 @@ export default function AudioPlayer({
 				setDownloadState({ inferenceMode, language, voice, status: fileStatus ? isComplete ? fileStatus.version === CURRENT_VERSION ? "latest" : "new_version_available" : "incomplete" : "available_for_download" });
 			}
 			catch (error) {
-				setDownloadError(new DatabaseError(`無法取得${DOWNLOAD_TYPE_LABEL[inferenceMode]}狀態：資料庫出錯`, { cause: error }));
+				setDownloadError(new DatabaseError(t('audio.cannotGetStatus', { type: t(DOWNLOAD_TYPE_LABEL[inferenceMode]) }), { cause: error }));
 			}
 		}
 		void getDownloadComponents();
@@ -128,7 +146,7 @@ export default function AudioPlayer({
 								}
 							}
 							catch (error) {
-								throw error instanceof ServerError ? error : new ServerError("無法載入音訊：網絡或伺服器錯誤", undefined, { cause: error });
+								throw error instanceof ServerError ? error : new ServerError(t('audio.networkError'), undefined, { cause: error });
 							}
 							break;
 						case "offline": {
@@ -147,7 +165,7 @@ export default function AudioPlayer({
 									components[component] ??= (await db!.get("audios", `${language}/${voice}/${component}`))!.file;
 								}
 								catch (error) {
-									throw new DatabaseError("無法存取語音數據：資料庫出錯", { cause: error });
+									throw new DatabaseError(t('audio.dbAccessError'), { cause: error });
 								}
 								return context.decodeAudioData(components[component].slice(...offset));
 							}));
@@ -223,7 +241,7 @@ export default function AudioPlayer({
 			type="button"
 			className="btn btn-warning btn-square text-3xl max-sm:size-10 max-sm:min-h-10"
 			onClick={isPlaying === false ? playAudio : pauseAudio}
-			aria-label={isPlaying === false ? "播放" : "暫停"}
+			aria-label={isPlaying === false ? t('audio.play') : t('audio.pause')}
 			tabIndex={buffer ? 0 : -1}>
 			{isPlaying === false ? <MdPlayArrow /> : <MdPause />}
 		</button>
@@ -246,7 +264,7 @@ export default function AudioPlayer({
 			type="button"
 			className="btn btn-warning btn-square text-3xl max-sm:size-10 max-sm:min-h-10"
 			onClick={stopAudio}
-			aria-label="停止"
+			aria-label={t('audio.stop')}
 			tabIndex={buffer ? 0 : -1}>
 			<MdStop />
 		</button>
@@ -255,8 +273,8 @@ export default function AudioPlayer({
 				? <div>
 					<MdErrorOutline size="1.1875em" className="inline align-middle mt-0.5 mr-1" />
 					<span className="leading-8 align-middle">
-						{error instanceof FileNotDownloadedError || error instanceof DatabaseError ? <span className="font-medium">{error.message}</span> : <>
-							<span className="font-bold">錯誤：</span>
+						{error instanceof FileNotDownloadedError || error instanceof DatabaseError ? <span className="font-medium">{error instanceof FileNotDownloadedError ? error.getLocalizedMessage(t) : error.message}</span> : <>
+							<span className="font-bold">{t('audio.error')}</span>
 							{error.name}
 							{error.message && <>
 								{": "}
@@ -276,10 +294,10 @@ export default function AudioPlayer({
 							: undefined}>
 						{error instanceof FileNotDownloadedError
 							? <>
-								<MdFileDownload size="1.1875em" />下載{DOWNLOAD_TYPE_LABEL[inferenceMode as OfflineInferenceMode]}
+								<MdFileDownload size="1.1875em" />{t('audio.download', { type: t(DOWNLOAD_TYPE_LABEL[inferenceMode as OfflineInferenceMode]) })}
 							</>
 							: <>
-								<MdRefresh size="1.1875em" />重試
+								<MdRefresh size="1.1875em" />{t('audio.retry')}
 							</>}
 					</button>
 				</div>

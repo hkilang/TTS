@@ -25,7 +25,7 @@
   },
   "terminology": {
     "waitau": "Wai Tau Waa",
-    "hakka": "Hakka",
+    "hakka": "Hakka Wa",
     "male": "Male",
     "female": "Female",
     "diacritics": "Diacritics",
@@ -44,16 +44,16 @@
     "data": "Data "
   },
   "downloadStatus": {
-    "gatheringInfo": "Gathering __ status...",
-    "gatherFailed": "Unable to get __ status: Database error",
+    "gatheringInfo": "Gathering {{type}} status...",
+    "gatherFailed": "Unable to get {{type}} status: Database error",
     "availableForDownload": "Available for download",
     "newVersionAvailable": "New version available for download",
-    "incomplete": "__ incomplete",
+    "incomplete": "{{type}} incomplete",
     "downloading": "Downloading...",
     "downloadFailed": "Download failed: Network or server error",
     "downloadIncomplete": "Download incomplete: Network or server error",
-    "cancelledNotDownloaded": "Download cancelled; __ not yet downloaded",
-    "cancelledIncomplete": "Download cancelled; __ incomplete",
+    "cancelledNotDownloaded": "Download cancelled; {{type}} not yet downloaded",
+    "cancelledIncomplete": "Download cancelled; {{type}} incomplete",
     "saveFailed": "Download failed: Error occurred while saving to database",
     "saveIncomplete": "Download incomplete: Error occurred while saving to database",
     "latest": "Already latest version"
@@ -68,7 +68,42 @@
     "title": "Hong Kong Wai Tau Waa & Hakka Text-to-Speech",
     "logoAlt": "Application logo",
     "hkilangLogoAlt": "Hong Kong Indigenous Language Preservation Association logo",
-    "hkilangTitle": "Hong Kong <span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">Indigenous Language</span> Preservation Association"
+    "hkilangTitle": "Hong Kong <span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">Indigenous Language</span> Preservation Association",
+    "selectVoice": "Select Voice",
+    "description": "Enter text to hear Weitou and Hakka pronunciation, preserving local languages."
+  },
+  "languageSelection": {
+    "title": "Select Language",
+    "welcome": "Welcome to the <b>Hong Kong Weitou and Hakka Text-to-Speech</b> reader!",
+    "instruction": "Please select a language to get started:"
+  },
+  "sentenceCopy": {
+    "copySentence": "Copy Sentence",
+    "copyPronunciation": "Copy Pronunciation",
+    "copySentenceAndPronunciation": "Copy Sentence & Pronunciation"
+  },
+  "clipboard": {
+    "copied": "Copied to clipboard",
+    "failed": "Failed to copy to clipboard"
+  },
+  "audio": {
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "error": "Error:",
+    "retry": "Retry",
+    "download": "Download {{type}}",
+    "fileNotDownloaded": "{{language}} ({{voice}}) {{type}} not yet downloaded",
+    "fileNotDownloadedIncomplete": "{{language}} ({{voice}}) {{type}} download incomplete",
+    "cannotGetStatus": "Cannot get {{type}} status: database error",
+    "networkError": "Failed to load audio: network or server error",
+    "dbAccessError": "Cannot access audio data: database error"
+  },
+  "settingsDialog": {
+    "back": "Back",
+    "dbLoadFailed": "Database failed to load",
+    "retry": "Retry",
+    "dbLoading": "Loading database..."
   },
   "about": {
     "buttonText": "About",

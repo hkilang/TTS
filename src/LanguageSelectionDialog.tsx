@@ -1,4 +1,5 @@
 import { forwardRef, useCallback, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 import { MdLanguage } from "react-icons/md";
 
@@ -17,6 +18,7 @@ const LanguageSelectionDialog = forwardRef<HTMLDialogElement, LanguageSelectionD
 		setLanguage,
 	},
 }, ref) {
+	const { t } = useTranslation();
 	const setLanguageAndCloseDialog = useCallback((language: Language) => {
 		setLanguage(language);
 		(ref as RefObject<HTMLDialogElement>).current?.close();
@@ -33,13 +35,11 @@ const LanguageSelectionDialog = forwardRef<HTMLDialogElement, LanguageSelectionD
 	return <dialog ref={ref} className="modal modal-bottom sm:modal-middle">
 		<div className="modal-box p-0 flex flex-col sm:max-w-3xl h-[24rem] overflow-hidden">
 			<h3 className="flex items-center gap-2 mx-6 mt-5.5 mb-5">
-				<MdLanguage size="1.125em" className="mt-1" />選擇語言
+				<MdLanguage size="1.125em" className="mt-1" />{t('languageSelection.title')}
 			</h3>
 			<hr />
-			<p className="text-xl xs:text-1.5xl mx-6 mt-4.5 mb-1.5">
-				歡迎使用<b>香港圍頭話及客家話文字轉語音</b>朗讀器！
-			</p>
-			<p className="text-xl xs:text-1.5xl mx-6">請選擇語言以開始使用：</p>
+			<p className="text-xl xs:text-1.5xl mx-6 mt-4.5 mb-1.5" dangerouslySetInnerHTML={{ __html: t('languageSelection.welcome') }} />
+			<p className="text-xl xs:text-1.5xl mx-6">{t('languageSelection.instruction')}</p>
 			<div className="flex-1 grid place-items-stretch p-6 md:p-8">
 				<div className="flex items-center justify-center gap-6 md:gap-8">
 					<Radio

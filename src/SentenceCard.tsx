@@ -235,8 +235,8 @@ export default function SentenceCard({
 	return <div className="card card-bordered border-base-300 bg-base-100 rounded-xl shadow-lg mb-3">
 		<div className="card-body max-sm:[--padding-card:1.5rem]">
 			<div className="join">
-				<span className="badge badge-primary join-item">{TERMINOLOGY[language]}</span>
-				<span className="badge badge-secondary join-item">{TERMINOLOGY[voice]}</span>
+				<span className="badge badge-primary join-item">{t(TERMINOLOGY[language])}</span>
+				<span className="badge badge-secondary join-item">{t(TERMINOLOGY[voice])}</span>
 				<span className="badge badge-accent join-item">{t(INFERENCE_MODE_TO_LABEL[inferenceMode])}</span>
 				<span className="badge badge-info join-item">{voiceSpeed}×</span>
 			</div>

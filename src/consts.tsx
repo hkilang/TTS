@@ -3,12 +3,12 @@ import { MdCancel, MdEject, MdEnergySavingsLeaf, MdFileDownload, MdFileDownloadD
 import type { ActualDownloadStatus, InferenceMode, Language, ModelComponent, DownloadStatus, Terminology, Voice, OfflineInferenceMode, AudioComponent, HakkaToneMode, LanguageOrUndefined } from "./types";
 
 export const TERMINOLOGY: Record<Terminology, string> = {
-	waitau: "圍頭話",
-	hakka: "客家話",
-	male: "男聲",
-	female: "女聲",
-	diacritics: "調號",
-	digits: "數字",
+	waitau: "terminology.waitau",
+	hakka: "terminology.hakka",
+	male: "terminology.male",
+	female: "terminology.female",
+	diacritics: "terminology.diacritics",
+	digits: "terminology.digits",
 };
 
 export const LANGUAGE_TO_TEXT_COLOR_CLASS: Record<Language, string> = {
@@ -64,19 +64,19 @@ export const DOWNLOAD_TYPE_LABEL: Record<OfflineInferenceMode, string> = {
 };
 
 export const DOWNLOAD_STATUS_LABEL: Record<DownloadStatus, string> = {
-	gathering_info: "正在取得＿＿狀態……",
-	gather_failed: "無法取得＿＿狀態：資料庫出錯",
-	available_for_download: "可供下載",
-	new_version_available: "有新版本可供下載",
-	incomplete: "＿＿不完整",
-	downloading: "下載中……",
-	download_failed: "下載失敗：網絡或伺服器錯誤",
-	download_incomplete: "下載不完整：網絡或伺服器錯誤",
-	cancelled_not_downloaded: "下載已被取消；＿＿尚未下載",
-	cancelled_incomplete: "下載已被取消；＿＿不完整",
-	save_failed: "下載失敗：儲存至資料庫時發生錯誤",
-	save_incomplete: "下載不完整：儲存至資料庫時發生錯誤",
-	latest: "已經為最新版本",
+	gathering_info: "downloadStatus.gatheringInfo",
+	gather_failed: "downloadStatus.gatherFailed",
+	available_for_download: "downloadStatus.availableForDownload",
+	new_version_available: "downloadStatus.newVersionAvailable",
+	incomplete: "downloadStatus.incomplete",
+	downloading: "downloadStatus.downloading",
+	download_failed: "downloadStatus.downloadFailed",
+	download_incomplete: "downloadStatus.downloadIncomplete",
+	cancelled_not_downloaded: "downloadStatus.cancelledNotDownloaded",
+	cancelled_incomplete: "downloadStatus.cancelledIncomplete",
+	save_failed: "downloadStatus.saveFailed",
+	save_incomplete: "downloadStatus.saveIncomplete",
+	latest: "downloadStatus.latest",
 };
 
 export const DOWNLOAD_STATUS_CLASS: Record<DownloadStatus, string> = {
@@ -113,17 +113,17 @@ export const DOWNLOAD_STATUS_ICON: Record<DownloadStatus, JSX.Element> = {
 
 export const DOWNLOAD_STATUS_ACTION_LABEL: Record<DownloadStatus, string | null> = {
 	gathering_info: null,
-	gather_failed: "重試",
-	available_for_download: "下載",
-	new_version_available: "下載",
-	incomplete: "繼續下載",
-	downloading: "取消下載",
-	download_failed: "重試",
-	download_incomplete: "重試",
-	cancelled_not_downloaded: "下載",
-	cancelled_incomplete: "繼續下載",
-	save_failed: "重試",
-	save_incomplete: "重試",
+	gather_failed: "downloadAction.retry",
+	available_for_download: "downloadAction.download",
+	new_version_available: "downloadAction.download",
+	incomplete: "downloadAction.continueDownload",
+	downloading: "downloadAction.cancelDownload",
+	download_failed: "downloadAction.retry",
+	download_incomplete: "downloadAction.retry",
+	cancelled_not_downloaded: "downloadAction.download",
+	cancelled_incomplete: "downloadAction.continueDownload",
+	save_failed: "downloadAction.retry",
+	save_incomplete: "downloadAction.retry",
 	latest: null,
 };
 

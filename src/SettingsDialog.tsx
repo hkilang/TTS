@@ -13,7 +13,7 @@ import type { SetDownloadStatus, SettingsDialogState, OfflineInferenceMode, Actu
 
 // This method is bounded per the spec
 // eslint-disable-next-line @typescript-eslint/unbound-method
-const formatNumber = Intl.NumberFormat("zh-HK", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format;
+const formatNumber = Intl.NumberFormat(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format;
 
 const SettingsDialog = forwardRef<HTMLDialogElement, SettingDialogProps>(function SettingsDialog({
     currSettingsDialogPage,
@@ -53,7 +53,7 @@ const SettingsDialog = forwardRef<HTMLDialogElement, SettingDialogProps>(functio
                         <MdSettings size="1.125em" className="mt-1" />{t('settings')}
                     </>
                     : <>
-                        <button type="button" className="btn btn-ghost w-14 h-14 min-h-14 text-4.5xl -ml-3 -mr-2.5 -my-7 text-slate-500 hover:bg-opacity-10" aria-label="返回" onClick={() => setCurrSettingsDialogPage("settings")}>
+                        <button type="button" className="btn btn-ghost w-14 h-14 min-h-14 text-4.5xl -ml-3 -mr-2.5 -my-7 text-slate-500 hover:bg-opacity-10" aria-label={t('settingsDialog.back')} onClick={() => setCurrSettingsDialogPage("settings")}>
                             <span>
                                 <MdArrowBack />
                             </span>
@@ -145,7 +145,7 @@ const SettingsDialog = forwardRef<HTMLDialogElement, SettingDialogProps>(functio
                     </>
                     : error
                     ? <div className="text-center">
-                        <h4>資料庫載入失敗</h4>
+                        <h4>{t('settingsDialog.dbLoadFailed')}</h4>
                         <div className="mt-2 mb-3">
                             {error.name}
                             {error.message && <>
@@ -154,7 +154,7 @@ const SettingsDialog = forwardRef<HTMLDialogElement, SettingDialogProps>(functio
                             </>}
                         </div>
                         <button type="button" className="btn btn-primary text-xl text-neutral-content" onClick={retry}>
-                            <MdRefresh size="1.25em" />重試
+                            <MdRefresh size="1.25em" />{t('settingsDialog.retry')}
                         </button>
                     </div>
                     : db
@@ -171,7 +171,7 @@ const SettingsDialog = forwardRef<HTMLDialogElement, SettingDialogProps>(functio
                             )
                         )}
                     </ul>
-                    : <h4>資料庫載入中……</h4>}
+                    : <h4>{t('settingsDialog.dbLoading')}</h4>}
             </div>}
         </div>
     </dialog>;

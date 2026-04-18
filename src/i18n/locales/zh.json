@@ -44,16 +44,16 @@
     "data": "數據"
   },
   "downloadStatus": {
-    "gatheringInfo": "正在取得＿＿狀態……",
-    "gatherFailed": "無法取得＿＿狀態：資料庫出錯",
+    "gatheringInfo": "正在取得{{type}}狀態……",
+    "gatherFailed": "無法取得{{type}}狀態：資料庫出錯",
     "availableForDownload": "可供下載",
     "newVersionAvailable": "有新版本可供下載",
-    "incomplete": "＿＿不完整",
+    "incomplete": "{{type}}不完整",
     "downloading": "下載中……",
     "downloadFailed": "下載失敗：網絡或伺服器錯誤",
     "downloadIncomplete": "下載不完整：網絡或伺服器錯誤",
-    "cancelledNotDownloaded": "下載已被取消；＿＿尚未下載",
-    "cancelledIncomplete": "下載已被取消；＿＿不完整",
+    "cancelledNotDownloaded": "下載已被取消；{{type}}尚未下載",
+    "cancelledIncomplete": "下載已被取消；{{type}}不完整",
     "saveFailed": "下載失敗：儲存至資料庫時發生錯誤",
     "saveIncomplete": "下載不完整：儲存至資料庫時發生錯誤",
     "latest": "已經為最新版本"
@@ -68,7 +68,42 @@
     "title": "香港圍頭話及客家話文字轉語音",
     "logoAlt": "應用程式標誌",
     "hkilangLogoAlt": "香港本土語言保育協會標誌",
-    "hkilangTitle": "香港<span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">本土語言</span>保育協會"
+    "hkilangTitle": "香港<span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">本土語言</span>保育協會",
+    "selectVoice": "選擇聲線",
+    "description": "輸入文字，聆聽圍頭話、客家話發音，傳承本土語言。"
+  },
+  "languageSelection": {
+    "title": "選擇語言",
+    "welcome": "歡迎使用<b>香港圍頭話及客家話文字轉語音</b>朗讀器！",
+    "instruction": "請選擇語言以開始使用："
+  },
+  "sentenceCopy": {
+    "copySentence": "複製句子",
+    "copyPronunciation": "複製發音",
+    "copySentenceAndPronunciation": "複製句子與發音"
+  },
+  "clipboard": {
+    "copied": "已複製至剪貼簿",
+    "failed": "無法複製至剪貼簿"
+  },
+  "audio": {
+    "play": "播放",
+    "pause": "暫停",
+    "stop": "停止",
+    "error": "錯誤：",
+    "retry": "重試",
+    "download": "下載{{type}}",
+    "fileNotDownloaded": "{{language}}（{{voice}}）{{type}}尚未下載",
+    "fileNotDownloadedIncomplete": "{{language}}（{{voice}}）{{type}}尚未下載完成",
+    "cannotGetStatus": "無法取得{{type}}狀態：資料庫出錯",
+    "networkError": "無法載入音訊：網絡或伺服器錯誤",
+    "dbAccessError": "無法存取語音數據：資料庫出錯"
+  },
+  "settingsDialog": {
+    "back": "返回",
+    "dbLoadFailed": "資料庫載入失敗",
+    "retry": "重試",
+    "dbLoading": "資料庫載入中……"
   },
   "about": {
     "buttonText": "關於",

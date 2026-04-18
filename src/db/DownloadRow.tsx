@@ -1,4 +1,5 @@
 import { useState, useRef, useReducer, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 import { CURRENT_AUDIO_VERSION, CURRENT_MODEL_VERSION } from "./version";
 import { ALL_AUDIO_COMPONENTS, ALL_MODEL_COMPONENTS, DOWNLOAD_STATUS_LABEL, DOWNLOAD_STATUS_ACTION_LABEL, DOWNLOAD_STATUS_CLASS, DOWNLOAD_STATUS_ICON, TERMINOLOGY, VOICE_TO_ICON, MODEL_PATH_PREFIX, MODEL_COMPONENT_TO_N_CHUNKS, DOWNLOAD_TYPE_LABEL, AUDIO_PATH_PREFIX, AUDIO_COMPONENT_TO_N_CHUNKS } from "../consts";
@@ -14,7 +15,7 @@ function getNumberOfChunks(inferenceMode: OfflineInferenceMode, component: Downl
 
 // This method is bounded per the spec
 // eslint-disable-next-line @typescript-eslint/unbound-method
-const formatPercentage = Intl.NumberFormat("zh-HK", { style: "percent", minimumFractionDigits: 2, maximumFractionDigits: 2 }).format;
+const formatPercentage = Intl.NumberFormat(undefined, { style: "percent", minimumFractionDigits: 2, maximumFractionDigits: 2 }).format;
 
 interface DownloadRowProps extends SetDownloadStatus {
 	inferenceMode: OfflineInferenceMode;
@@ -24,6 +25,7 @@ interface DownloadRowProps extends SetDownloadStatus {
 }
 
 export default function DownloadRow({ db, inferenceMode, language, voice, setDownloadState }: DownloadRowProps) {
+	const { t } = useTranslation();
 	const [status, setStatus] = useState<DownloadStatus>("gathering_info");
 	const [missingComponents, setMissingComponents] = useState(new Set<DownloadComponent>());
 	const [progress, setProgress] = useState(0);
@@ -213,15 +215,15 @@ export default function DownloadRow({ db, inferenceMode, language, voice, setDow
 		<button type="button" className={`flex items-stretch text-sm/4 text-left py-4 border-b border-b-slate-300 text-slate-700 ${DOWNLOAD_STATUS_ACTION[status] ? "transition-colors hover:bg-base-content hover:bg-opacity-10" : "pointer-events-none"}`} onClick={DOWNLOAD_STATUS_ACTION[status]}>
 			<div className="text-2xl flex items-center pl-4 pr-2">{VOICE_TO_ICON[voice]}</div>
 			<div className="flex-1 flex flex-col gap-0.5">
-				<div className="text-xl font-medium">{TERMINOLOGY[language]} – {TERMINOLOGY[voice]}</div>
+				<div className="text-xl font-medium">{t(TERMINOLOGY[language])} – {t(TERMINOLOGY[voice])}</div>
 				{status === "downloading"
 					? <div className="flex items-center gap-2">
 						<progress className="progress progress-info" value={progress} />
 						{formatPercentage(progress)}
 					</div>
-					: <div className={DOWNLOAD_STATUS_CLASS[status]}>{DOWNLOAD_STATUS_LABEL[status].replace("＿＿", DOWNLOAD_TYPE_LABEL[inferenceMode])}</div>}
+					: <div className={DOWNLOAD_STATUS_CLASS[status]}>{t(DOWNLOAD_STATUS_LABEL[status], { type: t(DOWNLOAD_TYPE_LABEL[inferenceMode]) })}</div>}
 			</div>
-			<div className="text-2xl flex items-center pl-2 pr-4 tooltip tooltip-left tooltip-primary before:text-lg" data-tip={DOWNLOAD_STATUS_ACTION_LABEL[status]}>{DOWNLOAD_STATUS_ICON[status]}</div>
+			<div className="text-2xl flex items-center pl-2 pr-4 tooltip tooltip-left tooltip-primary before:text-lg" data-tip={DOWNLOAD_STATUS_ACTION_LABEL[status] ? t(DOWNLOAD_STATUS_ACTION_LABEL[status]) : null}>{DOWNLOAD_STATUS_ICON[status]}</div>
 		</button>
 	</li>;
 }

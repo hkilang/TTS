@@ -10,6 +10,10 @@ declare module "*words.csv" {
 	export default WordsFile;
 }
 
+interface Window {
+	updateHTMLLanguage?: (lang: string) => void;
+}
+
 declare module "vega-statistics" {
 	export function setRandom(randFunc: () => number): void;
 	export function sampleNormal(mean?: number, stdev?: number): number;
