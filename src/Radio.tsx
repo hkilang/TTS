@@ -23,7 +23,7 @@ export default function Radio<T extends Terminology>({
 	value: T;
 }) {
 	const { t, i18n } = useTranslation();
-	const tOther = i18n.getFixedT(i18n.language === 'en' ? 'zh' : 'en');
+	const tOther = i18n.getFixedT(i18n.language === "en" ? "zh" : "en");
 	return <label className={`${className} ${state === value ? activeClassName : nonActiveClassName}`}>
 		<input
 			type="radio"

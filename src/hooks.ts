@@ -81,7 +81,7 @@ export function useCopyState() {
 	return {
 		copy,
 		tooltipStyle: `tooltip tooltip-left ${displayCopyState === "copied" ? "tooltip-primary" : "tooltip-error"} ${copyState ? "tooltip-open" : "tooltip-close"} before:transition-opacity after:transition-opacity before:text-lg`,
-		tooltipText: displayCopyState && (displayCopyState === "copied" ? t('clipboard.copied') : t('clipboard.failed')),
+		tooltipText: displayCopyState && (displayCopyState === "copied" ? t("clipboard.copied") : t("clipboard.failed")),
 	};
 }
 

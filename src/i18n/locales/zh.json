@@ -1,131 +1,131 @@
 {
-  "language": "語言",
-  "voice": "聲線",
-  "settings": "設定",
-  "changeLanguage": "更改語言",
-  "selectLanguage": "選擇語言",
-  "unselected": "未選擇",
-  "addSentence": "輸入",
-  "inputPlaceholder": "輸入中文文字...",
-  "male": "男聲",
-  "female": "女聲",
-  "uiLanguage": "介面語言",
-  "inferenceMode": "推論模式",
-  "onlineMode": "線上模式",
-  "offlineMode": "離線模式",
-  "voiceSpeed": "語速",
-  "download": "下載",
-  "downloading": "下載中",
-  "downloaded": "已下載",
-  "delete": "刪除",
-  "hakkaToneMode": "客家話聲調模式",
-  "options": "選項",
-  "copyURLRow": {
-    "title": "複製包含目前設定的連結"
-  },
-  "terminology": {
-    "waitau": "圍頭話",
-    "hakka": "客家話",
-    "male": "男聲",
-    "female": "女聲",
-    "diacritics": "調號",
-    "digits": "數字"
-  },
-  "inferenceModes": {
-    "online": "線上模式",
-    "offline": "離線模式",
-    "lightweight": "輕巧模式",
-    "onlineDescription": "在伺服器產生音訊。請注意，每次產生音訊時皆需要網絡連線，並可能會產生相關網絡費用。",
-    "offlineDescription": "毋須網絡連線，直接於裝置進行運算並產生音訊。請注意，下載或更新模型時仍須網絡連線，且裝置需要有足夠空間儲存模型。",
-    "lightweightDescription": "以輕巧方式快速於裝置產生音訊，質素較其餘兩個模式遜色。適用於記憶體容量較少的裝置。僅於多次嘗試離線模式亦失敗時方建議使用此模式。請注意，此模式仍需空間儲存數據。"
-  },
-  "downloadType": {
-    "model": "模型",
-    "data": "數據"
-  },
-  "downloadStatus": {
-    "gatheringInfo": "正在取得{{type}}狀態……",
-    "gatherFailed": "無法取得{{type}}狀態：資料庫出錯",
-    "availableForDownload": "可供下載",
-    "newVersionAvailable": "有新版本可供下載",
-    "incomplete": "{{type}}不完整",
-    "downloading": "下載中……",
-    "downloadFailed": "下載失敗：網絡或伺服器錯誤",
-    "downloadIncomplete": "下載不完整：網絡或伺服器錯誤",
-    "cancelledNotDownloaded": "下載已被取消；{{type}}尚未下載",
-    "cancelledIncomplete": "下載已被取消；{{type}}不完整",
-    "saveFailed": "下載失敗：儲存至資料庫時發生錯誤",
-    "saveIncomplete": "下載不完整：儲存至資料庫時發生錯誤",
-    "latest": "已經為最新版本"
-  },
-  "downloadAction": {
-    "retry": "重試",
-    "download": "下載",
-    "continueDownload": "繼續下載",
-    "cancelDownload": "取消下載"
-  },
-  "app": {
-    "title": "香港圍頭話及客家話文字轉語音",
-    "logoAlt": "應用程式標誌",
-    "hkilangLogoAlt": "香港本土語言保育協會標誌",
-    "hkilangTitle": "香港<span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">本土語言</span>保育協會",
-    "selectVoice": "選擇聲線",
-    "description": "輸入文字，聆聽圍頭話、客家話發音，傳承本土語言。"
-  },
-  "languageSelection": {
-    "title": "選擇語言",
-    "welcome": "歡迎使用<b>香港圍頭話及客家話文字轉語音</b>朗讀器！",
-    "instruction": "請選擇語言以開始使用："
-  },
-  "sentenceCopy": {
-    "copySentence": "複製句子",
-    "copyPronunciation": "複製發音",
-    "copySentenceAndPronunciation": "複製句子與發音"
-  },
-  "clipboard": {
-    "copied": "已複製至剪貼簿",
-    "failed": "無法複製至剪貼簿"
-  },
-  "audio": {
-    "play": "播放",
-    "pause": "暫停",
-    "stop": "停止",
-    "error": "錯誤：",
-    "retry": "重試",
-    "download": "下載{{type}}",
-    "fileNotDownloaded": "{{language}}（{{voice}}）{{type}}尚未下載",
-    "fileNotDownloadedIncomplete": "{{language}}（{{voice}}）{{type}}尚未下載完成",
-    "cannotGetStatus": "無法取得{{type}}狀態：資料庫出錯",
-    "networkError": "無法載入音訊：網絡或伺服器錯誤",
-    "dbAccessError": "無法存取語音數據：資料庫出錯"
-  },
-  "settingsDialog": {
-    "back": "返回",
-    "dbLoadFailed": "資料庫載入失敗",
-    "retry": "重試",
-    "dbLoading": "資料庫載入中……"
-  },
-  "about": {
-    "buttonText": "關於",
-    "title": "關於",
-    "close": "關閉",
-    "intro": "歡迎使用<b>香港圍頭話及客家話文字轉語音（Text-to-Speech）</b>朗讀器！",
-    "heritage": "<b>圍頭話</b>及<b>客家話</b>皆是香港的非物質文化遺產，然而這些本土語言傳承因城市化出現了斷層。圍村新一代接觸圍頭話、客家話的機會甚少，或「曉聽唔曉講」。",
-    "purpose": "使用本文字轉語音（<abbr>TTS</abbr>）朗讀器，可以作為學習圍頭話、客家話的資源，亦可以成為與圍村長輩溝通的工具，延續家庭和社區的語言傳承。",
-    "instructions": {
-      "intro": "只需在程式中輸入文字，程式便會生成自然流暢的圍頭話或客家話語音。使用方法如下：",
-      "step1": "選擇語言：圍頭話／客家話",
-      "step2": "選擇聲線：男聲／女聲",
-      "step3": "在輸入框輸入文字",
-      "step4": "點選",
-      "step5": "按播放鍵"
-    },
-    "credits": "本程式由<a href=\"https://hkilang.org\" target=\"_blank\">香港本土語言保育協會</a>開發，特此鳴謝康樂及文化事務署<a href=\"https://www.icho.hk/tc/web/icho/ich_funding_scheme_introduction.html\" target=\"_blank\">非物質文化遺產資助計劃</a>對本計劃的資助，以及<a href=\"https://crlls.eduhk.hk\" target=\"_blank\">香港教育大學語言學及語言研究中心</a>提供場地租借的協助。",
-    "technical": "本程式前端以 <a href=\"https://typescriptlang.org\" target=\"_blank\">TypeScript</a> 及 <a href=\"https://react.dev\" target=\"_blank\">React</a> 框架開發，採用由 <a href=\"https://hon9kon9ize.com\" target=\"_blank\">hon9kon9ize</a> 提供的 VITS2 語言模型 <sup><a href=\"#vits2\">[1]</a></sup>，詳情請參閱<a href=\"https://github.com/hkilang/TTS\" target=\"_blank\">原始碼</a>。",
-    "contact": "如有任何查詢，歡迎電郵至 <a href=\"mailto:info@hkilang.org\" target=\"_blank\">info@hkilang.org</a> 或 <a href=\"mailto:lchaakming@eduhk.hk\" target=\"_blank\">lchaakming@eduhk.hk</a>。",
-    "fundingTitle": "資助單位：",
-    "creditLogosAlt": "康樂及文化事務署標誌、政府資助計劃「門常開」標誌、非物質文化遺產資助計劃標誌",
-    "creditLogosTitle": "康樂及文化事務署標誌、政府資助計劃「門常開」標誌、非物質文化遺產資助計劃標誌",
-    "citation": "Jungil Kong, Jihoon Park, Beomjeong Kim, Jeongmin Kim, Dohee Kong, and Sangjin Kim. 2023. VITS2: Improving quality and efficiency of single-stage text-to-speech with adversarial learning and architecture design. In <cite>Proc. INTERSPEECH 2023</cite>, pp. 4374–4378. Available: <a href=\"https://www.isca-archive.org/interspeech_2023/kong23_interspeech.html\" target=\"_blank\" class=\"whitespace-nowrap\">https://www.isca-archive.org/<wbr />interspeech_2023/<wbr />kong23_interspeech.html</a>"
-  }
+	"language": "語言",
+	"voice": "聲線",
+	"settings": "設定",
+	"changeLanguage": "更改語言",
+	"selectLanguage": "選擇語言",
+	"unselected": "未選擇",
+	"addSentence": "輸入",
+	"inputPlaceholder": "輸入中文文字...",
+	"male": "男聲",
+	"female": "女聲",
+	"uiLanguage": "介面語言",
+	"inferenceMode": "推論模式",
+	"onlineMode": "線上模式",
+	"offlineMode": "離線模式",
+	"voiceSpeed": "語速",
+	"download": "下載",
+	"downloading": "下載中",
+	"downloaded": "已下載",
+	"delete": "刪除",
+	"hakkaToneMode": "客家話聲調模式",
+	"options": "選項",
+	"copyURLRow": {
+		"title": "複製包含目前設定的連結"
+	},
+	"terminology": {
+		"waitau": "圍頭話",
+		"hakka": "客家話",
+		"male": "男聲",
+		"female": "女聲",
+		"diacritics": "調號",
+		"digits": "數字"
+	},
+	"inferenceModes": {
+		"online": "線上模式",
+		"offline": "離線模式",
+		"lightweight": "輕巧模式",
+		"onlineDescription": "在伺服器產生音訊。請注意，每次產生音訊時皆需要網絡連線，並可能會產生相關網絡費用。",
+		"offlineDescription": "毋須網絡連線，直接於裝置進行運算並產生音訊。請注意，下載或更新模型時仍須網絡連線，且裝置需要有足夠空間儲存模型。",
+		"lightweightDescription": "以輕巧方式快速於裝置產生音訊，質素較其餘兩個模式遜色。適用於記憶體容量較少的裝置。僅於多次嘗試離線模式亦失敗時方建議使用此模式。請注意，此模式仍需空間儲存數據。"
+	},
+	"downloadType": {
+		"model": "模型",
+		"data": "數據"
+	},
+	"downloadStatus": {
+		"gatheringInfo": "正在取得{{type}}狀態……",
+		"gatherFailed": "無法取得{{type}}狀態：資料庫出錯",
+		"availableForDownload": "可供下載",
+		"newVersionAvailable": "有新版本可供下載",
+		"incomplete": "{{type}}不完整",
+		"downloading": "下載中……",
+		"downloadFailed": "下載失敗：網絡或伺服器錯誤",
+		"downloadIncomplete": "下載不完整：網絡或伺服器錯誤",
+		"cancelledNotDownloaded": "下載已被取消；{{type}}尚未下載",
+		"cancelledIncomplete": "下載已被取消；{{type}}不完整",
+		"saveFailed": "下載失敗：儲存至資料庫時發生錯誤",
+		"saveIncomplete": "下載不完整：儲存至資料庫時發生錯誤",
+		"latest": "已經為最新版本"
+	},
+	"downloadAction": {
+		"retry": "重試",
+		"download": "下載",
+		"continueDownload": "繼續下載",
+		"cancelDownload": "取消下載"
+	},
+	"app": {
+		"title": "香港圍頭話及客家話文字轉語音",
+		"logoAlt": "應用程式標誌",
+		"hkilangLogoAlt": "香港本土語言保育協會標誌",
+		"hkilangTitle": "香港<span class=\"text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]\">本土語言</span>保育協會",
+		"selectVoice": "選擇聲線",
+		"description": "輸入文字，聆聽圍頭話、客家話發音，傳承本土語言。"
+	},
+	"languageSelection": {
+		"title": "選擇語言",
+		"welcome": "歡迎使用<b>香港圍頭話及客家話文字轉語音</b>朗讀器！",
+		"instruction": "請選擇語言以開始使用："
+	},
+	"sentenceCopy": {
+		"copySentence": "複製句子",
+		"copyPronunciation": "複製發音",
+		"copySentenceAndPronunciation": "複製句子與發音"
+	},
+	"clipboard": {
+		"copied": "已複製至剪貼簿",
+		"failed": "無法複製至剪貼簿"
+	},
+	"audio": {
+		"play": "播放",
+		"pause": "暫停",
+		"stop": "停止",
+		"error": "錯誤：",
+		"retry": "重試",
+		"download": "下載{{type}}",
+		"fileNotDownloaded": "{{language}}（{{voice}}）{{type}}尚未下載",
+		"fileNotDownloadedIncomplete": "{{language}}（{{voice}}）{{type}}尚未下載完成",
+		"cannotGetStatus": "無法取得{{type}}狀態：資料庫出錯",
+		"networkError": "無法載入音訊：網絡或伺服器錯誤",
+		"dbAccessError": "無法存取語音數據：資料庫出錯"
+	},
+	"settingsDialog": {
+		"back": "返回",
+		"dbLoadFailed": "資料庫載入失敗",
+		"retry": "重試",
+		"dbLoading": "資料庫載入中……"
+	},
+	"about": {
+		"buttonText": "關於",
+		"title": "關於",
+		"close": "關閉",
+		"intro": "歡迎使用<b>香港圍頭話及客家話文字轉語音（Text-to-Speech）</b>朗讀器！",
+		"heritage": "<b>圍頭話</b>及<b>客家話</b>皆是香港的非物質文化遺產，然而這些本土語言傳承因城市化出現了斷層。圍村新一代接觸圍頭話、客家話的機會甚少，或「曉聽唔曉講」。",
+		"purpose": "使用本文字轉語音（<abbr>TTS</abbr>）朗讀器，可以作為學習圍頭話、客家話的資源，亦可以成為與圍村長輩溝通的工具，延續家庭和社區的語言傳承。",
+		"instructions": {
+			"intro": "只需在程式中輸入文字，程式便會生成自然流暢的圍頭話或客家話語音。使用方法如下：",
+			"step1": "選擇語言：圍頭話／客家話",
+			"step2": "選擇聲線：男聲／女聲",
+			"step3": "在輸入框輸入文字",
+			"step4": "點選",
+			"step5": "按播放鍵"
+		},
+		"credits": "本程式由<a href=\"https://hkilang.org\" target=\"_blank\">香港本土語言保育協會</a>開發，特此鳴謝康樂及文化事務署<a href=\"https://www.icho.hk/tc/web/icho/ich_funding_scheme_introduction.html\" target=\"_blank\">非物質文化遺產資助計劃</a>對本計劃的資助，以及<a href=\"https://crlls.eduhk.hk\" target=\"_blank\">香港教育大學語言學及語言研究中心</a>提供場地租借的協助。",
+		"technical": "本程式前端以 <a href=\"https://typescriptlang.org\" target=\"_blank\">TypeScript</a> 及 <a href=\"https://react.dev\" target=\"_blank\">React</a> 框架開發，採用由 <a href=\"https://hon9kon9ize.com\" target=\"_blank\">hon9kon9ize</a> 提供的 VITS2 語言模型 <sup><a href=\"#vits2\">[1]</a></sup>，詳情請參閱<a href=\"https://github.com/hkilang/TTS\" target=\"_blank\">原始碼</a>。",
+		"contact": "如有任何查詢，歡迎電郵至 <a href=\"mailto:info@hkilang.org\" target=\"_blank\">info@hkilang.org</a> 或 <a href=\"mailto:lchaakming@eduhk.hk\" target=\"_blank\">lchaakming@eduhk.hk</a>。",
+		"fundingTitle": "資助單位：",
+		"creditLogosAlt": "康樂及文化事務署標誌、政府資助計劃「門常開」標誌、非物質文化遺產資助計劃標誌",
+		"creditLogosTitle": "康樂及文化事務署標誌、政府資助計劃「門常開」標誌、非物質文化遺產資助計劃標誌",
+		"citation": "Jungil Kong, Jihoon Park, Beomjeong Kim, Jeongmin Kim, Dohee Kong, and Sangjin Kim. 2023. VITS2: Improving quality and efficiency of single-stage text-to-speech with adversarial learning and architecture design. In <cite>Proc. INTERSPEECH 2023</cite>, pp. 4374–4378. Available: <a href=\"https://www.isca-archive.org/interspeech_2023/kong23_interspeech.html\" target=\"_blank\" class=\"whitespace-nowrap\">https://www.isca-archive.org/<wbr />interspeech_2023/<wbr />kong23_interspeech.html</a>"
+	}
 }

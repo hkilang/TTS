@@ -2,7 +2,7 @@
 {
 	"indentWidth": 4,
 	"lineWidth": 1000,
-	"newLineKind": "crlf",
+	"newLineKind": "lf",
 	"useTabs": true,
 	"typescript": {
 		"semiColons": "prefer",

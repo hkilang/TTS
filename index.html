@@ -51,13 +51,13 @@
 		<script src="./src/index.tsx" type="module"></script>
 		<script>
 			// Sync HTML lang attribute and title with persisted UI language before React hydrates
-			(function() {
-				var lang = localStorage.getItem('uiLanguage') || 'zh';
-				document.documentElement.lang = lang === 'en' ? 'en' : 'zh-HK';
-				if (lang === 'en') {
-					document.title = 'Hong Kong Wai Tau Waa & Hakka Text-to-Speech';
+			(function () {
+				var lang = localStorage.getItem("uiLanguage") || "zh";
+				document.documentElement.lang = lang === "en" ? "en" : "zh-HK";
+				if (lang === "en") {
+					document.title = "Hong Kong Wai Tau Waa & Hakka Text-to-Speech";
 					var desc = document.querySelector('meta[name="description"]');
-					if (desc) desc.setAttribute('content', 'Enter text to hear Weitou and Hakka pronunciation, preserving local languages.');
+					if (desc) desc.setAttribute("content", "Enter text to hear Weitou and Hakka pronunciation, preserving local languages.");
 				}
 			})();
 		</script>
