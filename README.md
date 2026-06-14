@@ -68,7 +68,7 @@ Developers can safely ignore the actual content in the `src/res/` folder and onl
   * `waitau_words.csv` and `hakka_words.csv` each contains two columns:
     * `char`: the Chinese characters consisting two or more Unicode codepoints. Again, this column is **not unique** and may repeat if the word can pronounce in multiple variations.
     * `pron`: the Waitau or Hakka pronunciation of the character with the **same number of syllables** as the number of characters in the `char` column. Each pair of syllables is separated by an ASCII (ordinary) whitespace.
-* The raw data, `dictionary.csv`, `WaitauWords.csv`, `HakkaWords.csv` and `public.csv`, as well as `compile.py`, should **never** be referenced in the code.
+* The raw data in the `src/res/raw/` folder, as well as `src/res/compile.py`, should **never** be referenced in the code.
 
 The outputs are precompiled and managed as part of the Git repository, so you need not generate them manually unless you modified the inputs or the complication script described below.
 
@@ -80,12 +80,12 @@ The outputs are precompiled and managed as part of the Git repository, so you ne
 >   <div>Read the above section for the description of the compilation outputs.</div>
 > </p>
 
-`src/res/compile.py` gathers pronunciation data from the following sources as the inputs:
+`src/res/compile.py` gathers pronunciation data from the following sources inside the `src/res/raw/` folder as the inputs:
 
-* `dictionary.csv`, `WaitauWords.csv`, `HakkaWords.csv`: Pronunciation data from the [HKILANG](https://hkilang.org)'s dictionary, surveyed and collected from villages in Hong Kong in an earlier project. These are the core sources.
-* `public.csv`: Lexicon table from the [TypeDuck](https://typeduck.hk) Cantonese keyboard, for further supplement of relatively uncommon words in order to facilitate automatic choice of pronunciation for polyphones (characters with multiple pronunciation). This is done inside the `generate` function in `compile.py` by looking up the Waitau/Hakka equivalent of the Cantonese pronunciation in the `dictionary.csv` table after Jyutping is converted into HKILANG's romanisation scheme by the `rom_map` function. Only entries with frequencies ≥ 10 which include at least one polyphone in the target language are included.
+* `dictionary.csv`, `lexical_items.csv`: Pronunciation data from the [HKILANG](https://hkilang.org)'s dictionary, surveyed and collected from villages in Hong Kong in an earlier project. These are the core sources.
+* `supplementary_lexicon.csv`: Lexicon table from the [TypeDuck](https://typeduck.hk) Cantonese keyboard, for further supplement of relatively uncommon words in order to facilitate automatic choice of pronunciation for polyphones (characters with multiple pronunciation). This is done inside the `generate` function in `compile.py` by looking up the Waitau/Hakka equivalent of the Cantonese pronunciation in the `dictionary.csv` table after Jyutping is converted into HKILANG's romanisation scheme by the `rom_map` function. Only entries with frequencies ≥ 10 which include at least one polyphone in the target language are included.
 
-In addition to words from `WaitauWords.csv`, `HakkaWords.csv` and `public.csv`, words are also extracted from collocations from the note column of `dictionary.csv`.
+In addition to words from `lexical_items.csv` and `supplementary_lexicon.csv`, words are also extracted from collocations from the note column of `dictionary.csv`.
 
 The compilation script cleanses and normalises the inputs, computes extra words and outputs the result into the three files described in the above section. All monosyllabic results, whether linguistically a word or not, are included in the `chars.csv` file, and the polysyllabic results are written to `waitau_words.csv` and `hakka_words.csv`.
 

@@ -16,9 +16,9 @@ char,waitau,hakka,notes
 丈,zöng2,cong1,姨～
 三,sam1,sam1,～個
 三,sam1,sam4,～思
+上,söng6,song4,～等、樓～
 上,söng1,song1,～去、遇～
 上,söng1,song3,～鍊、～樑
-上,söng6,song4,～等、樓～
 下,ha6,ha1,底～、～車
 下,ha6,ha4,～流
 下,ha1,ha4,一～、兩～
@@ -75,6 +75,7 @@ char,waitau,hakka,notes
 乸,na2,,
 乾,gung1,gon1,～燥
 乾,king4,kien2,～隆
+乾,gwung1,,
 亂,lüng6,lon4,
 了,liu1,liau3,
 予,yü1,yi1,
@@ -214,6 +215,7 @@ char,waitau,hakka,notes
 佫,hok2,hok5,
 佬,läu2,lau3,
 佮,gäp2,kap5,
+佮,gap1,,
 佮,gap2,,
 佮,,gap5,
 佯,yöng4,yong2,
@@ -628,9 +630,10 @@ char,waitau,hakka,notes
 刺,ci1,ci4,～探
 刺,ci1,ciuk5,～激
 刺,säk2,ciuk5,行～
+刺,cek2,,
 刺,,yap5,
-刻,häk2,ket5,～意
 刻,hæk2,kat5,～圖章
+刻,häk2,ket5,～意
 刻,,kat6,
 剁,dök2,dok6,
 剃,täi1,tai4,
@@ -699,6 +702,7 @@ char,waitau,hakka,notes
 劾,häk6,het5,
 勁,gäng6,gin4,
 勁,käng1,,
+勁,gäng1,,
 勃,buk6,put6,
 勇,yung2,yung3,
 勉,ming1,mien1,
@@ -779,8 +783,8 @@ char,waitau,hakka,notes
 卜,buk2,buk5,
 卞,bing6,pien3,
 占,zim1,zam1,
-卡,ka1,ka1,～車
 卡,kæk2,kat6,～片
+卡,ka1,ka1,～車
 卣,yäu1,yiu3,
 卦,gwa1,ga4,
 卧,ngo6,ngo4,
@@ -858,6 +862,7 @@ char,waitau,hakka,notes
 叻,lek2,liak6,
 叼,diu1,diau1,
 叾,duk2,duk5,
+叾,tok2,,
 吁,hü1,hi1,
 吂,mæng4,man2,～知、～好
 吃,hek2,ket5,～～
@@ -897,6 +902,7 @@ char,waitau,hakka,notes
 吭,häng1,hang1,～聲
 吭,hong4,hong2,引～高歌
 吮,süng2,con1,
+吮,süng1,,
 吰,wäng4,fen2,
 吱,zi1,zi1,
 吳,ng4,ng2,
@@ -976,8 +982,8 @@ char,waitau,hakka,notes
 咩,,,（甚麼）
 咩,me1,me1,（語氣詞）
 咩,,me4,（唔係）
-咪,mi1,mi3,笑～～
 咪,mäi1,mai4,（話筒）
+咪,mi1,mi3,笑～～
 咫,zi2,zi3,
 咬,ngau1,ngau1,
 咯,lok2,gok6,～～叫
@@ -1133,12 +1139,12 @@ char,waitau,hakka,notes
 喦,ngam4,ngam2,
 喧,süng1,sien1,
 喨,löng6,liong4,
-喪,song1,song1,～禮、奔～
 喪,song1,song4,沮～、～失
+喪,song1,song1,～禮、奔～
 喫,hek2,ket5,
 喬,kiu4,kiau2,
-喭,wung6,ngan4,（粗俗）
 喭,ying6,ngien4,（＝唁）
+喭,wung6,ngan4,（粗俗）
 單,dæng1,dan1,
 喱,li1,li1,
 喲,yo1,yo3,
@@ -1215,8 +1221,8 @@ char,waitau,hakka,notes
 嘛,ma1,ma1,（語氣詞）
 嘛,ma4,ma2,喇～
 嘟,du1,du1,
-嘟,düt2,,
-嘟,,lu3,
+嘟,dük2,,
+嘟,,dut6,
 嘢,ya1,,
 嘩,wa4,fa2,
 嘪,mai1,mai3,
@@ -1230,8 +1236,8 @@ char,waitau,hakka,notes
 嘶,si1,su1,
 嘹,liu4,liau2,
 嘻,hi1,hi1,
-嘽,cing2,cien3,（寬舒聲）
 嘽,tæng1,tan1,～～（很多）
+嘽,cing2,cien3,（寬舒聲）
 嘿,mäk6,met6,
 噀,säng1,sun4,
 噁,ok2,ok5,
@@ -1263,7 +1269,6 @@ char,waitau,hakka,notes
 噲,fai1,foi4,
 噳,yü1,ngi3,
 噴,päng1,pun4,
-噴,pän1,,
 噸,däng1,dun1,
 噹,dong1,dong1,
 噹,döng2,,
@@ -1277,8 +1282,10 @@ char,waitau,hakka,notes
 嚎,häu4,hau2,
 嚏,täi1,ti4,
 嚕,lu1,lu1,
+嚕,,lu3,
 嚘,yäu1,yiu1,
 嚙,ngik6,ngat5,
+嚙,æk2,,
 嚚,ngäng4,ngiun2,
 嚜,mäk6,met6,
 嚥,ying1,yen4,
@@ -1359,6 +1366,7 @@ char,waitau,hakka,notes
 坋,fäng1,fun4,
 坍,tæng1,tan1,
 坎,häm2,kam3,
+坎,,ngam4,
 坏,pui1,poi1,（＝坯）
 坏,wai6,fai4,（＝壞）
 坐,co1,co1,請～
@@ -1392,7 +1400,6 @@ char,waitau,hakka,notes
 垝,gwäi2,gui3,
 垟,yöng4,yong2,
 垠,ngäng4,ngiun2,
-垠,,hien1,
 垢,gäu1,geu4,
 垣,wung4,yen2,
 垤,dik2,diet5,
@@ -1470,8 +1477,8 @@ char,waitau,hakka,notes
 塗,tu4,tu2,
 塘,tong4,tong2,
 塚,cung1,cung3,
-塞,säk2,set5,活～、～滿
 塞,cöi1,soi4,～翁失馬
+塞,säk2,set5,活～、～滿
 塢,wu1,vu1,
 塤,hüng1,hiun1,
 填,ting4,tien2,
@@ -1940,6 +1947,7 @@ char,waitau,hakka,notes
 尹,wäng1,yun3,
 尺,cek2,cak5,
 尻,hau1,kau1,
+尻,gäu2,,
 尼,ni4,li2,
 尾,mi1,mui1,
 尾,mi2,,
@@ -2045,14 +2053,14 @@ char,waitau,hakka,notes
 崟,ngäm4,ngim2,
 崢,zäng1,zen1,
 崤,ngau4,ngau2,
-崥,bi2,bi3,峽～
 崥,pi4,pi2,～崹
+崥,bi2,bi3,峽～
 崦,yim1,yam1,
 崩,bäng1,ben1,
 崱,zäk2,zet5,
 崴,wäi1,vui1,
-崵,dong6,tong4,（＝碭）
 崵,yöng4,yong2,首～山
+崵,dong6,tong4,（＝碭）
 崶,fung1,fung1,
 崽,zäi2,zai3,
 崿,ngok6,ngok6,
@@ -2093,8 +2101,8 @@ char,waitau,hakka,notes
 嶰,hai1,hai4,
 嶷,yi4,ngi2,
 嶸,wäng4,yin2,
-嶺,läng1,liang3,～南
 嶺,leng1,liang1,粉～
+嶺,läng1,liang3,～南
 嶼,zü6,si4,島～
 嶼,yü4,yi2,大～山（地名）
 嶽,ngok6,ngok6,
@@ -2175,8 +2183,8 @@ char,waitau,hakka,notes
 幠,fu1,fu1,
 幡,fæng1,fan1,
 幢,cong4,cong2,人影～～
-幢,tung4,tung2,海～寺
 幢,zong6,dung4,（量詞）
+幢,tung4,tung2,海～寺
 幣,bäi6,bi4,
 幦,mäk6,met5,
 幧,ciu1,ciau1,
@@ -2409,7 +2417,6 @@ char,waitau,hakka,notes
 忨,wung6,ngan4,
 忪,zung1,zung1,
 快,fai1,kai4,
-快,,kai1,
 忭,bing6,pien4,
 忮,gi6,ki4,
 忯,ki4,ki2,
@@ -2775,7 +2782,6 @@ char,waitau,hakka,notes
 打,da1,da1,量詞（十二個）
 扔,yäng4,yin2,
 托,tok2,tok5,
-托,tuk2,,
 扚,däk2,dit5,
 扛,gong1,gong1,
 扞,fung6,hon4,
@@ -2788,10 +2794,11 @@ char,waitau,hakka,notes
 扤,ngäk2,ngut5,
 扦,cing1,tiap6,
 扭,näu2,ngiu3,
+扭,,ngiu4,
 扮,bæng6,pan4,
 扯,ce2,ca3,
-扱,cap2,cap5,（插）
 扱,käp2,kip5,（收斂）
+扱,cap2,cap5,（插）
 扲,ngäm4,lem2,
 扳,bæng1,ban1,
 扶,fu4,fu2,～持
@@ -2801,7 +2808,7 @@ char,waitau,hakka,notes
 扻,häm2,kam3,
 扼,æk2,ak5,
 扽,däng1,dun4,
-扽,dän1,,
+扽,däng2,,
 找,zau2,zau3,
 承,säng4,sin2,
 技,gi6,ki3,
@@ -2841,9 +2848,9 @@ char,waitau,hakka,notes
 抽,cäu1,ciu1,
 抾,kü1,ki1,
 抿,ming1,min2,
-抿,mit2,,
+抿,mik2,,
 拂,fäk2,fut5,
-拂,fik6,,
+拂,fik2,,
 拂,,fit5,
 拂,,fit6,
 拄,zü1,zu4,
@@ -2880,6 +2887,7 @@ char,waitau,hakka,notes
 括,kwuk2,gat5,
 拭,säk2,sit5,
 拮,gik2,giet5,
+拮,gäk2,,
 拯,cäng2,zin3,
 拱,gung2,giung3,
 拲,gung2,giung3,
@@ -2891,6 +2899,7 @@ char,waitau,hakka,notes
 拺,säk2,set5,
 拼,päng1,pin4,
 拼,,pin1,～辮
+拼,päng2,,
 拽,yäi6,yi3,
 拾,säp6,sip6,
 拿,na4,la1,～來
@@ -3011,6 +3020,7 @@ char,waitau,hakka,notes
 掭,tim1,tiam4,
 掹,mäng1,,
 掹,,bang1,
+掹,mäng2,,
 掽,pung1,pang4,
 掾,yüng4,yen2,
 揀,gæng2,gan3,
@@ -3077,6 +3087,7 @@ char,waitau,hakka,notes
 搢,zäng1,zin4,
 搣,mik6,met6,
 搣,mik2,,
+搣,mäk2,,
 搤,æk2,ak5,
 搥,cöi4,cui2,
 搦,näk1,lit6,
@@ -3111,9 +3122,9 @@ char,waitau,hakka,notes
 摜,gwæng1,gon4,
 摝,luk2,luk5,
 摞,lo4,lo2,
+摟,läu1,leu3,～抱
 摟,läu1,leu1,～錢
 摟,läu4,leu2,（牽引）
-摟,läu1,leu3,～抱
 摠,zung2,zung3,
 摥,tong1,tong4,
 摧,cöi1,cui1,
@@ -3135,8 +3146,8 @@ char,waitau,hakka,notes
 摽,piu1,piau3,（擊打）
 撅,kük2,kiet5,
 撇,pik2,piet5,
-撈,läu4,leu2,打～
 撈,läu1,lau1,（混合）
+撈,läu4,leu2,打～
 撈,lau4,,
 撈,,lak5,
 撉,däng1,dun1,
@@ -3144,8 +3155,8 @@ char,waitau,hakka,notes
 撋,no4,lo4,
 撏,cim4,cim2,
 撏,,ciam2,
-撐,cæng1,cang1,～腰
 撐,cæng1,cang4,死～
+撐,cæng1,cang1,～腰
 撑,cæng1,cang1,
 撒,sæk2,sat5,彌～
 撒,sæk2,sot5,～石灰
@@ -3158,8 +3169,8 @@ char,waitau,hakka,notes
 撞,zong6,cong4,
 撟,giu2,giau3,
 撢,tam4,tam2,
-撣,dæng6,tan4,（拂塵）
 撣,sing6,sien4,～族
+撣,dæng6,tan4,（拂塵）
 撤,cik2,ciet5,
 撤,sæk2,,
 撥,buk6,pat5,
@@ -3239,6 +3250,7 @@ char,waitau,hakka,notes
 攛,cüng2,con3,
 攜,kwäi4,hi1,
 攝,sip2,ngiap5,
+攝,säp2,,
 攝,yip2,,
 攝,,ngiap6,
 攞,lo2,lo3,
@@ -3297,8 +3309,8 @@ char,waitau,hakka,notes
 整,zäng2,zin3,
 敵,däk6,tit6,
 敷,fu1,fu1,
-數,su2,su4,（動詞）
 數,su1,su4,（名詞）
+數,su2,su4,（動詞）
 敹,liu4,liau2,
 敿,giu2,giau3,
 斁,du1,du4,
@@ -3334,8 +3346,8 @@ char,waitau,hakka,notes
 斯,si1,su1,
 新,säng1,sin1,
 斷,düng6,ton4,～章取義
-斷,düng1,don4,判～
 斷,tüng1,ton1,買～
+斷,düng1,don4,判～
 斸,zuk2,zuk5,
 方,fong1,fong1,
 於,yü1,yi1,
@@ -3397,7 +3409,6 @@ char,waitau,hakka,notes
 昡,yüng6,hien4,
 昢,buk6,put6,
 春,cäng1,cun1,
-春,cän1,,
 昧,mui6,mui3,
 昨,zok6,zok5,
 昭,ziu1,zau1,
@@ -3492,8 +3503,8 @@ char,waitau,hakka,notes
 曲,kuk2,kiuk5,
 曳,yäi6,yi3,
 更,gäng1,gen4,～加
-更,gæng1,gang1,三～
 更,gäng1,gang1,～換
+更,gæng1,gang1,三～
 曷,fuk2,hot5,
 書,sü1,su1,
 曹,cäu4,cau2,
@@ -3552,6 +3563,7 @@ char,waitau,hakka,notes
 杋,fæng4,fam2,
 杌,ngäk6,ngut5,
 李,li1,li3,
+李,li2,,
 杏,häng6,hen4,
 材,cöi4,coi2,
 村,cüng1,cun1,
@@ -3564,8 +3576,8 @@ char,waitau,hakka,notes
 杝,yi4,yi2,
 杞,gi2,gi3,
 束,cuk2,suk5,
-杠,gong1,gong1,（橫木）
 杠,gong1,gong4,（＝槓）
+杠,gong1,gong1,（橫木）
 杪,miu1,miau3,
 杬,ning4,ngien2,
 杭,hong4,hong2,
@@ -3657,8 +3669,8 @@ char,waitau,hakka,notes
 栘,yi4,yi2,
 栚,zäm6,cim4,
 栝,kwuk2,gat5,
-栟,bäng1,bin1,～櫚（樹名）
 栟,bäng1,bin1,～茶（地名）
+栟,bäng1,bin1,～櫚（樹名）
 校,hau6,gau3,學～
 校,gau1,gau4,～對
 栩,hü2,hi3,
@@ -3682,6 +3694,7 @@ char,waitau,hakka,notes
 桁,hæng2,,
 桂,gwäi1,gui4,
 桃,täu4,tau2,
+桃,täu2,,
 桄,gwong1,gong1,
 桅,ngäi4,ngui2,
 框,kwæng1,kiong1,
@@ -3732,6 +3745,7 @@ char,waitau,hakka,notes
 梢,sau1,sau1,
 梧,ng4,ng2,
 梨,li4,li2,
+梨,li2,,
 梪,däu6,teu4,
 梫,cäm1,cim1,
 梭,so1,so1,
@@ -4268,8 +4282,8 @@ char,waitau,hakka,notes
 泝,sok2,sok5,
 泞,cü1,cu1,
 泡,päu1,pau1,～沫
-泡,pau1,pau1,燈～
 泡,pau1,pau4,～菜
+泡,pau1,pau1,燈～
 波,bo1,bo1,
 波,bo2,,
 泣,yäp2,kip5,
@@ -4538,6 +4552,7 @@ char,waitau,hakka,notes
 滴,däk6,tit6,點～
 滴,di1,tit6,（＝啲）
 滴,dik2,dit6,～咁多
+滴,,dit5,
 滷,lu1,lu1,
 滸,wu2,fu3,
 滹,fu1,fu1,
@@ -4651,6 +4666,7 @@ char,waitau,hakka,notes
 激,gäk2,git5,
 濁,zuk6,cuk6,
 濁,,kuk6,～鼻
+濁,cuk2,,
 濁,,gang3,
 濂,lim4,liam2,
 濃,nung4,ngiung2,
@@ -4763,8 +4779,8 @@ char,waitau,hakka,notes
 烔,,dung4,
 烘,hung4,fung2,
 烙,lok6,lok6,
-烚,häp6,hap6,（火貌）
 烚,sap6,sap6,（用水煮）
+烚,häp6,hap6,（火貌）
 烜,süng1,sien1,
 烝,zäng1,zin1,
 烤,hau1,kau3,
@@ -4788,8 +4804,10 @@ char,waitau,hakka,notes
 焠,cöi1,cui4,
 無,mu4,vu2,
 焦,ziu1,ziau1,
+焦,zau1,,
 焫,nat2,,
 焫,nak2,,
+焫,næk2,,
 焯,cök2,zok5,
 焰,yim6,yam4,
 焱,yim6,yam4,
@@ -4894,8 +4912,8 @@ char,waitau,hakka,notes
 爨,cüng1,cun4,
 爪,zau2,zau3,
 爬,pa4,pa2,
-爭,zæng1,zang1,～氣
 爭,zäng1,zang1,～執、戰～
+爭,zæng1,zang1,～氣
 爰,wung4,yen1,
 爵,zök2,ziok5,
 父,fu6,fu4,
@@ -5234,8 +5252,8 @@ char,waitau,hakka,notes
 甘,gäm1,gam1,
 甚,säm6,sim4,
 甜,tim4,tiam2,
-生,sæng1,sang1,學～、～日
 生,säng1,sang1,～命
+生,sæng1,sang1,學～、～日
 甡,sing1,sin1,
 產,cæng2,san3,
 甥,säng1,sang1,
@@ -5656,7 +5674,7 @@ char,waitau,hakka,notes
 砍,häm2,kam4,（客家話：切割）
 砎,gai1,gai4,
 砑,nga6,nga4,
-砑,nga1,,
+砑,a1,,
 砒,pi1,pi1,～霜
 砒,päi1,pai1,（削）
 研,ying4,ngan3,
@@ -5744,15 +5762,14 @@ char,waitau,hakka,notes
 磑,fui2,koi3,
 磕,häp6,kap6,
 磚,züng1,zon1,
-磚,züng2,,
 磛,cam4,cam2,
 磝,ngäu4,ngau2,
 磟,luk6,luk6,
 磡,häm1,ham4,
 磢,song2,song3,
 磣,cam2,cam3,
-磧,zæk2,zak5,大石～死蟹
 磧,zäk2,zit5,石～州
+磧,zæk2,zak5,大石～死蟹
 磨,mo4,mo2,～刀
 磨,mo6,mo4,～豆腐
 磪,cöi1,cui1,
@@ -5792,8 +5809,8 @@ char,waitau,hakka,notes
 祁,ki4,ki2,
 祅,yiu1,yau1,
 祆,hing1,hien1,
-祇,ki4,ki2,神～
 祇,zi2,zit5,（＝只）
+祇,ki4,ki2,神～
 祈,ki4,ki2,
 祉,zi2,zi3,
 祋,dai1,dai4,
@@ -5840,15 +5857,15 @@ char,waitau,hakka,notes
 禚,zök2,zok5,
 禛,zäng1,zin1,
 禜,wäng4,yin4,
-禡,ma6,ma4,（古祭名）
 禡,nga4,nga2,做～
+禡,ma6,ma4,（古祭名）
 禦,yü6,ngi4,
 禧,hi1,hi1,
 禨,gi1,gi1,
 禪,sim4,sam2,～宗
 禪,sing4,sien4,～讓
-禫,tam4,tam2,
 禫,tam1,tam3,
+禫,tam4,tam2,
 禬,kwui2,kai4,
 禮,läi1,li1,
 禰,ni1,li3,
@@ -6342,8 +6359,8 @@ char,waitau,hakka,notes
 綢,cäu4,ciu2,
 綣,güng2,gien3,
 綦,ki4,ki2,
-綪,sing1,cien4,（青赤色）
 綪,zäng1,zen1,（屈曲）
+綪,sing1,cien4,（青赤色）
 綬,säu6,siu4,
 維,wäi4,vui2,
 綮,käi2,ki3,
@@ -6610,6 +6627,7 @@ char,waitau,hakka,notes
 翳,äi1,ngi4,
 翹,kiu4,kiau2,
 翹,hiu1,,
+翹,,hiau3,
 翹,,hiau4,
 翻,fæng1,fan1,
 翼,yäk6,yit6,
@@ -6671,7 +6689,6 @@ char,waitau,hakka,notes
 聘,päng1,pin4,
 聚,zü6,ci4,
 聞,mäng4,vun2,
-聞,män4,,
 聤,täng4,tin2,
 聧,kwäi4,kui2,
 聯,lüng4,lien2,
@@ -6716,6 +6733,7 @@ char,waitau,hakka,notes
 肪,fong1,fong1,
 肫,zäng1,zun1,
 肭,näp6,lep5,
+肭,näp2,,
 肯,häng2,ken3,～定
 肯,häng2,hen3,（願意）
 肱,gwäng1,gen1,
@@ -6862,8 +6880,8 @@ char,waitau,hakka,notes
 膷,höng1,hiong1,
 膸,cöi4,,
 膺,ngäng6,yin1,
-膻,dæng6,tan4,～中（穴位）
 膻,zing1,sien1,（羊臭）
+膻,dæng6,tan4,～中（穴位）
 膼,za1,ko1,
 膽,dam2,dam3,
 膾,kwui2,kai4,
@@ -6898,7 +6916,6 @@ char,waitau,hakka,notes
 自,zi6,cu4,
 臬,nik6,ngiet5,
 臭,cäu1,ciu4,
-臭,cäu3,,
 臲,ngäk6,ngiet5,
 至,zi1,zi4,
 致,zi1,zi4,
@@ -6913,8 +6930,8 @@ char,waitau,hakka,notes
 舄,säk2,sit5,
 舅,käu1,kiu1,
 與,yü1,yi1,
-興,häng1,hin1,～盛
 興,häng1,hin4,高～
+興,häng1,hin1,～盛
 興,,hin3,
 舉,gü2,gi3,
 舊,gäu6,kiu4,
@@ -6922,6 +6939,7 @@ char,waitau,hakka,notes
 舍,se1,sa4,
 舐,säi2,se1,
 舐,lai2,,
+舐,tim1,,
 舒,sü1,su1,
 舔,tim2,tiam3,
 舖,pu1,pu4,～位
@@ -6950,6 +6968,7 @@ char,waitau,hakka,notes
 舽,pong4,pong2,
 艄,sau1,sau1,
 艇,täng1,tiang3,
+艇,teng1,,
 艋,mæng1,mang3,
 艎,wong4,fong2,
 艏,säu2,siu3,
@@ -7449,8 +7468,8 @@ char,waitau,hakka,notes
 虒,si1,su1,
 虓,hau1,hau1,
 虔,king4,kien2,
-處,cü1,cu4,好～
 處,cü1,cu3,～方
+處,cü1,cu4,好～
 虖,fu1,fu1,
 虙,fuk6,fuk6,
 虛,hü1,hi1,
@@ -7468,13 +7487,12 @@ char,waitau,hakka,notes
 虰,däng1,den1,
 虱,säk2,sit5,
 虹,hung4,fung2,
-虺,fui1,fui1,～隤（病名）
 虺,wäi2,vui3,（蛇名）
+虺,fui1,fui1,～隤（病名）
 虼,gäk2,gak5,
 蚆,ba1,ba1,
 蚇,cek2,cak5,
 蚊,mäng1,mun1,
-蚊,män2,,
 蚋,nöi6,lui4,
 蚌,pong1,pong1,
 蚍,pi4,pi2,
@@ -7529,8 +7547,8 @@ char,waitau,hakka,notes
 蛭,zäk6,zit5,
 蛵,häng1,hin1,
 蛷,käu4,kiu2,
-蛸,sau1,sau1,蠨～
 蛸,siu1,siau1,螵～
+蛸,sau1,sau1,蠨～
 蛹,yung2,yung3,
 蛺,gap2,giap5,
 蛻,töi1,tui4,
@@ -7556,8 +7574,8 @@ char,waitau,hakka,notes
 蜜,mäk6,mit6,
 蜞,ki4,ki2,
 蜡,za1,za4,
-蜢,mæng2,mang3,
 蜢,mang1,mang1,
+蜢,mæng2,mang3,
 蜣,göng1,giong1,
 蜥,säk2,sit5,
 蜦,läng4,lun2,
@@ -7653,8 +7671,8 @@ char,waitau,hakka,notes
 蟣,gi1,gi1,
 蟥,wong4,vong2,
 蟦,fi4,pui2,
-蟧,lo2,,
 蟧,läu4,lau2,
+蟧,lo2,,
 蟨,kük2,ket5,
 蟪,wäi6,fui4,
 蟫,tam4,yim1,
@@ -7688,7 +7706,6 @@ char,waitau,hakka,notes
 蠟,lap6,lap6,
 蠡,läi1,li1,
 蠢,cäng2,cun3,
-蠢,cän2,,
 蠣,läi6,li4,
 蠩,zü1,zu1,
 蠪,lung4,lung2,
@@ -7709,8 +7726,8 @@ char,waitau,hakka,notes
 衈,yi1,ngi3,
 衊,mik6,met5,
 衋,säk2,sit5,
-行,hæng4,hang2,～運
 行,häng4,hang2,自由～
+行,hæng4,hang2,～運
 行,hong4,hong2,銀～
 行,häng6,hang2,品～
 衍,hing2,yen3,
@@ -7836,8 +7853,8 @@ char,waitau,hakka,notes
 褲,fu1,fu4,
 褳,ling4,lien2,
 褵,li4,li2,
-褶,säp6,sip6,～衣
 褶,zip2,zap5,百～裙
+褶,säp6,sip6,～衣
 褸,läu1,leu1,大～
 褸,läu1,leu3,衣衫襤～
 褻,sik2,siet5,
@@ -7858,8 +7875,8 @@ char,waitau,hakka,notes
 襝,lim4,liam2,
 襞,bäk2,bit5,
 襟,käm1,kim1,
-襠,dong1,dong1,褲～
 襠,nong6,long4,開～褲
+襠,dong1,dong1,褲～
 襡,suk6,suk6,
 襢,tæng2,tan3,
 襤,lam4,lam2,
@@ -8027,8 +8044,8 @@ char,waitau,hakka,notes
 誦,zung6,sung4,
 誧,pu4,pu2,
 誨,fui1,fui4,
-說,söi1,soi4,～服
 說,sük2,sot5,～話
+說,söi1,soi4,～服
 說,yük6,yet6,（＝悅）
 誰,söi4,sui2,
 課,fo1,ko4,
@@ -8196,8 +8213,8 @@ char,waitau,hakka,notes
 豸,zi6,ci4,
 豹,pau1,bau4,
 豺,cai4,sai2,
-豻,fung4,gon1,（駝鹿）
 豻,wung6,ngan4,（監獄）
+豻,fung4,gon1,（駝鹿）
 豽,nap6,lap6,
 貀,näk6,lut6,
 貁,yäu6,yiu4,
@@ -8212,6 +8229,7 @@ char,waitau,hakka,notes
 貒,tüng4,ton2,
 貓,mau1,miau4,～狗
 貓,miu4,miau2,～仔
+貓,mäu2,,
 貔,pi1,pi1,
 貝,bui1,bui4,
 貞,zäng1,zin1,
@@ -8557,9 +8575,9 @@ char,waitau,hakka,notes
 轅,yüng4,yen2,
 轆,luk2,luk6,
 轇,gau1,gau1,
+轉,züng2,zon3,～運
 轉,züng1,zon4,～彎
 轉,züng1,zon4,～軸
-轉,züng2,zon3,～運
 轍,cik2,ciet5,
 轎,giu6,kiau4,
 轏,zæng6,can4,
@@ -8897,13 +8915,13 @@ char,waitau,hakka,notes
 釉,yäu6,yiu4,
 釋,säk2,sit5,
 里,li1,li1,
+重,zung6,cung4,～視
 重,cung4,cung2,～陽
 重,cung1,cung1,～量
-重,zung6,cung4,～視
 野,ye1,ya1,～雞
 野,ye1,ya3,田～、～心
-量,löng4,liong2,～米、商～
 量,löng6,liong4,力～、～力而為
+量,löng4,liong2,～米、商～
 釐,li4,li2,
 金,gäm1,gim1,
 釗,ciu1,zau1,
@@ -9157,9 +9175,10 @@ char,waitau,hakka,notes
 鑽,züng1,zon1,（穿過）
 鑾,lüng4,lan2,
 鑿,zok6,cok6,
+鑿,zok2,,
 钁,gök2,kiok5,
-長,cöng4,cong2,～度
 長,zöng2,zong3,校～
+長,cöng4,cong2,～度
 镽,liu1,liau3,
 門,mung4,mun2,
 閂,säng1,con1,
@@ -9174,8 +9193,8 @@ char,waitau,hakka,notes
 閏,yäng6,yun4,
 閑,hæng4,han2,
 閒,hæng4,han2,
-間,gæng1,gan1,中～、房～
 間,gæng1,gan4,～中、～房
+間,gæng1,gan1,中～、房～
 間,gang1,,
 閔,mäng1,men1,
 閘,zap6,cap6,
@@ -9210,8 +9229,8 @@ char,waitau,hakka,notes
 闊,fuk2,fat5,
 闋,kük2,ket5,
 闌,læng4,lan2,
-闍,ce1,sa1,～梨
 闍,du1,du1,（城門上的臺）
+闍,ce1,sa1,～梨
 闐,ting4,tien2,
 闑,nik6,ngiet5,
 闒,tap2,tap5,
@@ -9256,8 +9275,8 @@ char,waitau,hakka,notes
 陑,yi4,yi2,
 陘,yäng4,hin2,
 陛,bäi6,pi3,
-陜,hap6,kiap6,（＝峽）
 陜,sim2,sam3,～西
+陜,hap6,kiap6,（＝峽）
 陝,sim2,sam3,
 陞,säng1,sin1,
 陟,zäk2,zit5,
@@ -9546,8 +9565,8 @@ char,waitau,hakka,notes
 颼,säu1,seu1,
 颾,säu1,sau1,
 颿,fæng4,fam2,
-飂,liu4,liau4,
 飂,läu4,leu2,
+飂,liu4,liau4,
 飄,piu1,piau1,
 飛,fi1,bui1,～起來、曉～
 飛,fi1,fui1,～機
@@ -9578,6 +9597,7 @@ char,waitau,hakka,notes
 養,yöng1,yong1,
 餌,ni6,ngi3,
 餐,cäng1,con1,
+餐,cæng1,,
 餑,buk6,put6,
 餒,nöi1,lui1,
 餓,ngo6,ngo4,
@@ -9808,8 +9828,8 @@ char,waitau,hakka,notes
 魄,pæk2,pak5,
 魅,mi6,mui4,
 魈,siu1,siau1,
-魋,cöi4,cui2,～結
 魋,töi4,tui2,（赤熊）
+魋,cöi4,cui2,～結
 魌,ki4,ki2,
 魍,mong1,miong3,
 魎,löng1,liong3,
@@ -10104,8 +10124,8 @@ char,waitau,hakka,notes
 黧,läi4,li2,
 黨,dong2,dong3,
 黭,äm2,am3,
-黮,dam6,tam4,（黑色）
 黮,tam1,tam4,黯～
+黮,dam6,tam4,（黑色）
 黯,äm1,am4,
 黲,cam2,cam3,
 黴,mi4,mi2,

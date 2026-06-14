@@ -1,0 +1,4785 @@
+id,language,glyph,pron
+1,waitau,熱頭,ngik6 täu2
+1,hakka,日頭,ngit5 teu2
+2,waitau,月,yük6
+2,hakka,月光,ngiet6 gong1
+3,waitau,星,seng2
+3,hakka,星,sin1
+4,waitau,飛星,fi1 säng1
+4,hakka,天瀉屎,tien1 sia4 si3
+5,waitau,掃把星,säu1 ba2 seng1
+5,hakka,掃把星,sau4 ba3 sin1
+6,waitau,天河,ting1 ho4
+6,hakka,天河,tien1 ho2
+7,waitau,天狗喫日,ting1 gäu2 hek2 yäk6
+7,hakka,天狗食日,tien1 geu3 sit6 ngit5
+8,waitau,天狗喫月,ting1 gäu2 hek2 yük6
+8,hakka,天狗食月,tien1 geu3 sit6 ngiet6
+9,waitau,發風,fæk2 fung1
+9,hakka,發風,da3 fung1
+10,waitau,發大風,fæk2 dai6 fung1
+10,hakka,打風差,da3 fung1 cai1
+11,hakka,皺風鬼,zeu4 fung1 gui3
+12,waitau,逆風,ngæk6 fung1
+12,hakka,頂頭風,din3 teu2 fung1
+13,waitau,雲,wäng4
+13,hakka,雲,yun2
+14,waitau,雨,yü1
+14,hakka,水,sui3
+15,waitau,雨粉,yü1 fäng2
+15,hakka,水毛,sui3 mau1
+16,waitau,落雨,lok6 yü1
+16,hakka,落水,lok6 sui3
+17,waitau,天晴,ting1 cäng4
+17,waitau,天好,ting1 häu2
+17,hakka,晴水,ciang2 sui3
+18,waitau,涿雨,duk2 yü1
+18,waitau,耷雨,däp6 yü1
+18,hakka,涿水,duk5 sui3
+19,waitau,雷公,löi4 gung1
+19,hakka,雷公,lui2 gung1
+20,waitau,雷公響,löi4 gung1 höng2
+20,hakka,雷公叫,lui2 gung1 giau4
+21,waitau,天攝,ting1 sip2
+21,waitau,火蛇撩,fo2 se4 liu2
+21,hakka,火蛇囁,fo3 sa2 ngiap5
+22,waitau,露水,lu6 söi2
+22,hakka,露水,lu4 sui3
+23,waitau,打霧,da2 mu6
+23,hakka,打露水,da3 lu4 sui3
+24,waitau,霧,mu6
+24,hakka,霧,mu4
+25,waitau,起霧,hi2 mu6
+25,hakka,落霧,lok6 mu4
+26,waitau,霜,söng1
+26,hakka,霜,song1
+27,waitau,落霜,lok6 söng1
+27,hakka,落霜,lok6 song1
+28,waitau,天弓,ting1 gung1
+28,hakka,天弓,tien1 giung1
+29,waitau,雹,bok6
+29,hakka,雹,pok6
+30,waitau,落雹,lok6 bok6
+30,hakka,落雹,lok6 pok6
+31,hakka,過雲水,go4 yun2 sui3
+32,waitau,雪,sük2
+32,hakka,雪,siet5
+33,waitau,降雪,gong6 sük2
+33,hakka,落雪,lok6 siet5
+34,waitau,融雪,yung4 sük2
+34,hakka,融雪,yung2 siet5
+35,waitau,冰,bäng1
+35,hakka,冰,ben1
+37,waitau,結冰,gik2 bäng1
+37,hakka,結冰,giet5 ben1
+38,hakka,結嗨冰,giet5 hoi1 ben1
+39,waitau,天候,ting1 häu6
+39,waitau,天時,ting1 si4
+39,hakka,天氣,tien1 hi4
+39,hakka,天時,tien1 si2
+40,waitau,陰天,yäm2 ting1
+40,waitau,天陰,ting1 yäm2
+40,hakka,烏暗天,vu1 am4 tien1
+40,hakka,烏陰天,vu1 yim1 tien1
+41,waitau,好天,häu2 ting1
+41,hakka,好天,hau3 tien1
+42,waitau,天乾,ting1 gwung1
+42,hakka,天旱,tien1 hon1
+43,waitau,水浸,söi2 zäm1
+43,hakka,浸大水,zim4 tai4 sui3
+44,waitau,熱,ngik6
+44,waitau,天時熱,ting1 si4 ngik6
+44,hakka,熱,ngiet6
+45,waitau,翳悶,ngäi4 mung6
+45,hakka,熻,hip5
+46,waitau,凍鐵鐵,dung6 dik2 dik2
+46,hakka,冷,lang1
+47,waitau,涼,löng4
+47,hakka,涼,liong2
+48,waitau,涼浸浸,löng4 zäm1 zäm1
+48,waitau,涼爽,löng4 song2
+48,hakka,涼爽,liong2 song3
+49,waitau,暖,nüng1
+49,waitau,和暖,wo4 nüng1
+49,hakka,暖,lon1
+50,waitau,山,sæng1
+50,hakka,嶺崗,liang1 gong1
+51,waitau,山頭,sæng1 täu4
+51,waitau,山嶺,sæng1 läng2
+51,hakka,嶺頂,liang1 dang3
+52,waitau,山腰,sæng1 yiu1
+52,hakka,半山,ban4 san1
+53,waitau,山腳,sæng1 gök2
+53,hakka,山腳下,san1 giok5 ha1
+54,waitau,山崖,sæng1 ngai4
+54,hakka,山崖,san1 ngai2
+54,hakka,崩崗,ben1 gong1
+55,waitau,山谷,sæng1 guk2
+55,hakka,山窩,san1 vo1
+55,hakka,山坑仔,san1 hang1 zai3
+56,waitau,山前,sæng1 cing4
+56,hakka,嶺腳下,liang1 giok5 ha1
+57,waitau,山後,sæng1 häu6
+57,hakka,嶺背後,liang1 boi4 heu1
+58,waitau,海,fui2
+58,hakka,海,hoi3
+59,waitau,河,ho4
+59,hakka,河,ho2
+60,waitau,湖,fu4
+60,hakka,湖,fu2
+61,waitau,水澗,söi2 gæng1
+61,hakka,河,ho2
+62,waitau,岸,wung6
+62,hakka,河邊,ho2 bien1
+63,waitau,壩,ba1
+63,hakka,河壆,ho2 bok5
+64,waitau,壆,bok2
+64,hakka,陂頭,bi1 teu2
+65,waitau,沙攔,sa1 læng2
+65,hakka,沙壩,sa1 ba4
+66,waitau,坑,hæng1
+66,hakka,圳仔,zun4 zai3
+66,hakka,坑瀝,hang1 lak5
+67,waitau,坑渠,hæng1 kü4
+67,waitau,水瀝,söi2 lek2
+67,hakka,圳,zun4
+68,waitau,塘,tong4
+68,hakka,塘,tong2
+69,waitau,氹,täm1
+69,waitau,水氹,söi2 täm1
+69,hakka,湖氹,fu2 tem2
+70,waitau,平地,peng6 di6
+70,hakka,平地,piang2 ti4
+71,waitau,石仔,sek6 zäi2
+71,waitau,石頭,sek6 täu4
+71,hakka,石牯,sak6 gu3
+72,waitau,鵝春石,ngo4 cäng1 sek6
+72,hakka,鵝卵石,ngo2 lon3 sak6
+73,waitau,沙,sa1
+73,waitau,泥沙,näi4 sa1
+73,hakka,沙公,sa1 gung1
+74,waitau,燥泥,zäu1 näi4
+74,hakka,泥,lai2
+75,waitau,爛泥,næng6 näi4
+75,waitau,濕泥,säp2 näi4
+75,hakka,爛泥,lan4 lai2
+76,waitau,灰塵,fui1 cäng4
+76,waitau,泥塵,näi4 cäng4
+76,hakka,泥塵,lai2 cin2
+77,waitau,垃圾,lap6 sap2
+77,hakka,垃圾,lot5 sot5
+78,waitau,生銹,sæng1 säu2
+78,hakka,魯,lu1
+78,hakka,銹,sio4
+79,waitau,木屑,muk6 sik2
+79,waitau,木碎,muk6 söi1
+79,hakka,木絲,muk5 si1
+79,hakka,刨茸,pau2 yung2
+80,waitau,粉,fäng2
+80,hakka,粉,fun3
+81,waitau,碎,söi1
+81,hakka,碎,sui4
+82,hakka,硝,siau1
+83,waitau,石灰,sek6 fui1
+83,hakka,石灰,sak6 foi1
+84,waitau,紅毛泥,hung4 mäu4 näi4
+84,hakka,紅毛泥,fung2 mau1 lai2
+85,waitau,玻璃,bo1 li2
+85,hakka,玻璃,bo1 li1
+86,waitau,油,yäu2
+86,hakka,油漆,yiu2 cit5
+87,waitau,攝石,sip2 sek6
+87,hakka,磁挾,ci2 hiap6
+88,waitau,金,gäm1
+88,hakka,金,gim1
+89,waitau,銀,ngäng4
+89,hakka,銀,ngiun2
+90,waitau,銅,tung4
+90,hakka,銅,tung2
+91,waitau,鐵,tik2
+91,hakka,鐵,diet5
+92,waitau,錫,sek6
+92,hakka,錫,siak5
+93,waitau,鋁,lü1
+93,hakka,銻,tai1
+94,waitau,凍水,dung1 söi2
+94,hakka,冷水,lang1 sui3
+95,waitau,暖水,nüng1 söi2
+95,hakka,拿暖水,la2 lon1 sui3
+96,waitau,熱水,ngik6 söi2
+96,hakka,燒水,sau1 sui3
+97,waitau,滾水,gwäng2 söi2
+97,hakka,沸水,bui4 sui3
+98,waitau,滾,gwäng2
+98,hakka,沸嗨,bui4 hoi1
+99,waitau,潲水,sau1 söi2
+99,hakka,洗米水,se3 mi3 sui3
+100,waitau,城,seng2
+100,hakka,街肚,gai1 du3
+101,waitau,鄉下,höng1 ha2
+101,hakka,農村裡,lung2 cun1 li1
+102,waitau,村,cüng1
+102,hakka,村,cun1
+103,waitau,巷,hong6
+103,hakka,巷,hong4
+104,waitau,路,lu6
+104,hakka,路,lu4
+105,waitau,嘢,ya1
+105,hakka,東西,dung1 si1
+106,waitau,色水,säk2 söi2
+106,hakka,顏色,ngan2 set5
+106,hakka,色,set5
+107,waitau,聲,seng1
+107,hakka,聲,sang1
+108,waitau,膸,cöi4
+108,hakka,味,mui4
+109,waitau,味道,mi6 däu6
+109,hakka,味,mui4
+110,waitau,皓,hau6
+110,hakka,光,gong1
+111,waitau,影,yäng2
+111,hakka,影,yang3
+112,waitau,風景,fung1 gäng2
+112,hakka,風景,fung1 gin3
+113,waitau,前邊,cing4 bing6
+113,hakka,臉前,ngiam4 cien2
+113,hakka,前頭,cien2 teu2
+114,waitau,後邊,häu6 bing6
+114,waitau,後背歷,häu6 bi6 läi2
+114,hakka,背後,boi4 heu1
+115,waitau,左邊,zo2 bing6
+115,waitau,左手邊,zo2 säu2 bing6
+115,hakka,左手析,zo3 siu3 bien1
+116,waitau,右邊,yäu6 bing6
+116,waitau,右手邊,yäu6 säu2 bing6
+116,hakka,右手析,yiu4 siu3 bien1
+117,waitau,上邊,söng6 bing6
+117,waitau,上高,söng6 gäu1
+117,hakka,上高,song4 gau1
+118,waitau,下邊,ha6 bing6
+118,waitau,下低,ha6 däi2
+118,hakka,下背,ha1 boi4
+118,hakka,腳下,giok5 ha1
+119,waitau,入邊,yäp6 bing6
+119,waitau,入解,yäp6 gai2
+119,hakka,裏背,di1 boi4
+120,waitau,出邊,cäk2 bing6
+120,waitau,出茅,cäk2 mau2
+120,hakka,門背,mun2 boi4
+121,waitau,屋上,uk2 söng2
+121,hakka,頂高,dang3 gau1
+122,waitau,床下底,cong4 ha6 däi2
+122,hakka,腳下,giok5 ha4
+123,waitau,中間心,zung1 gæng1 säm2
+123,hakka,中間,zung1 gan1
+123,hakka,棟心,dung4 sim1
+124,waitau,側邊,zäp2 bing2
+124,hakka,側邊,zet5 bien1
+125,waitau,對面,döi1 ming6
+125,hakka,對面,dui4 min4
+126,waitau,近邊,gäng6 bing6
+126,waitau,附近,fu6 gäng6
+126,hakka,附近,fu4 kiun4
+127,waitau,隔籬,gäk2 li4
+127,hakka,隔籬,gak5 li2
+128,waitau,隔籬鄰舍,gäk2 li4 läng4 se1
+128,hakka,鄰舍,lin2 sa4
+128,hakka,隔離鄰舍,gak5 li2 lin2 sa4
+129,waitau,今年,gäm1 ning4
+129,hakka,今年,gim1 ngien2
+130,waitau,舊年,gäu6 ning4
+130,hakka,舊年,kiu4 ngien2
+131,waitau,前年,cing4 ning2
+131,hakka,前年,cien2 ngien2
+132,waitau,大前年,dai6 cing4 ning2
+132,hakka,大前年,tai4 cien2 ngien2
+133,waitau,出年,cäk2 ning2
+133,hakka,出年,cut5 ngien2
+134,waitau,後年,häu6 ning2
+134,hakka,後年,heu4 ngien2
+135,waitau,大後年,dai6 häu6 ning2
+135,hakka,大後年,tai4 heu4 ngien2
+136,waitau,今日,gäm1 yäk6
+136,hakka,今日,gim1 ngit5
+137,waitau,昨日,co1 yäk2
+137,waitau,尋日,cäm4 yäk6
+137,hakka,暫暋日,cam4 min1 ngit5
+138,waitau,前日,cing4 yäk2
+138,hakka,前日,cien2 ngit5
+139,waitau,大前日,dai6 cing4 yäk2
+139,hakka,大前日,tai4 cien2 ngit5
+140,waitau,聽日,täng1 yäk6
+140,waitau,聽日,täng1 yäk2
+140,hakka,晨朝日,sin1 zau1 ngit5
+141,waitau,後日,häu6 yäk6
+141,hakka,後日,heu4 ngit5
+142,waitau,大後日,dai6 häu6 yäk6
+142,hakka,大後日,tai4 heu4 ngit5
+143,waitau,第二日,däi6 ngi6 yäk6
+143,hakka,第二日,ti4 ngi4 ngit5
+144,waitau,日日,yäk6 yäk6
+144,hakka,日日,ngit5 ngit5
+145,waitau,日子,yäk6 zi2
+145,hakka,日子,ngit5 zu1
+146,waitau,鐘頭,zung1 täu4
+146,hakka,鐘頭,zung1 teu2
+147,waitau,點鐘,dim2 zung1
+147,hakka,點鐘,diam3 zung1
+148,waitau,天光,ting1 gwong1
+148,waitau,麻嘅,ma4 ge2
+148,hakka,天光,tien1 gong1
+149,waitau,朝頭早,ziu6 täu4 zäu2
+149,waitau,麻嘅,ma4 ge2
+149,hakka,朝晨頭,zau1 sin2 teu2
+150,waitau,上晝,söng6 zäu1
+150,hakka,上晝,song4 ziu4
+151,waitau,晏晝,æng6 zäu2
+151,hakka,晏晝,an4 ziu4
+152,waitau,下晝,ha6 zäu6
+152,hakka,下晝,ha1 ziu4
+153,waitau,挨晚,ai1 mæng1
+153,hakka,斷暗,ton1 am4
+154,waitau,日頭,yäk6 täu2
+154,hakka,日辰頭,ngit5 sin2 teu2
+155,waitau,晚頭黑,mæng1 täu4 hak2
+155,hakka,夜晚辰,ya4 man1 sin2
+156,waitau,入夜,yäp6 ya6
+156,hakka,晚辰頭,man1 sin2 teu2
+157,waitau,成日,seng4 yak6
+157,hakka,成日,sang2 ngit5
+158,waitau,天光,ting1 gwong1
+158,hakka,天光,tien1 gong1
+159,waitau,天黑,ting1 häk2
+159,hakka,斷暗,ton1 am4
+160,waitau,月頭,yük6 täu4
+160,hakka,月頭,ngiet6 teu2
+161,waitau,月尾,yük6 mi1
+161,hakka,月尾,ngiet6 mui1
+162,waitau,舊時,gäu6 si4
+162,waitau,舊陣時,gäu6 zäng6 si4
+162,hakka,早下,zau3 ha4
+163,waitau,那下,na2 ha1
+163,hakka,今下,gim1 ha4
+164,waitau,起頭,hi2 täu4
+164,waitau,開首,fui1 säu2
+164,hakka,開頭,hoi1 teu2
+165,waitau,後尾,häu6 mi1
+165,waitau,收尾,säu2 mi1
+165,hakka,跟尾,gen4 mui1
+165,hakka,黏尾,ngiam2 mui1
+166,waitau,最後尾,zöi1 säu1 mi1
+166,hakka,包尾,bau1 mui1
+167,waitau,啱先,ngam2 sing1
+167,waitau,頭先,täu4 sing1
+167,hakka,正先,cang4 sien1
+168,waitau,大年初一,dai6 ning4 co1 yäk2
+168,hakka,年初一,ngien2 co1 yit5
+169,waitau,五月節,ng1 yük6 zik2
+169,waitau,扒龍船,pa4 lung4 süng4
+169,hakka,五月節,ng1 ngiet6 ziet5
+170,waitau,八月十五,bæk2 yük6 säp6 ng1
+170,hakka,八月十五,bat5 ngiet6 sip6 ng3
+170,hakka,八月半,bat5 ngiet6 ban4
+171,waitau,重陽,cung4 yong4
+171,waitau,重九,cung4 gäu2
+171,waitau,九月九,gäu2 yük6 gäu2
+171,hakka,重陽,cung2 yong2
+172,waitau,大年卅晚,dai6 ning4 sa6 mæng1
+172,waitau,年卅晚,ning4 sa6 mæng1
+172,hakka,年三十晚,ngien2 sam1 sip6 man1
+173,waitau,通書,tung1 sü1
+173,waitau,通勝,tung1 säng1
+173,hakka,通書,tung1 su1
+174,waitau,一世,yäk2 säi1
+174,waitau,成世,seng4 säi1
+174,hakka,一世,yit5 se4
+175,waitau,前世,cing4 säi1
+175,hakka,前世,cien2 se4
+176,waitau,下一世,ha6 yäk2 säi1
+176,waitau,第二世,däi6 ngi6 säi1
+176,hakka,轉世,zon3 se4
+177,waitau,一陣間,yäk2 zäng6 gæng2
+177,hakka,一陣間,yit5 cin4 gan1
+177,hakka,陣時間,cin4 si2 gan1
+178,waitau,眨下眼,zam2 ha1 ngæng2
+178,hakka,𥍉下眼,ngiap5 ha4 ngan3
+179,waitau,時候,si4 häu6
+179,hakka,時途,si2 tu2
+180,waitau,水田,söi2 ting4
+180,hakka,水田,sui3 tien2
+181,waitau,田,ting4
+181,hakka,旱地,hon1 ti4
+182,waitau,田壆,ting4 bok2
+182,hakka,田塍,tien2 sun2
+183,hakka,坎,ngam4
+184,waitau,耕田,gæng1 ting4
+184,hakka,耕田,gang1 tien2
+185,hakka,扯禾,ca3 vo2
+185,hakka,扯秧,ca3 yong1
+186,waitau,蒔田,si1 ting4
+186,hakka,蒔田,si4 tien2
+187,waitau,剔禾草,tik2 wo4 cäu2
+187,hakka,耘田,vun2 tien2
+188,waitau,割禾,gwuk2 wo4
+188,hakka,割禾,got5 vo2
+189,waitau,拌禾,pæng1 wo4
+189,waitau,打穀,da2 guk2
+189,hakka,拌禾,pan1 vo2
+190,waitau,禾稈草,wo4 gwung2 cäu2
+190,hakka,禾稈草,vo2 gon3 cau3
+191,waitau,禾稈頭,wo4 gwung2 täu4
+191,hakka,禾稈頭,vo2 gon3 teu2
+192,waitau,撤,sæk2
+192,hakka,敥,yam4
+193,waitau,漚,äu1
+193,hakka,漚肥,eu4 pui2
+194,waitau,鋤頭,co4 täu4
+194,waitau,鋤頭,co4 täu2
+194,hakka,钁鋤,giok5 co2
+195,waitau,柄,beng1
+195,hakka,柄,biang4
+196,waitau,鏟,cæng2
+196,hakka,鐵鏟,tiet5 can3
+197,waitau,番釘,fæng1 deng1
+197,hakka,釘鋤,dang1 co2
+197,hakka,番釘,fan1 dang1
+198,waitau,禾鐮,wo4 lim2
+198,hakka,禾鐮,vo2 liam2
+199,waitau,草鐮,cäu2 lim2
+199,waitau,草鐮,cäu2 lim4
+199,waitau,鐮刀,lim4 dau1
+199,hakka,鐮刀,liam2 dau1
+200,waitau,柴刀,cai6 däu1
+200,hakka,柴刀,cai2 dau1
+201,waitau,犁,läi4
+201,hakka,犁,lai2
+202,waitau,耙,pa4
+202,hakka,耙,pa2
+203,waitau,水車,söi2 ce1
+203,hakka,水車,sui3 ca1
+204,waitau,風車,fung1 ce1
+204,hakka,風櫃,fung1 kui4
+205,waitau,拌桶,pæng1 tung2
+205,hakka,穀桶,guk5 tung3
+205,hakka,拌桶,pan1 tung3
+206,waitau,穀臿,guk2 cap2
+206,hakka,簸箕,boi4 gi1
+206,hakka,畚箕,bun4 gi1
+207,waitau,垃圾臿,lap6 sap2 cap2
+207,hakka,畚臿,bun4 cap5
+208,waitau,臿,cap2
+208,hakka,糞箕,bun4 gi1
+209,waitau,穀籮,guk2 lo4
+209,hakka,籮,lo2
+210,waitau,篩,säi1
+210,hakka,篩子,si1 zu1
+210,hakka,篩,si1
+211,waitau,磨,mo6
+211,hakka,磨,mo4
+212,waitau,泥磨,näi4 mo2
+212,hakka,礱磨,lung2 mo4
+213,waitau,碓,döi2
+213,hakka,碓,doi4
+214,waitau,碓坎,döi1 häm2
+214,hakka,碓坎,doi4 ham3
+215,waitau,碓坎,döi1 häm2
+215,hakka,碓頭,doi4 teu2
+216,hakka,碾子,lien4 zu3
+217,hakka,石碌,sak6 luk5
+218,waitau,地堂,di6 tong2
+218,waitau,禾堂,wo4 tong2
+218,hakka,禾庭,vo2 tang2
+219,waitau,窩攔,wo1 læng4
+219,hakka,穀笪,guk5 dat5
+220,waitau,擔竿,dam1 gung1
+220,hakka,擔竿,dam4 gon1
+221,waitau,繩,säng4
+221,waitau,繩仔,säng4 zäi2
+221,hakka,索嫲,sok5 ma2
+223,waitau,打樁,da2 zong1
+223,hakka,打樁,da3 zong1
+224,waitau,門楔,mung4 sip2
+224,hakka,楔仔,siap5 zai3
+225,waitau,竹棒,zuk2 pang1
+225,hakka,竹檳子,zuk5 bin1 zai3
+226,hakka,點麥,diam4 mak6
+227,waitau,發芽,fak2 nga4
+227,hakka,暴芽,bau4 nga2
+227,hakka,吥芽,but6 nga2
+228,waitau,掌牛,zöng2 ngäu4
+228,hakka,掌牛,zong3 ngiu2
+229,waitau,斬柴,zam2 cai4
+229,waitau,劈柴,pek2 cai4
+229,waitau,破柴,po1 cai4
+229,hakka,剁柴,dok6 cai2
+230,waitau,投墟,täu4 hü1
+230,hakka,投墟,teu2 hi1
+231,waitau,入城,yäp6 seng2
+231,waitau,出城,cäk2 seng2
+231,hakka,出墟,cut5 hi1
+232,waitau,網魚,mong6 yü4
+232,hakka,網魚,miong3 ng2
+233,waitau,捉魚,zuk2 yü2
+233,hakka,捉魚,zuk5 ng2
+234,waitau,作壩,zok2 ba1
+234,hakka,作陂頭,zok5 bi1 teu2
+235,waitau,作壆,zok2 bok2
+235,hakka,作河壆,zok5 ho2 bok5
+236,waitau,乾塘,gwung1 tong4
+236,hakka,乾塘,gon1 tong2
+237,waitau,戽水,fu1 söi2
+237,hakka,戽水,fu4 sui3
+238,waitau,磨米,mo4 mäi1
+238,waitau,壓米,ngak2 mäi1
+238,hakka,絞米,gau3 mi3
+239,waitau,菜園,cöi1 yüng4
+239,hakka,菜園,coi4 yen2
+240,waitau,種菜,zung1 cöi2
+240,hakka,種菜,zung4 coi4
+241,waitau,淋菜,läm4 cöi1
+241,hakka,淋菜,lim2 coi2
+242,waitau,劏魚,tong1 yü4
+242,hakka,劏魚,tong1 ng2
+243,waitau,劏雞,tong1 gäi1
+243,waitau,𠜎雞,sing1 gäi1
+243,hakka,劏雞,tong1 gai1
+244,waitau,劏豬,tong1 zü1
+244,hakka,劏豬,tong1 zu1
+245,waitau,養雞,yöng1 gäi1
+245,hakka,養雞,yong1 gai1
+246,waitau,養豬,yöng1 zü1
+246,hakka,養豬,yong1 zu1
+247,waitau,做嘢,zu6 ya1
+247,hakka,做東西,zo4 dung1 si1
+247,hakka,做事,zo4 se4
+248,waitau,糴米,dek6 mäi1
+248,hakka,打米,da3 mi3
+249,waitau,買豬肉,mai1 zü1 yuk6
+249,hakka,買肉,mai1 ngiuk5
+250,waitau,洗米,säi2 mäi1
+250,hakka,洗米,se3 mi1
+251,waitau,煮飯,zü2 fæng6
+251,hakka,煮飯,zu3 fan4
+252,waitau,焗飯,guk6 fæng6
+252,hakka,燜飯,mun1 fan4
+253,waitau,煮餸,zü2 sung1
+253,hakka,煮菜,zu3 coi4
+254,waitau,燉,däng6
+254,hakka,炆,mun1
+255,waitau,煠,sap6
+255,hakka,煠,sap6
+256,waitau,煲湯,bäu1 tong1
+256,hakka,煲順,bau1 sun4
+257,waitau,滾湯,gwäng2 tong1
+257,hakka,淥順,luk5 sun4
+258,waitau,潟,se2
+258,hakka,湓,pun2
+259,waitau,盪碗,long1 wung2
+259,waitau,洗碗,säi2 wung2
+259,hakka,盪碗,long1 von3
+260,waitau,抹,mæk2
+260,hakka,抹,mat5
+261,waitau,執拾,zap2 säp6
+261,hakka,撿,giam3
+262,waitau,養,yöng1
+262,waitau,供養,gung1 yöng1
+262,hakka,養,yong1
+263,waitau,掌屋,zöng2 uk2
+263,waitau,掌門口,zöng2 mung4 häu2
+263,hakka,掌屋,zong3 vuk5
+264,waitau,聯,lüng4
+264,hakka,聯,lien2
+265,waitau,浪,long2
+265,hakka,洗衫,se3 sam1
+266,waitau,晾衫,long6 sam1
+266,waitau,晾燥,long6 zau1
+266,hakka,晾燥,lang2 zau1
+267,waitau,聯,lüng4
+267,hakka,聯,lien2
+268,waitau,聯,lüng4
+268,hakka,聯,lien2
+269,waitau,繑,kiu1
+269,hakka,縈,yang1
+270,waitau,煲,bäu1
+270,hakka,煮,zu3
+271,waitau,裝,zong4
+271,hakka,入,ngip6
+272,waitau,焫,nak2
+272,hakka,淥,luk6
+273,waitau,火燭,fo2 zuk2
+273,hakka,火燒屋,fo3 sau1 vuk5
+273,hakka,火燭,fo3 zuk5
+274,waitau,烏,wu1
+274,hakka,烏,vu2
+275,waitau,出力,cäk2 läk6
+275,hakka,出力,cut5 lit6
+276,waitau,安,wung1
+276,hakka,斣,deu4
+277,waitau,整,zäng2
+277,hakka,整,zin3
+278,waitau,整,zäng2
+278,hakka,整,zin3
+279,waitau,執,zäp2
+279,hakka,撿瓦背,giam3 nga3 boi4
+280,waitau,揀,gæng2
+280,hakka,擇,tok6
+281,waitau,湊,cäu1
+281,hakka,存,sun2
+282,waitau,焙,bui6
+282,hakka,炕,kong4
+283,waitau,拔,bäk2
+283,hakka,熏,hiun1
+284,waitau,醃,yip2
+284,hakka,醃,yap5
+285,waitau,攤凍,tæng1 dung1
+285,hakka,攤,tang1
+286,waitau,禾,wo4
+286,hakka,禾,vo2
+287,waitau,穀,guk2
+287,hakka,穀,guk5
+288,waitau,禾,wo4
+288,hakka,禾串,vo2 con4
+289,waitau,泛穀,pæng1 guk2
+289,hakka,泛穀,pang4 guk5
+290,waitau,米,mäi1
+290,hakka,米,mi3
+291,waitau,糯米,no6 mäi1
+291,hakka,糯米,lo4 mi3
+292,waitau,粘米,zim1 mäi1
+292,hakka,粘米,zam1 mi3
+293,waitau,麥,mak6
+293,hakka,麥,mak6
+294,waitau,米仔,mäi1 zäi2
+294,waitau,狗尾粟,gäu2 mi1 suk2
+294,hakka,狗尾粟,geu3 mui1 suk5
+295,waitau,包粟,bau1 suk2
+295,hakka,包粟,bau1 suk5
+296,waitau,高粱,gäu1 löng4
+296,hakka,高粱粟,gau1 liong2 suk5
+297,waitau,黃豆,wong4 däu2
+297,waitau,大豆,dai6 däu2
+297,hakka,黃豆,vong2 teu4
+298,waitau,荷蘭豆,ho4 læng2 däu2
+298,hakka,荷蘭豆,ho2 lan1 teu4
+299,waitau,蠶豆,cam4 däu2
+299,hakka,蠶豆,cam2 teu4
+300,waitau,芝麻,zi1 ma4
+300,hakka,油麻,yiu2 ma2
+301,waitau,豆角,däu6 gok2
+301,hakka,豆角,teu4 gok5
+302,waitau,扁豆,bing2 däu6
+302,hakka,刀豆仔,dau1 teu4 zai3
+303,waitau,葛薯,guk2 sü4
+303,hakka,番薯,fan1 su2
+304,waitau,荷蘭薯,ho4 læng2 sü4
+304,waitau,薯仔,sü4 zäi2
+304,hakka,荷蘭薯,ho2 lan1 su2
+304,hakka,薯仔,su2 zai3
+305,waitau,地豆,di6 däu6
+305,hakka,地豆,ti4 teu4
+306,waitau,地豆米,di6 däu6 mäi1
+306,hakka,地豆米,ti4 teu4 mi3
+307,waitau,菇,gu1
+307,hakka,菇,gu1
+308,waitau,栗子,läk6 zi1
+308,hakka,風栗,fung1 lit6
+309,waitau,栗子,läk6 zi1
+309,hakka,粟子,lit6 zu3
+310,waitau,蔗,ze1
+310,hakka,蔗,za4
+311,waitau,菜,cöi1
+311,hakka,青菜,ciang1 coi4
+312,waitau,菠菜,bo2 cöi1
+312,hakka,角菜,gok5 coi4
+313,waitau,黃芽白,wong4 nga4 bæk6
+313,hakka,黃芽白,vong2 nga2 pak6
+314,waitau,矮瓜,äi2 gwa1
+314,hakka,矮瓜,ai3 ga1
+315,waitau,絲瓜,si1 gwa1
+315,hakka,絲瓜,se1 ga1
+316,waitau,番瓜,fæng1 gwa1
+316,hakka,金瓜,gim1 ga1
+317,waitau,冬瓜,dung1 gwa1
+317,hakka,冬瓜,dung1 ga1
+318,waitau,青瓜,ceng1 gwa1
+318,hakka,黃瓜,vong2 ga1
+319,waitau,番茄,fæng1 kö2
+319,hakka,番茄,fan1 kio2
+320,waitau,菜頭,cöi1 täu4
+320,hakka,蘿蔔,lo2 pet6
+321,waitau,紅蘿蔔,hung4 lo4 bæk6
+321,waitau,甘筍,gäm1 säng2
+321,hakka,紅蘿蔔,fung2 lo2 pet6
+322,waitau,辣椒,læk6 ziu2
+322,hakka,辣椒,lat6 ziau1
+323,waitau,蕹菜,ung1 cöi1
+323,hakka,蕹菜,vung4 coi4
+324,waitau,韭菜,gäu2 cöi1
+324,hakka,韭菜,giu3 coi4
+325,waitau,莧菜,hing1 cöi1
+325,hakka,莧菜,han4 coi4
+326,waitau,芥菜,gai1 cöi1
+326,hakka,芥菜,gai4 coi4
+327,waitau,芹菜,käng4 cöi1
+327,hakka,芹菜,kiun2 coi4
+328,waitau,芫荽,yim4 säi1
+328,hakka,芫荽,yen2 sui1
+329,waitau,生菜,sæng1 cöi1
+329,hakka,脈菜,mak5 coi4
+330,waitau,潺菜,sæng4 cöi1
+330,hakka,潺菜,can2 coi4
+331,waitau,慈姑,ci4 gu1
+331,waitau,牙姑,nga4 gu1
+331,hakka,牙姑,nga2 gu1
+332,waitau,蓮藕,ling4 ngäu1
+332,hakka,蓮藕,lien2 leu1
+333,waitau,馬蹄,ma1 täi2
+333,hakka,馬蹄,ma1 tai2
+334,waitau,菱角,läng4 gok2
+334,hakka,菱角,lin2 gok5
+335,waitau,蔥,cung2
+335,hakka,蔥仔,cung1 zai3
+336,waitau,蒜頭,süng1 täu4
+336,hakka,蒜仔,son4 zai3
+337,waitau,蒜梗,süng1 kwæng2
+337,hakka,蒜苗,son4 miau2
+338,waitau,蒜頭,süng1 täu4
+338,hakka,蒜頭,son4 teu2
+339,waitau,蕎頭,kiu1 täu4
+339,hakka,蕎頭,kiau1 teu2
+340,waitau,薑,göng1
+340,hakka,薑嫲,giong1 ma2
+341,waitau,梗,kwäng2
+341,hakka,梗,gang3
+342,waitau,菜梗,cöi1 kwæng2
+342,hakka,菜心,coi4 sim1
+343,waitau,菜,cöi1
+343,hakka,菜,coi4
+344,waitau,菜根,cöi1 gäng2
+344,hakka,菜根,coi4 gin1
+345,waitau,苗,miu4
+345,hakka,菜秧,coi4 yong1
+346,waitau,浮仔,fäu4 zäi2
+346,waitau,浮薸,pou4 piu4
+346,hakka,薸仔,piau2 zai3
+347,waitau,生果,sæng1 gwo2
+347,hakka,生果,sang1 go3
+348,waitau,桃,täu2
+348,hakka,桃仔,tau2 zai3
+349,waitau,杏,häng6
+349,hakka,杏,hen4
+350,waitau,李,li2
+350,waitau,李仔,li2 zäi2
+350,hakka,李仔,li3 zai3
+351,waitau,腍柿,näm4 ci2
+351,waitau,腍柿,näm4 säi4
+351,hakka,腍柿,lem2 se2
+352,waitau,石榴,sek6 läu4
+352,hakka,石榴,sak6 liu2
+353,waitau,梨,li2
+353,waitau,雪梨,sük2 li4
+353,hakka,梨,li2
+354,waitau,柑,gäm1
+354,hakka,橘仔,git5 zai3
+354,hakka,柑仔,gam1 zai3
+355,waitau,橙,cæng2
+355,hakka,橙仔,zang2 zai3
+356,waitau,碌柚,luk2 yäu2
+356,hakka,碌仔,luk5 zai3
+357,waitau,梅,mui2
+357,waitau,梅仔,mui4 zäi2
+357,hakka,梅仔,moi2 zai3
+358,waitau,菩提子,pu4 täi4 zi2
+358,hakka,葡萄子,pu2 tau2 zu3
+359,waitau,櫻桃,yäng1 täu4
+359,hakka,櫻桃,yin1 tau2
+360,waitau,欖,lam2
+360,hakka,欖,lam3
+361,waitau,棗,zäu2
+361,waitau,紅棗,hung4 zäu2
+361,hakka,紅棗,fung2 zau3
+362,waitau,合桃,häp6 täu4
+362,hakka,合桃,hap6 tau2
+363,waitau,山楂,sæng1 za1
+363,hakka,山渣,san1 za1
+364,waitau,牙蕉,nga4 ziu1
+364,hakka,牙蕉,nga2 ziau1
+365,waitau,荔枝,läi6 zi2
+365,hakka,荔果,lai1 go3
+366,waitau,龍眼,lung4 ngæng1
+366,hakka,龍眼,lung2 ngan3
+367,waitau,西瓜,säi1 gwa1
+367,hakka,西瓜,si1 ga1
+368,waitau,芽,nga4
+368,hakka,筍,sun3
+369,waitau,核,wäk6
+369,hakka,核,fut6
+370,waitau,皮,pi4
+370,hakka,皮,pi2
+371,waitau,花,fa1
+371,hakka,花,fa1
+372,waitau,梅花,mui4 fa1
+372,hakka,梅花,moi2 fa1
+373,waitau,杏花,häng6 fa1
+373,hakka,杏花,hen4 fa1
+374,waitau,桃花,täu4 fa1
+374,hakka,桃花,tau2 fa1
+375,waitau,蓮花,ho4 fa1
+375,hakka,蓮花,lien2 fa1
+376,waitau,蓮花,ling4 fa1
+376,hakka,蓮花,lien2 fa1
+377,waitau,桂花,gwäi1 fa1
+377,hakka,桂花,gui4 fa1
+378,waitau,杜鵑花,du6 güng2 fa1
+378,hakka,杜鵑花,tu4 gien1 fa1
+379,waitau,蘭花,læng4 fa1
+379,hakka,蘭花,lan2 fa1
+380,waitau,雞春花,gäi1 cäng1 fa1
+380,hakka,雞蛋花,gai1 tan4 fa1
+381,waitau,茉莉,muk6 li2
+381,hakka,茉莉花,mat6 li4 fa1
+382,waitau,白蘭,bæk6 læng2
+382,waitau,白蘭花,bæk6 læng2 fa1
+382,hakka,白玉蘭,pak6 ngiuk6 lan2
+383,waitau,金銀花,gäm1 ngäng4 fa1
+383,hakka,手巾絮,siu3 gin1 sui1
+383,hakka,金銀花,gim1 ngiun2 fa1
+384,waitau,菊花,guk2 fa1
+384,hakka,菊花,kiuk5 fa1
+385,waitau,葵花,kwäi4 fa1
+385,hakka,向日葵,hiong4 ngit5 kui2
+386,waitau,棉花,ming4 fa1
+386,hakka,棉花,mien2 fa1
+387,waitau,槐樹,wai4 sü6
+387,hakka,槐樹,fai2 su4
+388,waitau,楓樹,fung1 sü6
+388,hakka,楓樹,fung1 su4
+389,waitau,苦楝樹,fu2 ling6 sü6
+389,hakka,苦楝樹,fu3 lien4 su4
+390,waitau,千層皮,cing1 cäng4 pi4
+390,hakka,千重皮,cien1 cung2 pi2
+391,waitau,柳,läu1
+391,hakka,柳樹,liu3 su4
+392,waitau,桑,song1
+392,hakka,桑仔樹,song1 zai3 su4
+393,waitau,桑仔,song1 zäi1
+393,hakka,桑仔,song1 zai3
+394,waitau,榕樹,yung4 sü6
+394,hakka,榕樹,yung2 su4
+395,waitau,烏桕,wu1 käu1
+395,hakka,烏桕樹,vu1 kiu1 su4
+396,waitau,白果樹,bæk6 gwo2 sü6
+396,hakka,白果樹,pak6 go3 su4
+397,waitau,梧桐,ng4 tung4
+397,hakka,梧桐樹,ng2 tung2 su4
+398,waitau,茶樹,ca4 sü6
+398,hakka,茶樹,ca2 su4
+399,waitau,山茶,sæng1 ca4
+399,hakka,油茶樹,yiu2 ca2 su4
+400,waitau,棕櫚,zung1 lü1
+400,hakka,棕櫚樹,zung1 li1 su4
+401,waitau,樟木樹,zöng1 muk6 sü6
+401,hakka,樟樹,zong1 su4
+402,waitau,竹,zuk2
+402,hakka,竹,zuk5
+403,waitau,竹,zuk2
+403,hakka,車桐竹,ca1 tung2 zuk5
+404,waitau,竹根,zuk2 gäng1
+404,hakka,竹根,zuk5 gin1
+405,waitau,竹衣,zuk2 yi1
+405,hakka,竹衣,zuk5 yi1
+406,waitau,竹筍,zuk2 säng2
+406,hakka,竹筍,zuk5 sun3
+407,waitau,竹篾,zuk2 mik6
+407,hakka,篾仔,miet6 zai3
+408,waitau,茅草,mau4 cäu2
+408,hakka,書友草,su1 yiu1 cau3
+409,waitau,榔箕,long4 gi1
+409,hakka,榔箕,long1 gi1
+410,waitau,青苔,ceng1 töi4
+410,hakka,溜苔,liu1 toi2
+411,waitau,蘆葦,lu4 wäi1
+411,hakka,蘆茅,lu2 mau2
+412,waitau,艾,ngai6
+412,hakka,艾,ngioi4
+413,waitau,樹枝,sü6 zi1
+413,hakka,樹桍,su4 ka1
+414,waitau,樹尾,sü6 mi2
+414,hakka,樹尾,su4 mui1
+415,waitau,樹頭,sü6 täu4
+415,hakka,樹頭,su4 teu2
+416,waitau,樹葉,sü6 yip6
+416,hakka,樹葉,su4 yap6
+417,waitau,粽葉,zung2 yip6
+417,hakka,粽葉,zung4 yap6
+417,hakka,裹粽葉,go3 zung4 yap6
+418,waitau,竻,läk6
+418,hakka,竻,let5
+419,waitau,杉,cam1
+419,hakka,杉樹,cam4 su4
+420,waitau,柏,pæk6
+420,hakka,柏樹,pak5 su4
+421,waitau,松樹,cung4 sü6
+421,hakka,松樹,cung2 su4
+422,waitau,松果,cung4 gwo2
+422,hakka,松雞角,cung2 gai1 gok5
+423,waitau,松針,cung4 zäm1
+423,waitau,松毛,cung4 mäu4
+423,hakka,松毛,cung2 mau1
+424,hakka,松光仁,cung2 gong1 yin2
+425,waitau,樹膠,sü6 gau1
+425,hakka,樹膠,su4 gau1
+426,waitau,木頭,muk6 täu4
+426,hakka,木頭,muk5 teu2
+427,waitau,畜牲,cuk2 sæng1
+427,hakka,頭牲,teu2 sang1
+428,waitau,水牛,söi2 ngäu4
+428,hakka,水牛,sui3 ngiu2
+429,waitau,黃牛,wong4 ngäu4
+429,hakka,黃牛,vong2 ngiu2
+430,waitau,牛公,ngäu4 gung1
+430,hakka,牛牯,ngiu2 gu1
+431,waitau,牛乸,ngäu4 na2
+431,hakka,牛嫲,ngiu2 ma2
+432,waitau,牛牯仔,ngäu4 gu2 zäi2
+432,waitau,牛仔,ngäu4 zäi2
+432,hakka,牛仔,ngiu2 zai3
+433,waitau,牛角,ngäu4 gok2
+433,hakka,牛角,ngiu2 gok5
+434,waitau,蹄,tai4
+434,hakka,蹄,tai2
+435,waitau,蹺,kiu1
+435,hakka,吥,but5
+436,waitau,羊,yöng4
+436,hakka,羊,yong2
+437,waitau,羊牯,yöng4 gu2
+437,hakka,羊牯,yong2 gu3
+438,waitau,羊乸,yöng4 na2
+438,hakka,羊嫲,yong2 ma2
+439,waitau,羊仔,yöng4 zäi2
+439,hakka,羊仔,yong2 zai3
+440,waitau,豬,zü1
+440,hakka,豬,zu1
+441,waitau,豬公,zü1 gung1
+441,hakka,豬牯,zu1 gu3
+442,waitau,豬公,zü1 gung1
+442,hakka,豬家,zu1 ga1
+443,waitau,豬婆,zü1 po4
+443,waitau,豬乸,zü1 na2
+443,hakka,豬嫲,zu1 ma2
+444,waitau,閹豬,yim1 zü1
+444,hakka,肉豬,ngiuk5 zu1
+445,waitau,豬仔,zü1 zäi2
+445,hakka,豬仔,zu1 zai3
+446,waitau,生仔,sæng1 zäi2
+446,hakka,養豬仔,yong1 zu1 zai3
+447,waitau,配種,pui1 zung2
+447,waitau,打種,da2 zung2
+447,hakka,走水,zeu3 sui3
+448,waitau,狗,gäu2
+448,hakka,狗,geu3
+449,waitau,狗公,gäu2 gung1
+449,hakka,狗牯,geu3 gu3
+450,waitau,狗乸,gäu2 na2
+450,hakka,狗嫲,geu3 ma2
+450,hakka,狗牸,geu3 ci4
+451,waitau,吠,fäi6
+451,hakka,吠,poi4
+452,waitau,貓,miu4
+452,hakka,貓,miau4
+453,waitau,貓公,miu2 gung1
+453,hakka,貓牯,miau4 gu3
+454,waitau,貓乸,miu2 na2
+454,hakka,貓嫲,miau4 ma2
+454,hakka,貓牸,miau4 ci4
+455,waitau,叫春,giu1 cäng1
+455,waitau,喊春,ham1 cäng1
+455,hakka,貓起群,miau4 hi3 kiun2
+456,waitau,雞公,gäi1 gung1
+456,hakka,雞公,gai1 gung1
+457,waitau,雞乸,gäi1 na2
+457,hakka,雞嫲,gai1 ma2
+457,hakka,雞僆,gai1 lon4
+458,waitau,騸雞,sing1 gäi1
+458,hakka,閹雞,yam1 gai1
+459,waitau,雞仔,gäi1 zäi2
+459,hakka,雞仔,gai1 zai3
+460,waitau,賴伏雞,lai6 bu6 gäi1
+460,hakka,賴伏雞嫲,lai4 pu4 gai1 ma2
+461,waitau,雞春,gäi1 cäng1
+461,hakka,雞春,gai1 cun1
+462,waitau,雞胗,gäi1 käng2
+462,hakka,雞胗,gai1 kin1
+463,waitau,生春,sæng1 cäng1
+463,hakka,生春,sang1 cun1
+464,waitau,伏,bu6
+464,hakka,伏,pu4
+465,waitau,扒,pa4
+465,waitau,搲,wa2
+465,hakka,蹣,pan2
+465,hakka,抄,cau4
+465,hakka,跒,kia4
+466,waitau,啼,täi4
+466,hakka,啼,tai2
+467,waitau,啄,dök2
+467,hakka,啄,duk5
+468,waitau,噹,döng2
+468,hakka,噹,diong1
+469,hakka,打踏,da3 tap6
+470,waitau,鵝,ngo4
+470,hakka,鵝,ngo2
+471,waitau,鴨,ap2
+471,hakka,鴨,ap5
+472,hakka,野性,ya1 sin4
+473,waitau,老虎,läu1 fu2
+473,hakka,老虎,lau4 fu3
+474,waitau,獅子,si1 zi2
+474,hakka,獅子,su1 zu3
+475,waitau,豹,pau1
+475,hakka,豹,bau4
+476,waitau,狼,long4
+476,hakka,狼,long2
+477,waitau,狐狸,fu4 li2
+477,hakka,狐狸,fu2 li2
+478,waitau,馬騮,ma1 läu4
+478,hakka,猴哥,heu2 go1
+478,hakka,馬騮,ma1 liu1
+479,waitau,鹿,luk6
+479,hakka,鹿,luk6
+480,waitau,兔仔,tu1 zäi2
+480,hakka,兔仔,tu4 zai3
+481,waitau,老鼠,läu1 sü2
+481,hakka,老鼠,lau4 cu3
+482,waitau,雀仔,zök2 zäi2
+482,hakka,鳥仔,diau1 zai3
+483,hakka,鳥銃,diau1 cung1
+484,waitau,麻雀,ma4 zök2
+484,hakka,禾鷝子,vo2 bit5 zai3
+485,waitau,鴉賊,a1 cæk2
+485,waitau,老鴉,läu1 a1
+485,hakka,鴉鵲,a1 siak5
+486,waitau,老鴉,läu1 a2
+486,hakka,老鴉,lau3 a1
+487,waitau,雁,ngæng6
+487,hakka,雁鵝,ngan4 ngo2
+488,waitau,牙鷹,nga4 yäng1
+488,waitau,麻鷹,ngai4 po4
+488,hakka,鷂婆,yau4 po2
+488,hakka,牙鷹,nga2 yin1
+489,waitau,枕虼,zäm2 ngak2
+489,waitau,貓頭鷹,mau1 täu4 yäng1
+489,hakka,貓頭鳥,miau4 teu2 diau1
+490,waitau,燕子,ying1 zi2
+490,hakka,燕仔,yen4 zai3
+491,waitau,蝠鼠,fuk2 sü2
+491,waitau,盲老鼠,mæng4 läu1 sü2
+491,hakka,蝠婆,pit6 po2
+491,hakka,蚊鼠,mun1 cu3
+492,waitau,白鴿,bæk6 gäp2
+492,hakka,白鴿,pak6 gap5
+492,hakka,月鴿,ngiet6 gap5
+493,waitau,鷯哥,liu2 go2
+493,hakka,鷯哥,liau4 go1
+494,waitau,春,cäng1
+494,hakka,春,cun1
+495,waitau,竇,däu1
+495,hakka,竇,deu4
+496,waitau,翼,yäk6
+496,hakka,翼,yit6
+497,waitau,尾,mi2
+497,hakka,尾,mui1
+498,waitau,擺,bai2
+498,hakka,揈,vin4
+499,waitau,爪,zau2
+499,hakka,腳爪,giok5 zau3
+500,waitau,蠄蟧,käm4 lo2
+500,hakka,蝲蜞,la2 kia2
+501,waitau,蟻,ngäi1
+501,hakka,蟻公,li1 gung1
+501,hakka,蟻子,li1 zu3
+502,waitau,鵝蚿,ngo4 hüng2
+502,waitau,蛇蚿,se4 hüng2
+502,waitau,禾蚿,wo4 hüng2
+502,hakka,蟲蚿,cung2 hien3
+503,waitau,百足,bæk2 zok2
+503,hakka,蜈蚣蟲,ng2 gung1 cung2
+504,waitau,硬殼蟲,ngæng6 hok2 cung4
+504,hakka,硬殼蟲,ngang4 hok5 cung2
+505,waitau,簷蛇,yim4 se2
+505,hakka,壁蛇,biak5 sa2
+506,waitau,鳥蠅,fu1 yäng4
+506,hakka,鳥蠅,vu1 yin2
+507,waitau,金鳥蠅,gäm1 fu1 yäng4
+507,hakka,牛鳥蠅,ngiu2 vu1 yin2
+508,waitau,摟,läu1
+508,hakka,摟,leu1
+509,waitau,蚊,mäng1
+509,hakka,蚊,mun1
+510,waitau,囓仔,ngæk2 zai2
+510,hakka,齧仔,ngat5 zai3
+511,waitau,咬,ngau1
+511,hakka,叼,diau1
+512,waitau,木虱,muk6 säk2
+512,hakka,乾蜱,gon1 bi1
+513,waitau,跳蚤,tiu1 zäu2
+513,hakka,狗虱,geu3 sit5
+514,waitau,虱乸,säk2 na2
+514,hakka,虱嫲,sit5 ma2
+515,waitau,甴曱,gak6 zak2
+515,hakka,黃曱,vong2 cat6
+516,waitau,囊蜊,nong4 li2
+516,hakka,黃蜊,vong2 li1
+517,waitau,囊拈,nong4 nim2
+517,waitau,囊靚,nong4 leng2
+517,hakka,知焱,zi1 yam4
+518,waitau,蝴蝶,fu4 dip2
+518,hakka,蝴蝶,fu2 tiap5
+519,waitau,斬柴郎,zam2 cai4 long2
+519,hakka,豹虎哥,bau4 fu3 go1
+520,waitau,蜢,mæng2
+520,hakka,蜢公,mang3 gung1
+521,waitau,螢火蟲,yäng4 fo2 cung4
+521,hakka,火焰蟲,fo3 yam4 cung2
+522,waitau,蜜仔,mäk6 zäi2
+522,hakka,蜜仔,mit6 zai3
+523,waitau,鵝蜂,ngo4 hung1
+523,hakka,禾蜂,vo2 fung1
+524,waitau,竇,däu1
+524,hakka,竇,deu4
+525,waitau,顎,ngok2
+525,hakka,叼,diau1
+526,waitau,蛐蛐,go4 go2
+526,hakka,草織,cau3 git5
+527,waitau,烏氹仔,wu2 däm2 zäi2
+527,hakka,鯰哥仔,ngiam4 go1 zai3
+528,waitau,蛤乸,gäp2 na2
+528,waitau,蛤蚧,gäp2 gwai2
+528,hakka,蛤蟆,ha2 ma2
+529,waitau,蛤蟆,käm4 kü4
+529,hakka,蟾蜍,kiem2 su2
+530,waitau,蠶,cam4
+530,hakka,蠶蟲,cam2 cung2
+531,waitau,昂龜,ngong1 gwäi1
+531,hakka,烏龜,vu1 gui1
+532,waitau,水魚,söi2 yü4
+532,hakka,腳魚,giok5 ng2
+533,waitau,蝦公,ha1 gung1
+533,hakka,蝦公,ha2 gung1
+534,waitau,泥劣仔,näi4 lük2 zäi2
+534,hakka,湖鰍,fu2 ciu1
+535,waitau,蛇,se4
+535,hakka,蛇哥,sa2 go1
+536,waitau,牛蜞,ngäu4 ki4
+536,hakka,湖蜞,fu2 ki2
+537,waitau,沙伯,sa1 bæk2
+537,hakka,蚌,pong1
+538,waitau,包仔螺,bau1 zäi2 lö2
+538,hakka,吔螺蟲,ye2 lo2 cung2
+539,waitau,鼻涕蟲,bi6 täi1 cung4
+539,hakka,冷蜞,lang1 ki2
+540,waitau,蟹,hai1
+540,hakka,老蟹,lau4 hai3
+541,waitau,響螺,höng2 lö2
+541,hakka,石螺,sak6 lo2
+542,waitau,田螺,ting4 lö2
+542,hakka,田螺,tien2 lo2
+543,waitau,黃鱔,wong4 sing1
+543,hakka,黃鱔,vong2 sien1
+544,waitau,鯉魚,li1 yü4
+544,hakka,鯉嫲,li1 ma2
+545,waitau,鯽魚,zäk2 yü4
+545,hakka,鯽魚,zit5 ng2
+546,waitau,鱗,läng4
+546,waitau,魚鱗,yü4 läng4
+546,hakka,鱗,lin1
+547,waitau,春,cäng1
+547,hakka,春,cun1
+548,waitau,屋企,uk2 ki2
+548,hakka,屋下,vuk5 ka1
+549,waitau,屋,uk2
+549,hakka,屋,vuk5
+550,waitau,起屋,hi2 uk2
+550,hakka,起,hi3
+551,waitau,打地腳,da2 di6 gök2
+551,hakka,挑地腳,tiau1 ti4 giok5
+552,waitau,築牆,zuk2 cöng4
+552,waitau,起籬牆,hi2 li4 cöng4
+552,hakka,舂籬,zung1 li2
+553,waitau,磚,züng1
+553,waitau,磚頭,züng1 täu4
+553,hakka,磚,zon1
+554,waitau,斷磚,tüng1 züng1
+554,hakka,磚碌,zon1 luk5
+555,waitau,生磚,sæng1 züng1
+555,hakka,泥磚,lai2 zon1
+556,waitau,瓦,nga1
+556,hakka,瓦,nga1
+557,waitau,爛瓦,læng6 nga1
+557,waitau,瓦片,nga1 ping2
+557,hakka,瓦析,nga3 sak5
+558,waitau,樑,löng4
+558,hakka,樑,liong2
+559,waitau,上樑,söng1 löng4
+559,hakka,上樑,song3 liong2
+560,waitau,桁,hæng2
+560,hakka,桁,hang2
+561,waitau,簷,yim4
+561,hakka,屋簷,vuk5 yam2
+562,waitau,柱,cü1
+562,hakka,柱,cu1
+563,waitau,柱躉,cü1 däng2
+563,hakka,柱躉,cu1 dun3
+564,waitau,房間,fong4 gæng1
+564,hakka,間肚,gan1 du3
+565,waitau,天間,ting1 gæng1
+565,hakka,正廳,zin4 tiang1
+566,waitau,花廳,fa1 teng2
+566,hakka,偏廳,pien1 tiang1
+567,waitau,天井,ting1 zeng2
+567,hakka,天井,tien1 ziang3
+568,hakka,坪,piang2
+569,waitau,籬壆,li4 bok2
+569,waitau,牆,cöng4
+569,hakka,墻,siong2
+569,hakka,壁頭,biak5 teu2
+570,waitau,搭,dap2
+570,hakka,結,giet5
+571,waitau,窗門,cöng1 mung2
+571,hakka,窗門,cung1 mun2
+572,waitau,門,mung4
+572,hakka,門,mun2
+573,waitau,側門,zäk2 mung2
+573,hakka,側門,zet5 mun2
+574,waitau,門檻,mung4 cam1
+574,hakka,門檻,mun2 kiam1
+575,waitau,門扣,mung4 käu1
+575,waitau,門弄,mung4 lung6
+575,hakka,門搭,mun2 dap5
+575,hakka,門弄,mun2 lung4
+576,waitau,天棚,ting1 pæng2
+576,hakka,天棚,tien1 pang2
+577,waitau,欄河,læng4 ho2
+577,hakka,欄河,lan2 ho2
+578,waitau,石級,sek6 käp2
+578,hakka,石級,sak6 gap5
+579,waitau,樓梯,läu4 täi1
+579,hakka,樓梯,leu2 toi1
+580,waitau,梯,täi1
+580,hakka,陡梯,deu3 toi1
+581,waitau,井,zeng2
+581,hakka,井,ziang3
+582,waitau,下間,ha6 gæng1
+582,hakka,廚房,cu2 fong2
+582,hakka,灶下,zau4 ha1
+583,waitau,煙通,ying1 tung1
+583,hakka,煙囪銜,yen1 cung1 ham2
+584,waitau,打灶,da2 zäu1
+584,hakka,打灶頭,da3 zau4 teu2
+585,waitau,屎坑,si2 hæng1
+585,hakka,屎坑,si3 hang1
+585,hakka,廁所,ci4 so3
+586,waitau,角落頭,gok2 lok2 täu2
+586,hakka,角落頭,gok5 lok6 teu2
+587,waitau,窿,lung2
+587,hakka,窿空,lung2 kung1
+588,waitau,罅,la1
+588,hakka,坼,cak5
+589,waitau,雞鬥,gäi1 däu1
+589,waitau,雞欄,gäi1 læng2
+589,hakka,雞竇,gai1 deu4
+590,waitau,雞籠,gäi1 lung4
+590,hakka,雞籠,gai1 lung1
+590,hakka,雞塒,gai1 zi4
+591,waitau,豬槽,zü1 cäu2
+591,hakka,豬欄,zu1 lan2
+592,waitau,牛欄,ngäu4 læng4
+592,hakka,牛欄,ngiu2 lan2
+593,waitau,傢生,ga1 sæng1
+593,waitau,傢俬,ga1 si1
+593,hakka,傢俬,ga1 su1
+594,waitau,檯,töi2
+594,hakka,桌頭,zok5 teu2
+595,waitau,凳,däng1
+595,waitau,椅,yi2
+595,hakka,交椅,gau4 yi3
+596,waitau,凳仔,däng1 zäi2
+596,hakka,凳,den4
+597,waitau,長凳,cöng4 däng1
+597,waitau,板凳,bæng2 däng1
+597,hakka,條凳,ban3 den4
+598,waitau,書檯,sü1 töi2
+598,hakka,書桌,su1 zok5
+599,waitau,櫃,gwäi6
+599,waitau,沙櫃,sa6 gwäi6
+599,hakka,櫃,kui4
+600,waitau,廚櫃,cü4 gwäi6
+600,hakka,櫥,cu2
+601,waitau,櫃桶,gwäi6 tung2
+601,hakka,拖箱,to1 siong1
+602,waitau,箱,söng1
+602,waitau,槓,lung1
+602,hakka,箱,siong1
+603,waitau,床,cong4
+603,hakka,眠床,min2 cong2
+604,waitau,竹席,zuk2 zek6
+604,hakka,竹席,zuk5 ciak6
+605,waitau,草席,cäu2 zek6
+605,hakka,草席,zau3 ciak6
+606,waitau,被,pi1
+606,hakka,被,pi1
+607,waitau,床褥,cong4 yuk2
+607,waitau,褥仔,yuk6 zäi2
+607,hakka,褥,yuk6
+608,waitau,氈,zing2
+608,hakka,氈,zien1
+609,waitau,枕頭,zäm2 täu4
+609,hakka,枕頭,zim3 teu2
+610,waitau,毛冷,mäu4 lang2
+610,hakka,冷線,lang1 sien1
+611,waitau,蚊帳,mäng2 zöng1
+611,hakka,蚊帳,min1 zong4
+612,waitau,窗簾,cöng1 lim2
+612,hakka,窗簾,cung1 liam2
+613,waitau,面盆,ming6 pung2
+613,hakka,面盆,mien4 pun2
+614,waitau,手巾,säu2 gäng1
+614,hakka,手巾,siu3 gin1
+615,waitau,番鹼,fæng1 gæng2
+615,hakka,番鹼,fan1 gan3
+616,waitau,鏡,geng1
+616,hakka,鏡,giang4
+617,waitau,梳,so1
+617,waitau,篦,bi1
+617,hakka,梳仔,so1 zai3
+618,waitau,牙刷,nga4 cak2
+618,hakka,牙刷,nga2 sot5
+618,hakka,牙擦,nga2 cat5
+619,waitau,牙膏,nga4 gäu1
+619,hakka,牙膏,nga2 gau1
+620,waitau,殼,hok2
+620,hakka,勺嫲,sok6 ma2
+621,waitau,葫蘆殼,pu4 lu4 hok2
+621,hakka,葫蘆杓,pu2 lu2 sok6
+622,hakka,擂搥,lui2 cui2
+623,waitau,大甕,dai6 ung1
+623,hakka,缸,gong1
+624,waitau,水甕,söi2 ung1
+624,hakka,水缸,sui3 gong1
+625,waitau,埕,cäng4
+625,hakka,埕,cin2
+626,waitau,缽頭,buk2 täu4
+626,hakka,缽頭,bat5 teu2
+627,waitau,罐,gwung1
+627,hakka,罌哥,ang1 go1
+628,waitau,樽,zäng1
+628,hakka,樽,zun1
+629,waitau,塞,säk2
+629,hakka,卒,zut5
+630,waitau,茶碗,ca4 wung2
+630,hakka,茶盅,ca2 zung1
+631,waitau,茶杯,ca4 bui1
+631,hakka,杯,bui1
+632,waitau,碗,wung2
+632,hakka,碗,von3
+633,waitau,熱水壺,ngik6 söi2 fu4
+633,hakka,沸水壼,bui4 sui3 fu2
+634,waitau,茶壺,ca4 fu4
+634,hakka,茶壼,ca2 fu2
+635,waitau,熱水壺,yik6 söi2 fu4
+635,hakka,暖壼,lon1 fu2
+636,waitau,調羹,tiu4 gæng1
+636,waitau,匙羹,ci4 gæng1
+636,hakka,調羹,ci2 gang1
+637,waitau,飯殼,fæng6 hok2
+637,hakka,飯勺,fan4 sok6
+638,waitau,筷子,fai1 zi2
+638,waitau,箸,zü6
+638,hakka,筷子,kai4 zu3
+639,waitau,柴,cai4
+639,hakka,柴,cai2
+640,waitau,煤,mui4
+640,hakka,煤,moi2
+641,waitau,炭,tæng1
+641,hakka,火炭,fo3 tan4
+642,waitau,火屎,fo2 si2
+642,hakka,火灰,fo3 foi1
+643,hakka,爐墩,lu2 dun3
+644,hakka,火桶,fo3 tung3
+645,waitau,火爐,fo2 lu4
+645,hakka,火爐,fo3 lu2
+646,waitau,發火,fæk2 fo2
+646,waitau,起火,hi2 fo2
+646,hakka,起火,hi3 fo3
+647,waitau,鑊仔,wok6 zäi2
+647,hakka,鑊頭,vok6 teu2
+648,waitau,鑊蓋,wok6 gui1
+648,hakka,鑊蓋,vok6 goi4
+649,waitau,鑊鏟,wok6 cæng2
+649,hakka,鍋鏟,vok6 can3
+650,waitau,鑊癆,wok6 läu2
+650,waitau,鑊辣,wok6 lak2
+650,hakka,鍋癆,vok6 lau1
+651,waitau,砧板,zäm1 bæng2
+651,hakka,砧板,ziem1 ban3
+652,waitau,刀,däu1
+652,hakka,刀嫲,dau2 ma2
+653,waitau,蒸籠,zäng1 lung4
+653,hakka,蒸籠,zin1 lung2
+654,waitau,飯罉,fæng6 cæng2
+654,hakka,飯甑,fan4 zen4
+655,waitau,筲箕,sau1 gi1
+655,hakka,筲箕,sau4 gi1
+656,waitau,撈箕,lau4 gi1
+656,hakka,撈箕,lau2 gi1
+657,waitau,竹掃,zuk2 säu2
+657,hakka,鑊掃,vok6 sau4
+658,waitau,檯布,toi2 bu1
+658,waitau,抹碗布,mæk2 wung2 bu1
+658,hakka,桌帕,zok5 pa4
+659,waitau,火柴,fo2 zäi2
+659,hakka,火柴,fo3 cai2
+660,waitau,煙筒,ying1 tung2
+660,hakka,煙筒,yen1 tung2
+661,waitau,大碌竹,dai6 luk2 cuk2
+661,hakka,水煙筒,sui3 yen1 tung2
+662,waitau,電筒,ding6 tung4
+662,hakka,電筒,tien4 tung2
+663,waitau,電燈,ding6 däng2
+663,hakka,電火,tien4 fo3
+664,waitau,蠟燭,lap6 zuk2
+664,hakka,蠟蠋,lap6 zuk5
+665,waitau,電油,ding6 yäu4
+665,hakka,電油,tien4 yiu2
+666,waitau,火水,fo2 söi2
+666,hakka,火水,fo3 sui3
+667,waitau,屎桶,si2 tung2
+667,waitau,屎槽,si2 cäu4
+667,hakka,尿桶,ngiau4 tung3
+668,waitau,尿桶,niu6 tung4
+668,waitau,夜壺,niu6 fu4
+668,hakka,尿桶,ngiau4 tung3
+669,waitau,屎殼,si2 hok2
+669,hakka,尿角,ngiau4 gok5
+670,waitau,痰罐,tam4 gwung1
+670,hakka,痰筒,tam2 tung2
+671,waitau,吊桶,diu2 tung2
+671,waitau,水桶,söi2 dung2
+671,hakka,吊桶,diau4 tung3
+672,waitau,鎖匙,so2 si4
+672,hakka,鎖匙,so3 si2
+673,waitau,鎖,so2
+673,hakka,鎖頭,so3 teu2
+674,waitau,蓑衣,so1 yi1
+674,hakka,蓑衣,so1 yi1
+675,waitau,斗笠,däu2 läp2
+675,hakka,笠嫲,lip5 ma2
+676,waitau,扇,sing1
+676,hakka,扇,sien4
+677,waitau,傘,sæng1
+677,waitau,遮,ze1
+677,hakka,遮,za1
+678,waitau,掃把,säu1 ba2
+678,hakka,掃杆,sau4 gon3
+679,waitau,大掃,dai6 säu2
+679,hakka,掃把,sau4 ba3
+680,waitau,糞箕,fäng1 gi1
+680,hakka,簸箕,boi4 gi1
+681,waitau,窩欄,wo1 læng4
+681,hakka,簸箕,boi4 gi1
+682,waitau,竹篙,zuk2 gäu1
+682,hakka,竹篙,zuk5 gau1
+683,waitau,竹篙,zuk2 gäu1
+683,hakka,竹篙,zuk5 gau1
+684,waitau,叉,ca2
+684,hakka,丫叉,a1 ca1
+685,waitau,丫叉,a1 ca1
+685,hakka,丫叉仔,a1 ca1 zai3
+686,waitau,拐杖,gwai2 zöng2
+686,hakka,拐掍,gai3 gun4
+687,waitau,魚籠,yü4 lung4
+687,hakka,罍仔,lui3 zai3
+688,waitau,釣竿,diu1 gwung1
+688,hakka,釣檳,diau4 bin1
+689,waitau,傢生,ga1 cang1
+689,hakka,傢生,ga1 sang1
+690,waitau,錘仔,cöi4 zäi2
+690,hakka,錘仔,cui2 zai3
+691,waitau,錐,yöi2
+691,hakka,鉆仔,zon4 zai3
+692,waitau,斧頭,fu2 täu4
+692,hakka,斧頭,bu3 teu2
+693,waitau,鉗,kim2
+693,waitau,鉗仔,kim4 zäi2
+693,hakka,鉗仔,kiam2 zai3
+694,waitau,夾,gap6
+694,hakka,鉗仔,kiam2 zai3
+695,waitau,鑿,zok2
+695,hakka,鑿仔,cok6 zai3
+696,waitau,鋸,gü1
+696,hakka,鋸仔,gi4 zai3
+697,waitau,銼,co1
+697,hakka,銼刀,co4 tau2
+698,waitau,鉆,züng1
+698,hakka,鉆仔,zon4 zai3
+699,waitau,刨,pau4
+699,hakka,刨仔,pau2 zai3
+700,waitau,鉤,ngäu2
+700,hakka,鉤仔,geu1 zai3
+701,waitau,釘,deng1
+701,hakka,鐵釘,tiet5 dang1
+702,waitau,鉸剪,gau1 zing2
+702,hakka,剪刀,zien3 dau1
+703,waitau,針,zam1
+703,hakka,針,zim1
+704,waitau,頂指,däng2 zi2
+704,hakka,頂指,din3 zi3
+705,waitau,線,sing1
+705,hakka,線,sien4
+706,waitau,衣車,yi1 ce2
+706,hakka,衣車,yi1 ca1
+707,waitau,叾,tok2
+707,hakka,叾,duk5
+708,waitau,邊,bing1
+708,hakka,邊唇,bien1 sun2
+709,waitau,罅,la1
+709,waitau,裂,lik2
+709,hakka,坼,cak5
+710,waitau,痕,häng2
+710,hakka,影,yang4
+711,waitau,爆裂,bau1 lik6
+711,hakka,開坼,hoi1 cak5
+712,waitau,衣裳,yi1 söng4
+712,hakka,衫褲,sam1 fu4
+713,waitau,買布,mai1 bu1
+713,hakka,剪布,zien3 bu4
+714,waitau,黑布,häk2 bu1
+714,hakka,烏布,vu1 bu4
+715,waitau,剪布,zing2 bu1
+715,hakka,剪,zien3
+716,waitau,試身,si1 säng1
+716,hakka,試,ci4
+717,waitau,衫,sam2
+717,hakka,面衫,mien4 sam1
+718,waitau,恤衫,sük2 sam1
+718,hakka,恤衫,sut6 sam1
+719,waitau,底衫,däi2 sam1
+719,hakka,底衫,dai3 sam1
+720,waitau,棉衲,ming4 nap6
+720,hakka,襖婆,au3 po2
+721,waitau,褡仔,dap2 zäi2
+721,hakka,背搭,boi4 dap5
+722,waitau,大褸,dai6 läu1
+722,hakka,大褸,tai4 leu1
+723,waitau,冷衫,læng2 sam1
+723,hakka,冷衫,lang1 sam1
+724,waitau,被袋,pi1 döi2
+724,hakka,面,mien4
+725,waitau,被,pi1
+725,hakka,被肉,pi1 ngiuk5
+726,waitau,背褡,bi1 dap2
+726,waitau,背心,bui1 säm1
+726,hakka,背心,boi4 sim1
+727,waitau,褲,fu1
+727,hakka,褲,fu4
+728,waitau,短褲,düng2 fu1
+728,waitau,牛頭褲,ngäu4 täu4 fu1
+728,hakka,短褲,don3 fu4
+729,waitau,褲腳,fu1 gök2
+729,hakka,褲腳,fu4 giok5
+730,waitau,褲襠,fu1 nong6
+730,hakka,褲襠,fu4 long4
+731,waitau,開襠褲,fui1 nong6 fu1
+731,hakka,開襠褲,hoi1 long4 fu4
+732,waitau,開襠褲,fui1 long6 fu1
+732,hakka,密襠褲,mit6 long4 fu4
+733,waitau,裙,kwäng4
+733,hakka,裙,kiun2
+734,waitau,袖,zäu6
+734,hakka,衫袖,sam1 ciu4
+735,waitau,領,leng1
+735,hakka,衫領,sam1 liang1
+736,waitau,皺,cau4
+736,hakka,縐,ziu4
+737,waitau,爛,læng6
+737,hakka,爛,lan4
+738,waitau,衫袋,sam1 döi2
+738,hakka,衫袋,sam1 toi4
+739,waitau,啪紐,bæk2 näu2
+739,hakka,啪扭,bak6 leu3
+740,waitau,扣,käu1
+740,hakka,紐仔,leu3 zai3
+741,waitau,扣針,käu1 zäm1
+741,hakka,結針,giet5 zim1
+742,waitau,帽仔,mäu6 zäi2
+742,waitau,帽,mäu6
+742,hakka,帽仔,mau4 zai3
+743,waitau,草帽,cäu2 mäu6
+743,hakka,草帽,cau3 mau4
+744,waitau,鞋,hai4
+744,hakka,鞋,hai2
+745,waitau,拖鞋,to1 hai4
+745,hakka,拖鞋,to1 hai3
+746,waitau,屐,kek6
+746,hakka,屐,kiak6
+747,waitau,水鞋,söi2 hai4
+747,hakka,水鞋,sui3 hai2
+748,waitau,鞋墊,hai4 ding1
+748,hakka,鞋底,hai2 dai3
+749,waitau,長筒鞋,cöng4 tung2 hai4
+749,waitau,靴,hö1
+749,hakka,靴,hio1
+750,waitau,襪,mæk6
+750,hakka,襪,mat5
+751,waitau,手襪,säu1 mæk6
+751,hakka,手襪,siu3 mat5
+752,waitau,手巾仔,säu2 gäng6 zäi2
+752,hakka,手巾仔,siu3 gin1 zai3
+753,waitau,咧,lik2
+753,waitau,結,gik2
+753,hakka,結,git5
+754,waitau,頸巾,geng2 gäng1
+754,hakka,頸巾,giang3 gin1
+755,waitau,口水肩,häu2 söi2 ging1
+755,hakka,口水枷,heu3 sui3 ga1
+756,waitau,圍裙,wäi4 kwäng2
+756,hakka,圍裙,vui2 sin1
+757,waitau,兜肚,däu2 tu1
+757,hakka,肚搭,du3 dap5
+758,waitau,尿布,niu6 bu1
+758,hakka,尿片,ngiau4 pien4
+759,waitau,燙斗,tong1 däu2
+759,hakka,燙斗,tong4 deu3
+760,waitau,肚餓,du2 ngo6
+760,hakka,肚胈餓,du3 pat6 ngo4
+761,waitau,飯,fæng6
+761,hakka,飯,fan4
+762,waitau,麵粉,ming6 fäng2
+762,hakka,麵粉,mien4 fun3
+763,waitau,麵,ming6
+763,hakka,麵,mien4
+764,waitau,糠,hong1
+764,hakka,糠,hong1
+765,waitau,冷飯,læng1 fæng6
+765,hakka,舊飯,kiu4 fan4
+766,waitau,臭餿,cäu1 säu1
+766,waitau,臭宿,cäu1 suk2
+766,hakka,餿,seu1
+767,waitau,剩,säng6
+767,hakka,盈,yin4
+768,waitau,米水,mäi1 söi2
+768,waitau,粥飲,zuk2 yäm2
+768,hakka,粥飲,zuk5 yim3
+769,waitau,粥,zuk2
+769,hakka,粥,zuk5
+770,waitau,飯焦,fæng6 ziu1
+770,hakka,飯癩,fan4 lat5
+771,waitau,喫飯,hek2 fæng6
+771,hakka,食飯,sit6 fan4
+772,waitau,頸渴,geng2 fuk2
+772,hakka,渴,hot5
+773,waitau,飲水,yäm2 söi2
+773,hakka,食茶,sit6 ca2
+774,waitau,飲酒,yäm2 zäu2
+774,hakka,食酒,sit6 ziu3
+775,waitau,米酒,mäi1 zäu2
+775,hakka,米酒,mi3 ziu3
+776,waitau,白酒,bæk6 zäu2
+776,hakka,燒酒,sau1 ziu3
+777,waitau,黃酒,wong4 zäu2
+777,hakka,黃酒,vong2 ziu3
+778,waitau,糯米酒,no6 mäi1 zäu2
+778,hakka,糯米酒,lo4 mi3 ziu3
+779,hakka,酒娘,ziu3 ngiong2
+780,waitau,酒糟,zäu2 zäu1
+780,hakka,糟嫲,zau1 ma2
+781,waitau,夷茶,yi4 ca4
+781,hakka,茶葉茶,ca2 yap6 ca2
+782,waitau,煙仔,ying1 zäi2
+782,hakka,煙仔,yen1 zai3
+783,waitau,喫煙,hek2 ying1
+783,hakka,食煙,sit6 yen1
+784,waitau,煙灰,ying1 fui1
+784,hakka,煙灰,yen1 foi1
+785,waitau,早飯,zäu2 fæng6
+785,hakka,朝,zau1
+786,waitau,喫早飯,hek2 zäu2 fæng6
+786,hakka,食朝,sit6 zau1
+787,waitau,晏晝,æng1 zäu2
+787,hakka,晝,ziu4
+788,waitau,喫晏晝,hek2 æng1 zäu2
+788,hakka,食晝,sit6 ziu4
+789,waitau,晚飯,mæng6 fæng6
+789,hakka,夜,ya4
+790,waitau,吃晚飯,hek2 mæng6 fæng6
+790,hakka,食夜,sit6 ya4
+791,waitau,舀飯,yiu1 fæng6
+791,hakka,舀飯,yau3 fan4
+792,waitau,豬肉,zü1 yuk6
+792,hakka,豬肉,zu1 ngiuk5
+793,waitau,瘦肉,säu1 yuk6
+793,hakka,瘦肉,seu4 ngiuk5
+793,hakka,精豬肉,ziang1 zu1 ngiuk5
+794,waitau,臘肉,lap6 yuk6
+794,hakka,臘肉,lap6 ngiuk5
+795,waitau,送,sung1
+795,hakka,菜,coi4
+796,waitau,肉,yuk6
+796,hakka,葷,fun1
+797,waitau,齋,zäi1
+797,hakka,齋,zai1
+798,waitau,湯,tong2
+798,hakka,順,sun4
+799,waitau,豬手,zü1 säu2
+799,waitau,豬腳,zü1 gök2
+799,hakka,豬蹄,zu1 tai2
+800,waitau,豬肝,zü1 gwung1
+800,waitau,豬潤,zü1 yäng2
+800,hakka,豬肝,zu1 gon1
+801,waitau,豬脷,zü1 li2
+801,hakka,豬舌嫲,zu1 set6 ma2
+802,waitau,豬血,zü1 hung4
+802,hakka,豬紅,zu1 fung2
+802,hakka,豬旺,zu1 vong4
+803,waitau,雞下水,gäi1 ha6 söi2
+803,hakka,下水,ha4 sui3
+804,waitau,鉗餸,kim4 sung1
+804,hakka,夾菜,gap5 coi4
+805,waitau,撈飯,läu6 fæng6
+805,hakka,淘飯,tau2 fan4
+806,waitau,減,gam2
+806,hakka,減,gam3
+807,waitau,燶,nung1
+807,hakka,燶,lung1
+808,waitau,豆腐乾,däu6 fu6 gwung1
+808,hakka,豆腐乾,teu4 fu4 gon1
+809,waitau,豆腐,däu6 fu6
+809,hakka,豆腐,teu4 fu4
+810,waitau,豆腐花,däu6 fu6 fa1
+810,hakka,豆腐花,teu4 fu4 fa1
+811,waitau,豆腐霉,däu2 fu2 mui4
+811,hakka,豆腐霉,teu4 fu4 moi1
+812,waitau,萊絲,löi4 si1
+812,waitau,粉仔,fäng2 zäi2
+812,hakka,萊絲仔,loi2 su1 zai3
+813,waitau,送,sung1
+813,hakka,傍,bong3
+814,waitau,飽,bau2
+814,hakka,飽,bau3
+815,waitau,打思噎,da2 si1 yik2
+815,hakka,打胲約,da3 goi1 yok5
+816,waitau,打思噫,da2 si2 yik2
+816,hakka,打呃督,da3 et6 duk6
+817,waitau,雪糕,sük2 gäu1
+817,hakka,雪糕,siet5 gau2
+818,waitau,雪條,sük2 tiu2
+818,waitau,雪糕條,sük2 gäu1 tiu2
+818,hakka,雪條,siet5 tiau2
+819,waitau,包,bau1
+819,hakka,饅頭,man2 teu2
+820,waitau,包,bau2
+820,hakka,包仔,bau1 zai3
+821,waitau,水餃,söi2 gau2
+821,hakka,餃子,gau3 zu3
+822,waitau,雲吞,wäng4 täng1
+822,hakka,雲吞,vun2 tun1
+823,waitau,餡,ham2
+823,hakka,餡,ham4
+824,waitau,湯圓,tong6 yüng2
+824,hakka,雪丸板,siet5 yen2 ban3
+824,hakka,糖丸,tong2 yen2
+825,waitau,糯米餈,no6 mäi1 ci4
+825,hakka,餈粑,ci2 ba1
+826,waitau,粽,zung2
+826,hakka,裹粽,go3 zung4
+827,waitau,口立濕,häu2 läp6 säp2
+827,waitau,瘦食,säu1 säp2
+827,hakka,小口,siau3 heu3
+828,waitau,碎,söi1
+828,hakka,碎,sui4
+829,waitau,茶果,ca4 gwo2
+829,hakka,茶果,ca2 go3
+829,hakka,點心,diam3 sim1
+830,waitau,宵夜,siu1 ya6
+830,hakka,宵夜,siau1 ya4
+831,waitau,配料,pui1 liu2
+831,hakka,配料,pui4 liau4
+832,waitau,醋,cu1
+832,hakka,醋,cu4
+833,waitau,鹽,yim4
+833,waitau,海沙,fui2 sa2
+833,hakka,鹽,yam2
+834,waitau,豬油,zü1 yäu4
+834,hakka,豬油,zu1 yiu2
+835,waitau,麻油,ma4 yäu4
+835,hakka,麻油,ma2 yiu2
+836,waitau,黃糖,wong4 tong4
+836,hakka,黃糖,vong2 tong2
+837,waitau,砂糖,sa6 tong4
+837,waitau,白糖,bæk6 tong4
+837,hakka,白糖,pak6 tong2
+838,waitau,麻糖,ma4 tong2
+838,hakka,麻糖,ma2 tong2
+838,hakka,糖仔,tong2 zai3
+839,waitau,豉油,si6 yäu4
+839,hakka,豉油,si4 yiu2
+840,waitau,腳,gök2
+840,hakka,腳,giok5
+841,waitau,蜜糖,mäk6 tong4
+841,hakka,蜜糖,mit6 tong2
+842,waitau,大隻,dai6 zek2
+842,hakka,身魁,sin1 foi1
+843,waitau,頭殼,täu4 hok2
+843,hakka,頭那,teu2 la1
+844,waitau,光頭,gwong1 täu4
+844,hakka,光頭,gong1 teu2
+845,waitau,頭毛,täu4 mäu4
+845,hakka,頭那毛,teu2 la1 mau1
+846,waitau,轉,züng2
+846,hakka,旋,con4
+847,waitau,辮,bing1
+847,hakka,毛辮仔,mau1 bien1 zai3
+848,waitau,髻,gäi1
+848,hakka,髻,gi4
+849,waitau,頭皮,täu4 pi4
+849,hakka,頭鱗,teu2 lin1
+849,hakka,頭皮,teu2 pi2
+850,waitau,面,ming6
+850,hakka,面,mien4
+851,waitau,酒凹,zäu2 näp2
+851,hakka,酒凹,ziu3 ngiap5
+852,waitau,額,ngæk6
+852,waitau,額頭,ngæk6 täu4
+852,hakka,額門頭,ngiak5 mun2 teu2
+853,waitau,魂精,wäng4 zeng2
+853,hakka,梅子罌,moi2 zu1 ang1
+854,waitau,腦囟,näu1 säng2
+854,hakka,腦囟,lau3 sim4
+855,waitau,眼,ngæng1
+855,hakka,眼,ngan3
+856,waitau,眼光仔,ngæng1 gwong1 zäi2
+856,waitau,眼核,ngæng1 wäk6
+856,hakka,眼珠仁,ngan3 zu1 yin2
+857,waitau,眼淚,ngæng1 löi6
+857,waitau,眼水,ngæng1 söi2
+857,waitau,淚水,löi6 söi2
+857,hakka,眼汁,ngan3 zip5
+858,waitau,眼泣毛,ngæng6 yäp2 mäu4
+858,hakka,目睡毛,muk5 soi4 mau1
+859,waitau,眼眉毛,ngæng6 mi4 mäu4
+859,hakka,眼眉毛,ngan3 mi2 mau1
+860,waitau,鼻公,bi6 gung1
+860,hakka,鼻公,pi4 gung1
+861,waitau,鼻哥窿,bi6 go2 lung2
+861,hakka,鼻窿,pi4 lung1
+862,waitau,鼻膿,bi6 nung4
+862,hakka,鼻膿,pi4 lung2
+863,waitau,擤鼻膿,säng1 bi6 nung4
+863,hakka,擤鼻膿,sen4 pi4 lung2
+864,waitau,鼻屎,bi6 si2
+864,hakka,鼻屎,pi4 si3
+865,waitau,耳仔,ngi1 zäi2
+865,waitau,耳梗,ngi1 gäk2
+865,hakka,耳公,ngi3 gung1
+866,waitau,耳屎,ngi1 si2
+866,hakka,耳屎,ngi3 si3
+867,waitau,嘴,zöi2
+867,hakka,嘴角,zoi3 gok5
+868,waitau,嘴唇,zöi2 säng4
+868,hakka,嘴唇,zoi4 sun2
+869,waitau,脷,li6
+869,hakka,舌嫲,set6 ma2
+870,waitau,牙,nga4
+870,hakka,牙,nga2
+871,waitau,大牙,dai6 nga4
+871,hakka,大牙,tai4 nga2
+872,waitau,齙牙,bau1 nga4
+872,hakka,暴牙,pau4 nga2
+873,waitau,牙肉,nga4 yuk6
+873,hakka,牙床肉,nga2 cong1 ngiuk5
+874,waitau,牙屎,nga4 si2
+874,hakka,牙黃,nga2 vong2
+875,waitau,鬚,su1
+875,waitau,鬍鬚,wu4 su1
+875,hakka,鬚牯,si1 gu3
+876,waitau,下巴,ha6 pa4
+876,hakka,頦啱下,goi1 ngam1 ha1
+877,waitau,口水,häu2 söi2
+877,hakka,口水,heu3 sui3
+878,waitau,口水,häu2 söi2
+878,hakka,口水,heu3 sui3
+879,waitau,喉嚨,häu4 lung4
+879,hakka,喉連,heu2 lien2
+880,waitau,聲,seng1
+880,hakka,聲,sang1
+881,waitau,頸,geng2
+881,hakka,頸,giang3
+882,waitau,膞頭,bok2 täu4
+882,hakka,肩頭,gien1 teu2
+883,waitau,心口,säm1 häu2
+883,hakka,心肝頭,sim1 gon1 teu2
+884,waitau,背脊,bui1 zek2
+884,waitau,背樑,bi1 löng1
+884,waitau,背裡,bi1 läi4
+884,hakka,背樑,boi4 long2
+885,waitau,屏骨,peng2 gwäk2
+885,hakka,肋梗仔,lak6 gang1 zai3
+886,waitau,打赤勒,da2 cek2 lak2
+886,hakka,打赤膊,da3 cak5 bok5
+887,waitau,手臂,säu2 bi1
+887,hakka,手臂,siu3 bi3
+888,waitau,手踭,säu2 zæng2
+888,hakka,手踭,siu3 zang1
+889,waitau,手凹,säu2 näp2
+889,hakka,脈門,mak5 mun2
+890,waitau,手,säu2
+890,hakka,手,siu3
+891,waitau,左手,zo2 säu2
+891,hakka,左手,zo3 siu3
+892,waitau,右手,yäu2 säu2
+892,hakka,右手,yiu4 siu3
+893,waitau,手掌,säu2 zöng2
+893,hakka,手巴掌,siu3 ba1 zong3
+894,waitau,拳頭,küng4 täu4
+894,hakka,拳頭牯,kien2 teu2 gu3
+895,waitau,手指,säu2 zi2
+895,hakka,手指仔,siu3 zi3 zai3
+896,waitau,手指公,säu2 zi2 gung1
+896,hakka,手指公,siu3 zi3 gung1
+897,waitau,手指尾,säu2 zi2 mi1
+897,hakka,臘尾指,lap6 mui1 zi3
+898,waitau,指甲,zi2 gap2
+898,hakka,手指甲,siu3 zi3 gap5
+899,waitau,腡,lö2
+899,hakka,腡,lo2
+900,waitau,臿,cap2
+900,hakka,箕,gi1
+901,waitau,起枕,hi2 zäm2
+901,hakka,繭,gan3
+902,waitau,隔肋底,gak2 lak2 däi2
+902,hakka,肋坼下,lak6 cak5 ha1
+903,waitau,媽仔,ma2 zäi2
+903,hakka,嬭姑,len4 gu1
+904,waitau,奶頭,nai2 täu4
+904,hakka,嬭頭,len4 teu2
+905,waitau,奶,nai1
+905,waitau,乳,yöi1
+905,hakka,嬭水,len4 sui3
+906,waitau,肚,du2
+906,hakka,肚胈,du3 pat6
+907,waitau,肚臍,du2 ci4
+907,hakka,肚臍,du3 ci2
+908,waitau,屎窟,si1 fäk2
+908,hakka,屎窟臀,si3 fut5 tun2
+909,waitau,屎窟窿,si2 fäk2 lung2
+909,hakka,屎窟門,si3 fut5 mun2
+910,waitau,打出屎窟,da2 cäk2 si2 fäk2
+910,hakka,打脧鳥,da3 zoi1 diau1
+911,waitau,褲襠,fu6 nong6
+911,hakka,髀罅,bi3 la4
+912,waitau,褲襠底,fu6 long6 däi2
+912,waitau,卡窿下,ka6 la6 ha2
+912,hakka,褲襠下,fu4 long4 ha1
+913,waitau,卵,läng2
+913,waitau,尻,gäu2
+913,hakka,卵,lin3
+914,waitau,春袋,cäng1 döi6
+914,hakka,春袋,cun1 toi4
+915,waitau,核,wäk6
+915,hakka,核卵,hak6 lon3
+916,hakka,卵屎,lin3 si3
+917,waitau,鵝仔,ngo4 zäi2
+917,hakka,脧,zoi1
+918,waitau,屄,bik2
+918,waitau,谿,häi1
+918,hakka,支屄,zi1 biet5
+919,waitau,屌,diu2
+919,hakka,屌,diau3
+920,waitau,屌,diu2
+920,hakka,屌,diau3
+921,waitau,腳,gök2
+921,hakka,腳,giok5
+922,waitau,大髀,dai6 bi2
+922,hakka,大髀,tai4 bi3
+923,waitau,腳肚仔,gök2 du2 zäi2
+923,hakka,腳,giok5
+924,waitau,膝頭哥,säk2 täu4 go2
+924,hakka,膝頭,cit5 teu2
+925,waitau,腳腩肚,gök2 nam1 du2
+925,waitau,腳囊肚,gök2 nöng4 du2
+925,hakka,腳囊肚,giok5 lang2 du3
+926,waitau,腳眼,gök2 ngæng1
+926,hakka,腳眼仁,giok5 ngan3 yin2
+927,waitau,腳,gök2
+927,hakka,腳,giok5
+928,waitau,腳踭,gök2 zæng2
+928,hakka,腳踭,giok5 zang1
+929,waitau,腳趾,gök2 zi2
+929,hakka,腳趾,giok5 zi3
+930,waitau,腳板底,gök2 bæng6 däi2
+930,hakka,腳盤,giok5 pan2
+931,waitau,腳掌心,gök2 zöng2 säm1
+931,hakka,腳板心,giok5 ban3 sim1
+932,waitau,腳印,gök2 yäng2
+932,hakka,腳跡,giok5 ziak5
+933,waitau,老泥,läu1 näi4
+933,hakka,㿸,man4
+934,waitau,佬,läu2
+934,hakka,老哥,lau3 go1
+935,waitau,婦娘,fu1 löng4
+935,hakka,婦娘,bu1 ngiong2
+936,waitau,老大,läu1 dai2
+936,hakka,老人家,lau3 ngin2 ga1
+937,waitau,伯爺公,äi2 ya2 gung2
+937,hakka,老伯頭,lau3 bak5 teu2
+938,waitau,伯爺婆,bak2 ye2 po2
+938,hakka,老婆頭,lau3 po2 teu2
+939,waitau,後生,häu6 sæng2
+939,hakka,後生,heu4 sang1
+940,waitau,妹仔,mui6 zäi2
+940,hakka,妹仔,moi4 zai3
+941,waitau,後生仔,häu6 sæng1 zäi2
+941,hakka,後生仔,heu4 sang1 zai3
+942,waitau,細民仔,säi6 mæng1 zäi2
+942,hakka,僬仔,ziau2 zai3
+943,waitau,細民仔,säi6 mæng1 zäi2
+943,hakka,老弟仔,lau3 tai1 zai3
+944,waitau,妹仔,mui6 zäi2
+944,hakka,妹仔,moi4 zai3
+945,hakka,城市人,sang2 si4 ngin2
+946,waitau,耕田佬,gæng1 ting4 läu2
+946,waitau,鄉下佬,höng1 ha2 läu2
+946,hakka,鄉下人,hiong1 ha4 ngin2
+947,waitau,寡佬,gwa2 läu2
+947,hakka,單身哥,dan1 sin1 go1
+948,waitau,老姑婆,läu2 gu1 po4
+948,hakka,老姑婆,lau3 gu1 po2
+949,waitau,寡婦婆,gwa2 fu1 po2
+949,hakka,守寡婆,siu3 ga3 po2
+950,waitau,冇爺冇奶,mäu1 ya4 mäu1 näi1
+950,hakka,冇爺冇娭,mau2 ya2 mau2 oi1
+950,hakka,孤兒,gu1 yi2
+951,waitau,單眼佬,dæng1 ngæng1 läu2
+951,hakka,單眼,dan1 ngan3
+952,waitau,蒙豬眼,mung2 zü6 ngæng2
+952,hakka,眯眼,mi1 ngan3
+953,waitau,突眼,däk6 ngæng2
+953,hakka,爆眼,bau4 ngan3
+954,waitau,鬥皮,däu6 pi4
+954,waitau,鬥雞,däu6 gäi1
+954,waitau,鬥雞眼,däu6 gäi1 ngæng1
+954,hakka,對眼,dui4 ngan3
+955,waitau,盲眼佬,mæng4 ngæng1 läu2
+955,hakka,盲公,mang2 gung1
+956,waitau,聾佬,lung4 läu2
+956,hakka,聾公,lung1 gung1
+957,waitau,啞缽,a2 buk2
+957,hakka,啞佬,a3 lau3
+958,waitau,漏口,läu1 häu2
+958,hakka,大舌頭,tai4 set6 teu2
+958,hakka,結佬,giet5 lau3
+959,waitau,缺嘴,kük2 zöi2
+959,hakka,缺嘴,kiet6 zoi4
+960,waitau,甩牙,läk2 nga4
+960,hakka,缺牙,kiet5 nga2
+961,waitau,歪頸,me2 geng2
+961,hakka,側頭仔,zet5 teu2 zai3
+962,waitau,左手仔,zo2 säu2 zäi2
+962,hakka,左手仔,zo3 siu3 zai3
+963,waitau,鴨乸蹄,ap2 na2 täi4
+963,hakka,鴨嫲蹄,ap5 ma2 tai2
+964,waitau,肥佬,fi4 läu2
+964,hakka,肥佬,pui2 lau3
+965,waitau,高佬,gäu1 läu2
+965,hakka,高佬,gau1 lau3
+966,waitau,爆牙,bau1 nga4
+966,hakka,爆牙,bau4 nga2
+967,waitau,痘皮,däu6 pi4
+967,hakka,班支,ban1 zi1
+968,waitau,瘌痢頭,læk2 li6 täu4
+968,hakka,瘌痢頭,lat6 li2 teu2
+969,waitau,六指,luk2 zi2
+969,hakka,六指,luk5 zi3
+970,waitau,駝背,to1 bui1
+970,hakka,駝背佬,to2 boi4 lau3
+971,waitau,哭包,huk2 bau2
+971,waitau,哭袋,huk2 döi2
+971,hakka,叫包,giau4 bau2
+972,waitau,發癲佬,fæk2 ding1 läu2
+972,waitau,癲佬,ding1 läu2
+972,hakka,懵佬,mung3 lau3
+973,waitau,跛腳佬,bäi1 gök2 läu2
+973,hakka,跛佬,bai1 lau3
+974,waitau,傻佬,so4 läu2
+974,hakka,傻佬,so2 lau3
+975,waitau,拐子佬,gwai2 zi2 läu2
+975,hakka,撮仔,cot5 zai3
+976,waitau,賊仔,cæk6 zäi2
+976,hakka,賊佬,cet6 lau3
+977,waitau,賊佬,zæk6 läu2
+977,hakka,賊佬,cet6 lau3
+978,waitau,乞兒,häk2 yi4
+978,waitau,乞兒,häk2 yi1
+978,hakka,攞食佬,lo3 sit5 lau3
+979,waitau,契家佬,käi1 ga1 läu2
+979,hakka,契家佬,ke4 ga1 lau3
+980,waitau,契家婆,käi1 ga1 po4
+980,hakka,契家婆,ke4 ga1 po2
+981,waitau,勾佬,ngäu2 läu2
+981,hakka,佮人,gap5 ngin2
+982,waitau,老舉,läu1 gü2
+982,hakka,老妓嫲,lau3 gi3 ma2
+983,waitau,在行,zöi6 hong4
+983,hakka,在行,cai4 hong2
+984,waitau,外行,wui6 hong2
+984,hakka,唔在行,m1 cai4 hong2
+985,waitau,伙頭,fo2 täu2
+985,hakka,伙頭,fo3 teu2
+986,waitau,耕田佬,gæng1 ting4 läu2
+986,hakka,耕田佬,gang1 tien2 lau3
+987,waitau,鬥木佬,däu1 muk6 läu2
+987,hakka,木匠,muk6 siong4
+987,hakka,斣木佬,deu4 muk5 lau3
+988,waitau,打鐵佬,da2 tik2 läu2
+988,hakka,打鐵佬,da3 tiet5 lau3
+989,waitau,先生,sing1 sæng1
+989,hakka,醫生,yi1 sang1
+990,waitau,剃頭佬,täi1 täu4 läu2
+990,hakka,剃頭佬,tai4 teu2 lau3
+991,waitau,泥水佬,näi4 söi2 läu2
+991,hakka,泥水匠,lai2 sui3 siong4
+992,waitau,生意佬,sæng6 yi6 läu2
+992,hakka,生理佬,sen1 li1 lau3
+993,waitau,生保人,sæng1 bäu2 yäng4
+993,hakka,生保人,sang1 bau3 ngin2
+994,waitau,人客,yäng4 hæk2
+994,hakka,人客,ngin2 hak5
+995,waitau,大火氣,dai6 fo2 hi1
+995,waitau,火氣猛,fo2 hi1 mæng1
+995,hakka,有性,yiu1 siang4
+996,waitau,臭,cäu1
+996,hakka,臭,ciu4
+997,waitau,小氣,siu2 hi2
+997,hakka,小相,siau3 siong4
+997,hakka,歪,vai1
+998,waitau,大方,dai6 fong2
+998,hakka,大方,tai4 fong1
+998,hakka,捨得,sa3 det5
+999,waitau,叻,lek2
+999,waitau,能解,läng4 hai1
+999,hakka,叻,liak6
+999,hakka,能替,lien2 tai4
+1000,waitau,勤力,gäng4 läk6
+1000,hakka,勤力,kin2 lit6
+1001,waitau,懶散,læng1 sæng2
+1001,hakka,懶,lan1
+1002,waitau,慳,hæng1
+1002,waitau,慳儉,hæng1 gim6
+1002,hakka,慳儉,han1 kiam4
+1003,waitau,叻仔,lek2 zäi2
+1003,waitau,聰明,cung1 mäng4
+1003,hakka,叻,liak6
+1004,waitau,精,zeng1
+1004,hakka,精,ziang1
+1005,waitau,爽,song2
+1005,waitau,爽快,song2 fai1
+1005,hakka,爽直,song3 cit6
+1006,waitau,蠢,cäng2
+1006,waitau,笨實,bäng6 säk6
+1006,hakka,蠢,cun3
+1007,waitau,毒,duk6
+1007,hakka,梟,hiau1
+1008,waitau,牛精,ngäu4 zäng2
+1008,waitau,牛王,ngäu4 wong4
+1008,hakka,牛王,ngiu2 vong2
+1009,waitau,刻薄,häk2 bok6
+1009,hakka,刻簿,ket5 pok6
+1010,waitau,奸,gæng1
+1010,hakka,奸,gan1
+1011,waitau,陰毒,yäm1 duk6
+1011,hakka,陰毒,yim1 tuk6
+1012,waitau,整蠱,zäng2 gu2
+1012,hakka,蠱惑,gu3 vak6
+1013,waitau,好心,häu2 säm1
+1013,hakka,好心,hau3 sim1
+1014,waitau,老實,läu1 säk6
+1014,hakka,老實,lau3 sit6
+1015,waitau,唔出聲,m4 cäk2 seng1
+1015,hakka,唔聲,m1 sang1
+1016,waitau,怕醜,pa1 cäu2
+1016,hakka,畏羞,vui4 siu1
+1017,waitau,陰公,yäm1 gung1
+1017,hakka,可憐,ko3 lien2
+1018,waitau,後生,häu6 sæng1
+1018,hakka,後生,heu4 sang1
+1019,waitau,灑,sa2
+1019,hakka,靚,liang4
+1020,waitau,肉酸,yuk6 süng1
+1020,waitau,唔好睇,m4 häu2 täi2
+1020,hakka,醜,ciu3
+1021,waitau,企理,ki1 li1
+1021,hakka,齊整,ce2 zin1
+1021,hakka,就亼,ciu4 zip6
+1022,waitau,垠屎,ngäng2 si2
+1022,waitau,邋遢,læk6 täk2
+1022,hakka,累贅,lui4 zui4
+1022,hakka,囉嗦,lo4 so4
+1023,waitau,乖,gwai1
+1023,hakka,聽話,tang4 va4
+1024,waitau,百厭,bæk2 yim1
+1024,hakka,頑皮,ngan2 pi2
+1025,waitau,硬頸,ngæng6 geng2
+1025,waitau,牛頸,ngäu4 geng2
+1025,hakka,硬頸,ngang4 giang3
+1026,waitau,細,säi1
+1026,hakka,細,se4
+1027,waitau,偷懶,täu2 læng1
+1027,hakka,偷懶,teu1 lan1
+1028,waitau,糜摸,mi2 mo2
+1028,hakka,磨嗦,mo4 so4
+1029,waitau,古惑,gu2 wæk6
+1029,hakka,奸,gan1
+1030,waitau,賴死,lai6 si2
+1030,hakka,賴死,lai4 si3
+1031,waitau,下流,ha6 läu4
+1031,hakka,下流,ha4 liu2
+1032,waitau,賤格,zing6 gäk2
+1032,waitau,唔愛面,m4 wui1 ming2
+1032,hakka,唔愛面,m1 oi4 mien4
+1033,waitau,講大話,gong2 dai6 wa6
+1033,hakka,講大話,gong3 tai4 va4
+1034,waitau,詐傻,za1 so4
+1034,waitau,扮懵,bang6 mung2
+1034,hakka,詐懵,za4 mung3
+1035,waitau,爛叻,læng2 læk2
+1035,hakka,映,yang3
+1036,waitau,阿爸,a1 ba4
+1036,hakka,阿爸,a1 ba1
+1037,waitau,老豆,läu1 däu6
+1037,hakka,阿爸,a1 ba1
+1038,waitau,阿媽,a1 ma2
+1038,waitau,阿奶,a1 nai1
+1038,hakka,阿媽,a1 ma1
+1039,waitau,老母,läu1 mu2
+1039,hakka,阿咪,a1 mi1
+1040,waitau,老豆老母,läu1 däu6 läu1 mu2
+1040,hakka,阿㜆阿爸,a1 mi1 a1 ba1
+1041,waitau,阿公,a1 gung2
+1041,waitau,阿爺,a1 ya4
+1041,hakka,阿公,a1 gung1
+1042,waitau,阿婆,a1 po4
+1042,waitau,阿嫲,a1 ma4
+1042,hakka,阿婆,a1 po2
+1043,waitau,太公,tai1 gung2
+1043,hakka,公太,gung1 tai4
+1044,waitau,太婆,tai1 po4
+1044,hakka,婆太,po2 tai4
+1045,waitau,阿公,a1 gung2
+1045,hakka,姐公,zia3 gung1
+1046,waitau,阿婆,a1 po4
+1046,hakka,姐婆,zia3 po2
+1047,waitau,阿伯,a1 bæk2
+1047,waitau,大伯,dai6 bæk2
+1047,hakka,阿伯,a1 bak5
+1048,waitau,伯娘,bæk2 nöng4
+1048,hakka,阿娘,a1 ngiong2
+1049,waitau,阿叔,a1 suk2
+1049,waitau,叔仔,suk2 zäi2
+1049,hakka,阿叔,a1 suk5
+1050,waitau,阿嬸,a1 säm2
+1050,waitau,嬸仔,säm2 zäi2
+1050,hakka,叔姆,suk5 me1
+1051,waitau,姑丈,gu1 zöng2
+1051,hakka,姑丈,gu1 cong1
+1051,hakka,姑爺,gu1 ya2
+1052,waitau,大姑,dai6 gu1
+1052,waitau,姑仔,gu1 zäi2
+1052,hakka,大姑,tai4 gu1
+1052,hakka,姑仔,gu1 zai3
+1053,waitau,姨丈,yi4 zöng2
+1053,hakka,姨丈,yi2 cong1
+1054,waitau,大姨,dai6 yi2
+1054,waitau,阿姨,a1 yi2
+1054,hakka,大姨,tai4 yi2
+1054,hakka,姨仔,yi2 zai3
+1055,waitau,大舅,dai6 käu1
+1055,waitau,阿舅,a1 käu2
+1055,hakka,大舅,tai4 kiu1
+1055,hakka,舅仔,kiu1 zai3
+1056,waitau,大妗,dai6 käm1
+1056,waitau,阿妗,a1 käm1
+1056,waitau,妗仔,käm1 zäi2
+1056,hakka,大舅娘,tai4 kiu1 ngiong2
+1056,hakka,舅娘仔,kiu2 ngiong2 zai3
+1057,waitau,大佬,dai6 läu2
+1057,waitau,阿哥,a1 go1
+1057,hakka,阿哥,a1 go1
+1058,waitau,阿哥,go4 go2
+1058,hakka,阿哥,a1 go1
+1059,waitau,阿嫂,a1 säu2
+1059,hakka,阿嫂,a1 sau3
+1060,waitau,大姊,dai6 zi2
+1060,hakka,阿姐,a1 zia3
+1061,waitau,姐夫,ze2 fu1
+1061,waitau,姊夫,zi2 fu1
+1061,hakka,姐夫,zia3 fu1
+1062,waitau,細佬,säi1 läu2
+1062,hakka,老弟,lau3 tai1
+1063,waitau,阿妹,a1 mui6
+1063,hakka,老妹,lau3 moi4
+1064,waitau,妹夫,mui6 fu1
+1064,waitau,阿弟,a1 täi1
+1064,hakka,老妹婿,lau3 moi4 se4
+1065,waitau,大伯,dai6 bæk6
+1065,hakka,大伯爺,tai4 bak5 ya2
+1066,waitau,叔仔,suk2 zäi2
+1066,hakka,叔仔,suk5 zai3
+1067,waitau,大姑,dai6 gu1
+1067,waitau,大姊,dai6 zi2
+1067,hakka,大姑,dai4 gu1
+1068,waitau,大姨,dai6 yi4
+1068,hakka,大姨,tai4 yi2
+1069,waitau,姨仔,yi2 zäi2
+1069,waitau,阿姨,a1 yi2
+1069,hakka,姨仔,yi2 zai3
+1070,waitau,大舅,dai6 käu1
+1070,hakka,大舅,tai4 kiu1
+1071,waitau,舅仔,käu1 zäi2
+1071,hakka,舅仔,kiu1 zai3
+1072,waitau,老襟,läu1 käm2
+1072,hakka,老襟,lau1 kim1
+1073,waitau,妯娌,cuk2 li2
+1073,hakka,子嫂,zu3 sau3
+1074,waitau,老公,läu1 gung1
+1074,hakka,老公,lau3 gung1
+1075,waitau,老婆,lau1 po4
+1075,hakka,老婆,lau3 po2
+1076,waitau,外父,wui6 fu2
+1076,waitau,岳父,ngok6 fu2
+1076,waitau,著人公,zü1 yäng4 gung1
+1076,hakka,丈人佬,cong1 ngin1 lau3
+1077,waitau,外母,wui6 mu2
+1077,waitau,岳母,ngok6 mu2
+1077,waitau,著人婆,zü1 yäng4 po4
+1077,hakka,丈人婆,cong1 ngin1 po2
+1078,waitau,家公,ga1 gung1
+1078,waitau,大人公,dai6 yäng4 gung1
+1078,hakka,家官,ga1 gon1
+1079,waitau,家婆,ga1 po4
+1079,hakka,家娘,ga1 ngiong2
+1080,waitau,親家,cäng1 ga1
+1080,hakka,親家,cin1 ga1
+1080,hakka,且姆,cia1 me1
+1081,hakka,繼父爺,ge4 fu1 ya2
+1082,waitau,後歸婆,häu6 gwäi1 po4
+1082,waitau,後仔乸,häu6 zäi2 na2
+1082,waitau,後繼婆,häu6 gäi1 po4
+1082,hakka,後娭,heu4 oi1
+1083,waitau,契爺,käi1 ya4
+1083,hakka,契爺,ke4 ya2
+1084,waitau,契娘,käi1 nöng4
+1084,waitau,契媽,käi1 ma2
+1084,hakka,契媽,ke4 ma2
+1085,waitau,細民仔,säi1 mäng1 zäi2
+1085,hakka,子女,zu3 ng3
+1086,waitau,仔,zäi2
+1086,hakka,賴子,lai4 zu1
+1087,waitau,孻仔,lai1 zäi2
+1087,hakka,滿仔,man1 zai3
+1088,waitau,新婦,säng1 fu1
+1088,hakka,心臼,sim1 kiu1
+1089,waitau,女,nü2
+1089,waitau,妹仔,mui6 zäi2
+1089,hakka,妹子,moi4 zu1
+1090,waitau,孻女,lai1 nü2
+1090,hakka,滿女,man1 ng3
+1091,waitau,女婿,nü1 säi1
+1091,hakka,婿郎,se4 long2
+1092,waitau,孫,süng1
+1092,hakka,孫仔,sun1 zai3
+1093,waitau,女孫,nü1 süng1
+1093,waitau,孫女,süng1 nü1
+1093,hakka,孫女,sun1 ng3
+1094,waitau,息,säk2
+1094,hakka,息子,set5 zu1
+1095,waitau,外孫,wui6 süng1
+1095,hakka,外孫,ngoi4 sun1
+1096,waitau,外孫女,wui6 süng1 nü2
+1096,hakka,外孫女,ngoi4 sun1 ng3
+1097,waitau,外甥,wui6 sæng1
+1097,hakka,外甥,ngoi2 sang1
+1098,waitau,外甥女,wui6 sæng1 nü2
+1098,hakka,外甥女,ngoi2 sang1 ng3
+1099,waitau,侄,zäk6
+1099,hakka,侄仔,cit5 zu3
+1100,waitau,侄女,zäk6 nü1
+1100,hakka,侄女,cit5 ngi3
+1101,waitau,兩仔爺,löng1 zäi2 ya4
+1101,hakka,兩子爺,liong3 zu3 ya2
+1102,waitau,兩公婆,löng1 gung1 po4
+1102,hakka,兩公婆,liong3 gung1 po2
+1103,waitau,兄弟,häng1 däi6
+1103,hakka,兄弟,hiung1 ti4
+1104,waitau,姊妹,zi2 mui6
+1104,hakka,姊妹,zi3 moi4
+1105,waitau,兩兄弟,löng1 häng6 däi6
+1105,hakka,兩兄弟,liong3 hiung1 ti4
+1106,waitau,兩姊妹,löng1 zi2 mui6
+1106,hakka,兩姊妹,liong3 zi3 moi4
+1107,waitau,兩兄妹,löng1 häng6 mui6
+1107,hakka,兩姊妹,liong3 zi3 moi4
+1108,waitau,兩姐弟,löng1 zi2 däi6
+1108,hakka,兩姊妹,liong3 zi3 moi4
+1109,waitau,叔伯兄弟,suk2 bæk2 häng1 däi6
+1109,hakka,叔伯兄弟,suk5 bak5 hiung1 ti4
+1110,waitau,表姊妹,biu2 zi2 mui6
+1110,hakka,表姊妹,biau3 zi3 moi4
+1111,waitau,親戚,cäng6 cäk2
+1111,hakka,親戚,cin1 cit5
+1112,waitau,輩份,bui6 fäng6
+1112,hakka,字輩,su4 bui4
+1113,waitau,乳名,yöi1 meng2
+1113,hakka,花名,fa1 miang2
+1114,waitau,花名,fa1 meng2
+1114,hakka,花名,fa1 miang2
+1115,waitau,做媒人,zu6 mui4 yäng2
+1115,hakka,做媒人,zo4 moi2 ngin2
+1116,waitau,媒人,mui4 yäng4
+1116,waitau,媒人婆,mui4 yäng4 po4
+1116,hakka,媒人婆,moi2 ngin2 po2
+1117,waitau,過定,gwo1 deng6
+1117,hakka,定婚,tin4 fun1
+1118,waitau,娶老婆,cü2 läu1 po4
+1118,waitau,娶老婆,cu1 läu1 po4
+1118,hakka,娶老婆,ci3 lau3 po2
+1119,waitau,嫁人,ga1 yäng4
+1119,hakka,嫁老公,ga4 lau3 gung1
+1120,waitau,娶新婦,cu2 säng6 fu1
+1120,waitau,娶新婦,cü2 säng6 fu1
+1120,hakka,娶心臼,ci3 sim1 kiu1
+1121,waitau,入贅,yäp6 zöi6
+1121,hakka,招郎入舍,zau1 long2 ngip5 sa4
+1122,waitau,新郎哥,säng6 long4 go2
+1122,hakka,新娘公,sin1 long2 gung1
+1123,waitau,新娘,säng1 nöng2
+1123,hakka,新娘,sin1 ngiong2
+1124,waitau,擺酒,bäi2 zäu2
+1124,hakka,做酒,zo4 ziu3
+1125,waitau,去飲,hü1 yäm2
+1125,hakka,食酒,sit6 ziu3
+1126,waitau,外家,wui6 ga1
+1126,hakka,妹家,moi4 ga1
+1127,waitau,返頭嫁,fæng1 täu4 ga1
+1127,hakka,返嫁,fan1 ga4
+1128,waitau,續弦,zuk6 yüng4
+1128,waitau,娶填房,cu2 ting4 fong4
+1128,hakka,再娶,cai4 ci3
+1129,waitau,大肚,dai6 du2
+1129,hakka,大肚胈,tai4 du3 pat6
+1130,waitau,漚仔,äu1 zäi2
+1130,hakka,發子,bot5 zu3
+1131,waitau,小產,siu2 cæng2
+1131,hakka,損身,sun3 sin1
+1131,hakka,小產,siau3 can3
+1132,waitau,大肚婆,dai6 du2 po4
+1132,hakka,大肚婆,tai4 du3 po2
+1133,waitau,作動,zuk2 dung6
+1133,hakka,打斗,da3 deu3
+1134,waitau,生仔,sæng1 zäi2
+1134,hakka,養阿伢,yong1 o1 nga2
+1135,waitau,難產,næng4 cæng2
+1135,hakka,養唔出,yong1 m1 cut5
+1136,waitau,接生,zip2 sæng1
+1136,hakka,接生,ziap5 sang1
+1137,waitau,胎盤,töi1 pung4
+1137,hakka,胞衣,bau1 yi1
+1138,waitau,孖仔,ma1 zäi2
+1138,hakka,孖仔,ma1 zai3
+1139,waitau,蘇蝦,su2 ha1
+1139,waitau,伢伢仔,nga4 nga2 zäi2
+1139,hakka,阿伢,o1 nga2
+1140,waitau,坐月,co1 yük2
+1140,hakka,做月,zo4 ngiet6
+1141,waitau,餵奶,wäi1 näi1
+1141,hakka,供嬭,giung4 len4
+1142,waitau,餵飯,wäi1 fæng6
+1142,hakka,飼飯,ci3 fan4
+1143,waitau,奶嘴,nai1 zöi2
+1143,hakka,𢆡頭仔,len4 teu2 zai3
+1143,hakka,嬭嘴,len4 zui3
+1144,waitau,兜尿,däu1 niu6
+1144,waitau,殊尿,sü4 niu6
+1144,hakka,兜尿,deu1 ngiau4
+1145,waitau,瀨尿,lai4 niu6
+1145,hakka,瀨尿,lai2 ngiau4
+1146,waitau,抆屎,ming2 si2
+1146,waitau,抆屎窟,mäng2 si2 fäk2
+1146,hakka,擯屎,bin3 si3
+1147,waitau,短命,düng2 meng6
+1147,hakka,短命,don3 miang4
+1148,waitau,吊頸,diu1 geng2
+1148,hakka,吊頸,diau4 giang3
+1149,waitau,跳河,tiu1 ho4
+1149,hakka,投河,teu2 ho2
+1150,waitau,病死,beng6 si2
+1150,hakka,病死嗨,piang4 si3 hoi1
+1151,waitau,過身,gwo1 säng1
+1151,hakka,過身,go4 sin1
+1151,hakka,老嗨,lau3 hoi1
+1152,waitau,白事,bæk6 si6
+1152,hakka,做白事,zo4 pak6 su4
+1153,waitau,棺材,gwung1 cöi4
+1153,waitau,壽板,säu6 bæng2
+1153,hakka,棺材,gon1 coi2
+1154,waitau,出喪,cäk2 song1
+1154,hakka,入殮,ngip6 liam1
+1155,waitau,出殯,cäk2 bäng1
+1155,hakka,送葬,sung4 zong4
+1156,waitau,落葬,lok6 zong1
+1156,hakka,埋,mai2
+1157,waitau,溪錢,käi1 cing4
+1157,hakka,溪錢,kai1 cien2
+1158,waitau,仵作,ng6 zok2
+1158,waitau,棺材佬,gwung1 cöi4 läu2
+1158,hakka,棺材佬,gon1 coi2 lau3
+1159,waitau,炮仗,pau1 zöng2
+1159,waitau,連排,ling4 pai4
+1159,hakka,爆仗,bau4 cong4
+1160,waitau,墳頭,fäng4 täu4
+1160,hakka,墳頭,fun2 teu2
+1161,waitau,墓碑,mu6 bi1
+1161,hakka,碑石,bi1 sak6
+1162,waitau,拜山,bai1 sæng1
+1162,hakka,掛山,ga4 san1
+1163,waitau,病,beng6
+1163,hakka,病嗨,piang4 hoi1
+1164,waitau,難頂,nang4 däng2
+1164,waitau,頂唔順,däng2 m4 säng6
+1164,hakka,難頂,lan2 din3
+1165,waitau,發燒,fæk2 siu1
+1165,hakka,發燒,fat5 sau1
+1166,waitau,發冷,fæk2 læng1
+1166,hakka,發冷,bot5 lang1
+1167,waitau,發吽豆,fæk2 ngäu6 däu6
+1167,hakka,發呆,fat5 ngoi2
+1168,waitau,打冷震,da2 læng1 zäng1
+1168,hakka,打陣冥,da3 cin3 min3
+1169,waitau,感親,gam2 cäng1
+1169,hakka,傷風,song1 fung1
+1170,hakka,發大冷,bot5 tai4 lang1
+1171,waitau,打冷震,da2 læng1 zäng1
+1171,hakka,吃吃震,git6 git6 zun1
+1172,waitau,扯蝦,ce2 ha1
+1172,hakka,發呷,bot5 hap5
+1173,waitau,咳嗽,käk2 säu1
+1173,hakka,凵,kiem3
+1174,waitau,攝親,sip2 cäng6
+1174,hakka,冷倒,lang1 dau3
+1175,waitau,中暑,zung1 sü2
+1175,hakka,發痧,bot5 sa1
+1176,waitau,熱氣,ngik6 hi1
+1176,hakka,熱氣,ngiet6 hi4
+1177,waitau,作嘔,zok2 äu2
+1177,hakka,作嘔,zok5 eu1
+1178,waitau,結恭,gik2 gung2
+1178,waitau,屙屎唔出,o1 si2 m4 cäk2
+1178,hakka,屙屎唔出,o1 si3 m1 cut5
+1179,waitau,疴肚仔,ngo6 du2 zäi2
+1179,hakka,肚胈屙,du3 pat6 o1
+1180,waitau,喫滯,hek2 zäi6
+1180,hakka,唔消化,m1 siau1 fa4
+1181,waitau,頭暈,täu4 wäng4
+1181,hakka,頭那暈,teu2 la1 vin2
+1182,waitau,嘔,äu2
+1182,hakka,嘔,eu3
+1183,waitau,痛,tung1
+1183,hakka,痛,tung4
+1184,waitau,抽筋,cäu1 gäng1
+1184,hakka,抽筋,ciu4 gin1
+1185,waitau,嚇驚,hæk2 geng1
+1185,hakka,著驚,cok6 giang1
+1186,waitau,喊驚,ham1 geng1
+1186,hakka,喊同年,ham4 tung2 ngien2
+1187,waitau,出麻,cäk2 ma2
+1187,waitau,出麻仔,cäk2 ma4 zäi2
+1187,hakka,出麻仔,cut5 ma2 zai3
+1188,waitau,發羊吊,fæk2 yöng4 diu2
+1188,hakka,發死,bot5 si3
+1189,waitau,中風,zung1 fung1
+1189,hakka,發癱風,bot5 tan1 fung1
+1190,waitau,肺癆,fäi1 lu4
+1190,hakka,發癆嗽,bot5 lau2 seu1
+1191,waitau,黃疸病,wong4 tæng2 beng6
+1191,hakka,發黃腫,bot5 vong2 zung3
+1192,hakka,發痤仔,bot5 coi2 zai3
+1193,waitau,熱痱,ngik6 fäi2
+1193,hakka,熱痱,ngiet5 mui3
+1194,waitau,酒米,zäu2 mäi2
+1194,hakka,長球,zong3 kiu2
+1195,waitau,含膿,ham4 nung4
+1195,hakka,貢膿,gung4 lung2
+1196,waitau,焦,zau1
+1196,hakka,庀,pi3
+1197,waitau,結焦,gik2 ziu1
+1197,hakka,結庀,giet5 pi3
+1198,waitau,疤,ba1
+1198,waitau,那,na2
+1198,hakka,疤,ba1
+1199,waitau,墨,mäk2
+1199,hakka,痣,zi4
+1200,waitau,臭狐,cäu1 fu4
+1200,hakka,狐忽臊,fu2 fit6 sau1
+1201,waitau,小腸氣,siu2 cöng4 hi1
+1201,hakka,大核卵,tai4 hak6 lon3
+1202,waitau,墨屎,mäk2 si2
+1202,hakka,烏蠅屎,vu1 yin2 si3
+1203,waitau,雞皮,gäi1 pi4
+1203,hakka,雞嫲皮,gai1 ma2 pi2
+1204,waitau,赧,nang1
+1204,hakka,蚊伏,mun1 puk6
+1204,hakka,蚊膀,mun1 pong2
+1205,waitau,發雞盲,fæk2 gäi1 mäng4
+1205,hakka,發雞盲,bot5 gai1 mang2
+1206,waitau,痲瘋,ma4 fung1
+1206,hakka,痲瘋,ma2 fung1
+1207,waitau,惹,ya1
+1207,hakka,迣人,ce4 ngin2
+1208,waitau,扭,näu2
+1208,hakka,拉倒,lai3 dau3
+1209,waitau,扽,däng2
+1209,hakka,打扽坐,da3 dun4 co1
+1210,waitau,爆裂,bau1 lik6
+1210,hakka,爆趼公,bau4 gien1 gung1
+1211,waitau,沙聲,sa1 seng1
+1211,hakka,啞,a3
+1212,waitau,醫病,yi1 beng6
+1212,hakka,看病,gon4 piang4
+1213,waitau,打脈,da2 mäk6
+1213,waitau,把脈,ba2 mäk6
+1213,hakka,打脈,da3 mak5
+1214,waitau,茶,ca4
+1214,waitau,苦茶,fu2 ca4
+1214,hakka,中藥,zung1 yok6
+1215,waitau,單,dæng1
+1215,waitau,藥單,yök6 dæng1
+1215,hakka,處方,cu4 fong1
+1216,waitau,執藥,zäp2 yök6
+1216,waitau,執茶,zäp2 ca4
+1216,hakka,撿藥,giam3 yok6
+1217,waitau,丸仔,yüng4 zäi2
+1217,hakka,藥丸,yok6 yen2
+1217,hakka,丸仔,yen2 zai3
+1218,waitau,散,sæng2
+1218,waitau,藥散,yök6 sæng2
+1218,hakka,藥粉,yok6 fun3
+1219,waitau,煲藥,bäu6 yök6
+1219,waitau,煲茶,bäu6 ca4
+1219,hakka,煲涼茶,bau1 liong2 ca2
+1220,waitau,茶,ca4
+1220,hakka,茶,ca2
+1221,waitau,見效,ging6 hau6
+1221,hakka,見功,gien4 gung1
+1222,waitau,醒,seng2
+1222,hakka,睡醒,soi4 siang3
+1223,waitau,起身,hi2 säng1
+1223,hakka,亢身,hong4 sin1
+1224,waitau,摺,zip2
+1224,hakka,疊,tiap6
+1225,waitau,著,zok2
+1225,hakka,著,zok5
+1226,waitau,抹面,mæk2 ming6
+1226,waitau,洗面,säi2 ming6
+1226,hakka,洗面,se3 mien4
+1227,waitau,梳頭,so1 täu4
+1227,hakka,梳頭,so1 teu2
+1228,waitau,繽,bäng1
+1228,hakka,拼,pin1
+1229,waitau,剃鬚筍,täi1 fu4 su1
+1229,waitau,剃鬚,täi1 su1
+1229,hakka,剃,tai4
+1230,waitau,磨頭,mo4 täu4
+1230,waitau,剃頭,täi1 täu4
+1230,hakka,剃頭,tai4 teu2
+1231,waitau,返工,fæng1 gung1
+1231,hakka,做工,zo4 gung1
+1232,waitau,晏,æng1
+1232,hakka,遲,ci2
+1233,waitau,收工,säu1 gung1
+1233,hakka,收工,siu1 gung1
+1234,waitau,攰,gui6
+1234,hakka,攰,kioi4
+1235,waitau,敨,täu2
+1235,hakka,敨,teu3
+1236,waitau,去歸,hü1 gwäi1
+1236,hakka,轉屋下,zon3 vuk5 ka1
+1237,waitau,去,hü1
+1237,hakka,去,hi4
+1238,waitau,屙屎,o1 si2
+1238,hakka,屙屎,o1 si3
+1239,waitau,屙尿,o1 niu6
+1239,hakka,屙尿,o1 ngiau4
+1240,waitau,屙屁,o1 pi1
+1240,waitau,放屁,fong1 pi1
+1240,hakka,打屁,da3 pi4
+1241,waitau,洗身,säi2 säng1
+1241,hakka,沖涼,cung1 liong2
+1242,waitau,抹身,mæk2 säng1
+1242,hakka,抹身,mat5 sin1
+1243,waitau,敨涼,täu2 löng4
+1243,waitau,稍涼,säu2 löng4
+1243,hakka,敨涼,teu3 liong2
+1244,waitau,曬,sai1
+1244,waitau,熱頭烘,ngik6 täu4 hung1
+1244,hakka,曬,sai4
+1244,hakka,炙,zak5
+1245,waitau,焙,bui6
+1245,hakka,炙火,zak5 fo3
+1246,waitau,打牙交,da2 nga4 gau1
+1246,hakka,講水古,gong3 sui3 gu1
+1247,waitau,瞌眼睏,häp2 ngang1 fäng1
+1247,hakka,啄目睡,duk5 muk5 soi4
+1248,waitau,眯下,mi2 ha1
+1248,waitau,瞌一陣,häp2 yäk2 zäng2
+1248,hakka,眯一下,mi1 yit5 ha4
+1249,waitau,打喊路,da2 ham1 lu1
+1249,hakka,擘囉,mak5 lo4
+1250,waitau,打哈嗤,da2 häk2 ci4
+1250,hakka,打哈嗤,da3 at6 ci4
+1251,waitau,鋪床,pu1 cong4
+1251,hakka,迒眠床,hong2 min2 cong2
+1252,waitau,睏底,fäng1 däi1
+1252,hakka,眠下,min2 ha1
+1253,waitau,睏覺,fäng1 gäu1
+1253,hakka,睡目,soi3 muk5
+1254,waitau,閂燈,sang1 däng1
+1254,hakka,烏燈,vu1 den1
+1255,waitau,睏著,fäng1 zök6
+1255,hakka,睡落覺,soi4 lok5 gau4
+1256,waitau,發夢,fæk2 mung6
+1256,hakka,發夢,bot5 mung4
+1257,waitau,發開口夢,fæk2 fui1 häu2 mung6
+1257,hakka,講夢話,gong3 mung4 va4
+1258,waitau,睏唔著,fäng1 m4 zök6
+1258,hakka,睡唔落覺,soi4 m1 lok5 gau4
+1259,waitau,扯鼻鼾,ce2 bi6 fung4
+1259,hakka,扯鼻鼾,ca3 pi4 hon2
+1260,waitau,打天眠,da2 ting6 ming6
+1260,hakka,挺挺仰睡,ten3 ten3 ngong1 soi4
+1261,waitau,打側睏,da2 zäk2 fäng1
+1261,hakka,打側睡,da3 zet5 soi4
+1262,waitau,扒頭瞓,pa4 täu4 fäng1
+1262,hakka,罯罯伏,am3 am3 puk5
+1263,waitau,睏戾頸,fäng1 läi2 geng2
+1263,hakka,失枕,sip5 zim3
+1264,waitau,書館,sü1 gwäng2
+1264,waitau,學堂,hok6 tong2
+1264,waitau,書房,sü1 fong2
+1264,hakka,學堂,hok6 tong2
+1265,waitau,啟蒙,käi2 mung4
+1265,hakka,破學,po4 hok6
+1266,waitau,返學,fæng1 hok6
+1266,hakka,去學堂,hi4 hok6 tong2
+1266,hakka,返學,fan1 hok6
+1267,waitau,放學,fong1 hok6
+1267,hakka,放學,fong4 hok6
+1268,waitau,書,sü1
+1268,waitau,書本,sü1 bung2
+1268,hakka,書,su1
+1269,waitau,簿,bu2
+1269,hakka,簿仔,pu1 zai3
+1270,waitau,先生,sing1 sæng1
+1270,waitau,教書先生,gau1 sü1 sing1 sang1
+1270,hakka,教書先生,gau1 su1 sin1 sang1
+1271,waitau,學生,hok6 sæng2
+1271,hakka,學生,hok5 sang1
+1272,waitau,第一名,däi6 yäk2 mäng4
+1272,hakka,頭名,teu2 miang2
+1273,waitau,孻尾,lai1 mi1
+1273,waitau,第尾,däi6 mi2
+1273,hakka,第尾,ti4 mui1
+1274,waitau,毛筆,mäu4 bäk2
+1274,hakka,毛筆,mau1 bit5
+1275,waitau,墨水筆,mäk4 söi2 bäk2
+1275,hakka,水筆,sui3 bit5
+1276,waitau,鉛筆,yüng4 bäk2
+1276,hakka,鉛筆,yen2 bit5
+1277,waitau,筆筒,bäk2 tung2
+1277,hakka,筆筒套,bit5 tung2 tau4
+1278,waitau,紙,zi2
+1278,hakka,紙,zi3
+1279,waitau,撳釘,gäm6 deng2
+1279,hakka,撳釘,kim4 dang1
+1280,waitau,信封,säng1 fung2
+1280,hakka,信筒,sin4 tung2
+1281,waitau,信紙,säng1 zi2
+1281,hakka,信肉,sim4 ngiuk5
+1282,waitau,漿糊,zöng1 fu4
+1282,hakka,漿糊,ziong1 fu2
+1283,waitau,刀仔,däu1 zäi2
+1283,hakka,刀仔,dau1 zai3
+1284,waitau,砒,päi1
+1284,hakka,砒,pai1
+1285,waitau,尺,cek2
+1285,waitau,間尺,gæng1 cek2
+1285,hakka,尺,cak5
+1286,waitau,擦紙膠,cæk2 zi2 gau1
+1286,waitau,擦膠,cæk2 gau1
+1286,hakka,擦紙膠,cat5 zi3 gau1
+1287,waitau,橡筋,zöng6 gäng2
+1287,hakka,橡筋,siong4 gin1
+1288,waitau,墨硯,mäk6 hing2
+1288,hakka,墨湖,met6 fu2
+1289,waitau,墨,mäk6
+1289,hakka,墨,met6
+1290,waitau,墨汁,mäk6 zäp2
+1290,hakka,墨汁,met6 zip5
+1291,waitau,墨水,mäk6 söi2
+1291,hakka,墨水,met5 sui3
+1292,waitau,掭,tim1
+1292,waitau,舐,lai2
+1292,hakka,蘸,ziam3
+1293,waitau,化,fa1
+1293,hakka,漬,zi4
+1294,waitau,草書,zäu1 sü1
+1294,hakka,草,cau3
+1295,waitau,抹,mæk2
+1295,hakka,塗,tu2
+1296,waitau,走學,zäu2 hok2
+1296,waitau,走堂,zäu2 tong4
+1296,hakka,逃學,tau2 hok6
+1297,waitau,考試,hau2 si1
+1297,hakka,考試,kau3 si4
+1298,waitau,考唔倒,hau2 m1 dau2
+1299,waitau,罰徛,fäk2 ki1
+1299,hakka,徛堂,ki1 tong2
+1300,waitau,印鋻,yäng1 gam1
+1300,waitau,圖章,tu4 zöng1
+1300,hakka,印仔,yin4 zai3
+1301,waitau,襟章,käm1 zöng1
+1301,hakka,襟章,kim1 zong1
+1302,waitau,郵電局,yäu4 ding6 kuk2
+1302,waitau,郵局,yäu4 kuk2
+1302,hakka,郵局,yiu2 kiuk6
+1303,waitau,士擔,si4 dam2
+1303,hakka,郵票,yiu2 piau4
+1304,waitau,相,söng2
+1304,hakka,相片,siong4 pien4
+1305,waitau,影畫戲,yäng2 wa2 hi1
+1305,hakka,影畫戲,yang3 fa4 hi4
+1305,hakka,電影,tien4 yang3
+1306,waitau,畫,wa2
+1306,hakka,畫,fa4
+1307,waitau,對,döi1
+1307,waitau,對聯,döi1 lüng2
+1307,hakka,對,dui4
+1308,waitau,聊,liu6
+1308,hakka,聊,liau4
+1309,waitau,波,bo2
+1309,hakka,波,bo1
+1310,waitau,踢波,täk2 bo1
+1310,hakka,踢足球,tiak5 zuk5 kiu2
+1311,waitau,打韆鞦,da2 cing2 cäu2
+1311,hakka,打韆鞦,da3 cin1 ciu1
+1312,waitau,放紙鷂,fong1 zi2 yiu2
+1312,hakka,放紙鷂,fong4 zi3 yau4
+1313,waitau,講古,gong2 gu2
+1313,hakka,講古仔,gong3 gu3 zai3
+1314,waitau,唱歌,cöng1 go1
+1314,waitau,唱歌仔,cöng1 go2 zäi2
+1314,hakka,唱歌,cong4 go1
+1315,waitau,銀雞,ngäng4 gäi1
+1315,waitau,啤啤,bi1 bi1
+1315,hakka,銀雞,ngiun2 gai1
+1316,waitau,吹銀雞,cöi1 ngäng4 gäi1
+1316,hakka,打符繡,da3 fu2 siu4
+1317,waitau,吹簫,cöi1 siu1
+1317,hakka,簫,siau1
+1318,waitau,吹笛,cöi1 dek2
+1318,hakka,吹笛,cui1 tiak6
+1319,waitau,捉棋,zuk2 ki4
+1319,hakka,捉棋,zok5 ki2
+1320,waitau,拎牌,lip2 pai2
+1320,hakka,瞙牌,mie3 pai2
+1321,waitau,游水,yäu4 söi2
+1321,hakka,游水,yiu2 sui3
+1322,waitau,沕水,mi6 söi2
+1322,waitau,潛水,cim4 söi2
+1322,hakka,沕水,mi4 sui3
+1323,waitau,打水片,da2 söi2 ping2
+1323,hakka,打水片,da3 sui3 pien3
+1324,waitau,舞,mu2
+1324,hakka,搞,gau3
+1325,waitau,識打功夫,säk2 da2 gung1 fu2
+1325,hakka,曉功夫,hiau3 gung1 fu1
+1326,waitau,變把戲,bing1 ba2 hi1
+1326,waitau,變戲法,bing1 hi1 fak2
+1326,hakka,撮把戲,cot5 ba3 hi4
+1327,waitau,打關斗,da2 gwäng1 däu2
+1327,hakka,打翻車,da3 fan2 ca1
+1328,waitau,掃堂腿,säu1 dong4 töi2
+1328,hakka,勾腳,giu1 giok5
+1329,waitau,耍盲雞,sa2 mæng4 gäi1
+1329,hakka,屏人子,biang4 ngin2 zu1
+1330,waitau,抓癢,au2 yöng2
+1330,hakka,捻,liem1
+1331,waitau,跳飛機,tiu1 fi1 gi1
+1331,hakka,跳飛機,tiau4 fui1 gi1
+1332,waitau,舞龍,mu1 lung4
+1332,hakka,舞龍,mu3 lung2
+1333,waitau,拉二胡,lai6 ngi6 wu2
+1333,hakka,拉二弦,lai1 ngi4 hien2
+1334,waitau,燒連排,siu1 ling4 pai4
+1334,waitau,燒炮仗,siu1 pau1 zong2
+1334,hakka,打爆仗,da3 bau4 cong4
+1335,waitau,騎膊馬,ke4 bok2 ma1
+1335,hakka,騎馬度,ki2 ma1 dok6
+1336,waitau,倒豎蔥,däu2 sü6 cung2
+1336,hakka,起種竹,hi3 zung4 zuk5
+1337,waitau,鬼面殼,gwäi2 ming6 hok2
+1337,hakka,鬼面殼,gui3 mien4 hok5
+1338,waitau,猜枚,cai1 mui2
+1338,hakka,猜枚,zai1 moi2
+1339,waitau,執籌,zäp2 cäu2
+1339,hakka,拈鬮,ngiam1 kiu1
+1340,waitau,磧年利市,zæk2 ning4 läi6 si6
+1340,waitau,利市,li6 si6
+1340,waitau,磧年利市,zæk2 ning4 li6 si6
+1340,hakka,磧年利市,zak5 ngien2 li4 si4
+1341,waitau,擺酒,bai2 zäu2
+1341,hakka,擺酒,bai3 ziu3
+1342,waitau,做人情,zu6 yäng4 cäng4
+1342,hakka,搭人世,dap5 ngin2 se4
+1343,waitau,收禮,säu1 läi1
+1343,hakka,接禮,ziap5 li1
+1344,waitau,多謝,do1 ze6
+1344,hakka,多謝,do1 cia4
+1345,waitau,生保,sæng1 bäu2
+1345,waitau,生保人,sæng1 bäu2 hæk2
+1345,waitau,生保客,sæng1 bäu2 hæk2
+1345,hakka,生客,sang1 hak5
+1346,waitau,請坐,ceng2 co1
+1346,hakka,請坐,ciang3 co1
+1347,waitau,客氣,hæk2 hi2
+1347,hakka,客氣,hak5 hi4
+1348,waitau,斟,zäm1
+1348,hakka,退茶,tui4 ca2
+1349,waitau,派,pai1
+1349,hakka,派,pai4
+1350,waitau,開始,fui1 ci2
+1350,hakka,開始,hoi1 su3
+1351,waitau,入席,yäp6 zäk6
+1351,hakka,坐席,co1 cit6
+1352,waitau,起菜,hi2 cöi1
+1352,hakka,上菜,song1 coi4
+1353,waitau,斟酒,zäm1 zäu2
+1353,hakka,倒酒,dau3 ziu3
+1354,waitau,飲勝,yäm2 säng1
+1354,hakka,乾杯,gon1 bui1
+1355,waitau,慢慢行,mang6 mang2 hang4
+1355,hakka,慢慢行,man4 man4 hang2
+1356,waitau,發嗑風,fæk2 ngäp2 fung1
+1356,hakka,亂嗑,lon4 kap5
+1357,waitau,招呼,ziu1 fu1
+1357,waitau,招待,ziu1 doi1
+1357,hakka,招呼,zau1 fu1
+1358,waitau,叩頭,käu1 täu4
+1358,waitau,叩首,käu1 säu2
+1358,hakka,拜,bai4
+1359,waitau,打拱,da2 gung2
+1359,waitau,作揖,zok2 yäp2
+1359,hakka,唱惹,cong4 ya1
+1360,waitau,風光,fung1 gwong1
+1360,hakka,威風,vui1 fung1
+1361,waitau,充大頭鬼,cung1 dai6 täu4 gwäi2
+1361,hakka,擺面子,bai3 mien4 zu3
+1362,waitau,爛醒,lang2 säng2
+1362,waitau,爛叻,lang2 lek2
+1362,hakka,充好漢,cung1 hau3 hon4
+1363,waitau,冇面,mäu1 ming2
+1363,hakka,見笑,gien4 siau4
+1364,waitau,陀累,to4 löi6
+1364,hakka,連累,lien2 lui4
+1365,waitau,難為你,næng4 wäi2 ni2
+1365,hakka,難為你,lan2 vui2 ngi2
+1366,waitau,理,li1
+1366,hakka,刮,gat5
+1367,waitau,喊,ham1
+1367,hakka,湊,ceu4
+1368,waitau,撞到,zong6 däu2
+1368,waitau,撞見,zong6 ging1
+1368,hakka,遇到,ngi4 dau3
+1369,waitau,探,tam1
+1369,hakka,探,tam4
+1370,waitau,講話,gong2 wa6
+1370,waitau,傾計,käng1 gäi2
+1370,hakka,講話,gong3 va4
+1371,hakka,講本地,gong3 bun3 ti4
+1372,waitau,托大腳,to2 dai6 gök2
+1372,hakka,捧大腳,bung3 tai4 giok5
+1373,waitau,吩咐,fäng1 fu1
+1373,hakka,吩咐,fun1 fu4
+1374,waitau,搭嘴,dap2 zöi2
+1374,hakka,搭啜,dap5 zoi4
+1375,waitau,插嘴,cap2 zöi2
+1375,hakka,搭嘴,dap5 zui3
+1376,waitau,喝,fuk2
+1376,hakka,喝,hot5
+1377,waitau,氹,täm1
+1377,hakka,撮,cot5
+1378,waitau,死啦,si2 la1
+1378,waitau,死得啦,si2 däk2 la1
+1378,hakka,死咯,si3 lo3
+1379,waitau,數,su2
+1379,hakka,話,va4
+1380,waitau,鬧,nau6
+1380,hakka,罵人,ma4 ngin2
+1381,waitau,鬧爛口,nau6 læng6 häu2
+1381,hakka,罵人,ma4 ngin2
+1382,waitau,講爛口,gong2 lang6 häu2
+1382,hakka,講爛啜,gong3 lan4 zoi4
+1383,waitau,挨打,ngai4 da2
+1383,waitau,畀人打,bi2 yäng4 da2
+1383,hakka,分人打,bin1 ngin2 da3
+1384,waitau,嗌交,ai1 gau2
+1384,hakka,吵交,cau2 gau1
+1385,waitau,打交,da2 gau2
+1385,hakka,打交,da3 gau1
+1386,waitau,勸交,hüng1 gau1
+1386,hakka,拆交,cak5 gau1
+1387,waitau,幫,bong1
+1387,waitau,幫住,bong1 zü2
+1387,hakka,幫等,bong1 den3
+1388,waitau,畀,bi2
+1388,hakka,分,bin1
+1389,waitau,喊,ham1
+1389,hakka,喊,hiem1
+1390,waitau,得,däk2
+1390,hakka,做得,zo4 det5
+1391,waitau,唔錯,m4 co1
+1391,hakka,唔錯,m1 co4
+1392,waitau,唔准,m4 zäng2
+1392,hakka,唔准,m1 zun3
+1393,waitau,唆擺,so1 bai2
+1393,hakka,唆,so2
+1394,waitau,頂嘴,däng2 zöi2
+1394,waitau,駁嘴,bok2 zöi2
+1394,hakka,頂,din3
+1395,waitau,撩,liu4
+1395,hakka,撩,liau2
+1396,waitau,佮,gap1
+1396,waitau,佮,gap2
+1396,hakka,佮,gap5
+1397,waitau,就,zäu6
+1397,hakka,就,ciu4
+1398,waitau,返歸,fang1 gwäi1
+1398,waitau,返鄉下,fang1 höng1 ha2
+1398,hakka,轉鄉下,zon3 hiong1 ha4
+1399,waitau,探親戚,tam1 cäm1 cäk2
+1399,hakka,邏人客,la2 ngin2 hak5
+1400,waitau,唔得閒,m4 däk2 hæng4
+1400,hakka,冇閒,mau2 han2
+1400,hakka,唔得閒,m1 det5 han2
+1401,waitau,得閒,däk2 hæng4
+1401,hakka,得閒,det5 han2
+1402,waitau,搞掂,gau2 dim6
+1402,hakka,辦好,pan4 hau3
+1402,hakka,搞掂,gau3 tiam4
+1403,waitau,行運,hæng4 wäng6
+1403,hakka,行運,hang2 yun4
+1404,waitau,行衰運,hæng4 söi1 wäng6
+1404,hakka,當衰,dong1 soi1
+1405,waitau,興,häng1
+1405,hakka,興,hin1
+1406,waitau,鋪頭,pu1 täu2
+1406,waitau,鋪頭仔,pu1 täu4 zäi2
+1406,hakka,鋪頭,pu4 teu2
+1407,waitau,茶樓,ca4 läu4
+1407,waitau,茶居,ca4 gü2
+1407,hakka,茶居,ca2 gi1
+1407,hakka,飯店,fan4 diam4
+1408,waitau,客棧,hæk2 zæng2
+1408,hakka,客棧,hak5 can4
+1409,waitau,擺檔,bai2 dong2
+1409,hakka,擺檔,bai3 dong4
+1410,waitau,小販,siu2 fæng2
+1410,hakka,小販,siau3 fan4
+1411,waitau,旺,wong6
+1411,hakka,好,hau3
+1412,waitau,開張,fui1 zöng2
+1412,hakka,開張,hoi1 zong1
+1413,waitau,盤點,pung4 dim2
+1413,waitau,計數,gäi2 su1
+1413,hakka,盤點,pan2 diam3
+1414,waitau,執笠,zäp2 läp2
+1414,hakka,打快扒,da3 kai4 pa2
+1415,waitau,櫃台,gwäi6 töi2
+1415,waitau,櫃面,gwäi6 ming2
+1415,hakka,櫃台,kui4 toi2
+1416,waitau,侍頭,si6 täu2
+1416,hakka,侍頭,si4 teu2
+1417,waitau,侍頭婆,si6 täu4 po4
+1417,hakka,侍頭婆,si4 teu2 po2
+1418,waitau,伙記,fo2 gi1
+1418,hakka,伙記,fo2 gi4
+1419,waitau,師傅,si1 fu2
+1419,hakka,師傅,su4 fu4
+1420,waitau,徒弟,tu4 däi2
+1420,hakka,徒弟,tu2 ti4
+1421,waitau,人客,yäng4 hek2
+1421,hakka,客,hak5
+1422,waitau,講價,gong2 ga1
+1422,hakka,講價,gong3 ga4
+1423,waitau,殺價,sæk2 ga1
+1423,waitau,還價,wæng4 ga1
+1423,hakka,還價,van2 ga4
+1424,waitau,減價,gam2 ga1
+1424,hakka,跌價,det5 ga4
+1425,waitau,磧數,zæk2 su1
+1425,hakka,賒,ca2
+1426,waitau,爭數,zæng1 su2
+1426,hakka,欠賬,kiam4 zong4
+1427,waitau,追債,zöi1 zai2
+1427,hakka,追帳,zui1 zong4
+1428,waitau,算盤,süng1 pung4
+1428,hakka,算盤,son4 pan2
+1429,waitau,秤,cäng1
+1429,hakka,秤,cin4
+1430,waitau,厘秤,li4 cäng1
+1430,hakka,厘秤,li2 cin4
+1431,waitau,皮費,pi4 fäi2
+1431,hakka,皮費,pi2 fui4
+1432,waitau,本,bung2
+1432,hakka,本錢,bun3 cien2
+1433,waitau,佮分,gap2 fäng2
+1433,hakka,佮份,gap5 fun4
+1434,waitau,佮,gäp2
+1434,waitau,佮,gap2
+1434,hakka,斂,liam1
+1435,waitau,弄,nung6
+1435,hakka,斂,liam1
+1436,waitau,錢,cing2
+1436,hakka,錢,cien2
+1437,waitau,銀紙,ngäng4 zi2
+1437,hakka,銀紙,ngiun2 zi3
+1438,waitau,大銀,dai6 ngäng2
+1438,hakka,硬幣,ngan4 bi4
+1439,waitau,大紙,dai6 zi2
+1439,hakka,大紙,tai4 zi3
+1440,waitau,散紙,sæng2 zi2
+1440,hakka,散紙,san3 zi3
+1441,waitau,點,dim2
+1441,hakka,數,su4
+1442,waitau,找,zau2
+1442,hakka,找,zau3
+1443,waitau,爭,zæng1
+1443,hakka,爭,zang1
+1444,waitau,利息,li6 säk2
+1444,hakka,利,li4
+1445,waitau,賺,zæng6
+1445,waitau,搵,wäng2
+1445,hakka,賺,can4
+1446,waitau,蝕本,sik6 bung2
+1446,hakka,蝕本,set5 bun3
+1447,waitau,抵,däi2
+1447,hakka,抵,dai3
+1448,waitau,足秤,zuk2 cäng1
+1448,hakka,夠秤,geu4 cin4
+1449,waitau,唔夠秤,m4 gäu1 cäng1
+1449,waitau,呃秤,ak2 cäng1
+1449,hakka,唔夠秤,m1 geu4 cin4
+1450,waitau,慳,hæng1
+1450,hakka,慳,han1
+1451,waitau,著數,zök6 su1
+1451,hakka,著數,cok6 su4
+1452,waitau,唔著數,m4 zök6 su1
+1452,hakka,唔著數,m1 cok6 su4
+1453,waitau,貴,gwäi2
+1453,hakka,貴,gui4
+1454,waitau,平,peng4
+1454,hakka,平,piang2
+1455,waitau,車站,ce1 cam6
+1455,hakka,車站,ca1 zam4
+1456,waitau,碼頭,ma1 täu4
+1456,waitau,渡頭,du6 täu4
+1456,hakka,碼頭,ma1 teu2
+1457,waitau,橋,kiu4
+1457,hakka,橋,kiau2
+1458,waitau,街,gai1
+1458,hakka,街,gai1
+1459,waitau,行人路,hæng4 yäng4 lu6
+1459,hakka,行人路,hang2 ngin2 lu4
+1460,waitau,馬路,ma1 lu6
+1460,hakka,馬路,ma1 lu4
+1461,waitau,車,ce1
+1461,hakka,汽車,hi4 ca1
+1462,waitau,私家車,si2 ga2 ce2
+1462,waitau,車仔,ce1 zäi2
+1462,hakka,私家車,su1 ga1 ca1
+1463,waitau,客車,hak2 ce1
+1463,waitau,巴士,ba2 si2
+1463,hakka,客車,hak5 ca1
+1464,waitau,單車,dæng2 ce2
+1464,hakka,單車,dan1 ca1
+1465,waitau,黃包車,wong4 bau1 ce2
+1465,waitau,東洋車,dung1 yöng4 ce2
+1465,hakka,人力車,ngin2 lit6 ca1
+1466,waitau,三輪車,sam1 läng2 ce1
+1466,hakka,三輪車,san1 lin2 ca1
+1467,waitau,單輪車,dæng1 läng2 ce1
+1467,hakka,雞公車,gai1 gung1 ca1
+1468,waitau,車轆,ce2 luk2
+1468,hakka,輪,lin2
+1469,waitau,火船,fo2 süng4
+1469,hakka,火船,fo3 son2
+1470,waitau,帆船,fæng4 süng4
+1470,hakka,帆船,fan2 son2
+1471,waitau,艇仔,teng1 zai2
+1471,waitau,艇,teng1
+1471,hakka,船仔,son2 zai3
+1472,waitau,汽艇,hi1 teng1
+1472,hakka,電船,tien4 son2
+1473,waitau,竹簰,zuk2 pai4
+1473,hakka,竹簰,zuk5 pai2
+1474,waitau,滲水,säm1 söi2
+1474,hakka,漏水,leu4 sui3
+1475,waitau,飛機,fi1 gi1
+1475,hakka,飛機,fui1 gi1
+1476,waitau,搭客,dap2 hæk2
+1476,hakka,搭客,dap5 hak5
+1477,waitau,水腳,söi2 gök2
+1477,hakka,水腳,sui3 giok5
+1478,waitau,車飛,ce1 fi2
+1478,hakka,車飛,ca1 fui1
+1479,waitau,搭車,dap2 ce1
+1479,hakka,搭車,dap5 ca1
+1480,waitau,搭唔切車,dap2 m4 cik2 ce1
+1480,waitau,趕唔到車,gwung2 m4 däu2 ce2
+1480,hakka,宕,tong4
+1481,waitau,暈車浪,wäng4 ce1 long6
+1481,hakka,暈車,vin2 ca1
+1482,waitau,位,wäi2
+1482,hakka,座位,co4 vui4
+1483,waitau,揸車佬,za1 ce2 läu2
+1483,hakka,司機,su1 gi1
+1484,waitau,揸車,za1 ce2
+1484,hakka,揸車,za1 ca1
+1485,waitau,擔高頭,dam1 gäu1 täu4
+1485,hakka,擔起,dam1 hi3
+1486,waitau,耷,däp2
+1486,waitau,耷頭,däp2 täu4
+1486,waitau,耷低頭,däp2 däi1 täu4
+1486,hakka,墜低頭,cui4 dai1 teu2
+1487,waitau,點頭,dim2 täu4
+1487,waitau,叩頭,käu1 täu4
+1487,hakka,頷,ngam3
+1488,waitau,擰,näng2
+1488,waitau,擰頭,näng2 täu4
+1488,hakka,揈,vin4
+1489,waitau,側,läi2
+1489,hakka,側,zet5
+1490,waitau,顎,ngok6
+1490,hakka,仰,ngong1
+1491,waitau,擰轉,näng6 täu4
+1491,hakka,扭轉,ngiu4 zon3
+1492,waitau,擘大眼,mak2 dai1 ngæng2
+1492,hakka,擘,mak5
+1493,waitau,眯埋眼,mi1 mai4 ngæng2
+1493,hakka,霎眯,sap5 mi1
+1494,waitau,睜大眼,zäng1 dai1 ngæng2
+1494,hakka,瞪大眼,zen4 tai4 ngan3
+1495,waitau,眨,zam2
+1495,hakka,囁,ngiap5
+1496,waitau,掃,säu4
+1496,hakka,瞄,miau2
+1497,waitau,裝,zong2
+1497,hakka,䁓,zong1
+1498,waitau,睇,täi2
+1498,hakka,看,kon4
+1499,waitau,睇住,täi2 zü6
+1499,hakka,掌,zong3
+1500,waitau,聽,teng1
+1500,hakka,聽,tang4
+1501,waitau,皺,zäu1
+1501,hakka,皺,ziu4
+1502,waitau,聞,mäng4
+1502,hakka,鼻,pi4
+1503,waitau,嘗,söng4
+1503,hakka,嘗,song2
+1504,waitau,擘,mæk2
+1504,hakka,擘,mak5
+1505,waitau,嘟,dük2
+1505,hakka,嚕,lu3
+1505,hakka,翹,hiau3
+1505,hakka,嘟,dut6
+1506,waitau,抿,mik2
+1506,hakka,眯,mi4
+1507,waitau,錫,sek2
+1507,hakka,斟嘴,zim1 zoi4
+1508,waitau,嚼,ziu6
+1508,hakka,嚼,ciau4
+1509,waitau,咬,ngau1
+1509,hakka,咬,ngau1
+1510,waitau,吞,täng1
+1510,hakka,吞,tun1
+1511,waitau,喫,hek2
+1511,hakka,食,sit6
+1512,waitau,飲,yäm2
+1512,hakka,食,sit6
+1513,waitau,啜,zük2
+1513,hakka,啜,zot6
+1514,waitau,吸,käp2
+1514,hakka,吸,kip5
+1515,waitau,舐,tim1
+1515,hakka,舐,se1
+1516,waitau,吮,süng1
+1516,waitau,嚙,æk2
+1516,hakka,咬,ngau1
+1517,waitau,漯,lö2
+1517,hakka,吐,tu4
+1518,waitau,含,häm4
+1518,hakka,含,ham2
+1519,waitau,啗,dam1
+1519,hakka,銜,ham2
+1520,waitau,噴,päng1
+1520,hakka,噴,pun4
+1521,waitau,吹,cöi1
+1521,hakka,歕,pun2
+1522,waitau,哭,huk2
+1522,hakka,叫,giau4
+1523,waitau,笑,siu1
+1523,hakka,笑,siau4
+1524,waitau,荷,kai1
+1524,hakka,拿,la1
+1525,waitau,扭,näu2
+1525,hakka,扭,ngiu3
+1526,waitau,擰,näng2
+1526,hakka,扭,ngiu4
+1527,waitau,掹,mäng2
+1527,hakka,拉,lai1
+1528,waitau,拉,lai1
+1528,hakka,拉,lai1
+1529,waitau,扯,ce2
+1529,hakka,牽,kien1
+1530,waitau,斮,sok2
+1530,hakka,扯,ca3
+1531,waitau,擧,gü2
+1531,hakka,舉,gi3
+1532,waitau,擧,gü2
+1532,hakka,擎,kia2
+1533,waitau,撿,gim2
+1533,hakka,撿,giam3
+1534,waitau,抽,cäu1
+1534,hakka,抽,ciu1
+1535,waitau,撈,lau4
+1535,hakka,撈,lak5
+1536,waitau,劃,wæk2
+1536,hakka,刻,kat6
+1537,waitau,放,fong1
+1537,hakka,放,fong4
+1538,waitau,撳,gäm6
+1538,hakka,撳,kim4
+1539,waitau,擁,ung2
+1539,hakka,㩳,tui1
+1540,waitau,捻,ning2
+1540,hakka,夾,kiap6
+1541,waitau,壓,ngäk2
+1541,hakka,浸,kim4
+1542,waitau,攬,lam2
+1542,hakka,攬,lam3
+1543,waitau,抱,päu1
+1543,hakka,攬,lam3
+1544,waitau,托,tok2
+1544,hakka,掇,dot5
+1545,waitau,擒,käm4
+1545,hakka,爬,pa2
+1546,waitau,爬,pa4
+1546,hakka,爬,pa2
+1546,hakka,蜒,yen2
+1547,waitau,省,sang2
+1547,hakka,撕,su1
+1548,waitau,搣,mik2
+1548,hakka,撚,ngien3
+1549,waitau,拏,na2
+1549,hakka,扡,ya3
+1550,waitau,揸,za1
+1550,waitau,抓,za1
+1550,hakka,捉,zuk5
+1551,waitau,掹,mäng1
+1551,hakka,撏,ciam2
+1552,waitau,掹,mäng1
+1552,hakka,掹,bang1
+1553,waitau,掹,mäng1
+1553,hakka,扯,ca3
+1554,waitau,探,tam1
+1554,hakka,探,tam1
+1555,waitau,摘,zæk2
+1555,hakka,摘,zak5
+1556,waitau,拗,au2
+1556,hakka,拗,au3
+1557,waitau,拗,au2
+1557,hakka,拗,au3
+1558,waitau,酓,yäm4
+1558,hakka,扲,lem2
+1559,waitau,岑,säm4
+1559,waitau,搣,mäk2
+1559,waitau,搣,mik2
+1559,hakka,擘,mak5
+1560,waitau,拗,au2
+1560,hakka,擘,mak5
+1561,waitau,熬,ngäu4
+1561,hakka,搖,yau2
+1562,waitau,塞,säk2
+1562,hakka,卒,zut5
+1563,waitau,摸,mo2
+1563,hakka,摸,mo1
+1564,waitau,揀,gang2
+1564,hakka,揀,gan3
+1565,waitau,攝,säp2
+1565,waitau,掖,yap6
+1565,hakka,攝,ngiap5
+1566,waitau,捽,zäk2
+1566,hakka,捽,zut6
+1567,waitau,捽,zäk2
+1567,hakka,捽,zut6
+1568,waitau,拍,pæk2
+1568,hakka,拍,pak5
+1569,waitau,揼,däm2
+1569,waitau,擗,pek2
+1569,hakka,橫,vang4
+1570,waitau,賴,lai6
+1570,hakka,跌,diet5
+1571,waitau,揼,däm2
+1571,waitau,劈,pek2
+1571,hakka,拂,fit5
+1572,waitau,揈,fäng6
+1572,waitau,甩,läk2
+1572,hakka,揈,vin4
+1573,waitau,揼,däm2
+1573,hakka,拂,fit5
+1573,hakka,掟,dang1
+1574,waitau,擘,mæk2
+1574,hakka,強,kiong1
+1575,waitau,撓,ngäu1
+1575,hakka,扡,ya3
+1576,waitau,攬,lam2
+1576,hakka,攬,lam3
+1577,waitau,撐,cæng1
+1577,hakka,托,tok5
+1578,waitau,捧,bung2
+1578,hakka,捧,bung3
+1579,waitau,揞,äm2
+1579,hakka,揞,em1
+1580,waitau,屏,beng1
+1580,hakka,屏,biang4
+1581,waitau,壅,ung1
+1581,hakka,壅,vung1
+1582,waitau,鑿,zok6
+1582,waitau,搉,gok2
+1582,hakka,拍,pok5
+1583,waitau,扣,käu1
+1583,hakka,搭,dap5
+1584,waitau,冚,käm2
+1584,hakka,拌,pan1
+1585,waitau,綁,bong2
+1585,hakka,綁,bong3
+1585,hakka,繫,gai1
+1586,waitau,抹,mak2
+1586,hakka,捽,zut6
+1587,waitau,擦,cæk2
+1587,hakka,擦,cat5
+1588,waitau,戽,fu1
+1588,hakka,戽,fu4
+1589,waitau,托,tok2
+1589,hakka,托,tok5
+1590,waitau,耷,däp6
+1590,hakka,耷,dep6
+1591,waitau,拂,fik2
+1591,waitau,揈,fäng6
+1591,hakka,拂,fit6
+1592,waitau,撐,cæng1
+1592,hakka,頂,din3
+1593,waitau,裹,gwo2
+1593,waitau,包,bau1
+1593,hakka,裹,go3
+1594,waitau,冧,läm6
+1594,hakka,層,cen4
+1595,waitau,筒,tung4
+1595,hakka,筒,tung2
+1596,waitau,刮,gwæk2
+1596,hakka,刮,gat5
+1597,waitau,斬,zam2
+1597,hakka,倒,dau3
+1598,waitau,批,päi1
+1598,waitau,磨利,mo4 li6
+1598,hakka,幫,bong1
+1599,waitau,挖,wæk2
+1599,hakka,扒,pa2
+1599,hakka,撩,liau1
+1600,waitau,挑,tiu1
+1600,hakka,挑,tiau1
+1601,waitau,厾,duk2
+1601,waitau,拮,gäk2
+1601,hakka,厾,duk5
+1602,waitau,削,sök2
+1602,hakka,削,siok5
+1603,waitau,紮,zæk2
+1603,hakka,綁,bong3
+1604,waitau,紮,zæk2
+1604,hakka,綁,bong3
+1604,hakka,綯,tau2
+1605,waitau,捉,zuk2
+1605,hakka,捉,zuk5
+1606,waitau,紮,zæk2
+1606,hakka,綁,bong3
+1607,waitau,濾,lü6
+1607,hakka,隔渣,gak5 za1
+1608,waitau,潷,bäk2
+1608,hakka,泌,bi4
+1609,waitau,攪,gau2
+1609,hakka,攪,gau3
+1610,waitau,撈,läu1
+1610,hakka,淘,tau2
+1611,waitau,塱,long1
+1611,hakka,墊,siap5
+1612,waitau,掃,säu1
+1612,hakka,拍,pok5
+1613,waitau,揈,fäng6
+1613,hakka,揈,vin4
+1614,waitau,沖,cung1
+1614,hakka,沖,cung1
+1615,waitau,倒,däu2
+1615,hakka,順,sun4
+1616,waitau,抄,cau1
+1616,hakka,抄,cau4
+1617,waitau,捅,tung2
+1617,hakka,樋,dung3
+1618,waitau,挑,tiu2
+1618,hakka,撩,tiau1
+1619,waitau,掖,yap6
+1619,hakka,掖,yap6
+1620,waitau,捼,no4
+1620,hakka,捼,lo2
+1621,waitau,捧,pung2
+1621,hakka,捧,bung3
+1622,waitau,磧,zæk2
+1622,hakka,磧,zak5
+1623,waitau,戙,dung6
+1623,hakka,豎,su4
+1624,waitau,冚,käm2
+1624,hakka,冚,kiem2
+1625,waitau,挖,wæk2
+1625,hakka,扣,keu4
+1625,hakka,挖,vet5
+1626,waitau,捋,lük2
+1626,hakka,捋,lot6
+1627,waitau,攝,yip2
+1627,hakka,攝,ngiap6
+1628,waitau,執,zäp2
+1628,hakka,執,zep5
+1629,waitau,忽,fäk2
+1629,hakka,舀,yau3
+1630,waitau,側,zäk2
+1630,hakka,側,zet5
+1631,waitau,搬,bung1
+1631,hakka,搬,ban1
+1632,waitau,徛,ki1
+1632,hakka,徛,ki1
+1633,waitau,屹,ngäk2
+1633,hakka,蹬,diam4
+1634,waitau,貓,mäu2
+1634,waitau,保頭,bäu2 täu4
+1634,hakka,踞,kiu2
+1635,waitau,踩,cai2
+1635,hakka,踩,cai3
+1636,waitau,踢,tek2
+1636,hakka,踢,tiak5
+1637,waitau,行,hæng4
+1637,hakka,行,hang2
+1638,waitau,走,zäu2
+1638,hakka,走,zeu3
+1639,waitau,纜,lam1
+1639,hakka,吖,ap6
+1640,waitau,跳,tiu1
+1640,hakka,跳,tiau4
+1641,waitau,伏,buk6
+1641,hakka,覆,puk5
+1642,waitau,抌,däm6
+1642,hakka,抌,dem3
+1643,waitau,戽,fu1
+1643,hakka,抌,dem3
+1644,waitau,抌,däm6
+1644,waitau,踩,cai2
+1644,hakka,踩,cai3
+1645,waitau,迓,nga6
+1645,hakka,擘,mak5
+1646,waitau,砑,a1
+1646,waitau,梗,gwæng1
+1646,hakka,徑,gang4
+1647,waitau,仆,puk2
+1647,hakka,跌倒,det5 dau3
+1648,waitau,上來,söng1 löi4
+1648,hakka,上來,song1 loi2
+1649,waitau,落去,lok6 hü1
+1649,hakka,下去,ha1 hi4
+1650,waitau,追,zöi1
+1650,hakka,逐,diak5
+1651,waitau,攔,læng4
+1651,hakka,攔,lan2
+1652,waitau,背,bi1
+1652,waitau,孭,me2
+1652,hakka,孭,ba2
+1653,waitau,孭,me2
+1653,hakka,托,tok5
+1654,waitau,抬,töi4
+1654,hakka,抬,toi2
+1654,hakka,擔,dam1
+1655,waitau,擔,dam1
+1655,hakka,擔,dam1
+1655,hakka,㧡,kai1
+1656,waitau,憑,bäng6
+1656,hakka,憑,pen4
+1657,waitau,挨,ai1
+1657,hakka,嗻,zak5
+1658,waitau,搵,wäng2
+1658,hakka,尋,cim2
+1659,waitau,唔見,m4 ging1
+1659,hakka,跌,diet5
+1660,waitau,跣,sing2
+1660,hakka,溜,liu1
+1661,waitau,跌,dik2
+1661,hakka,跌,diet5
+1662,waitau,唧,cik2
+1662,hakka,射,sa4
+1663,waitau,磨,mo4
+1663,hakka,磨,mo4
+1664,waitau,櫼,zim1
+1664,hakka,櫼,ziam1
+1665,waitau,浮,pu4
+1665,hakka,浮,feu2
+1666,waitau,跌,dik2
+1666,waitau,墜,zöi1
+1666,hakka,墜,diet5
+1667,waitau,翹,hiu1
+1667,hakka,翹,hiau4
+1668,waitau,浸死,zäm1 si2
+1668,hakka,浸死,zim4 si3
+1669,waitau,擋,dong2
+1669,hakka,擋,dong3
+1670,waitau,屈路,wäk2 lu6
+1670,waitau,兜路,däu2 lu6
+1670,hakka,繞,van1
+1671,waitau,氹氹轉,täm4 täm4 züng2
+1671,hakka,丁,din1
+1672,waitau,搬,bung1
+1672,hakka,搬,pan1
+1673,waitau,頂,däng2
+1673,waitau,捱,ngai4
+1673,hakka,頂,din3
+1674,waitau,攪,gau1
+1674,waitau,摻,zam1
+1674,hakka,撈,lau1
+1675,waitau,研,ngang4
+1675,hakka,研,ngan2
+1676,waitau,毒,däu6
+1676,hakka,毒,teu4
+1677,waitau,調換,diu6 wung6
+1677,waitau,調轉,diu4 züng2
+1677,hakka,換,von4
+1677,hakka,交,gau4
+1678,waitau,輪流,läng4 läu2
+1678,waitau,輪住,läng4 zü6
+1678,hakka,輪流,lun2 liu2
+1679,waitau,屏,beng1
+1679,waitau,屏埋,beng1 mai4
+1679,hakka,屏,biang4
+1680,waitau,詐,za1
+1680,hakka,詐,za4
+1681,waitau,縱,zung1
+1681,waitau,慣,gwæng1
+1681,hakka,縱壞,zung3 fai4
+1682,waitau,醃眼,yip2 ngæng1
+1682,hakka,薰,hiun1
+1683,waitau,濁,zuk6
+1683,hakka,濁,cuk6
+1684,waitau,濁,cuk2
+1684,hakka,濁,gang3
+1685,waitau,凹,näp2
+1685,hakka,凹,ngiap5
+1686,waitau,凸,däk6
+1686,hakka,凸,tut6
+1687,waitau,知,di1
+1687,hakka,知,di1
+1688,waitau,曉,hiu2
+1688,waitau,識,säk2
+1688,hakka,曉,hiau3
+1688,hakka,識,sit5
+1689,waitau,識,säk2
+1689,hakka,識,sit5
+1690,waitau,以為,yi1 wäi4
+1690,hakka,恅過,lau1 go4
+1691,waitau,覺得,gok2 däk2
+1691,hakka,覺得,gok5 det5
+1692,waitau,估,gu2
+1692,hakka,估,gu3
+1693,waitau,掛,kwa1
+1693,waitau,掛住,kwa1 zü6
+1693,hakka,記掛,gi4 ga4
+1694,waitau,擔心,dam1 säm1
+1694,waitau,愁心,cäu1 säm1
+1694,hakka,愁,seu2
+1695,waitau,怒氣,nu6 hi1
+1695,waitau,發火,fæk2 fo2
+1695,waitau,谷氣,guk2 hi1
+1695,hakka,發火,fat5 fo3
+1696,waitau,委屈,wäi2 wäk2
+1696,hakka,冤枉,yen1 vong3
+1697,waitau,惶,kong4
+1697,hakka,惶,kong2
+1698,waitau,小心,siu2 säm1
+1698,hakka,小心,siau3 sim1
+1699,waitau,睇住,täi2 zü6
+1699,hakka,惶到,kong2 dau4
+1700,waitau,諗起,näm2 hi2
+1700,hakka,想起,siong3 hi3
+1701,waitau,情願,cäng4 yüng6
+1701,waitau,寧願,näng4 yüng2
+1701,hakka,甘願,gam1 ngien4
+1702,waitau,中意,zung1 yi1
+1702,hakka,中意,zung1 yi4
+1703,waitau,唔中意,m4 zung1 yi1
+1703,hakka,惱,lau1
+1704,waitau,眼紅,ngang1 hung4
+1704,waitau,眼赤,ngang1 ce2
+1704,hakka,眼紅,ngan3 fung2
+1704,hakka,眼熱,ngan3 ngiet6
+1705,waitau,惜,sek2
+1705,waitau,緊,gäng2
+1705,hakka,惜,siak5
+1706,waitau,發火,fæk2 fo2
+1706,hakka,發火,fat5 fo3
+1707,waitau,惶,kong4
+1707,waitau,驚,geng1
+1707,hakka,惶,kong2
+1708,waitau,煩,fæng4
+1708,waitau,心煩,säm1 fæng4
+1708,hakka,煩,fan2
+1709,waitau,得戚,däk2 cäk2
+1709,hakka,興,hin3
+1710,waitau,唔記得,m4 gi1 däk2
+1710,hakka,添忘,tiam1 mong4
+1711,waitau,怨,yüng2
+1711,waitau,埋怨,mai4 yüng2
+1711,hakka,怨,yen4
+1712,waitau,信,säng1
+1712,hakka,信,sin4
+1713,waitau,思疑,wai4 yi4
+1713,hakka,懷疑,fai2 ngi2
+1714,waitau,嫌,yim4
+1714,hakka,嫌,hiam2
+1715,waitau,勸,hüng1
+1715,hakka,勸,kien4
+1716,waitau,傷心,söng1 sam2
+1716,hakka,傷心,song1 sim1
+1717,waitau,高興,gäu1 häng1
+1717,hakka,興,hin3
+1718,waitau,唔捨得,m4 se2 däk2
+1718,waitau,心痛,säm1 dung1
+1718,hakka,唔捨得,m1 sa3 det5
+1719,waitau,靜,zäng6
+1719,hakka,靜,cin4
+1720,waitau,陰涼,yäm1 löng4
+1720,hakka,陰涼,yim1 liong2
+1721,waitau,好過,häu2 gwo1
+1721,hakka,輕鬆,kiang1 sung1
+1722,waitau,攰,gwöi6
+1722,hakka,攰,kioi4
+1723,waitau,晟眼,cang4 ngang1
+1723,hakka,射眼,sa4 ngan3
+1723,hakka,晟眼,cang2 ngan3
+1724,waitau,攻鼻,gung1 bi6
+1724,hakka,濁鼻,kuk6 pi4
+1725,waitau,刺耳,ci1 yi1
+1725,hakka,振耳,zin3 ngi3
+1726,waitau,夾腳,gap6 gök2
+1726,hakka,恒,hen2
+1727,waitau,窄,zæk2
+1727,hakka,狹,kiap6
+1728,waitau,痛,tung1
+1728,hakka,痛,tung4
+1729,waitau,焫,næk2
+1729,hakka,燒,sau1
+1730,waitau,肥膩,fi4 ni6
+1730,hakka,膩,li4
+1731,waitau,癢,yöng1
+1731,waitau,痎,hai4
+1731,hakka,痎,hoi2
+1732,waitau,翳焗,ngäi1 kuk6
+1732,hakka,焗,guk6
+1733,waitau,扽,däng1
+1733,hakka,拋,pau1
+1734,waitau,刺,cek2
+1734,hakka,凍,dung4
+1734,hakka,冷,lang1
+1735,waitau,拮肉,gäk2 yuk6
+1735,hakka,厾,duk5
+1736,waitau,塱,long1
+1736,hakka,埂,yin4
+1737,waitau,嗱,na2
+1737,hakka,刺,yap5
+1738,waitau,長,cöng4
+1738,hakka,長,cong2
+1739,waitau,短,düng2
+1739,hakka,短,don3
+1740,waitau,矮,ai2
+1740,hakka,矮,ai3
+1741,waitau,闊,fuk2
+1741,hakka,闊,fat5
+1742,waitau,窄,zæk2
+1742,hakka,狹,kiap6
+1743,waitau,新,säng1
+1743,hakka,新,sin1
+1744,waitau,爛,læng6
+1744,hakka,爛,lan4
+1745,waitau,辣,læk6
+1745,hakka,辣,lat6
+1746,waitau,面,ming4
+1746,hakka,面,mien4
+1747,waitau,鹹,ham4
+1747,hakka,鹹,ham2
+1748,waitau,澀,gip2
+1748,hakka,澀,giap5
+1749,waitau,淡,tam1
+1749,hakka,淡,tam1
+1750,waitau,濃,nung4
+1750,waitau,濃,yung4
+1750,hakka,濃,ngiung2
+1751,waitau,淡,tam1
+1751,hakka,淡,tam1
+1752,waitau,結,gik2
+1752,hakka,稠,leu2
+1753,waitau,稀,hi1
+1753,hakka,鮮,sien1
+1754,waitau,圓,yüng4
+1754,waitau,圓揼朵,yüng4 däm4 dö4
+1754,hakka,圓,yen2
+1755,waitau,扁,bing2
+1755,hakka,扁,bien3
+1756,waitau,濁,zuk6
+1756,hakka,渾,vun2
+1757,waitau,清,cäng1
+1757,hakka,鮮,sien1
+1758,waitau,黑,häk2
+1758,hakka,暗,am4
+1759,waitau,大,dai6
+1759,hakka,大,tai4
+1760,waitau,細,säi1
+1760,hakka,細,se4
+1761,waitau,快,fai1
+1761,waitau,利,li6
+1761,hakka,快,kai4
+1762,waitau,生,sæng1
+1762,hakka,生,sang1
+1763,waitau,蠢,cäng2
+1763,hakka,蠢,cun3
+1764,waitau,生,sæng1
+1764,hakka,生,sang1
+1765,waitau,熟,suk6
+1765,hakka,過核,go4 fut6
+1766,waitau,亂,lüng6
+1766,hakka,亂,lon4
+1767,waitau,穩,wäng2
+1767,waitau,穩陣,wäng2 zäng6
+1767,hakka,穩,vun3
+1768,waitau,歪,me2
+1768,hakka,爻,ngau2
+1769,waitau,密,mäk6
+1769,waitau,密麻麻,mäk6 ma4 ma4
+1769,hakka,密,mit6
+1770,waitau,疏,so1
+1770,hakka,落,lau4
+1771,waitau,厲害,li6 fui6
+1771,waitau,勁,käng1
+1771,waitau,勁,gäng1
+1771,waitau,濃,yung4
+1771,hakka,濃,ngiung2
+1772,waitau,腍,näm4
+1772,hakka,轉潤,zon3 cau2
+1773,waitau,差,ca1
+1773,waitau,跩,yäi4
+1773,hakka,差,ca1
+1773,hakka,唄,bia3
+1774,waitau,脆,cöi1
+1774,hakka,酥,su1
+1775,waitau,斜,ce1
+1775,waitau,歪,me2
+1775,hakka,崎,ki1
+1776,waitau,硬淨,ngæng6 zæng6
+1776,hakka,主固,zu3 gu4
+1777,waitau,大隻,dai6 zek2
+1777,hakka,結實,giet5 sit6
+1778,waitau,側,zäk2
+1778,waitau,乜,me2
+1778,hakka,側,zet5
+1779,waitau,搖,yiu4
+1779,hakka,搖,yau2
+1780,waitau,凹,nip2
+1780,hakka,凹,ngiap5
+1781,waitau,潮,ciu4
+1781,hakka,回南,fui2 lam2
+1782,waitau,旺,wong6
+1782,hakka,旺,vong4
+1783,waitau,靜,zäng6
+1783,hakka,冷清,lang1 cin1
+1783,hakka,靜,cin4
+1784,waitau,伶俐,läng4 li6
+1784,hakka,伶俐,lang2 li4
+1785,waitau,邋遢,læk6 täk2
+1785,waitau,骯屎,äng2 si2
+1785,hakka,漚漏,eu4 leu4
+1785,hakka,累贅,lui4 zui4
+1785,hakka,囉嗦,lo4 so4
+1786,waitau,煩,fæng4
+1786,waitau,麻煩,ma4 fæng4
+1786,hakka,麻煩,ma2 fan2
+1786,hakka,難搞,lan2 gau3
+1787,waitau,容易,yung4 yi6
+1787,hakka,快,kai4
+1787,hakka,容易,yung2 yi4
+1788,waitau,直,zäk6
+1788,hakka,直,cit6
+1789,waitau,好直,häu2 zäk6
+1789,waitau,直筆甩,zäk6 bäk2 läk2
+1789,hakka,筆直,bit5 zit6
+1790,waitau,粗,cu1
+1790,hakka,粗,cu1
+1791,waitau,好粗,häu2 cu1
+1791,hakka,好粗,hau3 cu1
+1792,waitau,幼,yäu1
+1792,hakka,幼,yiu4
+1793,waitau,好幼,häu2 yäu1
+1793,hakka,好幼,hau3 yiu4
+1794,waitau,滿,mung1
+1794,hakka,滿,mun1
+1795,waitau,好滿,häu2 mung1
+1795,hakka,滿卒卒,man1 zut5 zut5
+1796,waitau,拼,päng2
+1796,hakka,笨,pun1
+1797,waitau,好拼,häu2 päng1
+1797,hakka,笨繳繳,pun1 giau2 giau2
+1798,waitau,薄,bok6
+1798,hakka,薄,pok6
+1799,waitau,好薄,häu2 bok6
+1799,hakka,薄翼翼,pok6 yit6 yit6
+1800,waitau,皓,hau6
+1800,hakka,光,gong1
+1801,waitau,好皓,häu2 hau6
+1801,hakka,光華華,gong1 va2 va2
+1802,waitau,腥,seng1
+1802,hakka,腥,siang1
+1803,waitau,臭腥,cäu1 seng1
+1803,hakka,腥瘟瘟,siang1 vin1 vin1
+1804,waitau,嫩,nüng6
+1804,hakka,嫩,lun4
+1805,waitau,好嫩,häu2 nüng6
+1805,hakka,嫩術術,lun4 sut6 sut6
+1806,waitau,腍,näm4
+1806,hakka,爛,lan4
+1807,waitau,好腍,häu2 näm4
+1807,hakka,爛綿綿,lan4 mien4 lan4
+1808,waitau,痛,tung1
+1808,hakka,痛,tung4
+1809,waitau,好痛,häu2 tung1
+1809,hakka,生痛,sang3 tung4
+1810,waitau,高,gäu1
+1810,hakka,高,gau1
+1811,waitau,矮,ai2
+1811,hakka,矮,ai3
+1812,waitau,矮耷耷,äi2 däp2 däp2
+1812,hakka,矮耷耷,ai3 dep6 dep6
+1813,waitau,肭,näp2
+1813,waitau,肥,fi4
+1813,hakka,肥,pui2
+1813,hakka,肭,lep5
+1814,waitau,肥騰騰,fi4 täng4 täng4
+1814,hakka,肥嘟嘟,pui2 dut5 dut5
+1814,hakka,仂卒卒,lep5 zut5 zut5
+1815,waitau,瘦,säu1
+1815,hakka,瘦,seu4
+1816,waitau,瘦蜢蜢,säu1 mæng2 mæng2
+1816,hakka,痩蜢蜢,seu4 mang1 mang1
+1816,hakka,瘦馬靈鉗,seu4 ma1 liang2 kiang2
+1817,waitau,肭,näp2
+1817,waitau,肥,fi4
+1817,hakka,肥,pui2
+1818,waitau,肥騰騰,fi4 täng4 täng4
+1818,hakka,肥嘟嘟,pui2 dut5 dut5
+1819,waitau,老,lau1
+1819,hakka,老,lau3
+1820,waitau,老壓壓,läu1 ngäk6 ngäk6
+1820,hakka,老麥麥,lau3 mak6 mak6
+1820,hakka,老嚙嚙,lau1 ngat5 ngat5
+1821,waitau,亂,lüng6
+1821,hakka,亂,lon4
+1822,hakka,好亂,hau3 lon4
+1823,waitau,快,fai1
+1823,hakka,快,kai4
+1824,waitau,快脆,fai1 cöi1
+1824,hakka,好快,hau3 kai4
+1825,waitau,慢,mæng6
+1825,hakka,慢,man4
+1826,waitau,慢吞吞,mæng6 täng4 täng4
+1826,hakka,慢吞吞,man4 tun1 tun1
+1827,waitau,快,fai1
+1827,hakka,快,kai4
+1828,waitau,好利,häu2 li6
+1828,hakka,好快,hau3 kai4
+1829,waitau,焫,nak2
+1829,hakka,燒,sau1
+1830,waitau,熱,ngik6
+1830,hakka,好燒,hau3 sau1
+1831,waitau,熱辣辣,yik6 læk6 læk6
+1831,hakka,燒焓焓,sau1 hem2 hem2
+1832,waitau,凍,dung1
+1832,waitau,冷,læng1
+1832,hakka,冷,lang1
+1833,waitau,凍赤赤,dung1 zek2 zek2
+1833,hakka,好冷,hau3 lang1
+1834,waitau,凍喋喋,dung1 tik2 tik2
+1834,hakka,冷挖挖,lang1 vat5 vat5
+1835,waitau,焫,næk2
+1835,hakka,淥,luk6
+1836,hakka,沸淥淥,bui4 luk6 luk6
+1837,waitau,紅,hung4
+1837,hakka,紅,fung2
+1838,waitau,鮮紅,sing1 hung4
+1838,hakka,烔紅,dung4 fung2
+1839,waitau,紅當當,hung4 dong2 dong1
+1839,hakka,紅淮淮,fung2 fai1 fai1
+1840,waitau,黃,wong4
+1840,hakka,黃,vong2
+1841,waitau,黃,wong4
+1841,hakka,好黃,hau3 vong2
+1842,waitau,黃金金,wong4 gäm4 gäm4
+1842,hakka,黃貢貢,vong2 gung4 gung4
+1843,waitau,青,ceng1
+1843,hakka,青,ciang1
+1844,waitau,青綠,ceng1 luk6
+1844,hakka,好青,hau3 ciang1
+1845,waitau,青比比,ceng1 bi2 bi2
+1846,waitau,白,bæk6
+1846,hakka,白,pak6
+1847,hakka,雪白,sut6 pak6
+1848,waitau,白嗮嗮,bæk6 sai1 sai1
+1848,waitau,白吞吞,bæk6 täng1 täng1
+1848,waitau,白雪雪,bæk6 sük2 sük2
+1848,hakka,白雪雪,pak6 sut6 sut6
+1849,waitau,黑,häk2
+1849,hakka,烏,vu1
+1850,hakka,黷烏,du4 vu1
+1851,waitau,黑聞聞,häk2 mäng4 mäng4
+1851,hakka,烏黷黷,vu1 du4 du4
+1851,hakka,烏矂矂,vu1 sau1 sau1
+1852,waitau,酸,süng1
+1852,hakka,酸,son1
+1853,hakka,好酸,hau3 son1
+1854,waitau,酸咪咪,süng1 mi2 mi2
+1854,hakka,酸丟丟,son1 diu2 diu2
+1855,waitau,甜,tim4
+1855,hakka,甜,tiam2
+1856,hakka,鮮甜,sien1 tiam2
+1857,waitau,甜耶耶,tim4 yai4 yai4
+1857,hakka,甜津津,tiam2 zin1 zin1
+1858,waitau,苦,fu2
+1858,hakka,苦,fu3
+1859,hakka,好苦,hau3 fu3
+1860,hakka,苦丟丟,fu3 diu1 diu1
+1861,waitau,香,höng1
+1861,hakka,香,hiong1
+1862,hakka,噴香,pun4 hiong1
+1863,waitau,香噴噴,höng2 päng1 päng1
+1863,hakka,香噴噴,hiong1 pun4 pun4
+1864,waitau,臭,cäu1
+1864,hakka,臭,ciu4
+1865,waitau,臭脝,cäu1 häng2
+1865,hakka,臭脝,ceu4 hen1
+1866,hakka,臭垠臭蟹,ciu4 hien1 ciu4 hai3
+1867,waitau,臭臊,cäu1 ou1
+1867,hakka,脝,hen1
+1868,hakka,好臭脝,hau3 ceu4 hen1
+1869,hakka,爛臭垠,lan4 ciu4 hien1
+1870,waitau,滑,wæk6
+1870,hakka,滑,vat6
+1871,hakka,好滑,hau3 vat6
+1872,waitau,滑溜溜,wæk6 lük2 lük2
+1872,waitau,滑潺潺,wæk6 sang2 sang2
+1872,hakka,滑律律,vat6 lut6 lut6
+1873,waitau,重,cung1
+1873,hakka,重,cung1
+1874,hakka,好重,hau3 cung1
+1875,waitau,重沉沉,cung1 däm4 däm4
+1875,hakka,重墜墜,cung1 dem2 dem2
+1876,waitau,輕,heng1
+1876,hakka,輕,kiang1
+1877,hakka,好輕,hau3 kiang1
+1878,waitau,輕青青,heng1 ceng4 ceng4
+1878,hakka,輕匹匹,kiang1 pit6 pit6
+1879,waitau,燥,zau1
+1879,hakka,燥,zau1
+1880,waitau,燥乾,zau1 gwung1
+1880,hakka,好燥,hau3 zau1
+1881,waitau,乾,gwung1
+1881,hakka,燥麥麥,zau1 mak6 mak6
+1882,waitau,濕,säp2
+1882,hakka,濕,sip5
+1883,hakka,好濕,hau3 sip5
+1884,waitau,濕吶吶,säp2 näp6 näp6
+1884,hakka,濕荅荅,sip5 dap5 dap5
+1885,waitau,硬,ngang6
+1885,hakka,硬,ngang4
+1886,hakka,好硬,hau3 ngang4
+1887,waitau,硬轟轟,ngang6 gwäng4 gwäng4
+1887,hakka,硬角角,ngang4 gok6 gok6
+1888,waitau,軟,yüng1
+1888,hakka,軟,ngion1
+1889,hakka,好軟,hau3 ngion1
+1890,waitau,軟腍腍,yüng1 näm4 näm4
+1890,hakka,軟入入,ngion1 ngip6 ngip6
+1890,hakka,軟泥泥,ngion1 lai2 lai2
+1891,waitau,光滑,gwong6 wak6
+1891,hakka,滑,vat6
+1892,hakka,好光滑,hau3 gong1 vat6
+1893,waitau,滑律律,wak6 lük2 lük2
+1893,hakka,滑律律,vat6 lut6 lut6
+1894,waitau,一,yäk2
+1894,hakka,一,yit5
+1895,waitau,二,ngi6
+1895,hakka,二,ngi4
+1896,waitau,三,sam1
+1896,hakka,三,sam1
+1897,waitau,四,si1
+1897,hakka,四,si4
+1898,waitau,五,ng1
+1898,hakka,五,ng3
+1899,waitau,六,luk6
+1899,hakka,六,luk6
+1900,waitau,七,cäk2
+1900,hakka,七,cit5
+1901,waitau,八,bæk2
+1901,hakka,八,bat5
+1902,waitau,九,gäu2
+1902,hakka,九,giu3
+1903,waitau,十,säp6
+1903,hakka,十,sip6
+1904,waitau,十五,säp6 ng1
+1904,hakka,十五,sip6 ng3
+1905,waitau,二十二,ngi6 säp6 ngi6
+1905,waitau,廿二,ngip6 ngi6
+1905,hakka,廿二,ngip6 ngi4
+1906,waitau,三十三,sam1 säp6 sam1
+1906,hakka,卅三,sa1 sam1
+1906,hakka,三十三,sam1 sip6 sam1
+1907,waitau,百一,bæk2 yäk2
+1907,hakka,百一,bak5 yit5
+1908,waitau,一百一十一,yäk2 bæk2 yäk2 säp6 yäk2
+1908,hakka,一百一十一,yit5 bak5 yit5 sip6 yit5
+1909,waitau,二百五,ngi6 bæk2 ng1
+1909,hakka,兩百五,liong3 bak5 ng1
+1910,waitau,三四個人,sam6 si6 go1 yäng4
+1910,hakka,三四隻人,sam1 si4 zak5 ngin2
+1911,waitau,十幾個,säp6 gi2 go1
+1911,hakka,十零隻,sip6 lang2 zak5
+1912,waitau,成個,seng4 go1
+1912,hakka,渾隻,von2 zak5
+1913,waitau,兩斤,löng1 gäng1
+1913,hakka,兩斤,liong3 gin1
+1914,waitau,二兩,ngi6 löng2
+1914,hakka,兩兩,liong3 liong1
+1915,waitau,兩斤二,löng1 gäng1 ngi6
+1915,hakka,兩斤兩兩,liong3 gin1 liong3 liong1
+1915,hakka,兩斤二兩,liong3 gin1 ngi4 liong1
+1916,waitau,兩尺,löng1 cek2
+1916,hakka,兩尺,liong3 cak5
+1917,waitau,斤半,gäng1 bung1
+1917,hakka,斤半,gin1 ban4
+1918,waitau,個,go1
+1918,hakka,隻,zak5
+1919,waitau,隻,zek2
+1919,hakka,隻,zak5
+1920,waitau,隻,zek2
+1920,hakka,條,tiau2
+1921,waitau,朵,dö2
+1921,hakka,朵,do3
+1922,waitau,條,tiu4
+1922,hakka,條,tiau2
+1923,waitau,隻,zek2
+1923,hakka,條,tiau2
+1924,waitau,匹,päk2
+1924,hakka,隻,zak5
+1925,waitau,隻,zek2
+1925,hakka,條,tiau2
+1926,waitau,條,tiu4
+1926,hakka,條,tiau2
+1927,waitau,棵,po1
+1927,waitau,兜,däu1
+1927,hakka,棵,po1
+1928,waitau,堆,döi1
+1928,waitau,兜,däu1
+1928,hakka,堆,doi1
+1929,waitau,餐,cæng1
+1929,hakka,餐,con1
+1930,waitau,支,zi1
+1930,hakka,條,tiau2
+1931,waitau,件,ging6
+1931,hakka,件,kien3
+1932,waitau,套,täu1
+1932,hakka,身,sin1
+1933,waitau,對,döi1
+1933,hakka,對,dui4
+1933,hakka,雙,sung1
+1934,waitau,張,zöng1
+1934,waitau,番,fæng1
+1934,hakka,番,fon1
+1935,waitau,張,zöng1
+1935,waitau,頂,deng2
+1935,hakka,頂,dang3
+1936,waitau,柄,beng1
+1936,waitau,把,ba2
+1936,hakka,張,cong1
+1937,waitau,間,gang1
+1937,hakka,間,gan1
+1938,waitau,個,go1
+1938,hakka,隻,zak5
+1939,waitau,個,go1
+1939,hakka,隻,zak5
+1940,waitau,架,ga1
+1940,hakka,架,ga4
+1941,waitau,隻,zek2
+1941,hakka,條,tiau2
+1942,waitau,件,ging6
+1942,hakka,件,kien4
+1943,waitau,班,bang1
+1943,hakka,班,ban1
+1944,waitau,疊,dap6
+1944,hakka,疊,tiap6
+1945,waitau,兜,däu1
+1945,waitau,殼,hok2
+1945,hakka,捧,bung3
+1946,waitau,扣,käu1
+1946,waitau,抽,cäu1
+1946,hakka,桍,ka3
+1947,waitau,啖,dam6
+1947,hakka,啖,tam4
+1947,hakka,口,heu3
+1948,waitau,樽,zäng1
+1948,hakka,樽,zun1
+1949,waitau,塊,fai1
+1949,hakka,皮,pi2
+1950,waitau,轆,luk2
+1950,hakka,筒,tung2
+1951,waitau,楷,kai2
+1951,hakka,緬,mien3
+1952,waitau,潭,täm1
+1952,hakka,灘,tan1
+1953,waitau,條,tiu4
+1953,hakka,條,tiau2
+1954,waitau,壢,lek6
+1954,hakka,壢,lak6
+1955,waitau,塊,fai1
+1955,hakka,塊,kai4
+1956,waitau,家,ga1
+1956,hakka,家,ga1
+1957,waitau,滴,däk6
+1957,hakka,點,diam3
+1957,hakka,滴,dit5
+1958,waitau,竇,däu1
+1958,hakka,竇,deu4
+1959,waitau,塊,fai1
+1959,hakka,隻,zak5
+1960,waitau,場,cöng4
+1960,hakka,陣,cin4
+1961,waitau,隻,zek2
+1961,hakka,隻,zak5
+1962,waitau,隻,zek2
+1962,hakka,隻,zak5
+1963,waitau,隻,zek2
+1963,hakka,隻,zak5
+1964,waitau,把,ba2
+1964,hakka,把,ba3
+1965,waitau,紮,zæk2
+1965,hakka,把,ba3
+1966,waitau,涿,duk2
+1966,hakka,涿,duk5
+1967,waitau,涿,duk2
+1967,hakka,涿,duk5
+1968,waitau,球,gäu6
+1968,hakka,團,ton2
+1969,waitau,兜,däu2
+1969,hakka,棵,po1
+1970,waitau,堆,döi1
+1970,hakka,堆,doi1
+1971,waitau,服,fuk6
+1971,hakka,服,fuk6
+1972,waitau,一苲長,yäk2 za6 cöng4
+1972,waitau,一抩長,yäk2 ngam1 cöng4
+1972,hakka,拈,ngiam3
+1973,waitau,一抩,yäk2 nam1
+1973,hakka,拈,ngiam3
+1974,waitau,銀錢,ngäng4 cing2
+1974,hakka,塊,kai4
+1975,waitau,毫子,häu4 zi2
+1975,hakka,毫,hau2
+1976,waitau,仙士,sing2 si2
+1976,hakka,分,fun1
+1977,waitau,身,säng1
+1977,hakka,身,sin1
+1977,hakka,餐,con1
+1978,waitau,輪,läng4
+1978,waitau,轉,züng2
+1978,hakka,到,dau4
+1979,waitau,轉,züng2
+1979,hakka,趟,tong4
+1980,waitau,輪,läng4
+1980,hakka,到,dau4
+1981,waitau,我,ngo1
+1981,hakka,厓,ngai2
+1982,waitau,你,ni1
+1982,hakka,你,ngi2
+1983,waitau,佢,kü4
+1983,hakka,佢,gi2
+1984,waitau,我哋,ngo4 di2
+1984,hakka,厓哋,ngai2 di1
+1985,waitau,我哋,ngo4 di2
+1985,hakka,吾兜,nga1 deu1
+1986,waitau,你哋,ni1 yäng4
+1986,waitau,你人,ni1 di6
+1986,hakka,你兜,ngia1 deu1
+1987,waitau,佢哋,kü4 di2
+1987,waitau,佢人,kü2 yäng4
+1987,hakka,佢兜,gia1 deu1
+1988,waitau,邊個,bing2 go2
+1988,waitau,阿誰,a1 söi4
+1988,waitau,哪誰,nai4 söi4
+1988,hakka,哪人,la4 ngin2
+1989,waitau,人囉,yäng4 lo2
+1989,hakka,人家,ngin2 ga1
+1990,waitau,大家,dai6 ga1
+1990,hakka,大齊家,tai4 ci2 ga1
+1991,waitau,自己,zi6 gi2
+1991,hakka,自家,ci2 ga1
+1992,waitau,我嘅,ngo1 ge1
+1992,hakka,吾嘅,nga1 ge4
+1993,waitau,你嘅,ni1 ge1
+1993,hakka,爾嘅,ngia1 ge4
+1994,waitau,佢嘅,kü4 ge1
+1994,hakka,佢嘅,gia1 ge4
+1995,waitau,我哋嘅,ngo4 di2 ge1
+1995,hakka,吾兜嘅,nga1 deu1 ge4
+1995,hakka,厓哋嘅,ngai2 di1 ge4
+1996,waitau,我哋嘅,ngo4 di2 ge1
+1996,hakka,吾兜嘅,nga1 deu1 ge4
+1996,hakka,厓哋嘅,ngai2 di1 ge4
+1997,waitau,你人嘅,ni1 yäng4 ge1
+1997,hakka,你兜嘅,ngia1 deu1 ge4
+1998,waitau,佢人嘅,kü2 yäng4 ge1
+1998,hakka,佢兜咯,gia1 deu1 ge4
+1999,waitau,那誰嘅,nai4 söi4 ge1
+1999,hakka,哪人嘅,la4 ngin2 ge4
+2000,waitau,呢個,ni2 go1
+2000,hakka,這隻,ngia3 zak5
+2001,waitau,嗰個,go2 go1
+2001,hakka,該隻,ai4 zak5
+2002,waitau,選個,süng2 go1
+2002,hakka,哪隻,lai4 zak5
+2003,waitau,呢滴,ni2 di2
+2003,hakka,這兜,ngia3 deu1
+2004,waitau,嗰滴,go2 di2
+2004,hakka,該兜,ai4 deu1
+2005,waitau,邊啲,bing2 di2
+2005,waitau,選啲,süng2 di2
+2005,hakka,哪兜,lai4 deu1
+2006,waitau,一滴,yäk2 di2
+2006,hakka,一滴仔,yit5 dit6 zai3
+2007,waitau,呢頭,nge2 täu4
+2007,hakka,這裏,ngia3 li1
+2007,hakka,這定,ngia3 tang4
+2008,waitau,嗰頭,go2 täu4
+2008,hakka,該裏,ai4 li1
+2008,hakka,該定,ai4 tang4
+2009,waitau,選頭,süng2 täu4
+2009,hakka,哪裏,lai4 li1
+2009,hakka,哪定,lai4 tang4
+2010,waitau,呢邊,ne2 bing6
+2010,hakka,這邊,ngia3 bien1
+2011,waitau,個邊,go2 bing6
+2011,hakka,該邊,ai4 bien1
+2012,waitau,選邊,süng2 bing6
+2012,hakka,哪邊,lai4 bien1
+2013,waitau,咁,gäm1
+2013,hakka,恁,an2
+2014,waitau,咁,gäm1
+2014,hakka,恁,an4
+2015,waitau,咁,gäm1
+2015,hakka,恁樣做,an2 yong4 zo4
+2016,waitau,咁,gäm2
+2016,hakka,恁樣做,an4 yong4 zo4
+2017,waitau,點做,dim2 zu1
+2017,hakka,樣邊做,yong4 bien1 zo4
+2018,waitau,點做,dim2 zu1
+2018,hakka,樣邊搞,yong4 bien1 gau3
+2019,waitau,呢下,ne2 ha1
+2019,hakka,這下,ngia3 ha4
+2020,waitau,嗰陣,go2 zäng2
+2020,hakka,該下,ai4 ha4
+2021,waitau,幾時,gi2 si4
+2021,hakka,哪陣,lai4 cin4
+2021,hakka,幾時,git5 si2
+2022,waitau,幾耐,gi2 nöi2
+2022,hakka,幾久,git5 giu3
+2023,waitau,幾多斤,gi2 do6 gäng1
+2023,hakka,幾多斤,git5 do1 gin1
+2024,waitau,第二頭,däi6 ngi6 täu4
+2024,hakka,第二定,ti4 ngi4 tang4
+2025,waitau,第二滴,däi6 yi6 di2
+2025,hakka,第二兜,ti4 ngi4 deu1
+2026,waitau,四圍,si6 wäi4
+2026,hakka,哪定,lai4 dang4
+2027,waitau,咩嘢,mi2 ya2
+2027,hakka,乜介,mak5 gai4
+2028,waitau,點解,dim2 gai2
+2028,hakka,做乜介,zo4 mak5 gai4
+2029,waitau,上下,söng6 ha6
+2029,hakka,上下,song4 ha4
+2030,waitau,分,fäng6
+2030,hakka,分,fun4
+2031,waitau,啱啱,ngam2 ngam2
+2031,waitau,啱先,ngam2 sing1
+2031,hakka,正,zang4
+2032,waitau,啱,ngam2
+2032,hakka,啱線,ngam1 sien4
+2033,waitau,眨下眼,zam2 ha1 ngang1
+2033,hakka,積聲看去,zit6 sang1 kon4 hi4
+2034,waitau,不留,bäk2 läu2
+2034,hakka,一直,yit5 cit6
+2035,waitau,經常,gäng1 söng4
+2035,hakka,長日,cong2 ngit5
+2036,waitau,緊,gäng2
+2036,hakka,食等,sit6 den3
+2037,waitau,快趣,fai1 cöi1
+2037,hakka,快滴,kai4 dit6
+2038,waitau,成日,seng4 yäk6
+2038,hakka,緊,gin3
+2039,waitau,即刻,zäk2 häk2
+2039,hakka,黏腳,ngiam2 giok5
+2040,waitau,陣間,zäng6 gang2
+2040,hakka,一下子,yit5 ha4 zu3
+2041,waitau,幾,gi2
+2041,hakka,幾,git5
+2042,waitau,最,zöi2
+2042,hakka,最,zui4
+2043,waitau,太過,tai1 gwo1
+2043,hakka,忒過,tet5 go4
+2044,waitau,特別,däk6 bik6
+2044,hakka,特別,tet6 piet6
+2045,waitau,有滴,yäu1 dik2
+2045,waitau,少少,siu2 siu2
+2045,hakka,有滴仔,yiu1 dit6 zai3
+2046,waitau,都,du2
+2046,hakka,都,du1
+2047,waitau,共埋,gung6 mai4
+2047,hakka,共總,kiung4 zung3
+2048,waitau,好彩,hou2 cöi2
+2048,hakka,好彩,hau3 coi3
+2049,waitau,特只,däk6 zi2
+2049,hakka,直登,cit6 dang1
+2050,waitau,橫掂,wæng4 dim6
+2050,hakka,總都,zung3 du1
+2051,waitau,淨係,zeng6 häi6
+2051,hakka,淨,ciang4
+2052,waitau,淨,zeng6
+2052,hakka,正,zang4
+2053,waitau,偏偏,ping1 ping1
+2053,hakka,就係,ciu4 he4
+2054,waitau,惶,kong4
+2054,hakka,惶,kong2
+2055,waitau,一齊,yäk2 cäi4
+2055,hakka,一下,yit5 ha4
+2056,waitau,特只,däk6 zi2
+2056,hakka,直登,cit6 dang1
+2057,waitau,一定,yäk2 däng6
+2057,hakka,一定,yit5 tin4
+2058,waitau,白,bæk6
+2058,hakka,白,pak6
+2059,waitau,唔,m4
+2059,hakka,唔,m1
+2060,waitau,唔係,m4 häi6
+2060,hakka,唔係,m1 he4
+2061,waitau,冇,mau4
+2061,hakka,冇,mau2
+2062,waitau,冇,mau4
+2062,hakka,冇,mau2
+2063,waitau,唔使,m4 säi2
+2063,hakka,唔使,m1 su3
+2064,waitau,唔好,m4 mäu2
+2064,hakka,唔好,m1 hau3
+2065,waitau,重,zung6
+2065,hakka,還,han2
+2066,waitau,忽然間,fäk2 ying4 gæng1
+2066,hakka,陣時間,cin4 si2 gan1
+2067,waitau,愛,wui1
+2067,hakka,愛,oi4
+2068,waitau,搏命,bok2 meng6
+2068,hakka,搏命,bok5 miang4
+2069,waitau,重加,zung6 ga1
+2069,hakka,還過,han2 go4
+2070,waitau,約莫,yök2 mok2
+2070,hakka,大約莫,tai4 yok5 mok5
+2070,hakka,大莫約,tai4 mok5 yok5
+2071,waitau,爭滴,zæng2 dik2
+2071,hakka,爭嘀仔,cang1 dit6 zai3
+2072,waitau,直情,zäk6 cäng4
+2072,hakka,乾脆,gon1 cui4
+2072,hakka,直情,cit6 cin2
+2073,waitau,快,fai1
+2073,hakka,就,ciu4
+2074,waitau,一早,yäk2 zou2
+2074,hakka,加先,ga1 sien1
+2075,waitau,仲係,zung6 häi6
+2075,hakka,還係,han2 he4
+2076,waitau,好似,hou2 ci1
+2076,hakka,好像,hau3 ciong4
+2077,waitau,連隨,ling4 cöi4
+2077,hakka,黏尾,ngiam2 mui1
+2078,waitau,都,du1
+2078,hakka,都,du1
+2079,waitau,獨係,duk6 häi6
+2079,hakka,偏偏,bien1 bien1
+2080,waitau,經已,gäng1 yi1
+2080,hakka,已經,yi3 gin1
+2080,hakka,來嗨里,loi2 hoi1 di1
+2081,waitau,稍為,sau2 wäi4
+2081,hakka,稍為,sau3 vui2
+2082,waitau,幾,gi2
+2082,hakka,幾,git5
+2083,waitau,臨時,läm4 si4
+2083,waitau,臨急,läm4 gäp2
+2083,hakka,臨時,lin2 si2
+2084,waitau,真係,zäng6 häi6
+2084,hakka,真係,zin1 he4
+2085,waitau,先講,sing2 gong2
+2085,hakka,正講,zang2 gong3
+2086,waitau,同,tung4
+2086,hakka,撈,lau1
+2087,waitau,同,tung4
+2087,hakka,撈,lau1
+2088,waitau,話唔定,wa6 m4 däng6
+2088,hakka,或者,fet6 za3
+2089,waitau,只要,zi2 yiu1
+2089,hakka,只要,zik5 yau4
+2090,waitau,淨係,zeng6 häi6
+2090,waitau,剩得,säng6 däk2
+2090,waitau,淨得,zäng6 däk2
+2090,hakka,只有,zik5 yiu1
+2091,waitau,畀,bi2
+2091,hakka,分,bin1
+2092,waitau,同,tung4
+2092,hakka,撈,lau1
+2093,waitau,畀,bi2
+2093,hakka,分,bin1
+2094,waitau,將,zöng1
+2094,hakka,將,ziong1
+2095,waitau,喺,häi2
+2095,hakka,在,coi1
+2096,waitau,由,yäu4
+2096,hakka,由,yiu2
+2097,waitau,由,yäu4
+2097,hakka,適,zak5
+2098,waitau,照樣,ziu1 yöng2
+2098,hakka,照,zau4
+2099,waitau,沿,yüng4
+2099,hakka,沿,yen2
+2100,waitau,幫,bong1
+2100,hakka,幫,bong1
+2100,hakka,撈,lau1
+2101,waitau,問,mäng6
+2101,hakka,撈,lau1
+2101,hakka,向,hiong4
+2102,waitau,向,höng1
+2102,hakka,向,hiong4
+2103,waitau,則小,zäk2 siu2
+2103,waitau,自細,zi6 säi1
+2103,hakka,從細,cung2 se4
+2104,waitau,在,cöi1
+2104,hakka,在,coi1
+2105,waitau,除,cü4
+2105,hakka,除嗨,cu2 hoi1
+2106,waitau,由,yäu4
+2106,waitau,由得,yäu4 däk2
+2106,hakka,等,den3
+2107,waitau,搵,wäng2
+2107,hakka,用,yung4
+2108,waitau,到,däu1
+2108,hakka,到,dau4
+2109,waitau,比,bi2
+2109,hakka,比,bi3
+2110,waitau,餓到死咯,ngo6 däu1 si2 lo1
+2110,hakka,餓死咯,ngo4 si3 lo3
+2111,waitau,餓死嘅,ngo6 si2 ge1
+2111,hakka,餓死嗨,ngo4 si3 hoi1
+2112,waitau,冷死咯,læng1 si2 lo1
+2112,waitau,冷到死,læng1 däu1 si2
+2112,hakka,冷死咯,lang1 si3 lo3
+2113,waitau,冷死嘅,læng1 si2 ge1
+2113,hakka,冷死嗨,lang1 si3 hoi1
+2114,waitau,攰死咯,gwui6 si2 lo1
+2114,waitau,攰到死,gwui6 däu1 si2
+2114,hakka,攰死咯,kioi4 si3 lo3
+2115,waitau,攰死嘅,gwui6 si2 ge1
+2115,hakka,攰死嗨,kioi4 si3 hoi1
+2116,waitau,磧死咯,zak2 si2 lo1
+2116,hakka,磧死咯,zak5 si3 lo3
+2117,waitau,磧死嘅,zæk2 si2 ge1
+2117,hakka,磧死嗨,zak5 si3 hoi1
+2118,waitau,咬死咯,ngau1 si2 lo1
+2118,waitau,咬到死,ngau1 däu1 si2
+2118,hakka,叼死咯,diu1 si3 lo3
+2119,waitau,咬死嘅,ngau1 si2 ge1
+2119,hakka,叼死嗨,diau1 si3 hoi1
+2120,waitau,高興死咯,gäu1 häng1 si2 lo1
+2120,waitau,高興到死,gäu1 häng1 däu1 si2
+2120,hakka,興死咯,hin3 si3 lo3
+2121,waitau,抄勻,cau1 wäng4
+2121,hakka,尋交轉,cim2 gau1 zon3
+2122,waitau,講好,gong2 häu2
+2122,waitau,講掂,gong2 dim6
+2122,hakka,講好嗨里,gong3 hau3 hoi1 di1
+2123,waitau,做完,zou1 yüng4
+2123,hakka,做秋嗨,zo4 ciu1 hoi1
+2124,waitau,唔見,m4 ging1
+2124,hakka,唔見嗨,m1 gien4 hoi1
+2125,waitau,辣得滯,næk6 däk2 zäi6
+2125,waitau,辣過頭,næk6 gwo1 täu4
+2125,hakka,辣死人咯,lat6 si3 ngin4 lo3
+2125,hakka,辣過頭咯,lat6 go4 teu1 lo3
+2126,waitau,爛囉,læng6 lo6
+2126,hakka,爛嗨,lan4 hoi1
+2127,waitau,睇唔見,täi2 m4 ging1
+2127,waitau,睇唔到,täi2 m4 dau2
+2127,hakka,看唔倒,kon4 m1 dau3
+2128,waitau,入唔到,yäp2 m4 däu2
+2128,hakka,番唔到去,fan1 m1 dau3 hi4
+2129,waitau,出唔到,cäk2 m4 däu2
+2129,hakka,出唔到來,cut5 m1 dau3 loi2
+2130,waitau,裝唔落,zong1 m4 lok6
+2130,hakka,裝唔落,zong1 m1 lok6
+2131,waitau,頭唔痛,täu4 m4 tung1
+2131,hakka,頭那唔痛,teu2 la1 m1 tung4
+2132,waitau,俾佢估中,bi2 kü4 gu2 zung1
+2132,hakka,分佢估中嗨,bin1 gi2 gu3 zung4 hoi1
+2133,waitau,唔夠佢打,m4 gäu1 kü4 da2
+2133,hakka,打佢唔嬴,da3 gi1 m1 yang2
+2134,waitau,打得過佢,da2 däk2 gwo1 kü4
+2134,hakka,打得佢贏,da3 det5 gi2 yang2
+2135,waitau,敨唔到氣,täu2 m4 däu2 hi1
+2135,hakka,敨唔倒氣,teu3 m1 dau3 hi4
+2136,waitau,氹唔到我,täm1 m4 däu2 ng6
+2136,hakka,撮唔倒厓,cot5 m1 dau3 ngai2
+2137,waitau,喊佢唔郁,ham1 kü4 m4 yuk2
+2137,hakka,喊佢唔動,ham4 gi2 m1 dung1
+2137,hakka,喊唔動佢,ham4 m1 dung1 gi2
+2138,waitau,得人鍾意,däk2 yäng4 zung1 yi1
+2138,hakka,得人惜,det5 ngin2 siak5
+2139,waitau,乞人憎,häk2 yäng4 zäng1
+2139,hakka,得人惱,det5 ngin2 lau1
+2140,waitau,返來,fæng1 löi4
+2140,hakka,轉來,zon3 loi2
+2141,waitau,返去,fæng1 hü1
+2141,hakka,轉去,zon3 hi4
+2142,waitau,慢慢行,mæng6 mæng2 hang4
+2142,hakka,慢慢行,man4 man4 hang2
+2143,waitau,俾我睇下,bi2 ngo1 täi2 ha1
+2143,hakka,分厓看下,bin1 ngai2 kon4 ha4
+2144,waitau,好短繩仔,häu2 düng2 säng4 zäi2
+2144,hakka,短術術嘅索嫲,don3 sut6 sut6 ge4 sot5 ma2
+2145,waitau,彎彎牛角,wæng1 wæng1 ngäu4 gok2
+2145,hakka,彎彎嘅牛角,van1 van1 ge4 ngiu2 gok5
+2146,waitau,一樣長繩仔,yäk2 yöng6 cöng4 säng4 zäi2
+2146,hakka,一樣長嘅索嫲,yit5 yong4 cong2 ge4 sot5 ma2
+2147,waitau,淨係愛滴,zeng6 häi6 wui2 däk6
+2147,hakka,凈愛一滴仔,ciang4 oi4 yit5 dit6 zai3
+2148,waitau,等陣佢就來,däng2 zäng6 kü1 zäu6 loi4
+2148,hakka,等間佢就來,den3 gan1 gi2 ciu4 loi2
+2149,waitau,俾本書佢,bi2 bung2 sü1 kü4
+2149,hakka,分本書佢,bin1 bun3 su1 gi1
+2150,waitau,畀多滴得唔得,bi2 do2 däk6 däk2 m4 däk2
+2150,hakka,分多滴厓得唔得,bin1 do1 dit6 ngai2 det5 m1 det5
+2151,waitau,寫過,se2 gwo1
+2151,hakka,寫過,sia3 go4
+2152,waitau,沖過壺,cung2 gwo2 fu4
+2152,hakka,焗過一壺,guk6 go4 yit5 fu2
+2153,waitau,畀佢喫先,bi2 kü4 hek2 sing1
+2153,hakka,分佢食先,bin1 gi2 sit6 sien1
+2154,waitau,你行先,ni1 hæng4 sing2
+2154,hakka,你先行走,ngi2 sien1 hang2 zeu3
+2155,waitau,吃多碗,hek2 do2 wung2
+2155,hakka,食多碗添,sit6 do1 von3 tiam1
+2156,waitau,坐多陣間,co1 do2 zäng6 gæng2
+2156,hakka,坐多陣正,co1 do1 cin4 zang4
+2156,hakka,坐多陣添,co1 do1 cin4 tiam1
+2157,waitau,㧡唔㧡得起,kai1 m4 kai1 däk2 hi2
+2157,hakka,拿得起還係拿唔起,la1 det5 hi3 han2 he4 la1 m1 hi3
+2158,waitau,㧡得起,kai1 däk2 hi2
+2158,hakka,拿得動,la1 det5 tung1
+2159,waitau,來唔來得,löi4 m4 löi4 däk2
+2159,hakka,佢來唔來倒,gi2 loi2 m1 loi2 dau3
+2160,waitau,有冇去佢屋企,yäu1 mäu1 hü1 kü4 uk2 ki2
+2160,hakka,有冇去佢屋家,yiu1 mau2 hi4 gia1 vuk5 ka1
+2161,waitau,有去,yäu1 hü1
+2161,hakka,去嗨,hi4 hoi1
+2162,waitau,唔飲得酒,m4 yäm2 däk2 zäu2
+2162,hakka,唔食得酒,m1 sit6 det5 ziu3
+2163,waitau,唔坐得耐,m4 co1 däk2 noi6
+2163,hakka,坐唔得久,co1 m1 det5 giu3
+2164,waitau,出茅落緊雨,zäk2 mäu2 lok6 gäng2 yü1
+2164,hakka,門背落等水,mun2 boi4 lok6 den3 sui3
+2165,waitau,坐頭喫,co2 täu4 hek2
+2165,hakka,坐等來食,co1 den3 loi2 sit6
+2166,waitau,門打開,mung4 da2 fui1
+2166,hakka,門開嗨,mun2 hoi1 hoi1
+2167,waitau,徛頭唔好郁,ki2 däu4 m4 häu2 yuk2
+2167,hakka,徛等唔好動,gi1 den3 m1 hau3 tung1
+2168,waitau,唔好插嘴，等佢講落去,m4 häu2 cap2 zü2 däng2 gi4 gong2 lok6 hü1
+2168,hakka,唔好插嘴，分佢講落去,m1 hau3 cap5 zui3 bin1 gi2 gong3 lok6 hi4
+2169,waitau,發爐先,fæk2 lu2 sing1
+2169,waitau,發定爐,fæk2 däng6 lu2
+2169,hakka,將火燒起來正,ziong1 fo3 sau1 hi3 loi2 zang4
+2170,waitau,我去過廣州，又去過上海,ngo1 hü1 gwo1 gwong2 zäu1 yäu6 hü1 gwo1 söng6 fui1
+2170,hakka,厓去過廣州，又去過上海,ngai2 hi4 go4 gong3 ziu1 yiu4 hi4 go4 song4 hoi3
+2171,waitau,我講過佢聽,ngo1 gong2 gwo1 kü4 teng1
+2171,hakka,厓講過分佢知,ngai2 gong3 go4 bin1 gi2 di1
+2172,waitau,花開好兩朵,fui1 zo2 löng1 do2 fa1
+2172,hakka,花開嗨兩朵咯,fa1 hoi1 hoi1 liong3 do3 lo3
+2173,waitau,吃飽飯先講,hek2 bau2 fæng6 sing2 gong2
+2173,hakka,食嗨飯正來講,sit6 hoi1 fan4 zang4 loi2 gong3
+2174,waitau,閂埋門先,sang1 mai4 mung4 sing2
+2174,hakka,閂嗨門佢,san1 hoi1 mun2 gi2
+2175,waitau,擰緊個蓋,läng2 gäng2 go1 goi1
+2175,hakka,扭恒該蓋佢,ngiu3 hen2 ai4 goi4 gi2
+2176,waitau,吃埋飯佢,hek2 mai4 fæng6 kü4
+2176,hakka,將該飯食秋佢,ziong1 ai4 fan4 sit6 ciu1 gi2
+2177,waitau,唔好打爛我個碗,m4 häu2 da2 læng1 ngo1 go1 wung2
+2177,hakka,唔好打爛吾嘅碗,m1 hau3 da3 lan4 nga2 ge4 von3
+2178,waitau,去睇戲囉,hü1 täi2 hi1 lo1
+2178,hakka,來去看電影咯,loi2 hi4 kon4 tien4 yang3 lo3
+2179,waitau,走去睇戲,zäu2 hü1 däi2 hi1
+2179,hakka,去看電影去嗨,hi4 kon4 tien4 yang3 hi4 hoi1
+2180,waitau,我大過佢,ngo1 dai6 gwo1 kü4
+2180,hakka,厓大過佢,ngai1 tai4 go4 gi2
+2181,waitau,我大佢一歲,ngo1 dai6 kü4 yäk2 söi1
+2181,hakka,厓大佢一歲,ngai2 tai4 gi2 yit5 soi4
+2182,waitau,我冇佢咁大,ngo1 mäu1 kü4 gäm1 dai6
+2182,hakka,厓大唔過佢,ngai2 tai4 m1 go4 gi2
+2183,waitau,兩個一樣高,löng1 go1 yäk2 yöng6 gäu1
+2183,hakka,兩隻一樣高,liong3 zak5 yit5 yong4 gau1
+2184,waitau,講講下就哭,gong2 gong2 ha1 zäu6 huk2
+2184,hakka,講下講下就叫起來,gong3 ha4 gong3 ha4 ciu4 giau4 hi3 loi2
+2185,waitau,佢係都話去,kü4 häi6 du2 wa6 hü1
+2185,hakka,唔分佢去，佢係愛去,m1 bin1 gi2 hi4 gi2 he4 oi4 hi4

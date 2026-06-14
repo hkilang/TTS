@@ -1,11 +1,17 @@
 import pandas as pd
 import re
 from functools import reduce
+from pathlib import Path
+
+RES_DIRECTORY = Path(__file__).parent.resolve()
+RAW_DIRECTORY = RES_DIRECTORY / "raw"
+
+LANGUAGES = ["waitau", "hakka"]
 
 def str_columns(columns):
 	return {"names": columns, "dtype": {key: "str" for key in columns}}
 
-df_chars: pd.DataFrame = pd.read_csv("dictionary.csv", header=0, usecols=[0, 1, 2, 3, 4], **str_columns(["char", "canton", "waitau", "hakka", "notes"]))
+df_chars: pd.DataFrame = pd.read_csv(RAW_DIRECTORY / "dictionary.csv", header=0, usecols=[0, 1, 2, 3, 4], **str_columns(["char", "canton", "waitau", "hakka", "notes"]))
 
 def normalize_char(char):
 	if isinstance(char, str):
@@ -53,7 +59,7 @@ ROM_MAPPING = {
 def rom_map(jyutping):
 	return re.sub("(g|k)u(?!ng|k)", "\\1wu", reduce(lambda pron, rule: pron.replace(*rule), ROM_MAPPING.items(), jyutping))
 
-df_canto: pd.DataFrame = pd.read_csv("public.csv", header=0, usecols=[0, 1], **str_columns(["char", "pron"]), na_filter=False)
+df_canto: pd.DataFrame = pd.read_csv(RAW_DIRECTORY / "supplementary_lexicon.csv", header=0, usecols=[0, 1], **str_columns(["char", "pron"]), na_filter=False)
 df_canto["pron"] = df_canto["pron"].apply(rom_map)
 df_canto["order"] = df_canto.index
 df_canto_charpron = df_canto.set_index(["char", "pron"])
@@ -69,16 +75,34 @@ df_chars["order"] = df_chars.apply(get_order, axis=1)
 
 df_words_by_language = {}
 
-def generate_chars(language):
-	global df_chars
+df_words: pd.DataFrame = pd.read_csv(RAW_DIRECTORY / "lexical_items.csv", header=0, usecols=[1, 2, 3], **str_columns(["language", "char", "pron"]))
+df_words["char"] = df_words["char"].str.replace("，", "")
 
-	df_words = pd.read_csv(f"{language.capitalize()}Words.csv", header=0, usecols=[5, 7, 8], **str_columns(["char", "pron", "valid"]))
-	df_words["char"] = df_words["char"].apply(normalize_char)
-	df_words["pron"] = df_words["pron"].apply(normalize_pron)
-	df_words = df_words.loc[(df_words["char"].str.len() - df_words["pron"].str.count(" ") == 1) & (df_words["valid"] == "OK"), ["char", "pron"]]
-	df_words_by_language[language] = df_words
+invalid_char = df_words["char"].apply(normalize_char) != df_words["char"]
+if invalid_char.any():
+	print("Invalid glyphs from lexical_items.csv:")
+	print(df_words[invalid_char])
+	exit(1)
 
-	df_monosyllabic_words = df_words[df_words["char"].str.len() == 1]
+invalid_pron = df_words["pron"].apply(normalize_pron) != df_words["pron"]
+if invalid_pron.any():
+	print("Invalid romanizations from lexical_items.csv:")
+	print(df_words[invalid_pron])
+	exit(1)
+
+invalid_length = df_words["char"].str.len() - df_words["pron"].str.count(" ") != 1
+if invalid_length.any():
+	print("Mismatched lengths of glyphs and romanizations from lexical_items.csv:")
+	print(df_words[invalid_length])
+	exit(1)
+
+df_words.drop_duplicates(inplace=True)
+
+for language in LANGUAGES:
+	df_words_curr_language = df_words.loc[df_words["language"] == language, ["char", "pron"]]
+	df_words_by_language[language] = df_words_curr_language
+
+	df_monosyllabic_words = df_words_curr_language[df_words_curr_language["char"].str.len() == 1]
 	df_chars_native_prons = set(df_chars.set_index(["char", language]).index)
 	other_chars = []
 
@@ -89,11 +113,8 @@ def generate_chars(language):
 	char_col, pron_col = zip(*other_chars)
 	df_chars = pd.concat([df_chars, pd.DataFrame({"char": char_col, language: pron_col})])
 
-generate_chars("waitau")
-generate_chars("hakka")
-
 df_chars.sort_values(["char", "order", "canton"], kind="stable", inplace=True)
-df_chars[["char", "waitau", "hakka", "notes"]].to_csv("chars.csv", index=False)
+df_chars[["char", "waitau", "hakka", "notes"]].to_csv(RES_DIRECTORY / "chars.csv", index=False)
 
 df_charpron = df_chars.set_index(["char", "canton"])
 df_charpron.sort_index(inplace=True)
@@ -115,7 +136,7 @@ df_collocations.sort_index(inplace=True)
 df_chars.set_index("char", inplace=True)
 df_chars.sort_index(inplace=True)
 
-def generate_words(language):
+for language in LANGUAGES:
 	other_words = []
 
 	def get_prons(df, index):
@@ -158,7 +179,4 @@ def generate_words(language):
 	char_col, pron_col = zip(*other_words)
 	df_words = pd.concat([df_words[df_words["char"].str.len() > 1], pd.DataFrame({"char": char_col, "pron": pron_col})])
 	df_words.drop_duplicates(inplace=True)
-	df_words.to_csv(f"{language}_words.csv", index=False)
-
-generate_words("waitau")
-generate_words("hakka")
+	df_words.to_csv(RES_DIRECTORY / f"{language}_words.csv", index=False)
