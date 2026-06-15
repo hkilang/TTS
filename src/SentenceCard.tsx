@@ -130,7 +130,7 @@ function groupEdges<T extends Edge>(edges: T[], length: number) {
 
 function replaceHakkaTones(language: string, hakkaToneMode: HakkaToneMode, pron: string) {
 	return language === "hakka" && hakkaToneMode === "diacritics"
-		? pron.replace(/(\D*[aeo]|\D*i(?=u\d)|\D*u(?=i\d)|\D*[iu]|\D*[mn])(\D*)(\d)/g, (_, $1, $2, $3) => $1 + " ́̄̆̀̆̀"[+$3] + $2)
+		? pron.replace(/(\D*[aeo]|\D*[iu](?!\d)|\D*[iumn])(\D*)(\d)/g, (_, $1, $2, $3) => $1 + " ́̄̆̀̆̀"[+$3] + $2)
 		: pron;
 }
 
