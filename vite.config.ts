@@ -54,7 +54,7 @@ export default {
 						},
 					},
 				],
-				maximumFileSizeToCacheInBytes: 4194304,
+				maximumFileSizeToCacheInBytes: 31457280,
 			},
 		}),
 	],
