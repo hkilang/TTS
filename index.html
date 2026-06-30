@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content" />
-		<title>香港圍頭話及客家話文字轉語音</title>
+		<title id="page-title">香港圍頭話及客家話文字轉語音</title>
 		<link rel="apple-touch-icon" sizes="16x16" href="./assets/apple-touch-icon-16x16.png" />
 		<link rel="apple-touch-icon" sizes="32x32" href="./assets/apple-touch-icon-32x32.png" />
 		<link rel="apple-touch-icon" sizes="64x64" href="./assets/apple-touch-icon-64x64.png" />
@@ -47,62 +47,19 @@
 		<meta name="twitter:image" content="https://hkilang.github.io/TTS/assets/og-image.png" />
 	</head>
 	<body>
-		<div class="fixed inset-0 overflow-y-auto overscroll-contain">
-			<div class="[@media(pointer:coarse)]:min-h-[calc(100%+1px)] m-auto p-8 max-w-7xl">
-				<header class="grid items-center justify-center grid-cols-1 xs:grid-cols-[auto_1fr_auto] max-sm:max-w-fit">
-					<img class="row-span-2 w-16 mr-4 mb-2 max-xs:hidden" srcset="./assets/favicon-64x64.png, ./assets/favicon-128x128.png 2x, ./assets/favicon-192x192.png 3x" alt="應用程式標誌" />
-					<h1 class="max-sm:col-span-2">香港圍頭話及客家話文字轉語音</h1>
-					<div class="flex my-2">
-						<a class="text-slate-500 inline-flex items-center group" href="https://hkilang.org" target="_blank">
-							<img class="w-8 rounded-sm border border-slate-500 border-opacity-50 mr-2 group-hover:brightness-[0.96875] transition-[filter]" src="./assets/hkilang-logo.svg" alt="香港本土語言保育協會標誌" />
-							<h2 class="group-hover:text-slate-700 group-hover:text-opacity-90 transition-[color]">香港<span class="text-[#d80818] group-hover:text-[#900612] group-hover:text-opacity-90 transition-[color]">本土語言</span>保育協會</h2>
-						</a>
-					</div>
-					<button id="btn-show" type="button" class="btn btn-ghost gap-1.5 font-[650] hover:bg-opacity-10 max-sm:text-xl max-sm:font-normal max-sm:relative max-sm:left-4 sm:btn-lg sm:text-1.5xl sm:text-slate-500 sm:col-start-3 sm:row-start-1 sm:row-end-3">
-						<span class="icon-info mt-0.5"></span>關於
-					</button>
-				</header>
-				<main id="root"></main>
-			</div>
-		</div>
-		<dialog id="about-dialog" class="modal modal-bottom sm:modal-middle">
-			<div class="modal-box p-0 flex flex-col sm:max-w-3xl h-[calc(100%-5rem)] overflow-hidden">
-				<form method="dialog">
-					<button type="submit" class="btn btn-ghost w-14 h-14 min-h-14 text-4.5xl absolute right-3 top-3 text-slate-500 hover:bg-opacity-10" aria-label="關閉"><span class="icon-close"></span></button>
-				</form>
-				<h3 class="flex items-center gap-2 mx-6 mt-5.5 mb-5"><span class="icon-info mt-1"></span>關於</h3>
-				<hr />
-				<div class="flex-1 overflow-x-hidden overflow-y-auto">
-					<p>歡迎使用<b>香港圍頭話及客家話文字轉語音（Text-to-Speech）</b>朗讀器！</p>
-					<p><b>圍頭話</b>及<b>客家話</b>皆是香港的非物質文化遺產，然而這些本土語言傳承因城市化出現了斷層。圍村新一代接觸圍頭話、客家話的機會甚少，或「曉聽唔曉講」。</p>
-					<p>使用本文字轉語音（<abbr>TTS</abbr>）朗讀器，可以作為學習圍頭話、客家話的資源，亦可以成為與圍村長輩溝通的工具，延續家庭和社區的語言傳承。</p>
-					<hr />
-					<p>只需在程式中輸入文字，程式便會生成自然流暢的圍頭話或客家話語音。使用方法如下：</p>
-					<ol class="list-[circled-decimal] marker:text-slate-400 ml-13">
-						<li>選擇語言：圍頭話／客家話</li>
-						<li>選擇聲線：男聲／女聲</li>
-						<li>在輸入框輸入文字</li>
-						<li><span class="inline-flex items-center gap-1">點選<span class="btn btn-accent btn-xs text-lg/none pointer-events-none">加入句子</span></span></li>
-						<li><span class="inline-flex items-center gap-1">按播放鍵<span class="btn btn-warning btn-square btn-xs text-2xl pointer-events-none icon-play"></span></span></li>
-					</ol>
-					<hr />
-					<p>本程式由<a href="https://hkilang.org" target="_blank">香港本土語言保育協會</a>開發，特此鳴謝康樂及文化事務署<a href="https://www.icho.hk/tc/web/icho/ich_funding_scheme_introduction.html" target="_blank">非物質文化遺產資助計劃</a>對本計劃的資助，以及<a href="https://crlls.eduhk.hk" target="_blank">香港教育大學語言學及語言研究中心</a>提供場地租借的協助。</p>
-					<p>
-						本程式前端以 <a href="https://typescriptlang.org" target="_blank">TypeScript</a> 及 <a href="https://react.dev" target="_blank">React</a> 框架開發，採用由 <a href="https://hon9kon9ize.com" target="_blank">hon9kon9ize</a> 提供的 VITS2 語言模型 <sup><a href="#vits2">[1]</a></sup
-						>，詳情請參閱<a href="https://github.com/hkilang/TTS" target="_blank">原始碼</a>。
-					</p>
-					<p>如有任何查詢，歡迎電郵至 <a href="mailto:info@hkilang.org" target="_blank">info@hkilang.org</a> 或 <a href="mailto:lchaakming@eduhk.hk" target="_blank">lchaakming@eduhk.hk</a>。</p>
-					<p>資助單位：</p>
-					<img src="./assets/credit-logos.svg" alt="康樂及文化事務署標誌、政府資助計劃「門常開」標誌、非物質文化遺產資助計劃標誌" title="康樂及文化事務署標誌、政府資助計劃「門常開」標誌、非物質文化遺產資助計劃標誌" />
-					<ol class="list-[squared-decimal] text-slate-400 text-sm ml-11">
-						<li id="vits2">
-							Jungil Kong, Jihoon Park, Beomjeong Kim, Jeongmin Kim, Dohee Kong, and Sangjin Kim. 2023. VITS2: Improving quality and efficiency of single-stage text-to-speech with adversarial learning and architecture design. In <cite>Proc. INTERSPEECH 2023</cite>, pp. 4374–4378. Available:
-							<a href="https://www.isca-archive.org/interspeech_2023/kong23_interspeech.html" target="_blank" class="whitespace-nowrap">https://www.isca-archive.org/<wbr />interspeech_2023/<wbr />kong23_interspeech.html</a>
-						</li>
-					</ol>
-				</div>
-			</div>
-		</dialog>
+		<div id="root"></div>
 		<script src="./src/index.tsx" type="module"></script>
+		<script>
+			// Sync HTML lang attribute and title with persisted UI language before React hydrates
+			(function () {
+				var lang = localStorage.getItem("uiLanguage") || "zh";
+				document.documentElement.lang = lang === "en" ? "en" : "zh-HK";
+				if (lang === "en") {
+					document.title = "Hong Kong Wai Tau Waa & Hakka Text-to-Speech";
+					var desc = document.querySelector('meta[name="description"]');
+					if (desc) desc.setAttribute("content", "Enter text to hear Weitou and Hakka pronunciation, preserving local languages.");
+				}
+			})();
+		</script>
 	</body>
 </html>

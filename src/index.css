@@ -25,6 +25,7 @@
 	}
 	h1 {
 		@apply text-3xl font-bold whitespace-nowrap;
+		/* Allow override to wrap on specific elements */
 	}
 	h2 {
 		@apply text-1.5xl text-slate-500 whitespace-nowrap;

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { ALL_HAKKA_TONE_MODES, ALL_INFERENCE_MODES, ALL_LANGUAGES_OR_UNDEFINED, ALL_VOICES, DOWNLOAD_STATUS_PRIORITY } from "./consts";
 
@@ -57,6 +58,7 @@ export function useQueryOptions(): QueryOptions {
 }
 
 export function useCopyState() {
+	const { t } = useTranslation();
 	const [copyState, setCopyState] = useState<"copied" | "failed">();
 	const prevCopyState = useRef<"copied" | "failed">();
 	useEffect(() => {
@@ -79,7 +81,7 @@ export function useCopyState() {
 	return {
 		copy,
 		tooltipStyle: `tooltip tooltip-left ${displayCopyState === "copied" ? "tooltip-primary" : "tooltip-error"} ${copyState ? "tooltip-open" : "tooltip-close"} before:transition-opacity after:transition-opacity before:text-lg`,
-		tooltipText: displayCopyState && (displayCopyState === "copied" ? "已複製至剪貼簿" : "無法複製至剪貼簿"),
+		tooltipText: displayCopyState && (displayCopyState === "copied" ? t("clipboard.copied") : t("clipboard.failed")),
 	};
 }
 

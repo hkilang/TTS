@@ -15,10 +15,10 @@ export async function getOffsetMap(version: AudioVersion, language: Language, vo
 	let response: Response;
 	try {
 		response = await cachedFetch(`${AUDIO_PATH_PREFIX}@${path}.csv`);
-		if (!response.ok) throw new ServerError("無法載入語音數據", await response.text());
+		if (!response.ok) throw new ServerError("Failed to load audio data", await response.text());
 	}
 	catch (error) {
-		throw error instanceof ServerError ? error : new ServerError("無法載入語音數據：網絡或伺服器錯誤", undefined, { cause: error });
+		throw error instanceof ServerError ? error : new ServerError("Failed to load audio data: network or server error", undefined, { cause: error });
 	}
 	const iter = (await response.text())[Symbol.iterator]();
 	// Skip header

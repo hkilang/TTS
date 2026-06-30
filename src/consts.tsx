@@ -3,12 +3,12 @@ import { MdCancel, MdEject, MdEnergySavingsLeaf, MdFileDownload, MdFileDownloadD
 import type { ActualDownloadStatus, InferenceMode, Language, ModelComponent, DownloadStatus, Terminology, Voice, OfflineInferenceMode, AudioComponent, HakkaToneMode, LanguageOrUndefined } from "./types";
 
 export const TERMINOLOGY: Record<Terminology, string> = {
-	waitau: "圍頭話",
-	hakka: "客家話",
-	male: "男聲",
-	female: "女聲",
-	diacritics: "調號",
-	digits: "數字",
+	waitau: "terminology.waitau",
+	hakka: "terminology.hakka",
+	male: "terminology.male",
+	female: "terminology.female",
+	diacritics: "terminology.diacritics",
+	digits: "terminology.digits",
 };
 
 export const LANGUAGE_TO_TEXT_COLOR_CLASS: Record<Language, string> = {
@@ -22,15 +22,15 @@ export const VOICE_TO_ICON: Record<Voice, JSX.Element> = {
 };
 
 export const INFERENCE_MODE_TO_LABEL: Record<InferenceMode, string> = {
-	online: "線上模式",
-	offline: "離線模式",
-	lightweight: "輕巧模式",
+	online: "inferenceModes.online",
+	offline: "inferenceModes.offline",
+	lightweight: "inferenceModes.lightweight",
 };
 
 export const INFERENCE_MODE_TO_DESCRIPTION: Record<InferenceMode, string> = {
-	online: "在伺服器產生音訊。請注意，每次產生音訊時皆需要網絡連線，並可能會產生相關網絡費用。",
-	offline: "毋須網絡連線，直接於裝置進行運算並產生音訊。請注意，下載或更新模型時仍須網絡連線，且裝置需要有足夠空間儲存模型。",
-	lightweight: "以輕巧方式快速於裝置產生音訊，質素較其餘兩個模式遜色。適用於記憶體容量較少的裝置。僅於多次嘗試離線模式亦失敗時方建議使用此模式。請注意，此模式仍需空間儲存數據。",
+	online: "inferenceModes.onlineDescription",
+	offline: "inferenceModes.offlineDescription",
+	lightweight: "inferenceModes.lightweightDescription",
 };
 
 export const INFERENCE_MODE_TO_ICON: Record<InferenceMode, JSX.Element> = {
@@ -59,24 +59,24 @@ export const MODEL_COMPONENT_TO_N_CHUNKS: Record<ModelComponent, number> = {
 export const MODEL_PATH_PREFIX = "https://cdn.jsdelivr.net/gh/hkilang/TTS-models";
 
 export const DOWNLOAD_TYPE_LABEL: Record<OfflineInferenceMode, string> = {
-	offline: "模型",
-	lightweight: "數據",
+	offline: "downloadType.model",
+	lightweight: "downloadType.data",
 };
 
 export const DOWNLOAD_STATUS_LABEL: Record<DownloadStatus, string> = {
-	gathering_info: "正在取得＿＿狀態……",
-	gather_failed: "無法取得＿＿狀態：資料庫出錯",
-	available_for_download: "可供下載",
-	new_version_available: "有新版本可供下載",
-	incomplete: "＿＿不完整",
-	downloading: "下載中……",
-	download_failed: "下載失敗：網絡或伺服器錯誤",
-	download_incomplete: "下載不完整：網絡或伺服器錯誤",
-	cancelled_not_downloaded: "下載已被取消；＿＿尚未下載",
-	cancelled_incomplete: "下載已被取消；＿＿不完整",
-	save_failed: "下載失敗：儲存至資料庫時發生錯誤",
-	save_incomplete: "下載不完整：儲存至資料庫時發生錯誤",
-	latest: "已經為最新版本",
+	gathering_info: "downloadStatus.gatheringInfo",
+	gather_failed: "downloadStatus.gatherFailed",
+	available_for_download: "downloadStatus.availableForDownload",
+	new_version_available: "downloadStatus.newVersionAvailable",
+	incomplete: "downloadStatus.incomplete",
+	downloading: "downloadStatus.downloading",
+	download_failed: "downloadStatus.downloadFailed",
+	download_incomplete: "downloadStatus.downloadIncomplete",
+	cancelled_not_downloaded: "downloadStatus.cancelledNotDownloaded",
+	cancelled_incomplete: "downloadStatus.cancelledIncomplete",
+	save_failed: "downloadStatus.saveFailed",
+	save_incomplete: "downloadStatus.saveIncomplete",
+	latest: "downloadStatus.latest",
 };
 
 export const DOWNLOAD_STATUS_CLASS: Record<DownloadStatus, string> = {
@@ -113,17 +113,17 @@ export const DOWNLOAD_STATUS_ICON: Record<DownloadStatus, JSX.Element> = {
 
 export const DOWNLOAD_STATUS_ACTION_LABEL: Record<DownloadStatus, string | null> = {
 	gathering_info: null,
-	gather_failed: "重試",
-	available_for_download: "下載",
-	new_version_available: "下載",
-	incomplete: "繼續下載",
-	downloading: "取消下載",
-	download_failed: "重試",
-	download_incomplete: "重試",
-	cancelled_not_downloaded: "下載",
-	cancelled_incomplete: "繼續下載",
-	save_failed: "重試",
-	save_incomplete: "重試",
+	gather_failed: "downloadAction.retry",
+	available_for_download: "downloadAction.download",
+	new_version_available: "downloadAction.download",
+	incomplete: "downloadAction.continueDownload",
+	downloading: "downloadAction.cancelDownload",
+	download_failed: "downloadAction.retry",
+	download_incomplete: "downloadAction.retry",
+	cancelled_not_downloaded: "downloadAction.download",
+	cancelled_incomplete: "downloadAction.continueDownload",
+	save_failed: "downloadAction.retry",
+	save_incomplete: "downloadAction.retry",
 	latest: null,
 };
 
