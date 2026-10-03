@@ -8,7 +8,7 @@ export default function SentenceCopy({ syllables, prons }: { syllables: string[]
 	const copyProns = useBindArgs(copy, prons.join(" "));
 	const copySyllablesAndProns = useBindArgs(copy, syllables.map((syllable, i) => syllable + (prons[i].length > 1 ? `(${prons[i]})` : "")).join(""));
 
-	return <div className="absolute top-2 right-2 dropdown dropdown-hover dropdown-end group">
+	return <div className="dropdown dropdown-hover dropdown-end group">
 		{/* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */}
 		<div tabIndex={0} className={`p-4 text-slate-600 text-2xl group-hover:bg-base-content group-hover:bg-opacity-10 rounded-lg transition-colors ${tooltipStyle}`} data-tip={tooltipText}>
 			<MdContentCopy />

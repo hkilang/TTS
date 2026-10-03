@@ -12,6 +12,7 @@
 	"dependencies": {
 		"eastasianwidth": "^0.3.0",
 		"idb": "^8.0.0",
+		"lamejs": "github:zhuker/lamejs#582bbba6a12f981b984d8fb9e1874499fed85675",
 		"onnxruntime-web": "^1.18.0",
 		"opencc-js": "^1.0.5",
 		"react": "^18.3.1",

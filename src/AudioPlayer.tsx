@@ -11,7 +11,12 @@ import { DatabaseError, ServerError } from "./errors";
 import API from "./inference/api";
 
 import type { DownloadVersion, AudioComponentToFile, OfflineInferenceMode, AudioVersion, SentenceComponentState, Language, Voice } from "./types";
-import type { SyntheticEvent } from "react";
+import type { Dispatch, SetStateAction, SyntheticEvent } from "react";
+
+interface AudioPlayerProps extends SentenceComponentState {
+	buffer: AudioBuffer | undefined;
+	setBuffer: Dispatch<SetStateAction<AudioBuffer | undefined>>;
+}
 
 const context = new AudioContext({ sampleRate: 44100 });
 const audioCache = new Map<string, Map<string, AudioBuffer>>();
@@ -34,9 +39,10 @@ export default function AudioPlayer({
 	setDownloadState,
 	currSettingsDialogPage,
 	setCurrSettingsDialogPage,
-}: SentenceComponentState) {
+	buffer,
+	setBuffer,
+}: AudioPlayerProps) {
 	useEffect(() => void context.resume(), []);
-	const [buffer, setBuffer] = useState<AudioBuffer | undefined>();
 	const [sourceNode, setSourceNode] = useState<AudioBufferSourceNode | undefined>();
 	const [isPlaying, setIsPlaying] = useState<boolean | null>(false);
 	const [startTime, setStartTime] = useState(0);

@@ -4,6 +4,7 @@ import AudioPlayer from "./AudioPlayer";
 import { INFERENCE_MODE_TO_LABEL, TERMINOLOGY } from "./consts";
 import { normalizePauses, parse } from "./parse";
 import SentenceCopy from "./SentenceCopy";
+import SentenceDownload from "./SentenceDownload";
 
 import type { Edge, StackedEdge, HakkaToneMode, SentenceComponentState } from "./types";
 
@@ -142,6 +143,7 @@ export default function SentenceCard({
 	setCurrSettingsDialogPage,
 }: SentenceCardProps) {
 	const [enabledEdges, setEnabledEdges] = useState(new Set<Edge>());
+	const [audioBuffer, setAudioBuffer] = useState<AudioBuffer>();
 	const edges = useMemo(() => {
 		const edges = parse(language, syllables);
 		setEnabledEdges(findOptimalEdges(edges));
@@ -238,13 +240,18 @@ export default function SentenceCard({
 				<span className="badge badge-accent join-item">{INFERENCE_MODE_TO_LABEL[inferenceMode]}</span>
 				<span className="badge badge-info join-item">{voiceSpeed}×</span>
 			</div>
-			<SentenceCopy syllables={syllables} prons={flattenedProns} />
+			<div className="absolute top-2 right-2 flex">
+				<SentenceDownload syllables={syllables} buffer={audioBuffer} />
+				<SentenceCopy syllables={syllables} prons={flattenedProns} />
+			</div>
 			<div className="text-2.5xl/none sm:text-4xl mt-1">{tables}</div>
 			<AudioPlayer
 				sentence={{ language, voice, inferenceMode, voiceSpeed, syllables: inferenceMode === "lightweight" ? enabledEdgesProns : flattenedProns }}
 				setDownloadState={setDownloadState}
 				currSettingsDialogPage={currSettingsDialogPage}
-				setCurrSettingsDialogPage={setCurrSettingsDialogPage} />
+				setCurrSettingsDialogPage={setCurrSettingsDialogPage}
+				buffer={audioBuffer}
+				setBuffer={setAudioBuffer} />
 		</div>
 	</div>;
 }
