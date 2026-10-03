@@ -38,11 +38,11 @@ export default function SentenceDownload({ syllables, buffer }: { syllables: str
 
 	return <button
 		type="button"
-		className="p-4 text-slate-600 text-2xl hover:bg-base-content hover:bg-opacity-10 rounded-lg transition-colors disabled:opacity-40 tooltip before:text-lg"
+		className="px-4 text-slate-600 text-2xl hover:bg-base-content hover:bg-opacity-10 rounded-lg transition-colors disabled:opacity-40 tooltip before:text-lg"
 		data-tip="下載 MP3"
 		onClick={downloadAudio}
 		disabled={!buffer}
 		aria-label="下載 MP3">
-		<MdDownload />
+		<MdDownload size="1.125em" />
 	</button>;
 }
