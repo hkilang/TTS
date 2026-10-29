@@ -27,7 +27,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 丙,bing2,bäng2,biang3,,,1,FALSE
 丞,sing4,säng4,sin2,,,1,FALSE
 丟,diu1,diu1,diu1,,,1,FALSE
-両,löng2,löng2,liong3,,,1,FALSE
+両,löng2,löng2,liong1,,,1,FALSE
 並,bing6,bäng6,bin4,,,1,FALSE
 丫,a1,a1,a1,,,1,FALSE
 中,zung1,zung1,zung1,~心,,2,FALSE
@@ -48,7 +48,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 之,zi1,zi1,zu1,,,1,FALSE
 乍,za3,za1,za4,,,1,FALSE
 乎,fu4,fu4,fu2,,,1,FALSE
-乏,fät6,fæk6,fat6,,,1,FALSE
+乏,fät6,fæk6,fap6,,,1,FALSE
 乒,bing1,bing1,bin1,,,1,FALSE
 乓,bäng1,bäng1,bang1,,,1,FALSE
 乖,gwai1,gwai1,gai1,,,1,FALSE
@@ -487,8 +487,8 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 入,yäp6,yäp6,ngip6,,,1,FALSE
 內,noi6,nöi6,lui4,,,1,FALSE
 全,cün4,cüng4,cien2,,,1,FALSE
-兩,löng2,löng2,liong3,(=両),,2,FALSE
-兩,löng5,löng1,liong1,~個,,2,FALSE
+兩,löng2,löng2,liong1,(=両),,2,FALSE
+兩,löng5,löng1,liong3,~個,,2,FALSE
 八,bat3,bæk2,bat5,,,1,FALSE
 公,gung1,gung1,gung1,,,1,FALSE
 六,luk6,luk6,luk5,,,1,FALSE
@@ -632,7 +632,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 劂,küt3,kük2,ket5,,,1,FALSE
 劃,wak6,wæk6,vak6,,,1,FALSE
 劄,zap3,zap2,zap5,,,1,FALSE
-劇,kek6,kek6,kiak6,,,1,FALSE
+劇,kek6,kek6,kiak5,,,1,FALSE
 劈,pek3,pek2,piak5,,,1,FALSE
 劉,läu4,läu4,liu2,,,1,FALSE
 劊,kwui2,kwui2,kai4,,,1,FALSE
@@ -855,6 +855,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 吻,män5,mäng1,vun3,,,1,FALSE
 吼,hau1,hau1,hau1,,,1,FALSE
 吽,yäm1,yäm1,yim1,,,1,FALSE
+吾,ng4,,nga1,~心臼、~妹子、~嘅,,,
 吾,ng4,ng4,ng2,,,1,FALSE
 呀,a1,a1,a1,,,3,FALSE
 呀,a3,a1,a3,,,3,FALSE
@@ -1394,7 +1395,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 塯,läu6,läu6,liu4,,,1,FALSE
 塱,long5,long1,long3,,,1,FALSE
 塲,cöng4,cöng4,cong2,,,1,FALSE
-塵,cän4,cäng4,cin4,,,1,FALSE
+塵,cän4,cäng4,cin2,,,1,FALSE
 塹,zam2,zam2,ciam4,,,1,FALSE
 塺,mui4,mui4,moi2,,,1,FALSE
 塻,mok6,mok6,mok5,,,1,FALSE
@@ -2027,7 +2028,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 巷,hong6,hong6,hong4,,,1,FALSE
 巽,sön3,säng1,sun4,,,1,FALSE
 巾,gän1,gäng1,gin1,,,1,FALSE
-市,si5,si1,si1,市區,,1,FALSE
+市,si5,si1,si4,市區,,1,FALSE
 布,bou3,bu1,bu4,,,1,FALSE
 帆,fan4,fæng4,fam2,,,1,FALSE
 帊,pa3,pa1,pa4,,,1,FALSE
@@ -2162,7 +2163,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 廬,lou4,lu4,lu2,,,1,FALSE
 廯,sin5,sing1,sien3,,,1,FALSE
 廱,yung1,yung1,yung1,,,1,FALSE
-廳,teng1,täng1,tang1,,,1,FALSE
+廳,teng1,täng1,tiang1,,,1,FALSE
 延,yin4,ying4,yen2,,,1,FALSE
 廷,ting4,täng4,tin2,,,1,FALSE
 建,gin3,ging1,gien4,,,1,FALSE
@@ -2375,7 +2376,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 恩,yän1,yäng1,en1,,,1,FALSE
 恪,kok3,kok2,kok5,,,1,FALSE
 恫,tung4,tung4,tung2,,,1,FALSE
-恬,tim5,tim1,tiam2,,,1,FALSE
+恬,tim5,tim1,diam1,,,1,FALSE
 恭,gung1,gung1,giung1,,,1,FALSE
 息,sik1,säk2,sit5,,,1,FALSE
 恰,häp1,häp2,kap5,,,1,FALSE
@@ -3902,7 +3903,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 毗,pei4,pi4,pi2,,,1,FALSE
 毘,pei4,pi4,pi2,,,1,FALSE
 毚,cam4,cam4,cam2,,,1,FALSE
-毛,mou4,mäu4,mau1,,,1,FALSE
+毛,mou4,mäu4,mau1,雞~、~筆,,1,FALSE
 毣,muk6,muk6,muk5,,,1,FALSE
 毤,to3,to1,to4,,,1,FALSE
 毦,yi6,yi6,ngi4,,,1,FALSE
@@ -3949,7 +3950,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 氾,fan6,fæng6,fam4,,,1,FALSE
 氿,gwäi2,gwäi2,gui3,,,1,FALSE
 汀,ding1,däng1,dang1,~九(地名),,2,FALSE
-汀,ting1,täng1,tin1,~洲(水際平地),,2,FALSE
+汀,ting1,täng1,dang1,~洲(水際平地),,2,FALSE
 汁,zäp1,zäp2,zip5,,,1,FALSE
 求,käu4,käu4,kiu2,,,1,FALSE
 汊,ca3,ca1,ca4,,,1,FALSE
@@ -4711,7 +4712,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 犬,hün2,hüng2,kien3,,,1,FALSE
 犮,bät6,bäk6,pat6,,,1,FALSE
 犯,fan6,fæng6,fam1,~法,,2,FALSE
-犯,fan6,fæng6,fam4,犯~,,2,FALSE
+犯,fan6,fæng6,fam4,疑~,,2,FALSE
 犴,hon4,fung4,hon4,(駝鹿),,2,FALSE
 犴,ngon6,wung6,ngan4,(監獄),,2,FALSE
 犵,hät1,häk2,get5,,,1,FALSE
@@ -4813,8 +4814,8 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 玟,män4,mäng4,min2,,,1,FALSE
 玠,gai3,gai1,gai4,,,1,FALSE
 玦,küt3,kük2,giet5,,,1,FALSE
-玩,wan4,wæng4,van2,~耍,,3,FALSE
-玩,wun6,wung6,van4,遊~,,3,FALSE
+玩,wan4,wæng4,,~耍,,3,FALSE
+玩,wun6,wung6,,遊~,,3,FALSE
 玫,mui4,mui4,moi2,,,1,FALSE
 玲,ling4,läng4,lin2,,,1,FALSE
 玳,doi6,döi6,toi4,,,1,FALSE
@@ -5378,7 +5379,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 砑,nga6,nga6,nga4,,,1,FALSE
 砒,pei1,pi1,pi1,~霜,,2,FALSE
 砒,päi1,päi1,pai1,(削),,2,FALSE
-研,yin4,ying4,ngan3,,,1,FALSE
+研,yin4,ying4,ngan1,~究,,1,FALSE
 砝,fat3,fæk2,fap5,,,1,FALSE
 砠,zöi1,zü1,zu1,,,1,FALSE
 砢,lo2,lo2,lo3,,,1,FALSE
@@ -9008,7 +9009,7 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 靈,leng4,leng4,liang2,菩薩好~,,2,FALSE
 靈,ling4,läng4,lin2,"~活, 幽~",,2,FALSE
 靉,oi2,wui2,oi4,,,1,FALSE
-青,ceng1,ceng1,cin1,~色,,3,FALSE
+青,ceng1,ceng1,,~色,,3,FALSE
 青,ceng1,ceng1,ciang1,~色,,,
 青,cing1,cäng1,ciang1,~海,,3,FALSE
 靖,zing6,zäng6,cin4,,,1,FALSE
@@ -9917,3 +9918,10 @@ Char,Can,Wai,Hak,Note,Status,Multi?,Top2000
 曾,,ceng4,,唔~,,,
 埞,deng6,deng6,tang4,,,,
 邏,,,la2,(探望),,,
+棒,,,pang1,,,,
+星,,,sen1,壽~公,,,
+毛,,,mau2,~巾,,,
+研,,,ngan2,~碎,,,
+率,löt6,läk6,lut6,效率,,,
+紀,,,gi4,~錄,,,
+渾,,,von2,~身、~點鐘久,,,
